@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="myfirstdatabase@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="myfirstdatabase">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="information_schema"/>
+    <schema id="4" parent="1" name="login"/>
+    <schema id="5" parent="1" name="mysql"/>
+    <schema id="6" parent="1" name="performance_schema"/>
+    <schema id="7" parent="1" name="select_test"/>
+    <schema id="8" parent="1" name="sys"/>
+    <table id="9" parent="2" name="check_test"/>
+    <table id="10" parent="2" name="foreign_test"/>
+    <table id="11" parent="2" name="hehe"/>
+    <table id="12" parent="2" name="people"/>
+    <table id="13" parent="2" name="primary_test"/>
+    <table id="14" parent="2" name="primary_test2"/>
+    <table id="15" parent="2" name="primary_test4"/>
+    <table id="16" parent="2" name="student_table"/>
+    <table id="17" parent="2" name="student_table1"/>
+    <table id="18" parent="2" name="student_table2"/>
+    <table id="19" parent="2" name="student_table3"/>
+    <table id="20" parent="2" name="student_table4"/>
+    <table id="21" parent="2" name="teacher_table"/>
+    <table id="22" parent="2" name="teacher_table1"/>
+    <table id="23" parent="2" name="teacher_table2"/>
+    <table id="24" parent="2" name="teacher_table3"/>
+    <table id="25" parent="2" name="teacher_table4"/>
+    <table id="26" parent="2" name="unique_test"/>
+    <table id="27" parent="2" name="unique_test2"/>
+    <table id="28" parent="2" name="unique_test3"/>
+    <table id="29" parent="2" name="user_inf"/>
+    <view id="30" parent="2" name="view_test">
+      <Comment>VIEW</Comment>
+    </view>
+    <column id="31" parent="9" name="emp_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="32" parent="9" name="emp_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="33" parent="9" name="emp_salary">
+      <Position>3</Position>
+      <DataType>decimal(10)|0</DataType>
+    </column>
+    <key id="34" parent="9" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>emp_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="35" parent="10" name="foreign_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="36" parent="10" name="foreign_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="37" parent="10" name="refer_id">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <index id="38" parent="10" name="refer_id">
+      <ColNames>refer_id</ColNames>
+    </index>
+    <key id="39" parent="10" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>foreign_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="40" parent="10" name="foreign_test_ibfk_1">
+      <ColNames>refer_id</ColNames>
+      <RefSchemaName>myfirstdatabase</RefSchemaName>
+      <RefTableName>foreign_test</RefTableName>
+      <RefColNames>foreign_id</RefColNames>
+    </foreign-key>
+    <column id="41" parent="11" name="hehe_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="42" parent="11" name="hehe_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="43" parent="11" name="hehe_gender">
+      <Position>3</Position>
+      <DataType>varchar(2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="44" parent="12" name="people_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="45" parent="12" name="people_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="46" parent="12" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>people_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="47" parent="13" name="test_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="48" parent="13" name="test_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="49" parent="13" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>test_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="50" parent="14" name="test_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="51" parent="14" name="test_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="52" parent="14" name="test_pass">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="53" parent="14" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>test_pass</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="54" parent="15" name="test_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="55" parent="15" name="test_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="56" parent="15" name="test_pass">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="57" parent="15" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>test_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="58" parent="16" name="student_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="59" parent="16" name="student_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="60" parent="16" name="java_teacher">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <key id="61" parent="16" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>student_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="62" parent="17" name="student_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="63" parent="17" name="student_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="64" parent="17" name="java_teacher">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <index id="65" parent="17" name="java_teacher">
+      <ColNames>java_teacher</ColNames>
+    </index>
+    <key id="66" parent="17" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>student_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="67" parent="17" name="student_table1_ibfk_1">
+      <ColNames>java_teacher</ColNames>
+      <RefSchemaName>myfirstdatabase</RefSchemaName>
+      <RefTableName>teacher_table1</RefTableName>
+      <RefColNames>teacher_id</RefColNames>
+    </foreign-key>
+    <column id="68" parent="18" name="student_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="69" parent="18" name="student_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="70" parent="18" name="java_teacher">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <index id="71" parent="18" name="student_teacher_fk">
+      <ColNames>java_teacher</ColNames>
+    </index>
+    <key id="72" parent="18" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>student_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="73" parent="18" name="student_teacher_fk">
+      <ColNames>java_teacher</ColNames>
+      <RefSchemaName>myfirstdatabase</RefSchemaName>
+      <RefTableName>teacher_table2</RefTableName>
+      <RefColNames>teacher_id</RefColNames>
+    </foreign-key>
+    <column id="74" parent="19" name="student_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="75" parent="19" name="student_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="76" parent="19" name="java_teacher_name">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="77" parent="19" name="java_teacher_pass">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <index id="78" parent="19" name="java_teacher_name">
+      <ColNames>java_teacher_name
+java_teacher_pass</ColNames>
+    </index>
+    <key id="79" parent="19" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>student_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="80" parent="19" name="student_table3_ibfk_1">
+      <ColNames>java_teacher_name
+java_teacher_pass</ColNames>
+      <RefSchemaName>myfirstdatabase</RefSchemaName>
+      <RefTableName>teacher_table3</RefTableName>
+      <RefColNames>teacher_name
+teacher_pass</RefColNames>
+    </foreign-key>
+    <column id="81" parent="20" name="student_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="82" parent="20" name="student_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="83" parent="20" name="java_teacher">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <index id="84" parent="20" name="java_teacher">
+      <ColNames>java_teacher</ColNames>
+    </index>
+    <key id="85" parent="20" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>student_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="86" parent="20" name="student_table4_ibfk_1">
+      <ColNames>java_teacher</ColNames>
+      <RefSchemaName>myfirstdatabase</RefSchemaName>
+      <RefTableName>teacher_table4</RefTableName>
+      <RefColNames>teacher_id</RefColNames>
+      <OnDelete>set-null</OnDelete>
+    </foreign-key>
+    <column id="87" parent="21" name="teacher_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="88" parent="21" name="teacher_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="89" parent="21" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>teacher_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="90" parent="22" name="teacher_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="91" parent="22" name="teacher_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="92" parent="22" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>teacher_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="93" parent="23" name="teacher_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="94" parent="23" name="teacher_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="95" parent="23" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>teacher_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="96" parent="24" name="teacher_name">
+      <Position>1</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="97" parent="24" name="teacher_pass">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="98" parent="24" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>teacher_name
+teacher_pass</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="99" parent="25" name="teacher_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="100" parent="25" name="teacher_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="101" parent="25" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>teacher_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="102" parent="26" name="test_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="103" parent="26" name="test_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <index id="104" parent="26" name="test_name">
+      <ColNames>test_name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="105" parent="26" name="test_name">
+      <ColNames>test_name</ColNames>
+      <UnderlyingIndexName>test_name</UnderlyingIndexName>
+    </key>
+    <column id="106" parent="27" name="test_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="107" parent="27" name="test_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="108" parent="27" name="test_pass">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <index id="109" parent="27" name="test2_uk">
+      <ColNames>test_pass</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="110" parent="27" name="test_name">
+      <ColNames>test_name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="111" parent="27" name="test_name">
+      <ColNames>test_name</ColNames>
+      <UnderlyingIndexName>test_name</UnderlyingIndexName>
+    </key>
+    <key id="112" parent="27" name="test2_uk">
+      <ColNames>test_pass</ColNames>
+      <UnderlyingIndexName>test2_uk</UnderlyingIndexName>
+    </key>
+    <column id="113" parent="28" name="test_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="114" parent="28" name="test_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="115" parent="28" name="test_pass">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <index id="116" parent="28" name="test_name">
+      <ColNames>test_name
+test_pass</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="117" parent="28" name="test_name_2">
+      <ColNames>test_name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="118" parent="28" name="test_name">
+      <ColNames>test_name
+test_pass</ColNames>
+      <UnderlyingIndexName>test_name</UnderlyingIndexName>
+    </key>
+    <key id="119" parent="28" name="test_name_2">
+      <ColNames>test_name</ColNames>
+      <UnderlyingIndexName>test_name_2</UnderlyingIndexName>
+    </key>
+    <column id="120" parent="29" name="user_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="121" parent="29" name="user_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="122" parent="29" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>user_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="123" parent="30" name="teacher_name">
+      <Position>1</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+  </database-model>
+</dataSource>

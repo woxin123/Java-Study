@@ -1,0 +1,1108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4761cf7d-acc2-4f16-be66-c0499f5b9ae7" name="默认的" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="myfirstdatabase@localhost" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="select_test@localhost [3]" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="select_test@localhost [3]" type="e3449647:DbNodeDescriptor" />
+        <item name="select_test" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CoonMySQL.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/CoonMySQL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1506426073512" expanded="true" signature="925:983" ph="select s.*, " />
+                <marker date="1506426073512" expanded="true" signature="925:1000" ph="select s.*, " />
+                <marker date="1506426073512" expanded="true" signature="925:1081" ph="select s.*, student_table" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExecuteDDL.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/ExecuteDDL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExecuteDML.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/ExecuteDML.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExecuteSQL.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/ExecuteSQL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginFrame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/LoginFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="58" column="16" lean-forward="false" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1506516224893" expanded="true" signature="1644:1772" ph="select * fro... jdbc_test" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CallableStatementTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/CallableStatementTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="48" column="27" lean-forward="false" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlobTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/BlobTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1480">
+              <caret line="153" column="12" lean-forward="false" selection-start-line="153" selection-start-column="12" selection-end-line="153" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1506586736875" expanded="true" signature="1722:1743" ph="insert into img_table... " />
+                <marker date="1506586736875" expanded="true" signature="1722:1787" ph="insert into img_table... " />
+                <marker date="1506586736875" expanded="true" signature="1924:1954" ph="select ima_d... img_table" />
+                <marker date="1506586736875" expanded="true" signature="1924:1996" ph="select ima_d... img_table" />
+                <marker date="1506586736875" expanded="true" signature="2046:2084" ph="select img_i... img_table" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysql.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysql.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResultSetTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/ResultSetTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>imageLabel</find>
+    </findStrings>
+    <dirStrings>
+      <dir>E:\mysql-connector-java-5.1.44\mysql-connector-java-5.1.44</dir>
+    </dirStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/example/myJDBC/CoonMySQL.java" />
+        <option value="$PROJECT_DIR$/src/com/example/myJDBC/ExecuteDDL.java" />
+        <option value="$PROJECT_DIR$/src/com/example/myJDBC/ExecuteDML.java" />
+        <option value="$PROJECT_DIR$/src/com/example/myJDBC/ExecuteSQL.java" />
+        <option value="$PROJECT_DIR$/src/com/example/myJDBC/PreparedStaementTest.java" />
+        <option value="$PROJECT_DIR$/src/com/example/myJDBC/PreparedStatementTest.java" />
+        <option value="$PROJECT_DIR$/src/com/example/myJDBC/LoginFrame.java" />
+        <option value="$PROJECT_DIR$/src/com/example/myJDBC/CallableStatementTest.java" />
+        <option value="$PROJECT_DIR$/src/com/example/myJDBC/Connection.java" />
+        <option value="$PROJECT_DIR$/src/com/example/myJDBC/ResultSetTest.java" />
+        <option value="$PROJECT_DIR$/src/com/example/myJDBC/BlobTest.java" />
+        <option value="$PROJECT_DIR$/mysql.ini" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-17" />
+    <option name="y" value="-13" />
+    <option name="width" value="1364" />
+    <option name="height" value="766" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JDBC编程" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDBC编程" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JDBC编程" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDBC编程" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JDBC编程" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDBC编程" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="myJDBC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JDBC编程" type="b2602c69:ProjectViewProjectNode" />
+              <item name="外部库" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.myJDBC" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\JDBC编程" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="应用程序.BlobTest">
+    <configuration name="BlobTest" type="Application" factoryName="应用程序" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.example.myJDBC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.example.myJDBC.BlobTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JDBC编程" />
+      <envs />
+    </configuration>
+    <configuration name="CallableStatementTest" type="Application" factoryName="应用程序" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.example.myJDBC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.example.myJDBC.CallableStatementTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JDBC编程" />
+      <envs />
+    </configuration>
+    <configuration name="LoginFrame" type="Application" factoryName="应用程序" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.example.myJDBC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.example.myJDBC.LoginFrame" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JDBC编程" />
+      <envs />
+    </configuration>
+    <configuration name="PreparedStatementTest" type="Application" factoryName="应用程序" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.example.myJDBC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.example.myJDBC.PreparedStatementTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JDBC编程" />
+      <envs />
+    </configuration>
+    <configuration name="ResultSetTest" type="Application" factoryName="应用程序" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.example.myJDBC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.example.myJDBC.ResultSetTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JDBC编程" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="应用程序.PreparedStatementTest" />
+      <item index="1" class="java.lang.String" itemvalue="应用程序.LoginFrame" />
+      <item index="2" class="java.lang.String" itemvalue="应用程序.CallableStatementTest" />
+      <item index="3" class="java.lang.String" itemvalue="应用程序.ResultSetTest" />
+      <item index="4" class="java.lang.String" itemvalue="应用程序.BlobTest" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="应用程序.BlobTest" />
+        <item index="1" class="java.lang.String" itemvalue="应用程序.ResultSetTest" />
+        <item index="2" class="java.lang.String" itemvalue="应用程序.CallableStatementTest" />
+        <item index="3" class="java.lang.String" itemvalue="应用程序.LoginFrame" />
+        <item index="4" class="java.lang.String" itemvalue="应用程序.PreparedStatementTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4761cf7d-acc2-4f16-be66-c0499f5b9ae7" name="默认的" comment="" />
+      <created>1506417937477</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1506417937477</updated>
+      <workItem from="1506417941703" duration="374000" />
+      <workItem from="1506420396451" duration="10104000" />
+      <workItem from="1506504031188" duration="8744000" />
+      <workItem from="1506518604867" duration="3010000" />
+      <workItem from="1506575200772" duration="11827000" />
+      <workItem from="1506587810296" duration="144000" />
+      <workItem from="1507021722431" duration="6487000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="40690000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948717" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="控制板" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2322239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="设计师" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18229954" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/CoonMySQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1506426073512" expanded="true" signature="925:983" ph="select s.*, " />
+            <marker date="1506426073512" expanded="true" signature="925:1000" ph="select s.*, " />
+            <marker date="1506426073512" expanded="true" signature="925:1081" ph="select s.*, student_table" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/ExecuteSQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="5" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/LoginFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="58" column="16" lean-forward="false" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1506516224893" expanded="true" signature="1644:1772" ph="select * fro... jdbc_test" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/CallableStatementTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="48" column="27" lean-forward="false" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/ResultSetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/BlobTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3402">
+          <caret line="172" column="26" lean-forward="false" selection-start-line="172" selection-start-column="16" selection-end-line="172" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1506586736875" expanded="true" signature="1722:1743" ph="insert into img_table... " />
+            <marker date="1506586736875" expanded="true" signature="1722:1787" ph="insert into img_table... " />
+            <marker date="1506586736875" expanded="true" signature="1924:1954" ph="select ima_d... img_table" />
+            <marker date="1506586736875" expanded="true" signature="1924:1996" ph="select ima_d... img_table" />
+            <marker date="1506586736875" expanded="true" signature="2046:2084" ph="select img_i... img_table" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/CoonMySQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1506426073512" expanded="true" signature="925:983" ph="select s.*, " />
+            <marker date="1506426073512" expanded="true" signature="925:1000" ph="select s.*, " />
+            <marker date="1506426073512" expanded="true" signature="925:1081" ph="select s.*, student_table" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/ExecuteSQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="5" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/LoginFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="58" column="16" lean-forward="false" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1506516224893" expanded="true" signature="1644:1772" ph="select * fro... jdbc_test" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/CallableStatementTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="48" column="27" lean-forward="true" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/ResultSetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/BlobTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3402">
+          <caret line="172" column="26" lean-forward="false" selection-start-line="172" selection-start-column="16" selection-end-line="172" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1506586736875" expanded="true" signature="1722:1743" ph="insert into img_table... " />
+            <marker date="1506586736875" expanded="true" signature="1722:1787" ph="insert into img_table... " />
+            <marker date="1506586736875" expanded="true" signature="1924:1954" ph="select ima_d... img_table" />
+            <marker date="1506586736875" expanded="true" signature="1924:1996" ph="select ima_d... img_table" />
+            <marker date="1506586736875" expanded="true" signature="2046:2084" ph="select img_i... img_table" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/CoonMySQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1506426073512" expanded="true" signature="925:983" ph="select s.*, " />
+            <marker date="1506426073512" expanded="true" signature="925:1000" ph="select s.*, " />
+            <marker date="1506426073512" expanded="true" signature="925:1081" ph="select s.*, student_table" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/ExecuteSQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="5" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/LoginFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="58" column="16" lean-forward="false" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1506516224893" expanded="true" signature="1644:1772" ph="select * fro... jdbc_test" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/CallableStatementTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="48" column="27" lean-forward="false" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/ResultSetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="38" column="46" lean-forward="false" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/CoonMySQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1506426073512" expanded="true" signature="925:983" ph="select s.*, " />
+            <marker date="1506426073512" expanded="true" signature="925:1000" ph="select s.*, " />
+            <marker date="1506426073512" expanded="true" signature="925:1081" ph="select s.*, student_table" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/ExecuteSQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/LoginFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="58" column="16" lean-forward="true" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1506516224893" expanded="true" signature="1644:1772" ph="select * fro... jdbc_test" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/CallableStatementTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="31" column="51" lean-forward="false" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/CoonMySQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="22" column="64" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1506426073512" expanded="true" signature="925:983" ph="select s.*, " />
+            <marker date="1506426073512" expanded="true" signature="925:1000" ph="select s.*, " />
+            <marker date="1506426073512" expanded="true" signature="925:1081" ph="select s.*, student_table" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/ExecuteDDL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/ExecuteDML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC.java" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a753aaa8-b516-4a2c-907f-7a731f4fc762/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/820d89e4-4036-4940-8e0d-b05a697a4d85/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/7633023a/820d89e4-4036-4940-8e0d-b05a697a4d85/select_test.student_table" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ad577ae0-c2f0-4470-a50d-06728c632421/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/7633023a/baa67ffa-d1ed-4752-b9fd-a3eb4f5fada8/select_test.teacher_table" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/baa67ffa-d1ed-4752-b9fd-a3eb4f5fada8/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/PreparedStatementTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/7633023a/baa67ffa-d1ed-4752-b9fd-a3eb4f5fada8/select_test.student_table" />
+    <entry file="das://table:/7633023a/baa67ffa-d1ed-4752-b9fd-a3eb4f5fada8/select_test.jdbc_test" />
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/Connection.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/ResultSetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk-8u131-windows-x64/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="234" column="18" lean-forward="false" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/ExecuteSQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/LoginFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="58" column="16" lean-forward="false" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1506516224893" expanded="true" signature="1644:1772" ph="select * fro... jdbc_test" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/BlobTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1480">
+          <caret line="153" column="12" lean-forward="false" selection-start-line="153" selection-start-column="12" selection-end-line="153" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1506586736875" expanded="true" signature="1722:1743" ph="insert into img_table... " />
+            <marker date="1506586736875" expanded="true" signature="1722:1787" ph="insert into img_table... " />
+            <marker date="1506586736875" expanded="true" signature="1924:1954" ph="select ima_d... img_table" />
+            <marker date="1506586736875" expanded="true" signature="1924:1996" ph="select ima_d... img_table" />
+            <marker date="1506586736875" expanded="true" signature="2046:2084" ph="select img_i... img_table" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/CallableStatementTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="48" column="27" lean-forward="false" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/CoonMySQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1506426073512" expanded="true" signature="925:983" ph="select s.*, " />
+            <marker date="1506426073512" expanded="true" signature="925:1000" ph="select s.*, " />
+            <marker date="1506426073512" expanded="true" signature="925:1081" ph="select s.*, student_table" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/ExecuteDDL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/myJDBC/ExecuteDML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="ideajad">
+    <property name="annotate" value="false" />
+    <property name="annotateFully" value="false" />
+    <property name="braces" value="false" />
+    <property name="clear" value="false" />
+    <property name="confirmNavigationTriggeredDecompile" value="true" />
+    <property name="dead" value="true" />
+    <property name="defaultInitializers" value="false" />
+    <property name="dissassemblerOnly" value="false" />
+    <property name="fieldsFirst" value="true" />
+    <property name="fileExtension" value="java" />
+    <property name="fullyQualifiedNames" value="false" />
+    <property name="indentation" value="4" />
+    <property name="intRadix" value="10" />
+    <property name="lineNumbersAsComments" value="true" />
+    <property name="longRadix" value="10" />
+    <property name="maxStringLength" value="64" />
+    <property name="nocast" value="false" />
+    <property name="noclass" value="false" />
+    <property name="nocode" value="false" />
+    <property name="noconv" value="false" />
+    <property name="noctor" value="false" />
+    <property name="nodos" value="false" />
+    <property name="nofd" value="false" />
+    <property name="noinner" value="false" />
+    <property name="nolvt" value="false" />
+    <property name="nonlb" value="false" />
+    <property name="outputDirectory" value="" />
+    <property name="packFields" value="3" />
+    <property name="packImports" value="7" />
+    <property name="prefixNumericalClasses" value="_cls" />
+    <property name="prefixNumericalFields" value="_fld" />
+    <property name="prefixNumericalLocals" value="_lcl" />
+    <property name="prefixNumericalMethods" value="_mth" />
+    <property name="prefixNumericalParameters" value="_prm" />
+    <property name="prefixUnusedExceptions" value="_ex" />
+    <property name="readonly" value="false" />
+    <property name="safe" value="false" />
+    <property name="sort" value="false" />
+    <property name="spaceAfterKeyword" value="false" />
+    <property name="splitStringsAtNewline" value="false" />
+    <property name="useTabs" value="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mysql-connector-java-5.1.44-bin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>JDBC编程</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
