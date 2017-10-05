@@ -3,4 +3,43 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
+    <!-- 配置driver -->
+    <context-param>
+        <param-name>driver</param-name>
+        <param-value>com.mysql.jdbc.Driver</param-value>
+    </context-param>
+    <!-- 配置URL -->
+    <context-param>
+        <param-name>url</param-name>
+        <param-value>jdbc:mysql://localhost:3306/test</param-value>
+    </context-param>
+    <!-- 配置user -->
+    <context-param>
+        <param-name>user</param-name>
+        <param-value>root</param-value>
+    </context-param>
+    <!-- 配置pass -->
+    <context-param>
+        <param-name>pass</param-name>
+        <param-value>mengchen0705</param-value>
+    </context-param>
+
+    <servlet>
+        <!-- 指定Servlet的name -->
+        <servlet-name>config</servlet-name>
+        <!-- 设置将哪个JSP文件配置成Servlet -->
+        <jsp-file>/configTest2.jsp</jsp-file>
+        <init-param>
+            <param-name>name</param-name>
+            <param-value>yeek</param-value>
+        </init-param>
+        <init-param>
+            <param-name>age</param-name>
+            <param-value>30</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>config</servlet-name>
+        <url-pattern>/config</url-pattern>
+    </servlet-mapping>
 </web-app>
