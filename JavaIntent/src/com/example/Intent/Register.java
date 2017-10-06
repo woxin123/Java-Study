@@ -2,14 +2,16 @@ package com.example.Intent;
 
 import net.sf.json.JSONObject;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
 import java.net.URL;
 import java.net.URLConnection;
 
-public class LoginTest {
+public class Register {
 
     public static void sendPost(String url, String param) {
-        String result = "";
         try {
             URL realUrl = new URL(url);
             // 打开和URL之间的连接
@@ -26,7 +28,7 @@ public class LoginTest {
                     PrintWriter out = new PrintWriter(new OutputStreamWriter(conn.getOutputStream(), "UTF-8"))
             ) {
                 JSONObject jsonObject = new JSONObject();
-                jsonObject.put("account", "1293141942");
+                jsonObject.put("account", "13572011907");
                 jsonObject.put("password", "abcdefg");
                 out.println(jsonObject.toString());
                 out.flush();
@@ -34,7 +36,7 @@ public class LoginTest {
             try (
                     BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream(),
                             "UTF-8"))
-                    ) {
+            ) {
                 System.out.println(in.readLine());
             }
         }  catch (Exception e) {
@@ -42,6 +44,6 @@ public class LoginTest {
         }
     }
     public static void main(String[] args) {
-        sendPost("http://localhost:8080/Login", null);
+        sendPost("http://localhost:8080/Register", null);
     }
 }
