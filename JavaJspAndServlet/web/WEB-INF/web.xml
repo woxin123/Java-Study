@@ -4,25 +4,25 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
     <!-- 配置driver -->
-    <context-param>
-        <param-name>driver</param-name>
-        <param-value>com.mysql.jdbc.Driver</param-value>
-    </context-param>
+    <!--<context-param>-->
+        <!--<param-name>driver</param-name>-->
+        <!--<param-value>com.mysql.jdbc.Driver</param-value>-->
+    <!--</context-param>-->
     <!-- 配置URL -->
-    <context-param>
-        <param-name>url</param-name>
-        <param-value>jdbc:mysql://localhost:3306/test</param-value>
-    </context-param>
+    <!--<context-param>-->
+        <!--<param-name>url</param-name>-->
+        <!--<param-value>jdbc:mysql://localhost:3306/test</param-value>-->
+    <!--</context-param>-->
     <!-- 配置user -->
-    <context-param>
-        <param-name>user</param-name>
-        <param-value>root</param-value>
-    </context-param>
+    <!--<context-param>-->
+        <!--<param-name>user</param-name>-->
+        <!--<param-value>root</param-value>-->
+    <!--</context-param>-->
     <!-- 配置pass -->
-    <context-param>
-        <param-name>pass</param-name>
-        <param-value>mengchen0705</param-value>
-    </context-param>
+    <!--<context-param>-->
+        <!--<param-name>pass</param-name>-->
+        <!--<param-value>mengchen0705</param-value>-->
+    <!--</context-param>-->
 
     <servlet>
         <!-- 指定Servlet的name -->
@@ -42,4 +42,25 @@
         <servlet-name>config</servlet-name>
         <url-pattern>/config</url-pattern>
     </servlet-mapping>
+    <!-- 配置Servlet的名字 -->
+    <servlet>
+        <!-- 指定Servlet的名字 -->
+        <servlet-name>firstServlet</servlet-name>
+        <!-- 指定Servlet的实现类 -->
+        <servlet-class>com.example.servlet.FirstServlet</servlet-class>
+    </servlet>
+    <!-- 配置Servlet的URL -->
+    <servlet-mapping>
+        <!-- 指定Servlet的名字 -->
+        <servlet-name>firstServlet</servlet-name>
+        <!-- 指定Servlet映射的URL地址,相当于@WebServlet的urlPatterns属性 -->
+        <url-pattern>/first</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>timerServlet</servlet-name>
+        <servlet-class>com.example.servlet.TimeServlet</servlet-class>
+        <!-- 配置应用启动时， 创建Servlet实例，-->
+        <load-on-startup>1</load-on-startup>
+    </servlet>
 </web-app>

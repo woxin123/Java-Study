@@ -22,18 +22,16 @@ public class LoginTest {
             conn.setDoInput(true);
             conn.setDoOutput(true);
             try (
-                    // 获取URLConnection对象对应的输出流
-                    PrintWriter out = new PrintWriter(new OutputStreamWriter(conn.getOutputStream(), "UTF-8"))
-            ) {
+                    PrintWriter out = new PrintWriter(conn.getOutputStream())
+                    ) {
                 JSONObject jsonObject = new JSONObject();
                 jsonObject.put("account", "1293141942");
                 jsonObject.put("password", "abcdefg");
+                System.out.println(jsonObject.toString());
                 out.println(jsonObject.toString());
-                out.flush();
             }
             try (
-                    BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream(),
-                            "UTF-8"))
+                    BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()))
                     ) {
                 System.out.println(in.readLine());
             }

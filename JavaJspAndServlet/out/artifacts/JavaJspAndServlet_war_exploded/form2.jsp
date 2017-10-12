@@ -11,7 +11,7 @@
     <title>收集参数的表单页</title>
 </head>
 <body>
-<form id="form1" method="get" action="request3.jsp">
+<form id="form1" method="post" action="/firstServlet">
     用户名:<br/>
     <input type="text" name="name"><hr/>
     性别:<br/>

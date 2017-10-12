@@ -28,7 +28,7 @@ public class Register {
                     PrintWriter out = new PrintWriter(new OutputStreamWriter(conn.getOutputStream(), "UTF-8"))
             ) {
                 JSONObject jsonObject = new JSONObject();
-                jsonObject.put("account", "13572011907");
+                jsonObject.put("account", "123456789");
                 jsonObject.put("password", "abcdefg");
                 out.println(jsonObject.toString());
                 out.flush();
@@ -44,6 +44,6 @@ public class Register {
         }
     }
     public static void main(String[] args) {
-        sendPost("http://localhost:8080/Register", null);
+        sendPost("http://47.95.207.40/Collection_elfin_war_exploded/Register", null);
     }
 }
