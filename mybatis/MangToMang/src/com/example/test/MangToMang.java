@@ -21,10 +21,10 @@ public class MangToMang {
 
         SqlSession sqlSession = sqlSessionFactory.openSession();
         MangToMang m = new MangToMang();
-        m.testSelectUserById(sqlSession);
-        System.out.println("-----------------");
-        m.testSelectOrderById(sqlSession);
-
+//        m.testSelectUserById(sqlSession);
+//        System.out.println("-----------------");
+//        m.testSelectOrderById(sqlSession);
+        m.testAnnotation(sqlSession);
         sqlSession.commit();
         sqlSession.close();
     }
@@ -48,5 +48,15 @@ public class MangToMang {
         for (Article article : articles) {
             System.out.println(article);
         }
+    }
+    public void testAnnotation(SqlSession sqlSession) {
+        com.example.AnnotationMapper.OrderMapper om = sqlSession.getMapper(com.example.AnnotationMapper.OrderMapper.class);
+        Order order = om.selectById(1);
+        System.out.println(order);
+        List<Article> articles = order.getArticles();
+//        com.example.AnnotationMapper.UserMapper um = sqlSession.getMapper(com.example.AnnotationMapper.UserMapper.class);
+        User user = order.getUser();
+        System.out.println(user);
+        articles.forEach(article -> System.out.println(article));
     }
 }

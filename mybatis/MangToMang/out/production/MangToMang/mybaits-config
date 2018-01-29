@@ -22,5 +22,8 @@
         <mapper resource="com/example/mapper/UserMapper.xml" />
         <mapper resource="com/example/mapper/OrderMapper.xml" />
         <mapper resource="com/example/mapper/ArticleMapper.xml" />
+        <mapper class="com.example.AnnotationMapper.OrderMapper" />
+        <mapper class="com.example.AnnotationMapper.ArticleMapper" />
+        <mapper class="com.example.AnnotationMapper.UserMapper"  />
     </mappers>
 </configuration>

@@ -6,14 +6,14 @@ import java.util.List;
 public class Order implements Serializable {
     private int id;
     private String code;
-    private double total;
+    private int total;
     private User user;
     private List<Article> articles;
 
     public Order() {
     }
 
-    public Order(String code, double total, User user, List<Article> articles) {
+    public Order(String code, int total, User user, List<Article> articles) {
         this.code = code;
         this.total = total;
         this.user = user;
@@ -48,7 +48,7 @@ public class Order implements Serializable {
         this.code = code;
     }
 
-    public void setTotal(double total) {
+    public void setTotal(int total) {
         this.total = total;
     }
 
