@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mapper.PersonMapper">
+    <!-- 根据id查询Person.返回resultMap对象 -->
+    <select id="selectPersonById" resultType="int" resultMap="personMapper" >
+        select * from tb_person where id = #{id}
+    </select>
+    <!-- 映射Person对象的resultMap  -->
+    <resultMap id="personMapper" type="com.example.domain.Person" >
+        <id property="id" column="id" />
+        <result property="name" column="name" />
+        <result property="sex" column="sex" />
+        <result property="age" column="age" />
+        <!-- 建立一个一对一关联映射: association-->
+        <association property="card" column="card_id"
+                     select="com.example.mapper.CardMapper.selectCardById"
+                     javaType="com.example.domain.Card" />
+    </resultMap>
+</mapper>

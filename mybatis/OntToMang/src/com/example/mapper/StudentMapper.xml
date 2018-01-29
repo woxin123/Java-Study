@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mapper.StudentMapper">
+    <!-- 根据id查询学生信息,多表连接 -->
+    <select id="selectStudentById" resultMap="studentResultMap" parameterType="int">
+        select * from tb_clazz c, tb_student2 s where c.id = s.clazz_id and
+          s.id = #{id}
+    </select>
+    <!-- 根据班级的id查询学生 -->
+    <select id="selectStudentByClazzId" resultMap="studentResultMap" parameterType="int" >
+        select * from tb_student2 where clazz_id = #{id}
+    </select>
+    <!-- 映射Student对象的resultMap -->
+    <resultMap type="com.example.domain.Student" id="studentResultMap">
+        <id property="id" column="id"/>
+        <result property="name" column="student_name"/>
+        <result property="sex" column="sex"/>
+        <result property="age" column="age"/>
+        <!-- 多对一关联映射:association   -->
+        <association property="clazz" javaType="com.example.domain.Clazz">
+            <id property="id" column="id"/>
+            <result property="code" column="code"/>
+            <result property="name" column="name"/>
+        </association>
+    </resultMap>
+
+</mapper>
