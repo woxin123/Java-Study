@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.shiro:shiro-aspectj:1.4.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.shiro/shiro-aspectj/1.4.0/2da1dcc3ab4ad0672ab04d65ca2bcad02b3d98cf/shiro-aspectj-1.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.shiro/shiro-aspectj/1.4.0/255110d1df320e23379c4d9eb8a4df432f5fd4ea/shiro-aspectj-1.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

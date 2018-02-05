@@ -25,5 +25,6 @@ dependencies {
     providedCompile "javax.el:javax.el-api:2.2.4"
 
     compile group: 'log4j', name: 'log4j', version: '1.2.17'
+    compile group: 'org.springframework.security', name: 'spring-security-core', version: '5.0.1.RELEASE'
 
 }

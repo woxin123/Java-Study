@@ -1,0 +1,46 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : com.example : loginInWithToken-1.0-SNAPSHOT.war (exploded)">
+    <output-path>$PROJECT_DIR$/build/libs/exploded/loginInWithToken-1.0-SNAPSHOT.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$">
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/build/libs/exploded/loginInWithToken-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="loginInWithToken_main/web/Web Gradle : loginInWithToken-1.0-SNAPSHOT.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="loginInWithToken_main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/out/production/resources" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:4.3.14.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-web:4.3.14.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context:4.3.14.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.3.14.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:4.3.14.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:4.3.14.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-core:4.3.14.RELEASE" />
+          <element id="library" level="project" name="Gradle: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Gradle: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-core:1.4.0" />
+          <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-cache:1.4.0" />
+          <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-crypto-hash:1.4.0" />
+          <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-crypto-cipher:1.4.0" />
+          <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-config-ogdl:1.4.0" />
+          <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-config-core:1.4.0" />
+          <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-event:1.4.0" />
+          <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-crypto-core:1.4.0" />
+          <element id="library" level="project" name="Gradle: org.apache.shiro:shiro-lang:1.4.0" />
+          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.21" />
+          <element id="library" level="project" name="Gradle: commons-beanutils:commons-beanutils:1.9.3" />
+          <element id="library" level="project" name="Gradle: commons-collections:commons-collections:3.2.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

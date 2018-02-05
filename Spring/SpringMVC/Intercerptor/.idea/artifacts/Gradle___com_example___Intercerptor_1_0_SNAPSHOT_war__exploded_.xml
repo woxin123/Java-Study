@@ -19,14 +19,15 @@
         <element id="directory" name="lib">
           <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:4.3.14.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-web:4.3.14.RELEASE" />
-          <element id="library" level="project" name="Gradle: org.springframework:spring-context:4.3.14.RELEASE" />
-          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.3.14.RELEASE" />
-          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:4.3.14.RELEASE" />
-          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:4.3.14.RELEASE" />
-          <element id="library" level="project" name="Gradle: org.springframework:spring-core:4.3.14.RELEASE" />
           <element id="library" level="project" name="Gradle: javax.servlet:jstl:1.2" />
           <element id="library" level="project" name="Gradle: log4j:log4j:1.2.17" />
-          <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/5.0.1.RELEASE/87b04110bfd85745c84afba3d7cb1ff82b2bae65/spring-security-core-5.0.1.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.0.3.RELEASE/a7cb3317167059337d57a6ba92b7a95997322198/spring-context-5.0.3.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.0.3.RELEASE/25019c46a2fae8c0c4a17979665e0613949ea59f/spring-aop-5.0.3.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.0.3.RELEASE/c65a623d51721f6037505ce6c11e5d19edfa1c3a/spring-beans-5.0.3.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/5.0.3.RELEASE/ffc2e3d88a0b6ac6669e764a71cc3b49001eda21/spring-expression-5.0.3.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.0.3.RELEASE/8950eb10c466a77677693dd495d4b6a26de315f4/spring-core-5.0.3.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.0.3.RELEASE/855919d50380ed6f0ccee7b8d6789f4febdb6660/spring-jcl-5.0.3.RELEASE.jar" />
         </element>
       </element>
     </root>
