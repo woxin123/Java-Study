@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:mybatis="http://mybatis.org/schema/mybatis-spring"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring.xsd">
+
+
+
+    <!--<context:property-placeholder location="classpath:db.properties" />-->
+    <!--&lt;!&ndash; 配置c3p0数据源 &ndash;&gt;-->
+    <!--<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"-->
+        <!--p:driverClass="${dataSource.driverClass}"-->
+        <!--p:jdbcUrl="${dataSource.jdbcUrl}"-->
+        <!--p:user="${dataSource.user}"-->
+        <!--p:password="${dataSource.password}" />-->
+    <!--&lt;!&ndash; 配置sqlSessionFactory &ndash;&gt;-->
+    <!--<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean"-->
+          <!--p:dataSource-ref="dataSource" />-->
+    <!--&lt;!&ndash; 配置JDBC事务管理 &ndash;&gt;-->
+    <!--<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager"-->
+          <!--p:dataSource-ref="dataSource" />-->
+    <!--&lt;!&ndash; 配置mapper扫描器 &ndash;&gt;-->
+    <bean class="com.example.config.DataConfig" />
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!-- 扫描包路径，如果需要扫描多个包中间用半角逗号隔开 -->
+        <property name="basePackage"
+                  value="com.example.mapper"></property>
+        <property name="sqlSessionFactoryBeanName"
+                  value="sqlSessionFactory"/>
+    </bean>
+    <!--&lt;!&ndash; 启用annotation注解方式支持事物管理 &ndash;&gt;-->
+</beans>
