@@ -14,11 +14,11 @@ import static org.springframework.web.bind.annotation.RequestMethod.POST;
 @Controller
 public class UserController {
     // 在控制器初始化时注册属性编辑器
-//    @InitBinder
-//    public void initBinder(WebDataBinder binder) {
-//        // 注册自定义编辑器
-//        binder.registerCustomEditor(Date.class, new DateEditer());
-//    }
+    @InitBinder
+    public void initBinder(WebDataBinder binder) {
+        // 注册自定义编辑器
+        binder.registerCustomEditor(Date.class, new DateEditer());
+    }
 
     @RequestMapping(value="/{formName}")
     public String loginForm(@PathVariable String formName){
