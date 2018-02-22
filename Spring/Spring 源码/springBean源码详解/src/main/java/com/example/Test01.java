@@ -8,6 +8,7 @@ import org.springframework.core.io.Resource;
 
 public class Test01 {
     public static void main(String[] args) {
+
         ClassPathResource resource = new ClassPathResource("mySpringConfig");
         DefaultListableBeanFactory factory = new DefaultListableBeanFactory();
         XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(factory);

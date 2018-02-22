@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+    <context:component-scan base-package="com.example.controller"/>
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"
+          p:prefix="/WEB-INF/content/"
+          p:suffix=".jsp"/>
+
+    <!-- 装配自定义格式化转换器 -->
+    <mvc:annotation-driven conversion-service="conversionService"/>
+    <!-- DateFormatter Bean -->
+    <bean class="com.example.fomatter.DateFormatter" id="dateFormatter"
+          c:_0="yyyy-MM-dd" />
+    <!-- 格式化 -->
+    <bean id="conversionService" class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
+        <property name="formatterRegistrars">
+            <list>
+                <bean class="com.example.fomatter.MyFormatterRegistrar"
+                      p:dateFormatter-ref="dateFormatter" />
+            </list>
+        </property>
+    </bean>
+
+
+</beans>
