@@ -58,8 +58,8 @@ public class FileUploadController {
     }
 
     @RequestMapping("/register")
-    public String register(@ModelAttribute User user, Model model,
-                           HttpServletRequest request) throws IOException {
+    public String register(@ModelAttribute("user") User user,
+                           HttpServletRequest request, Model model) throws IOException {
         System.out.println(user.getUsername());
         // 如果文件名不为空，写入上传路径
         if (!user.getImage().isEmpty()) {

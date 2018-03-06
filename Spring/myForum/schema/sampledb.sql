@@ -1,0 +1,16 @@
+DROP DATABASE IF EXISTS sampledb;
+
+CREATE DATABASE sampledb DEFAULT CHARACTER SET utf8;
+
+USE sampledb;
+
+DROP TABLE IF EXISTS t_forum;
+
+CREATE TABLE t_board (
+  board_id INT(11) NOT NULL AUTO_INCREMENT COMMENT '论坛版块的ID',
+  board_name VARCHAR(150) NOT NULL DEFAULT '' COMMENT '论坛版块名',
+  board_desc INT(11) NOT NULL DEFAULT NULL COMMENT '论坛版块的描述',
+  topic_num INT(11) NOT NULL DEFAULT 0 COMMENT '论坛的帖子数目',
+  PRIMARY KEY(board_id),
+  KEY 'AK_Board_NAME' (board_name)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARACTER SET=utf8;

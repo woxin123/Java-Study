@@ -4,6 +4,7 @@ public class Book {
     private String name;
     private String author;
     private int price;
+    private Bookshelf bookshelf;
 
     public Book() {
     }
@@ -38,6 +39,15 @@ public class Book {
                 "name='" + name + '\'' +
                 ", author='" + author + '\'' +
                 ", price=" + price +
+                ", bookshelf=" + bookshelf +
                 '}';
+    }
+
+    public Bookshelf getBookshelf() {
+        return bookshelf;
+    }
+
+    public void setBookshelf(Bookshelf bookshelf) {
+        this.bookshelf = bookshelf;
     }
 }

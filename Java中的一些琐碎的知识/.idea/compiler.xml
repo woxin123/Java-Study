@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Java中的一些琐碎的知识_main" target="1.8" />
+      <module name="Java中的一些琐碎的知识_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

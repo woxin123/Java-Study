@@ -3,10 +3,24 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
-    <bean id="book" class="com.example.domain.Book"
-          p:name="西游记"
-          p:author="吴承恩"
-          p:price="100"
-          lazy-init='default'
-    />
+    <import resource="classpath:beanlearn.xml" />
+    <bean id="book2" class="com.example.domain.Book" >
+        <property name="author" value="吴承恩" />
+        <property name="name" value="西游记" />
+        <property name="price" value="100" />
+        <property name="bookshelf" ref="bookshelf" />
+    </bean>
+    <bean id="book5" class="com.example.domain.Book">
+        <property name="author" value="吴承恩" />
+        <property name="name" value="西游记" />
+        <property name="price" value="100" />
+    </bean>
+    <bean id="bookshelf" class="com.example.domain.Bookshelf">
+        <constructor-arg name="books" >
+            <list>
+                <ref bean="book2" />
+                <ref bean="book5" />
+            </list>
+        </constructor-arg>
+    </bean>
 </beans>

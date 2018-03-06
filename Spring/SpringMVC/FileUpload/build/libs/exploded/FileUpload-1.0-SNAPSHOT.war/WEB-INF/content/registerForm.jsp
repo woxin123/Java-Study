@@ -23,7 +23,7 @@
             <td><input type="file" name="image"></td>
         </tr>
         <tr>
-            <td><<input type="submit" value="注册"></td>
+            <td><input type="submit" value="注册"></td>
         </tr>
     </table>
 </form>
