@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="woxinsecuritycore:war">
+    <output-path>$PROJECT_DIR$/woxinsecuritycore/target</output-path>
+    <root id="archive" name="woxin-security-core.war">
+      <element id="artifact" artifact-name="woxinsecuritycore:war exploded" />
+    </root>
+  </artifact>
+</component>

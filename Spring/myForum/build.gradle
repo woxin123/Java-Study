@@ -18,4 +18,23 @@ dependencies {
     compile group: 'org.springframework', name: 'spring-web', version: '5.0.4.RELEASE'
     compile group: 'org.springframework', name: 'spring-webmvc', version: '5.0.4.RELEASE'
     compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.7'
+
+    // mybatis
+    compile group: 'org.mybatis', name: 'mybatis', version: '3.4.5'
+    // dbcp数据库连接池
+    compile group: 'org.apache.commons', name: 'commons-dbcp2', version: '2.2.0'
+    // mysql的驱动程序
+    compile group: 'mysql', name: 'mysql-connector-java', version: '6.0.6'
+    // mybaits-spring
+    compile group: 'org.mybatis', name: 'mybatis-spring', version: '1.3.1'
+    // spring-tx
+    compile group: 'org.springframework', name: 'spring-tx', version: '5.0.4.RELEASE'
+
+    compile group: 'org.springframework', name: 'spring-jdbc', version: '5.0.4.RELEASE'
+
+
+    compile "javax.servlet:jstl:1.2"
+    providedCompile "javax.servlet:javax.servlet-api:3.1.0"
+    providedCompile "javax.servlet.jsp:jsp-api:2.2"
+    providedCompile "javax.el:javax.el-api:2.2.4"
 }

@@ -16,7 +16,7 @@
       <file leaf-file-name="Test01.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Test01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
+            <state relative-caret-position="209">
               <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -28,7 +28,7 @@
       <file leaf-file-name="beanlearn.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/beanlearn.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
+            <state relative-caret-position="285">
               <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
               <folding />
             </state>
@@ -48,7 +48,7 @@
       <file leaf-file-name="StaticCarFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/spring/bean/factory/StaticCarFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
+            <state relative-caret-position="247">
               <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -62,7 +62,7 @@
       <file leaf-file-name="Car.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/spring/bean/factory/Car.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
+            <state relative-caret-position="437">
               <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
               <folding>
                 <element signature="e#143#144#0" expanded="true" />
@@ -81,7 +81,7 @@
       <file leaf-file-name="InstanceCarFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/spring/bean/factory/InstanceCarFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
+            <state relative-caret-position="247">
               <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -95,7 +95,7 @@
       <file leaf-file-name="CarFactoryBean.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/spring/bean/factoryBean/CarFactoryBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
+            <state relative-caret-position="190">
               <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -113,7 +113,7 @@
       <file leaf-file-name="mySpringConfig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mySpringConfig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
+            <state relative-caret-position="152">
               <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
               <folding />
             </state>
@@ -123,7 +123,7 @@
       <file leaf-file-name="AbstractBeanDefinition.java" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.3.RELEASE/spring-beans-5.0.3.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanDefinition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
+            <state relative-caret-position="456">
               <caret line="57" column="30" lean-forward="false" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
               <folding />
             </state>
@@ -137,70 +137,70 @@
               <ID>JAVA</ID>
               <OriginalElement>org.springframework.beans.factory.support.AbstractBeanDefinition</OriginalElement>
               <nodes>
-                <node x="65.37500000000003" y="80.0">org.springframework.beans.BeanMetadataElement</node>
-                <node x="419.4722222222222" y="160.0">java.lang.Cloneable</node>
-                <node x="0.875" y="0.0">org.springframework.core.AttributeAccessor</node>
-                <node x="264.375" y="80.0">org.springframework.core.AttributeAccessorSupport</node>
-                <node x="164.4722222222222" y="160.0">org.springframework.beans.BeanMetadataAttributeAccessor</node>
+                <node x="224.75" y="80.0">org.springframework.beans.BeanMetadataElement</node>
+                <node x="489.12500000000006" y="160.0">java.lang.Cloneable</node>
+                <node x="320.44444444444446" y="0.0">org.springframework.core.AttributeAccessor</node>
+                <node x="75.26388888888897" y="160.0">org.springframework.beans.BeanMetadataAttributeAccessor</node>
                 <node x="0.0" y="315.0">java.lang.SuppressWarnings</node>
-                <node x="0.0" y="160.0">org.springframework.beans.factory.config.BeanDefinition</node>
-                <node x="191.25000000000003" y="240.0">org.springframework.beans.factory.support.AbstractBeanDefinition</node>
-                <node x="355.125" y="0.0">java.io.Serializable</node>
+                <node x="7.75" y="80.0">org.springframework.core.AttributeAccessorSupport</node>
+                <node x="337.12500000000006" y="160.0">org.springframework.beans.factory.config.BeanDefinition</node>
+                <node x="313.12500000000006" y="240.0">org.springframework.beans.factory.support.AbstractBeanDefinition</node>
+                <node x="0.0" y="0.0">java.io.Serializable</node>
               </nodes>
               <notes />
               <edges>
                 <edge source="org.springframework.beans.factory.support.AbstractBeanDefinition" target="java.lang.Cloneable">
-                  <point x="59.99999999999997" y="-15.0" />
-                  <point x="341.25" y="215.0" />
-                  <point x="472.4722222222222" y="215.0" />
+                  <point x="60.0" y="-15.0" />
+                  <point x="463.12500000000006" y="215.0" />
+                  <point x="542.125" y="215.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="org.springframework.beans.BeanMetadataAttributeAccessor" target="org.springframework.core.AttributeAccessorSupport">
+                  <point x="-58.75000000000006" y="-15.0" />
+                  <point x="134.0138888888889" y="135.0" />
+                  <point x="106.25" y="135.0" />
                   <point x="0.0" y="15.0" />
                 </edge>
                 <edge source="org.springframework.beans.BeanMetadataAttributeAccessor" target="org.springframework.beans.BeanMetadataElement">
-                  <point x="-58.74999999999997" y="-15.0" />
-                  <point x="223.22222222222223" y="135.0" />
-                  <point x="199.62500000000003" y="135.0" />
-                  <point x="44.75" y="15.0" />
-                </edge>
-                <edge source="org.springframework.beans.BeanMetadataAttributeAccessor" target="org.springframework.core.AttributeAccessorSupport">
-                  <point x="58.75000000000003" y="-15.0" />
-                  <point x="340.72222222222223" y="135.0" />
-                  <point x="362.875" y="135.0" />
-                  <point x="0.0" y="15.0" />
+                  <point x="58.74999999999994" y="-15.0" />
+                  <point x="251.5138888888889" y="135.0" />
+                  <point x="269.5" y="135.0" />
+                  <point x="-44.75" y="15.0" />
                 </edge>
                 <edge source="org.springframework.core.AttributeAccessorSupport" target="java.io.Serializable">
-                  <point x="49.24999999999997" y="-15.0" />
+                  <point x="-49.25" y="-15.0" />
                   <point x="0.0" y="15.0" />
                 </edge>
                 <edge source="org.springframework.beans.factory.support.AbstractBeanDefinition" target="org.springframework.beans.BeanMetadataAttributeAccessor">
-                  <point x="-2.8421709430404007E-14" y="-15.0" />
+                  <point x="-60.0" y="-15.0" />
+                  <point x="343.12500000000006" y="215.0" />
+                  <point x="192.76388888888897" y="215.0" />
                   <point x="0.0" y="15.0" />
                 </edge>
                 <edge source="org.springframework.beans.factory.support.AbstractBeanDefinition" target="org.springframework.beans.factory.config.BeanDefinition">
-                  <point x="-60.00000000000003" y="-15.0" />
-                  <point x="221.25" y="215.0" />
-                  <point x="66.0" y="215.0" />
+                  <point x="0.0" y="-15.0" />
                   <point x="0.0" y="15.0" />
                 </edge>
                 <edge source="org.springframework.beans.factory.config.BeanDefinition" target="org.springframework.core.AttributeAccessor">
-                  <point x="-33.0" y="-15.0" />
-                  <point x="33.0" y="135.0" />
-                  <point x="38.375" y="135.0" />
+                  <point x="33.0" y="-15.0" />
+                  <point x="436.12500000000006" y="135.0" />
+                  <point x="432.94444444444446" y="135.0" />
+                  <point x="37.5" y="15.0" />
+                </edge>
+                <edge source="org.springframework.core.AttributeAccessorSupport" target="org.springframework.core.AttributeAccessor">
+                  <point x="49.25" y="-15.0" />
+                  <point x="155.5" y="55.0" />
+                  <point x="357.94444444444446" y="55.0" />
                   <point x="-37.5" y="15.0" />
                 </edge>
                 <edge source="org.springframework.beans.factory.config.BeanDefinition" target="org.springframework.beans.BeanMetadataElement">
-                  <point x="33.0" y="-15.0" />
-                  <point x="99.0" y="135.0" />
-                  <point x="110.12500000000003" y="135.0" />
-                  <point x="-44.75" y="15.0" />
-                </edge>
-                <edge source="org.springframework.core.AttributeAccessorSupport" target="org.springframework.core.AttributeAccessor">
-                  <point x="-49.25000000000003" y="-15.0" />
-                  <point x="313.625" y="55.0" />
-                  <point x="113.375" y="55.0" />
-                  <point x="37.5" y="15.0" />
+                  <point x="-33.0" y="-15.0" />
+                  <point x="370.12500000000006" y="135.0" />
+                  <point x="359.0" y="135.0" />
+                  <point x="44.75" y="15.0" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="0.6648199445983379" x="647.3208333333333" y="238.78750000000002" />
+              <settings layout="Hierarchic Group" zoom="0.7792207792207793" x="559.1583333333333" y="261.04999999999995" />
               <SelectedNodes>
                 <node>org.springframework.beans.factory.support.AbstractBeanDefinition</node>
               </SelectedNodes>
@@ -262,11 +262,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -283,9 +283,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -383,7 +381,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -559,14 +559,17 @@
       <workItem from="1519721958431" duration="28360000" />
       <workItem from="1520235662265" duration="7041000" />
       <workItem from="1520335094485" duration="605000" />
+      <workItem from="1520411487987" duration="1612000" />
+      <workItem from="1520498970717" duration="363000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57175000" />
+    <option name="totallyTimeSpent" value="59150000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -575,20 +578,20 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935917" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3601757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35065886" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33084947" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33084947" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -933,9 +936,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Test01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/beanlearn.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/spring/bean/factory/StaticCarFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/spring/bean/factory/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
+        <state relative-caret-position="437">
           <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
           <folding>
             <element signature="e#143#144#0" expanded="true" />
@@ -950,21 +991,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/spring/bean/factory/StaticCarFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/spring/bean/factory/InstanceCarFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
+        <state relative-caret-position="247">
           <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -976,7 +1005,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/spring/bean/factoryBean/CarFactoryBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
+        <state relative-caret-position="190">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -990,35 +1019,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Test01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/beanlearn.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mySpringConfig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="152">
           <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
           <folding />
         </state>
@@ -1026,7 +1029,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.3.RELEASE/spring-beans-5.0.3.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
+        <state relative-caret-position="456">
           <caret line="57" column="30" lean-forward="false" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
           <folding />
         </state>
@@ -1038,70 +1041,70 @@
           <ID>JAVA</ID>
           <OriginalElement>org.springframework.beans.factory.support.AbstractBeanDefinition</OriginalElement>
           <nodes>
-            <node x="65.37500000000003" y="80.0">org.springframework.beans.BeanMetadataElement</node>
-            <node x="419.4722222222222" y="160.0">java.lang.Cloneable</node>
-            <node x="0.875" y="0.0">org.springframework.core.AttributeAccessor</node>
-            <node x="264.375" y="80.0">org.springframework.core.AttributeAccessorSupport</node>
-            <node x="164.4722222222222" y="160.0">org.springframework.beans.BeanMetadataAttributeAccessor</node>
+            <node x="224.75" y="80.0">org.springframework.beans.BeanMetadataElement</node>
+            <node x="489.12500000000006" y="160.0">java.lang.Cloneable</node>
+            <node x="320.44444444444446" y="0.0">org.springframework.core.AttributeAccessor</node>
+            <node x="75.26388888888897" y="160.0">org.springframework.beans.BeanMetadataAttributeAccessor</node>
             <node x="0.0" y="315.0">java.lang.SuppressWarnings</node>
-            <node x="0.0" y="160.0">org.springframework.beans.factory.config.BeanDefinition</node>
-            <node x="191.25000000000003" y="240.0">org.springframework.beans.factory.support.AbstractBeanDefinition</node>
-            <node x="355.125" y="0.0">java.io.Serializable</node>
+            <node x="7.75" y="80.0">org.springframework.core.AttributeAccessorSupport</node>
+            <node x="337.12500000000006" y="160.0">org.springframework.beans.factory.config.BeanDefinition</node>
+            <node x="313.12500000000006" y="240.0">org.springframework.beans.factory.support.AbstractBeanDefinition</node>
+            <node x="0.0" y="0.0">java.io.Serializable</node>
           </nodes>
           <notes />
           <edges>
             <edge source="org.springframework.beans.factory.support.AbstractBeanDefinition" target="java.lang.Cloneable">
-              <point x="59.99999999999997" y="-15.0" />
-              <point x="341.25" y="215.0" />
-              <point x="472.4722222222222" y="215.0" />
+              <point x="60.0" y="-15.0" />
+              <point x="463.12500000000006" y="215.0" />
+              <point x="542.125" y="215.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.beans.BeanMetadataAttributeAccessor" target="org.springframework.core.AttributeAccessorSupport">
+              <point x="-58.75000000000006" y="-15.0" />
+              <point x="134.0138888888889" y="135.0" />
+              <point x="106.25" y="135.0" />
               <point x="0.0" y="15.0" />
             </edge>
             <edge source="org.springframework.beans.BeanMetadataAttributeAccessor" target="org.springframework.beans.BeanMetadataElement">
-              <point x="-58.74999999999997" y="-15.0" />
-              <point x="223.22222222222223" y="135.0" />
-              <point x="199.62500000000003" y="135.0" />
-              <point x="44.75" y="15.0" />
-            </edge>
-            <edge source="org.springframework.beans.BeanMetadataAttributeAccessor" target="org.springframework.core.AttributeAccessorSupport">
-              <point x="58.75000000000003" y="-15.0" />
-              <point x="340.72222222222223" y="135.0" />
-              <point x="362.875" y="135.0" />
-              <point x="0.0" y="15.0" />
+              <point x="58.74999999999994" y="-15.0" />
+              <point x="251.5138888888889" y="135.0" />
+              <point x="269.5" y="135.0" />
+              <point x="-44.75" y="15.0" />
             </edge>
             <edge source="org.springframework.core.AttributeAccessorSupport" target="java.io.Serializable">
-              <point x="49.24999999999997" y="-15.0" />
+              <point x="-49.25" y="-15.0" />
               <point x="0.0" y="15.0" />
             </edge>
             <edge source="org.springframework.beans.factory.support.AbstractBeanDefinition" target="org.springframework.beans.BeanMetadataAttributeAccessor">
-              <point x="-2.8421709430404007E-14" y="-15.0" />
+              <point x="-60.0" y="-15.0" />
+              <point x="343.12500000000006" y="215.0" />
+              <point x="192.76388888888897" y="215.0" />
               <point x="0.0" y="15.0" />
             </edge>
             <edge source="org.springframework.beans.factory.support.AbstractBeanDefinition" target="org.springframework.beans.factory.config.BeanDefinition">
-              <point x="-60.00000000000003" y="-15.0" />
-              <point x="221.25" y="215.0" />
-              <point x="66.0" y="215.0" />
+              <point x="0.0" y="-15.0" />
               <point x="0.0" y="15.0" />
             </edge>
             <edge source="org.springframework.beans.factory.config.BeanDefinition" target="org.springframework.core.AttributeAccessor">
-              <point x="-33.0" y="-15.0" />
-              <point x="33.0" y="135.0" />
-              <point x="38.375" y="135.0" />
+              <point x="33.0" y="-15.0" />
+              <point x="436.12500000000006" y="135.0" />
+              <point x="432.94444444444446" y="135.0" />
+              <point x="37.5" y="15.0" />
+            </edge>
+            <edge source="org.springframework.core.AttributeAccessorSupport" target="org.springframework.core.AttributeAccessor">
+              <point x="49.25" y="-15.0" />
+              <point x="155.5" y="55.0" />
+              <point x="357.94444444444446" y="55.0" />
               <point x="-37.5" y="15.0" />
             </edge>
             <edge source="org.springframework.beans.factory.config.BeanDefinition" target="org.springframework.beans.BeanMetadataElement">
-              <point x="33.0" y="-15.0" />
-              <point x="99.0" y="135.0" />
-              <point x="110.12500000000003" y="135.0" />
-              <point x="-44.75" y="15.0" />
-            </edge>
-            <edge source="org.springframework.core.AttributeAccessorSupport" target="org.springframework.core.AttributeAccessor">
-              <point x="-49.25000000000003" y="-15.0" />
-              <point x="313.625" y="55.0" />
-              <point x="113.375" y="55.0" />
-              <point x="37.5" y="15.0" />
+              <point x="-33.0" y="-15.0" />
+              <point x="370.12500000000006" y="135.0" />
+              <point x="359.0" y="135.0" />
+              <point x="44.75" y="15.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.6648199445983379" x="647.3208333333333" y="238.78750000000002" />
+          <settings layout="Hierarchic Group" zoom="0.7792207792207793" x="559.1583333333333" y="261.04999999999995" />
           <SelectedNodes>
             <node>org.springframework.beans.factory.support.AbstractBeanDefinition</node>
           </SelectedNodes>

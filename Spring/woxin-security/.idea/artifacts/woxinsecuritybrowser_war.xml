@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="woxinsecuritybrowser:war">
+    <output-path>$PROJECT_DIR$/woxinsecuritybrowser/target</output-path>
+    <root id="archive" name="woxin-security-browser.war">
+      <element id="artifact" artifact-name="woxinsecuritybrowser:war exploded" />
+    </root>
+  </artifact>
+</component>

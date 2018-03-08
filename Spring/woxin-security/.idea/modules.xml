@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/woxinsecurity/woxinsecurity.iml" filepath="$PROJECT_DIR$/woxinsecurity/woxinsecurity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/woxinsecurityapp/woxinsecurityapp.iml" filepath="$PROJECT_DIR$/woxinsecurityapp/woxinsecurityapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/woxinsecuritybrowser/woxinsecuritybrowser.iml" filepath="$PROJECT_DIR$/woxinsecuritybrowser/woxinsecuritybrowser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/woxinsecuritycore/woxinsecuritycore.iml" filepath="$PROJECT_DIR$/woxinsecuritycore/woxinsecuritycore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/woxinsecuritydemo/woxinsecuritydemo.iml" filepath="$PROJECT_DIR$/woxinsecuritydemo/woxinsecuritydemo.iml" />
+    </modules>
+  </component>
+</project>
