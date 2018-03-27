@@ -12,10 +12,8 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.util.Random;
 
-@Component
 public class ImageCodeGenerator implements ValidateCoreGenerate {
 
-    @Autowired
     private SecurityProperties securityProperties;
 
     @Override
@@ -63,5 +61,13 @@ public class ImageCodeGenerator implements ValidateCoreGenerate {
         int g = fc + random.nextInt(bc - fc);
         int b = fc + random.nextInt(bc - fc);
         return new Color(r, g, b);
+    }
+
+    public SecurityProperties getSecurityProperties() {
+        return securityProperties;
+    }
+
+    public void setSecurityProperties(SecurityProperties securityProperties) {
+        this.securityProperties = securityProperties;
     }
 }
