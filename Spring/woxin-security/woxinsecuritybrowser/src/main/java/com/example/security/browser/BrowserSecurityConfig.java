@@ -1,7 +1,10 @@
 package com.example.security.browser;
 
+import com.example.security.core.authentication.moblie.SmsCodeAuthenticationSecurityConfig;
 import com.example.security.core.properties.SecurityProperties;
+import com.example.security.core.validate.core.SmsCodeFilter;
 import com.example.security.core.validate.core.ValidateCodeFilter;
+import com.example.security.core.validate.core.ValidateCodeGenerator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
@@ -36,11 +39,15 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter{
     @Autowired
     private AuthenticationFailureHandler woxinAuthenticationFailureHandler;
 
+
     @Autowired
     @Qualifier("dataSource")
     private DataSource dataSource;
 
-    @Bean
+    @Autowired
+    private SmsCodeAuthenticationSecurityConfig smsCodeAuthenticationSecurityConfig;
+
+   @Bean
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
     }
@@ -61,12 +68,19 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter{
         validateCodeFilter.setAuthenticationFailureHandler(woxinAuthenticationFailureHandler);
         validateCodeFilter.setSecurityProperties(securityProperties);
         validateCodeFilter.afterPropertiesSet();
+        
+        SmsCodeFilter smsCodeFilter = new SmsCodeFilter();
+        smsCodeFilter.setAuthenticationFailureHandler(woxinAuthenticationFailureHandler);
+        smsCodeFilter.setSecurityProperties(securityProperties);
+        smsCodeFilter.afterPropertiesSet();
 
 
         http.addFilterBefore(validateCodeFilter, UsernamePasswordAuthenticationFilter.class)
+                .addFilterBefore(smsCodeFilter, UsernamePasswordAuthenticationFilter.class)
                 .formLogin()   // 用表单登录
                 .loginPage("/authentication/require")
                 .loginProcessingUrl("/authenticaion/form")
+                .loginProcessingUrl("/authenticaion/mobile")
                 .successHandler(woxinAuthenticationSuccessHandler)  // 登录后的返回
                 .failureHandler(woxinAuthenticationFailureHandler) // 登录失败返回的结果
                 .and()
@@ -78,10 +92,11 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter{
                 .authorizeRequests() //授权配置
                 .antMatchers("/authentication/require",
                         securityProperties.getBrowser().getLoginPage(),
-                        "/code/image").permitAll()   // 这个url不需要身份认证
+                        "/code/**").permitAll()   // 这个url不需要身份认证
                 .anyRequest()   // 任何请求
                 .authenticated()   // 都需要身份认证
                 .and()
-                .csrf().disable() ;
+                .csrf().disable()
+                .apply(smsCodeAuthenticationSecurityConfig);
     }
 }

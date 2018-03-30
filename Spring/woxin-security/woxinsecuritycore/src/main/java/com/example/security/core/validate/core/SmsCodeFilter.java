@@ -24,7 +24,7 @@ import java.util.Set;
 import static com.example.security.core.validate.core.ValidateCodeProcessor.SESSION_KEY_PREFIX;
 
 // 实现这个接口的作用是在其他组件初始化完毕之后初始化urls
-public class ValidateCodeFilter extends OncePerRequestFilter implements InitializingBean{
+public class SmsCodeFilter extends OncePerRequestFilter implements InitializingBean{
 
     private AuthenticationFailureHandler authenticationFailureHandler;
 
@@ -40,13 +40,13 @@ public class ValidateCodeFilter extends OncePerRequestFilter implements Initiali
     @Override
     public void afterPropertiesSet() throws ServletException {
         super.afterPropertiesSet();
-        String[] configUrls = StringUtils.splitByWholeSeparatorPreserveAllTokens(securityProperties.getCode().getImage().getUrl(), ",");
+        String[] configUrls = StringUtils.splitByWholeSeparatorPreserveAllTokens(securityProperties.getCode().getSms().getUrl(), ",");
         if (configUrls != null) {
             for (String url : configUrls) {
                 urls.add(url);
             }
         }
-        urls.add("/authenticaion/form");
+        urls.add("/authenticaion/mobile");
     }
 
     @Override
@@ -71,12 +71,12 @@ public class ValidateCodeFilter extends OncePerRequestFilter implements Initiali
     }
 
     private void validate(ServletWebRequest request) throws ServletRequestBindingException {
-        ImageCode codeInSession = (ImageCode) sessionStrategy.getAttribute(request,
-                SESSION_KEY_PREFIX + "IMAGE");
-        String codeInRequest = ServletRequestUtils.getStringParameter(request.getRequest(), "imageCode");
+        ValidateCode codeInSession = (ValidateCode) sessionStrategy.getAttribute(request,
+                SESSION_KEY_PREFIX + "SMS");
+        String codeInRequest = ServletRequestUtils.getStringParameter(request.getRequest(), "smsCode");
 
         if (StringUtils.isBlank(codeInRequest)) {
-            sessionStrategy.removeAttribute(request, SESSION_KEY_PREFIX + "IMAGE");
+            sessionStrategy.removeAttribute(request, SESSION_KEY_PREFIX + "SMS");
             throw new ValidateCodeException("验证码的值不为为空");
         }
 
@@ -84,14 +84,14 @@ public class ValidateCodeFilter extends OncePerRequestFilter implements Initiali
             throw new ValidateCodeException("验证码不存在");
         }
         if (codeInSession.isExpired()) {
-            sessionStrategy.removeAttribute(request, SESSION_KEY_PREFIX + "IMAGE");
+            sessionStrategy.removeAttribute(request, SESSION_KEY_PREFIX + "SMS");
             throw new ValidateCodeException("验证码已过期");
         }
 
         if (!StringUtils.equals(codeInSession.getCode(), codeInRequest)) {
             throw new ValidateCodeException("验证码不匹配");
         }
-         sessionStrategy.removeAttribute(request, SESSION_KEY_PREFIX + "IMAGE");
+         sessionStrategy.removeAttribute(request, SESSION_KEY_PREFIX + "SMS");
     }
 
     public AuthenticationFailureHandler getAuthenticationFailureHandler() {
