@@ -15,7 +15,7 @@ public class DESUtil {
 
     // 测试
     public static void main(String[] args) {
-        String dataSource = "我的心情";
+        String dataSource = "toHexString";
         // 密码长度是8的倍数
         String password = "12345678";
         // 加密
