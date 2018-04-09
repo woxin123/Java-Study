@@ -75,8 +75,8 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter{
         smsCodeFilter.afterPropertiesSet();
 
 
-        http.addFilterBefore(validateCodeFilter, UsernamePasswordAuthenticationFilter.class)
-                .addFilterBefore(smsCodeFilter, UsernamePasswordAuthenticationFilter.class)
+        http.addFilterBefore(smsCodeFilter, UsernamePasswordAuthenticationFilter.class)
+                .addFilterBefore(validateCodeFilter, UsernamePasswordAuthenticationFilter.class)
                 .formLogin()   // 用表单登录
                 .loginPage("/authentication/require")
                 .loginProcessingUrl("/authenticaion/form")
@@ -92,7 +92,7 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter{
                 .authorizeRequests() //授权配置
                 .antMatchers("/authentication/require",
                         securityProperties.getBrowser().getLoginPage(),
-                        "/code/**").permitAll()   // 这个url不需要身份认证
+                        "/code/*").permitAll()   // 这个url不需要身份认证
                 .anyRequest()   // 任何请求
                 .authenticated()   // 都需要身份认证
                 .and()

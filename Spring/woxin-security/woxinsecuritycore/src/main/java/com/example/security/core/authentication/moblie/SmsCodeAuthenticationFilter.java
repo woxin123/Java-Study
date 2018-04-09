@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 
 public class SmsCodeAuthenticationFilter extends AbstractAuthenticationProcessingFilter{
     public static final String WOXIN_FORM_MOBILE_KEY = "mobile";
-    private String mobileParameter = "mobile";
+    private String mobileParameter = WOXIN_FORM_MOBILE_KEY;
     private boolean postOnly = true;
 
     public SmsCodeAuthenticationFilter() {

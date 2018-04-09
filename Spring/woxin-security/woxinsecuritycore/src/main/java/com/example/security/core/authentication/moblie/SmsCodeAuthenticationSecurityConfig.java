@@ -30,6 +30,7 @@ public class SmsCodeAuthenticationSecurityConfig
     public void configure(HttpSecurity http) throws Exception {
         SmsCodeAuthenticationFilter smsCodeAuthenticationFilter = new SmsCodeAuthenticationFilter();
 
+        // 设置Manager
         smsCodeAuthenticationFilter.setAuthenticationManager(http.getSharedObject(AuthenticationManager.class));
 
         smsCodeAuthenticationFilter.setAuthenticationSuccessHandler(woxinAuthenticationSuccessHandler);

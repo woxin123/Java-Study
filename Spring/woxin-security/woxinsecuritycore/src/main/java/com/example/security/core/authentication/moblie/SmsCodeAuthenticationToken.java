@@ -11,7 +11,7 @@ public class SmsCodeAuthenticationToken extends AbstractAuthenticationToken {
     private final Object principal;
 
     public SmsCodeAuthenticationToken(Object mobile) {
-        super((Collection)null);
+        super(null);
         this.principal = mobile;
         this.setAuthenticated(false);
     }
