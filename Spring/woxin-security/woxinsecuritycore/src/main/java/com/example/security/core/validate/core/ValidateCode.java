@@ -1,8 +1,10 @@
 package com.example.security.core.validate.core;
 
-import java.awt.image.BufferedImage;
 import java.time.LocalDateTime;
 
+/**
+ * 验证码类
+ */
 public class ValidateCode {
     private String code;
 

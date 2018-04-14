@@ -16,7 +16,7 @@ public class ValidateCodeBeanConfig {
     @Autowired
     private SecurityProperties securityProperties;
 
-    // 如果有名字为imageCodeGenerator的bean 那么就不使用这个bean了
+//     如果有名字为imageCodeGenerator的bean 那么就不使用这个bean了
     @Bean
     @ConditionalOnMissingBean(name = "imageCodeGenerator")
     public ValidateCodeGenerator imageCodeGenerator() {

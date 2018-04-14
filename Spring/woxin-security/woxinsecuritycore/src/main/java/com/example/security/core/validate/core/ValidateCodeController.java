@@ -22,14 +22,19 @@ import java.util.Map;
 @RestController
 public class ValidateCodeController {
 
+    /**
+     * 验证码的key
+     */
+    public static final String SESSION_KEY = "SESSION_KEY_IMAGE_CODE";
+
     @Autowired
     private Map<String, ValidateCodeProcessor> validateCodeProcessors;
 
     @GetMapping("/code/{type}")
     public void createCode(HttpServletRequest request, HttpServletResponse response,
                            @PathVariable String type) throws Exception {
-        System.out.println(type);
-        System.out.println(validateCodeProcessors.keySet().toString());
+//        System.out.println(type);
+//        System.out.println(validateCodeProcessors.keySet().toString());
         validateCodeProcessors.get(type + "CodeProcessor").create(new ServletWebRequest(request, response));
     }
 }

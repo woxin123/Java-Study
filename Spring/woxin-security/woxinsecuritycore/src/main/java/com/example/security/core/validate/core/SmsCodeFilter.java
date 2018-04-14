@@ -1,7 +1,6 @@
 package com.example.security.core.validate.core;
 
 import com.example.security.core.properties.SecurityProperties;
-import com.example.security.core.validate.core.image.ImageCode;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.security.web.authentication.AuthenticationFailureHandler;
