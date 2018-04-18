@@ -89,6 +89,7 @@ public class ValidateCodeFilter extends OncePerRequestFilter implements Initiali
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
 
+
         ValidateCodeType type = getVlidateCodeType(request);
         if (type != null) {
             try {
@@ -99,8 +100,6 @@ public class ValidateCodeFilter extends OncePerRequestFilter implements Initiali
                 authenticationFailureHandler.onAuthenticationFailure(request, response, e);
                 return;
             }
-        } else {
-            logger.info("校验失败（" + request.getRequestURI() + ")中的验证码类型是：" + type);
         }
 
         filterChain.doFilter(request, response);
@@ -122,6 +121,4 @@ public class ValidateCodeFilter extends OncePerRequestFilter implements Initiali
         }
         return result;
     }
-
-
 }

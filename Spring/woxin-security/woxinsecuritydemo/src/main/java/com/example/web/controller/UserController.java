@@ -4,6 +4,9 @@ import com.example.dto.User;
 import com.example.dto.UserQueryCondition;
 import com.example.exception.UserNotExistException;
 import com.fasterxml.jackson.annotation.JsonView;
+import io.jsonwebtoken.Claims;
+import io.jsonwebtoken.Jwts;
+import org.apache.commons.lang.StringUtils;
 import org.apache.commons.lang.builder.ReflectionToStringBuilder;
 import org.apache.commons.lang.builder.ToStringStyle;
 import org.springframework.data.domain.Pageable;
@@ -16,7 +19,9 @@ import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
+import java.io.UnsupportedEncodingException;
 import java.security.Security;
 import java.util.ArrayList;
 import java.util.List;
@@ -26,9 +31,16 @@ import java.util.List;
 public class UserController {
 
 
+
     @GetMapping("/me")
-    public Object getCurrentUser(@AuthenticationPrincipal UserDetails userDetails) {
-        return userDetails;
+    public Object getCurrentUser(Authentication user, HttpServletRequest request) throws Exception {
+        String header = request.getHeader("Authorization");
+        String token = StringUtils.substringAfter(header, "bearer ");
+        Claims claims = Jwts.parser().setSigningKey("woxin".getBytes("UTF-8")).parseClaimsJws(token).getBody();
+        String company = (String) claims.get("company");
+        System.out.println("-->" + company);
+
+        return user;
     }
 
 
