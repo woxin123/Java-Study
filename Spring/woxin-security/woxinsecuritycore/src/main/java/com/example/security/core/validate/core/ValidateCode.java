@@ -1,11 +1,12 @@
 package com.example.security.core.validate.core;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
 /**
  * 验证码类
  */
-public class ValidateCode {
+public class ValidateCode implements Serializable {
     private String code;
 
     private LocalDateTime expireTime;

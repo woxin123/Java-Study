@@ -1,7 +1,7 @@
 package com.example.security.browser.authentication;
 
 
-import com.example.security.browser.support.SimpleResponse;
+import com.example.security.core.support.SimpleResponse;
 import com.example.security.core.properties.LoginType;
 import com.example.security.core.properties.SecurityProperties;
 import com.fasterxml.jackson.databind.ObjectMapper;

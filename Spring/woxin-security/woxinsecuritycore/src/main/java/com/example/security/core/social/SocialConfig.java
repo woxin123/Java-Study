@@ -46,6 +46,8 @@ public class SocialConfig extends SocialConfigurerAdapter {
 
     @Bean
     public SpringSocialConfigurer woxinSocialSecurityConfig() {
-        return new SpringSocialConfigurer();
+        String filterProcessesUrl = securityProperties.getSocial().getFilterProcessesUrl();
+        WoxinSpringSocialConfigurer configurer = new WoxinSpringSocialConfigurer(filterProcessesUrl);
+        return configurer;
     }
 }

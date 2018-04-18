@@ -53,7 +53,7 @@ public interface SecurityConstants {
     /**
      * session失效默认跳转的地址
      */
-    String DEFAULT_SESSION_INVALID_URL = "/session/invalid";
+    String DEFAULT_PARAMETER_INVALID_IMAGE = "/session/invalid";
 
     /**
      * openId参数名
@@ -75,5 +75,7 @@ public interface SecurityConstants {
      */
     String DEFAULT_SOCIAL_USER_INFO_URL = "/social/user";
 
+
+    String DEFAULT_SESSION_INVALID_URL = "woxin-session-invalid.html";
 
 }

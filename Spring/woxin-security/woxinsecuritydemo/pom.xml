@@ -12,9 +12,14 @@
     <name>woxin-security-demo Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <dependencies>
+        <!--<dependency>-->
+            <!--<groupId>com.example.security</groupId>-->
+            <!--<artifactId>woxin-security-browser</artifactId>-->
+            <!--<version>1.0-SNAPSHOT</version>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>com.example.security</groupId>
-            <artifactId>woxin-security-browser</artifactId>
+            <artifactId>woxin-security-app</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>

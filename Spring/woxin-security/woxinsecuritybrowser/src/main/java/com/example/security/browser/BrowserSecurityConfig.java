@@ -15,14 +15,17 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.AuthenticationFailureHandler;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
+import org.springframework.security.web.authentication.logout.LogoutSuccessHandler;
 import org.springframework.security.web.authentication.rememberme.JdbcTokenRepositoryImpl;
 import org.springframework.security.web.authentication.rememberme.PersistentTokenRepository;
+import org.springframework.security.web.session.InvalidSessionStrategy;
+import org.springframework.security.web.session.SessionInformationExpiredStrategy;
 import org.springframework.social.security.SpringSocialConfigurer;
 
 import javax.sql.DataSource;
 
 @Configuration
-public class BrowserSecurityConfig extends AbstractChannelSecurityConfig{
+public class BrowserSecurityConfig extends AbstractChannelSecurityConfig {
 
 
     @Autowired
@@ -39,7 +42,6 @@ public class BrowserSecurityConfig extends AbstractChannelSecurityConfig{
     private AuthenticationFailureHandler woxinAuthenticationFailureHandler;
 
 
-
     @Autowired
     @Qualifier("dataSource")
     private DataSource dataSource;
@@ -51,13 +53,20 @@ public class BrowserSecurityConfig extends AbstractChannelSecurityConfig{
     @Autowired
     private SpringSocialConfigurer woxinSocialSecurityConfig;
 
-    @Bean
-    public PasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder();
-    }
 
     @Autowired
     public ValidateCodeSecurityConfig validateCodeSecurityConfig;
+
+    @Autowired
+    private InvalidSessionStrategy invalidSessionStrategy;
+
+    @Autowired
+    private SessionInformationExpiredStrategy woxinInformationExpiredSessionStrategy;
+
+
+    @Autowired
+    private LogoutSuccessHandler woxinLogoutSuccessHandler;
+
     @Bean
     public PersistentTokenRepository persistentTokenRepository() {
         JdbcTokenRepositoryImpl tokenRepository = new JdbcTokenRepositoryImpl();
@@ -84,12 +93,27 @@ public class BrowserSecurityConfig extends AbstractChannelSecurityConfig{
                 .tokenValiditySeconds(securityProperties.getBrowser().getRememberMeSeconds())
                 .userDetailsService(userDetailsService)   // remember-me配置
                 .and()      // and
+                .sessionManagement()
+                .invalidSessionStrategy(invalidSessionStrategy)
+                .maximumSessions(securityProperties.getBrowser().getSession().getMaximumSessions())
+                .maxSessionsPreventsLogin(securityProperties.getBrowser().getSession().isMaxSessionPreventsLogin())     //当session达到最大的时候，阻止
+                .expiredSessionStrategy(woxinInformationExpiredSessionStrategy)
+                .and()
+                .and()
+                .logout()
+                .logoutUrl("/signOut")
+//                .logoutSuccessUrl("/woxin-logout.html")
+                .logoutSuccessHandler(woxinLogoutSuccessHandler)
+                .deleteCookies("JSESSIONID")
+                .and()
                 .authorizeRequests() //授权配置
                 .antMatchers(
                         SecurityConstants.DEFAULT_UNAUTHENTICATTION_URL,
                         SecurityConstants.DEFAULT_LOGIN_PROCESSING_URL_MOBILE,
                         securityProperties.getBrowser().getLoginPage(),
-                        SecurityConstants.DEFAULT_VALIDATE_CODE_URL_PREFIX + "/*")
+                        SecurityConstants.DEFAULT_VALIDATE_CODE_URL_PREFIX + "/*",
+                        securityProperties.getBrowser().getSignOutUrl(),
+                        "/session/invalid")
                 .permitAll()   // 这个url不需要身份认证
                 .anyRequest()   // 任何请求
                 .authenticated()   // 都需要身份认证

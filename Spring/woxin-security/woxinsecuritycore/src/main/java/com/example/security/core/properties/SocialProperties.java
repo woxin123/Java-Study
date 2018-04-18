@@ -25,4 +25,12 @@ public class SocialProperties {
     public void setQq(QQProperties qq) {
         this.qq = qq;
     }
+
+    public String getFilterProcessesUrl() {
+        return filterProcessesUrl;
+    }
+
+    public void setFilterProcessesUrl(String filterProcessesUrl) {
+        this.filterProcessesUrl = filterProcessesUrl;
+    }
 }
