@@ -1,6 +1,7 @@
 package com.example.security.app;
 
 import com.example.security.core.authentication.moblie.SmsCodeAuthenticationSecurityConfig;
+import com.example.security.core.authorize.AuthorizeConfigManager;
 import com.example.security.core.properties.SecurityConstants;
 import com.example.security.core.properties.SecurityProperties;
 import com.example.security.core.validate.core.ValidateCodeSecurityConfig;
@@ -31,7 +32,6 @@ import javax.sql.DataSource;
 @Configuration
 @EnableResourceServer
 public class WoxinResourceServerConfig extends ResourceServerConfigurerAdapter {
-
 
 
     @Autowired
@@ -72,6 +72,8 @@ public class WoxinResourceServerConfig extends ResourceServerConfigurerAdapter {
         return tokenRepository;
     }
 
+    @Autowired
+    private AuthorizeConfigManager woxxinAuthorizeConfigManager;
 
     @Override
     public void configure(HttpSecurity http) throws Exception {
@@ -86,18 +88,7 @@ public class WoxinResourceServerConfig extends ResourceServerConfigurerAdapter {
                 .and()
                 .apply(woxinSocialSecurityConfig)
                 .and()
-                .authorizeRequests() //授权配置
-                .antMatchers(
-                        SecurityConstants.DEFAULT_UNAUTHENTICATTION_URL,
-                        SecurityConstants.DEFAULT_LOGIN_PROCESSING_URL_MOBILE,
-                        securityProperties.getBrowser().getLoginPage(),
-                        SecurityConstants.DEFAULT_VALIDATE_CODE_URL_PREFIX + "/*",
-                        securityProperties.getBrowser().getSignOutUrl(),
-                        "/session/invalid")
-                .permitAll()   // 这个url不需要身份认证
-                .anyRequest()   // 任何请求
-                .authenticated()   // 都需要身份认证
-                .and()
                 .csrf().disable();
+        woxxinAuthorizeConfigManager.config(http.authorizeRequests());
     }
 }

@@ -2,6 +2,7 @@ package com.example.security.browser;
 
 import com.example.security.core.authentication.AbstractChannelSecurityConfig;
 import com.example.security.core.authentication.moblie.SmsCodeAuthenticationSecurityConfig;
+import com.example.security.core.authorize.AuthorizeConfigManager;
 import com.example.security.core.properties.SecurityConstants;
 import com.example.security.core.properties.SecurityProperties;
 import com.example.security.core.validate.core.ValidateCodeSecurityConfig;
@@ -9,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -75,6 +77,8 @@ public class BrowserSecurityConfig extends AbstractChannelSecurityConfig {
         return tokenRepository;
     }
 
+    @Autowired
+    private AuthorizeConfigManager woxinAuthorizeConfigManager;
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
@@ -106,18 +110,8 @@ public class BrowserSecurityConfig extends AbstractChannelSecurityConfig {
                 .logoutSuccessHandler(woxinLogoutSuccessHandler)
                 .deleteCookies("JSESSIONID")
                 .and()
-                .authorizeRequests() //授权配置
-                .antMatchers(
-                        SecurityConstants.DEFAULT_UNAUTHENTICATTION_URL,
-                        SecurityConstants.DEFAULT_LOGIN_PROCESSING_URL_MOBILE,
-                        securityProperties.getBrowser().getLoginPage(),
-                        SecurityConstants.DEFAULT_VALIDATE_CODE_URL_PREFIX + "/*",
-                        securityProperties.getBrowser().getSignOutUrl(),
-                        "/session/invalid")
-                .permitAll()   // 这个url不需要身份认证
-                .anyRequest()   // 任何请求
-                .authenticated()   // 都需要身份认证
-                .and()
                 .csrf().disable();
+
+        woxinAuthorizeConfigManager.config(http.authorizeRequests());
     }
 }
