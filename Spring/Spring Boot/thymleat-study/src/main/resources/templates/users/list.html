@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultrag.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf in action</title>
+</head>
+<body>
+<div th:replace="~{fragment/header :: header}"></div>
+<h3 th:text="${userModel.title}"></h3>
+
+<div>
+    <a href="/user/form.html" th:href="@{/users/form}">创建用户</a>
+</div>
+<table border="1">
+    <thead>
+        <tr>
+            <td>ID</td>
+            <td>Name</td>
+            <td>Email</td>
+        </tr>
+    </thead>
+    <tr th:if="${userList.size()} eq 0">
+        <td colspan="3">没有用户信息！</td>
+    </tr>
+    <tbody>
+        <tr th:each="user : ${userList}">
+            <td th:text="${user.id}"></td>
+            <td><a th:href="@{'/users/' + ${user.id}}"><span th:text="${user.username}"></span></a></td>
+            <td th:text="${user.emial}"></td>
+        </tr>
+    </tbody>
+</table>
+<div th:replace="~{fragment/footer :: footer}"></div>
+</body>
+</html>

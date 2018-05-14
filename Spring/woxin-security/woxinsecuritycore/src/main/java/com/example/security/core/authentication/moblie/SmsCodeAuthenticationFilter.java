@@ -17,7 +17,7 @@ public class SmsCodeAuthenticationFilter extends AbstractAuthenticationProcessin
     private boolean postOnly = true;
 
     public SmsCodeAuthenticationFilter() {
-        super(new AntPathRequestMatcher("/authentication/mobile", "POST"));
+        super(new AntPathRequestMatcher("/authenticaion/mobile", "POST"));
     }
 
     public Authentication attemptAuthentication(HttpServletRequest request, HttpServletResponse response) throws AuthenticationException {

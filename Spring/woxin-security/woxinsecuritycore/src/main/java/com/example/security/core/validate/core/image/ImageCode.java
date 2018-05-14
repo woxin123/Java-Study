@@ -7,6 +7,7 @@ import java.time.LocalDateTime;
 
 public class ImageCode extends ValidateCode {
 
+
     private BufferedImage image;
 
 

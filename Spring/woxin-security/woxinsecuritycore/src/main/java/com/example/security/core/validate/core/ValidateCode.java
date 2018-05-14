@@ -1,9 +1,12 @@
 package com.example.security.core.validate.core;
 
-import java.awt.image.BufferedImage;
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
-public class ValidateCode {
+/**
+ * 验证码类
+ */
+public class ValidateCode implements Serializable {
     private String code;
 
     private LocalDateTime expireTime;

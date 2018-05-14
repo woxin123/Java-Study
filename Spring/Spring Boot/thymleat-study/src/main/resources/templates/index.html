@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+</head>
+<body>
+<h1 th:text="#{welcome}"></h1>
+<!-- 变量表达式 -->
+<h2>变量表达式</h2>
+书名：<p th:text="${book.bookName}"></p>
+作者：<p th:text="${book.bookAuthor}"></p>
+价格：<p th:text="${book.price}"></p>
+
+<!-- 选择表达式 -->
+<h2>选择表达式</h2>
+<div th:object="${book}">
+    <p>书名：<span th:text="*{bookName}"></span></p>
+    <p>作者：<span th:text="*{bookAuthor}"></span></p>
+    <p>价格：<span th:text="*{price}"></span></p>
+</div>
+<!-- 绝对的网址 -->
+<a href=@{"https://www.baidu.com"} >百度</a>
+<div th:insert="~{aaa :: copy}"></div>
+</body>
+</html>

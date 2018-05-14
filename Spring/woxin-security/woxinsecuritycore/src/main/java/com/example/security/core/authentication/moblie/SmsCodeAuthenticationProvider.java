@@ -1,10 +1,6 @@
 package com.example.security.core.authentication.moblie;
 
 
-import com.mysql.cj.api.conf.PropertySet;
-import com.mysql.cj.api.exceptions.ExceptionInterceptor;
-import com.mysql.cj.api.io.Protocol;
-import com.mysql.cj.api.io.ServerSession;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.InternalAuthenticationServiceException;
 import org.springframework.security.core.Authentication;

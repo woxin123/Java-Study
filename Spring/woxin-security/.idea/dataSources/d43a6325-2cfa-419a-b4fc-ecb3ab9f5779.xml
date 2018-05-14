@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="tb_test@localhost">
-  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.7">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.8">
     <root id="1">
       <DefaultCasing>exact</DefaultCasing>
     </root>
@@ -917,32 +917,32 @@
     </table>
     <column id="231" parent="229" name="year">
       <Position>1</Position>
-      <DataType>int(4)|0</DataType>
+      <DataType>int(4)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="232" parent="230" name="x">
       <Position>1</Position>
-      <DataType>tinyint(4)|0</DataType>
+      <DataType>tinyint(4)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="233" parent="230" name="y">
       <Position>2</Position>
-      <DataType>smallint(6)|0</DataType>
+      <DataType>smallint(6)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="234" parent="230" name="z">
       <Position>3</Position>
-      <DataType>mediumint(9)|0</DataType>
+      <DataType>mediumint(9)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="235" parent="230" name="r">
       <Position>4</Position>
-      <DataType>int(11)|0</DataType>
+      <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="236" parent="230" name="m">
       <Position>5</Position>
-      <DataType>bigint(20)|0</DataType>
+      <DataType>bigint(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
   </database-model>

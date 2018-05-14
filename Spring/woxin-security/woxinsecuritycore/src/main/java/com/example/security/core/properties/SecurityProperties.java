@@ -9,6 +9,26 @@ public class SecurityProperties {
 
     private ValidateCodeProperties code = new ValidateCodeProperties();
 
+    private SocialProperties social = new SocialProperties();
+
+    private OAuth2Properties oAuth2;
+
+    public OAuth2Properties getoAuth2() {
+        return oAuth2;
+    }
+
+    public void setoAuth2(OAuth2Properties oAuth2) {
+        this.oAuth2 = oAuth2;
+    }
+
+    public SocialProperties getSocial() {
+        return social;
+    }
+
+    public void setSocial(SocialProperties social) {
+        this.social = social;
+    }
+
     public BrowserProperties getBrowser() {
         return browser;
     }

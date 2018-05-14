@@ -21,4 +21,5 @@ public class SmsCodeProcessor extends AbstractValidateCodeProcessor<ValidateCode
         String mobile = ServletRequestUtils.getRequiredStringParameter(request.getRequest(), "mobile");
         smsCodeSender.send(mobile, validate.getCode());
     }
+
 }
