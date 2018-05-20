@@ -14,21 +14,21 @@
 </div>
 <table border="1">
     <thead>
-        <tr>
-            <td>ID</td>
-            <td>Name</td>
-            <td>Email</td>
-        </tr>
+    <tr>
+        <td>ID</td>
+        <td>Name</td>
+        <td>Email</td>
+    </tr>
     </thead>
     <tr th:if="${userList.size()} eq 0">
         <td colspan="3">没有用户信息！</td>
     </tr>
     <tbody>
-        <tr th:each="user : ${userList}">
-            <td th:text="${user.id}"></td>
-            <td><a th:href="@{'/users/' + ${user.id}}"><span th:text="${user.username}"></span></a></td>
-            <td th:text="${user.emial}"></td>
-        </tr>
+    <tr th:each="user : ${userList}">
+        <td th:text="${user.id}"></td>
+        <td><a th:href="@{'/users/' + ${user.id}}"><span th:text="${user.username}"></span></a></td>
+        <td th:text="${user.emial}"></td>
+    </tr>
     </tbody>
 </table>
 <div th:replace="~{fragment/footer :: footer}"></div>

@@ -24,14 +24,15 @@ public class UserController {
 
     /**
      * 查询所有用户
+     *
      * @param model
      * @return
      */
     @GetMapping
     public ModelAndView listUsers(Model model) {
-        Iterable<User> iterable =  userReposity.findAll();
+        Iterable<User> iterable = userReposity.findAll();
         List users = new ArrayList();
-        Iterator<User> itertor =  iterable.iterator();
+        Iterator<User> itertor = iterable.iterator();
         while (itertor.hasNext()) {
             users.add(itertor.next());
         }
@@ -42,6 +43,7 @@ public class UserController {
 
     /**
      * 根据id查询用户
+     *
      * @param model
      * @return
      */
@@ -54,6 +56,7 @@ public class UserController {
 
     /**
      * 获取创建表单页面
+     *
      * @param model
      * @return
      */
@@ -72,11 +75,12 @@ public class UserController {
 
     /**
      * 删除用户
+     *
      * @param id
      * @param model
      * @return
      */
-    @GetMapping(value="delete/{id}")
+    @GetMapping(value = "delete/{id}")
     public ModelAndView delete(@PathVariable("id") Long id, Model model) {
         userReposity.deleteById(id);
         model.addAttribute("userList", userReposity.findAll());
@@ -87,11 +91,12 @@ public class UserController {
 
     /**
      * 修改用户
+     *
      * @param id
      * @param model
      * @return
      */
-    @GetMapping(value="modify/{id}")
+    @GetMapping(value = "modify/{id}")
     public ModelAndView modfiyForm(@PathVariable("id") Long id, Model model) {
         User user = userReposity.findById(id).get();
         model.addAttribute("user", user);

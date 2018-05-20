@@ -26,6 +26,7 @@ public class UserController {
 
     /**
      * 查询所有用户
+     *
      * @param model
      * @return
      */
@@ -38,6 +39,7 @@ public class UserController {
 
     /**
      * 根据id查询用户
+     *
      * @param model
      * @return
      */
@@ -50,6 +52,7 @@ public class UserController {
 
     /**
      * 获取创建表单页面
+     *
      * @param model
      * @return
      */
@@ -68,11 +71,12 @@ public class UserController {
 
     /**
      * 删除用户
+     *
      * @param id
      * @param model
      * @return
      */
-    @GetMapping(value="delete/{id}")
+    @GetMapping(value = "delete/{id}")
     public ModelAndView delete(@PathVariable("id") Long id, Model model) {
         userReposity.deleteUser(id);
         model.addAttribute("userList", getUserList());
@@ -83,11 +87,12 @@ public class UserController {
 
     /**
      * 修改用户
+     *
      * @param id
      * @param model
      * @return
      */
-    @GetMapping(value="modify/{id}")
+    @GetMapping(value = "modify/{id}")
     public ModelAndView modfiyForm(@PathVariable("id") Long id, Model model) {
         User user = userReposity.getUserById(id);
         model.addAttribute("user", user);

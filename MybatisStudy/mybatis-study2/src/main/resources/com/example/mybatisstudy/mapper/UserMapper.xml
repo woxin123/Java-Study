@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mybatisstudy.mapper.UserMapper">
+    <resultMap id="userMap" type="com.example.mybatisstudy.model.SysUser">
+        <id property="id" column="id"/>
+        <result property="userName" column="username"/>
+        <result property="userPassword" column="user_password"/>
+        <result property="userEmail" column="user_email"/>
+        <result property="userInfo" column="user_info"/>
+        <result property="headImg" column="head_img" jdbcType="BLOB"/>
+        <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+    </resultMap>
+    <select id="selectById" resultMap="userMap">
+        select * from sys_user where id = #{id}
+    </select>
+    <select id="selectAll" resultType="com.example.mybatisstudy.model.SysUser">
+        select id,
+        username,
+        user_password,
+        user_email,
+        user_info,
+        head_img,
+        create_time
+        from sys_user
+    </select>
+    <select id="selectRolesByUserId" resultType="com.example.mybatisstudy.model.SysRole">
+        select r.id,
+            r.role_name roleName,
+            r.enabled,
+            r.create_by createBy,
+            r.create_time createTime,
+            u.username AS "user.userName",
+            u.user_email AS "user.userEmail"
+        from sys_user u
+        inner join sys_user_role ur on u.id = ur.user_id
+        inner join sys_role r on ur.role_id = r.id
+        where u.id = #{userId}
+    </select>
+    <insert id="insert">
+        INSERT INTO sys_user (id, username, user_password, user_email, user_info, head_img, create_time)
+        VALUES (#{id}, #{userName}, #{userPassword}, #{userEmail}, #{userInfo}, #{headImg, jdbcType=BLOB}, #{createTime, jdbcType=TIMESTAMP})
+    </insert>
+    <insert id="insert2" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO sys_user (username, user_password, user_email, user_info, head_img, create_time)
+        VALUES (#{userName}, #{userPassword}, #{userEmail}, #{userInfo}, #{headImg, jdbcType=BLOB}, #{createTime, jdbcType=TIMESTAMP})
+    </insert>
+
+    <!-- selectKey中的语句用于获取最后一个插入数据库数据的主键 -->
+    <insert id="insert3">
+        INSERT INTO sys_user (username, user_password, user_email, user_info, head_img, create_time)
+        VALUES (#{userName}, #{userPassword}, #{userEmail}, #{userInfo}, #{headImg, jdbcType=BLOB}, #{createTime, jdbcType=TIMESTAMP})
+        <selectKey keyColumn="id" resultType="long" keyProperty="id" order="AFTER" >
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+    </insert>
+
+    <update id="updateById">
+        UPDATE sys_user
+        SET username = #{userName},
+          user_password = #{userPassword},
+          user_email = #{userEmail},
+          user_info = #{userInfo},
+          head_img = #{headImg, jdbcType = BLOB},
+          create_time = #{createTime, jdbcType = TIMESTAMP}
+        WHERE id = #{id}
+    </update>
+    <delete id="deleteById">
+        DELETE FROM sys_user WHERE id = #{id}
+    </delete>
+
+    <select id="selectRolesByUserIdAndRoleEnabled" resultType="com.example.mybatisstudy.model.SysRole">
+        SELECT r.id,
+          r.role_name roleName,
+          r.enabled,
+          r.create_by createBy,
+          r.create_time createTime
+        FROM sys_user u
+        INNER JOIN sys_user_role ur on u.id = ur.user_id
+        INNER JOIN sys_role r ON ur.role_id = r.id
+        where u.id = #{userId} and r.enabled = #{enabled}
+    </select>
+
+    <select id="selectByUser" resultType="com.example.mybatisstudy.model.SysUser">
+        SELECT id,
+          username userName,
+          user_password userPassword,
+          user_email userEmail,
+          user_info userInfo,
+          head_img headImg,
+          create_time createTime
+        FROM sys_user
+        WHERE 1 = 1
+        <if test="userName != null and userName != ''">
+            and username like concat('%', #{userName}, '%')
+        </if>
+        <if test="userEmail != null and userEmail != ''">
+            and user_email = #{userEmail}
+        </if>
+    </select>
+    
+    <update id="updateByIdSelective">
+        UPDATE sys_user
+        set
+          <if test="userName != null and userName != ''">
+              username = #{userName},
+          </if>
+          <if test="userPassword != null and userPassword != ''">
+              user_password = #{userPassword},
+          </if>
+          <if test="userEmail != null and userEmail != ''">
+              user_email = #{userEmail},
+          </if>
+        <if test="userInfo != null and userInfo != ''">
+            user_info = #{userInfo},
+        </if>
+        <if test="headImg != null">
+            head_img = #{headImg, jdbcType = BLOB},
+        </if>
+        <if test="createTime != null">
+            create_time = #{createTime, jdbcType = TIMESTAMP},
+        </if>
+        id = #{id}
+        WHERE id = #{id}
+    </update>
+    
+</mapper>

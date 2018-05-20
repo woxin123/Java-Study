@@ -13,7 +13,7 @@ import java.util.concurrent.atomic.AtomicLong;
  * User Reposirory.
  */
 @Repository
-public class UserRepositoryImpl implements UserReposity{
+public class UserRepositoryImpl implements UserReposity {
 
     private static AtomicLong counter = new AtomicLong();
 
