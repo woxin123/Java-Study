@@ -43,15 +43,24 @@
         VALUES (#{id}, #{userName}, #{userPassword}, #{userEmail}, #{userInfo}, #{headImg, jdbcType=BLOB}, #{createTime, jdbcType=TIMESTAMP})
     </insert>
     <insert id="insert2" useGeneratedKeys="true" keyProperty="id">
-        INSERT INTO sys_user (username, user_password, user_email, user_info, head_img, create_time)
-        VALUES (#{userName}, #{userPassword}, #{userEmail}, #{userInfo}, #{headImg, jdbcType=BLOB}, #{createTime, jdbcType=TIMESTAMP})
+        INSERT INTO sys_user (id, username, user_password,
+        <if test="userEmail != null and userEmail != ''">
+            user_email,
+        </if>
+        user_info, head_img, create_time)
+        VALUES (#{id}, #{userName}, #{userPassword},
+        <if test="userEmail != null and userEmail != ''">
+            #{userEmail},
+        </if>
+        #{userInfo}, #{headImg, jdbcType=BLOB}, #{createTime, jdbcType=TIMESTAMP})
     </insert>
 
     <!-- selectKey中的语句用于获取最后一个插入数据库数据的主键 -->
     <insert id="insert3">
         INSERT INTO sys_user (username, user_password, user_email, user_info, head_img, create_time)
-        VALUES (#{userName}, #{userPassword}, #{userEmail}, #{userInfo}, #{headImg, jdbcType=BLOB}, #{createTime, jdbcType=TIMESTAMP})
-        <selectKey keyColumn="id" resultType="long" keyProperty="id" order="AFTER" >
+        VALUES (#{userName}, #{userPassword}, #{userEmail}, #{userInfo}, #{headImg, jdbcType=BLOB},
+        #{createTime, jdbcType=TIMESTAMP})
+        <selectKey keyColumn="id" resultType="long" keyProperty="id" order="AFTER">
             SELECT LAST_INSERT_ID()
         </selectKey>
     </insert>
@@ -84,45 +93,107 @@
 
     <select id="selectByUser" resultType="com.example.mybatisstudy.model.SysUser">
         SELECT id,
+        username userName,
+        user_password userPassword,
+        user_email userEmail,
+        user_info userInfo,
+        head_img headImg,
+        create_time createTime
+        FROM sys_user
+        <where>
+            <if test="userName != null  and userName != ''">
+                <bind name="userNameLike"
+                      value="'%' + userName + '%'" />
+                AND username like concat('%', #{userNameLike}, '%')
+            </if>
+            <if test="userEmail != '' and userEmail != null">
+                AND user_email = #{userEmail}
+            </if>
+        </where>
+    </select>
+
+    <update id="updateByIdSelective">
+        UPDATE sys_user
+        <set>
+            <if test="userName != null and userName != ''">
+                username = #{userName},
+            </if>
+            <if test="userPassword != null and userPassword != ''">
+                user_password = #{userPassword},
+            </if>
+            <if test="userEmail != null and userEmail != ''">
+                user_email = #{userEmail},
+            </if>
+            <if test="userInfo != null and userInfo != ''">
+                user_info = #{userInfo},
+            </if>
+            <if test="headImg != null">
+                head_img = #{headImg, jdbcType = BLOB},
+            </if>
+            <if test="createTime != null">
+                create_time = #{createTime, jdbcType = TIMESTAMP},
+            </if>
+            id = #{id}
+        </set>
+        WHERE id = #{id}
+    </update>
+    <select id="selectByIdOrUserName" resultType="com.example.mybatisstudy.model.SysUser">
+        SELECT id,
+        username userName,
+        user_password userPassword,
+        user_email userEmail,
+        user_info userInfo,
+        head_img headImg,
+        create_time createTime
+        from sys_user
+        where 1 = 1
+        <choose>
+            <when test="id != null and id != ''">
+                and id = #{id}
+            </when>
+            <when test="userName != null and userName != ''">
+                and username = #{userName};
+            </when>
+            <otherwise>
+                and 1 = 2
+            </otherwise>
+        </choose>
+    </select>
+
+    <select id="selectByIdList" resultType="com.example.mybatisstudy.model.SysUser">
+        SELECT id,
           username userName,
           user_password userPassword,
           user_email userEmail,
           user_info userInfo,
           head_img headImg,
           create_time createTime
-        FROM sys_user
-        WHERE 1 = 1
-        <if test="userName != null and userName != ''">
-            and username like concat('%', #{userName}, '%')
-        </if>
-        <if test="userEmail != null and userEmail != ''">
-            and user_email = #{userEmail}
-        </if>
+        from sys_user
+        WHERE id  IN
+        <foreach collection="list" open="(" close=")" separator=","
+                 item="id" index="i">
+            #{id}
+        </foreach>
     </select>
-    
-    <update id="updateByIdSelective">
-        UPDATE sys_user
+
+    <insert id="insertList" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO sys_user(
+          username, user_password, user_email, user_info, head_img, create_time)
+        VALUES
+        <foreach collection="list" item="user" separator=",">
+            (
+              #{user.userName}, #{user.userPassword}, #{user.userEmail},
+              #{user.userInfo}, #{user.headImg, jdbcType=BLOB},
+              #{user.createTime, jdbcType = TIMESTAMP})
+        </foreach>
+    </insert>
+
+    <update id="updateByMap">
+        UPDATE  sys_user
         set
-          <if test="userName != null and userName != ''">
-              username = #{userName},
-          </if>
-          <if test="userPassword != null and userPassword != ''">
-              user_password = #{userPassword},
-          </if>
-          <if test="userEmail != null and userEmail != ''">
-              user_email = #{userEmail},
-          </if>
-        <if test="userInfo != null and userInfo != ''">
-            user_info = #{userInfo},
-        </if>
-        <if test="headImg != null">
-            head_img = #{headImg, jdbcType = BLOB},
-        </if>
-        <if test="createTime != null">
-            create_time = #{createTime, jdbcType = TIMESTAMP},
-        </if>
-        id = #{id}
-        WHERE id = #{id}
+        <foreach collection="_parameter" item="val" index="key" separator=",">
+            ${key} = #{val}
+        </foreach>
+        where id = #{id}
     </update>
-    
 </mapper>

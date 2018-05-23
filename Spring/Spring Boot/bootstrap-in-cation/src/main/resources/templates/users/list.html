@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head th:replace="~{fragements/header :: header}">
+    <title th:text="${title}">welcome</title>
+</head>
+<body>
+<!-- Page Context -->
+<div class="container blog-content-container">
+    <h3 th:text="${title}">Welcome to mcwebsite.top</h3>
+    <div>
+        <a class="btn btn-default" href="/users/form.html" th:href="@{~/users/form}">创建用户</a>
+    </div>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <td>ID</td>
+            <td>Age</td>
+            <td>Name</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:if="${userList.size()} eq 0">
+            <td colspan="3">没有用户信息！！</td>
+        </tr>
+        <tr th:each="user : ${userList}">
+            <td th:text="${user.id}">1</td>
+            <td th:text="${user.age}">11</td>
+            <td><a href="view.html" th:href="@{'/users/' + ${user.id}}"
+                   th:text="${user.name}">waylau</a></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div th:replace="~{fragements/footer :: footer}">...</div>
+</body>
+</html>

@@ -7,8 +7,7 @@ import org.apache.ibatis.session.SqlSession;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 import static org.junit.Assert.*;
 
@@ -212,7 +211,7 @@ public class UserMapperTest extends BaseMapperTest {
             query.setUserName("ad");
             query.setUserEmail("test@mybatis.com");
             userList = userMapper.selectByUser(query);
-            assertTrue(userList.size() == 0);
+            assertTrue(userList.size() == 1);
         } finally {
             sqlSession.close();
         }
@@ -230,6 +229,113 @@ public class UserMapperTest extends BaseMapperTest {
             assertEquals(1, result);
             user = userMapper.selectById(1L);
             assertEquals("admin", user.getUserName());
+            assertEquals("test@mybatis.com", user.getUserEmail());
+        } finally {
+            sqlSession.rollback();
+            sqlSession.close();
+        }
+    }
+
+    @Test
+    public void testInsert2Selective() {
+        SqlSession sqlSession = getSqlSession();
+        try {
+            UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+            // 创建一个对象
+            SysUser user = new SysUser();
+            user.setUserName("test-selective");
+            user.setUserPassword("1234567");
+            user.setUserInfo("test info");
+            user.setCreateTime(new Date());
+            userMapper.insert2(user);
+            user = userMapper.selectById(user.getId());
+            assertEquals("test@mybatis.org", user.getUserEmail());
+        } finally {
+            sqlSession.rollback();
+            sqlSession.close();
+        }
+    }
+
+    @Test
+    public void testSelectByIdOrUserName() {
+        SqlSession sqlSesion = getSqlSession();
+        try {
+            UserMapper userMapper = sqlSesion.getMapper(UserMapper.class);
+            // 只查询用户名时
+            SysUser query = new SysUser();
+            query.setId(1L);
+            query.setUserName("admin");
+            SysUser user = userMapper.selectByIdOrUserName(query);
+            assertNotNull(user);
+            // 当没有id时
+            query.setId(null);
+            user = userMapper.selectByIdOrUserName(query);
+            assertNotNull(user);
+            // 当id和name都为空时
+            query.setUserName(null);
+            user = userMapper.selectByIdOrUserName(query);
+            assertNull(user);
+        } finally {
+            sqlSesion.close();
+        }
+    }
+
+
+    @Test
+    public void testSelectByIdList() {
+        SqlSession sqlSession = getSqlSession();
+        try {
+            UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+            List<Long> idList = new ArrayList<>();
+            idList.add(1L);
+            idList.add(1001L);
+            List<SysUser> userList = userMapper.selectByIdList(idList);
+            assertEquals(2, userList.size());
+        } finally {
+            sqlSession.close();
+        }
+    }
+
+    @Test
+    public void testInsertList() {
+        SqlSession sqlSession = getSqlSession();
+        try {
+            UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+            // 创建一个user对象
+            List<SysUser> userList = new ArrayList<>();
+            for (int i = 0; i < 2; i++) {
+                SysUser user = new SysUser();
+                user.setUserName("test" + i);
+                user.setUserPassword("123456");
+                user.setUserEmail("test@mybatis.com");
+                userList.add(user);
+            }
+            int result = userMapper.insertList(userList);
+            assertEquals(2, result);
+            for (SysUser user : userList) {
+                System.out.println(user.getId());
+            }
+        } finally {
+            sqlSession.rollback();
+            sqlSession.close();
+        }
+    }
+
+    @Test
+    public void testUpdateByMap() {
+        SqlSession sqlSession = getSqlSession();
+        try {
+            UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+            Map<String, Object> map = new HashMap<>();
+            // 查询条件，同样也是更新字段，必须保证该值存在
+            map.put("id", 1L);
+            // 要更新的其他字段
+            map.put("user_email", "test@mybatis.com");
+            map.put("user_password", "12345678");
+            // 更新数据
+            userMapper.updateByMap(map);
+            // 根据当前的id查询修改后的数据
+            SysUser user = userMapper.selectById(1L);
             assertEquals("test@mybatis.com", user.getUserEmail());
         } finally {
             sqlSession.rollback();
