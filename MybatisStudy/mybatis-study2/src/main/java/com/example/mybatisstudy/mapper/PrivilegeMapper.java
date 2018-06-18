@@ -9,4 +9,5 @@ public interface PrivilegeMapper {
     @SelectProvider(type= PrivilegeProvider.class, method = "selectById")
     SysPrivilege selectById(Long id);
 
+
 }

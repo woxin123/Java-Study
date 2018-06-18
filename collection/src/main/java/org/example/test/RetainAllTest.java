@@ -11,7 +11,6 @@ public class RetainAllTest {
         a.add(2);
 
         List<Integer> b = new ArrayList<>();
-
         b.add(3);
         b.add(2);
         b.retainAll(a);

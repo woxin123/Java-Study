@@ -3,10 +3,11 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.example.mybatisstudy.mapper.UserMapper">
+    <cache-ref namespace="com.example.mybatisstudy.mapper.RoleMapper" />
     <resultMap id="userMap" type="com.example.mybatisstudy.model.SysUser">
-        <id property="id" column="id"/>
-        <result property="userName" column="username"/>
-        <result property="userPassword" column="user_password"/>
+        <result  property="userPassword" column="user_password"/>
+        <result property="id" column="id"/>
+        <result property="userName" column="user_name"/>
         <result property="userEmail" column="user_email"/>
         <result property="userInfo" column="user_info"/>
         <result property="headImg" column="head_img" jdbcType="BLOB"/>
@@ -17,7 +18,7 @@
     </select>
     <select id="selectAll" resultType="com.example.mybatisstudy.model.SysUser">
         select id,
-        username,
+        user_name,
         user_password,
         user_email,
         user_info,
@@ -31,7 +32,7 @@
             r.enabled,
             r.create_by createBy,
             r.create_time createTime,
-            u.username AS "user.userName",
+            u.user_name AS "user.userName",
             u.user_email AS "user.userEmail"
         from sys_user u
         inner join sys_user_role ur on u.id = ur.user_id
@@ -39,11 +40,11 @@
         where u.id = #{userId}
     </select>
     <insert id="insert">
-        INSERT INTO sys_user (id, username, user_password, user_email, user_info, head_img, create_time)
+        INSERT INTO sys_user (id, user_name, user_password, user_email, user_info, head_img, create_time)
         VALUES (#{id}, #{userName}, #{userPassword}, #{userEmail}, #{userInfo}, #{headImg, jdbcType=BLOB}, #{createTime, jdbcType=TIMESTAMP})
     </insert>
     <insert id="insert2" useGeneratedKeys="true" keyProperty="id">
-        INSERT INTO sys_user (id, username, user_password,
+        INSERT INTO sys_user (id, user_name, user_password,
         <if test="userEmail != null and userEmail != ''">
             user_email,
         </if>
@@ -57,7 +58,7 @@
 
     <!-- selectKey中的语句用于获取最后一个插入数据库数据的主键 -->
     <insert id="insert3">
-        INSERT INTO sys_user (username, user_password, user_email, user_info, head_img, create_time)
+        INSERT INTO sys_user (user_name, user_password, user_email, user_info, head_img, create_time)
         VALUES (#{userName}, #{userPassword}, #{userEmail}, #{userInfo}, #{headImg, jdbcType=BLOB},
         #{createTime, jdbcType=TIMESTAMP})
         <selectKey keyColumn="id" resultType="long" keyProperty="id" order="AFTER">
@@ -67,7 +68,7 @@
 
     <update id="updateById">
         UPDATE sys_user
-        SET username = #{userName},
+        SET user_name = #{userName},
           user_password = #{userPassword},
           user_email = #{userEmail},
           user_info = #{userInfo},
@@ -93,7 +94,7 @@
 
     <select id="selectByUser" resultType="com.example.mybatisstudy.model.SysUser">
         SELECT id,
-        username userName,
+        user_name userName,
         user_password userPassword,
         user_email userEmail,
         user_info userInfo,
@@ -104,7 +105,7 @@
             <if test="userName != null  and userName != ''">
                 <bind name="userNameLike"
                       value="'%' + userName + '%'" />
-                AND username like concat('%', #{userNameLike}, '%')
+                AND user_name like concat('%', #{userNameLike}, '%')
             </if>
             <if test="userEmail != '' and userEmail != null">
                 AND user_email = #{userEmail}
@@ -116,7 +117,7 @@
         UPDATE sys_user
         <set>
             <if test="userName != null and userName != ''">
-                username = #{userName},
+                user_name = #{userName},
             </if>
             <if test="userPassword != null and userPassword != ''">
                 user_password = #{userPassword},
@@ -139,7 +140,7 @@
     </update>
     <select id="selectByIdOrUserName" resultType="com.example.mybatisstudy.model.SysUser">
         SELECT id,
-        username userName,
+        user_name userName,
         user_password userPassword,
         user_email userEmail,
         user_info userInfo,
@@ -152,7 +153,7 @@
                 and id = #{id}
             </when>
             <when test="userName != null and userName != ''">
-                and username = #{userName};
+                and user_name = #{userName};
             </when>
             <otherwise>
                 and 1 = 2
@@ -162,7 +163,7 @@
 
     <select id="selectByIdList" resultType="com.example.mybatisstudy.model.SysUser">
         SELECT id,
-          username userName,
+          user_name userName,
           user_password userPassword,
           user_email userEmail,
           user_info userInfo,
@@ -178,7 +179,7 @@
 
     <insert id="insertList" useGeneratedKeys="true" keyProperty="id">
         INSERT INTO sys_user(
-          username, user_password, user_email, user_info, head_img, create_time)
+          user_name, user_password, user_email, user_info, head_img, create_time)
         VALUES
         <foreach collection="list" item="user" separator=",">
             (
@@ -196,4 +197,158 @@
         </foreach>
         where id = #{id}
     </update>
+
+    <select id="selectUserAndRoleById"
+            resultType="com.example.mybatisstudy.model.SysUser">
+        SELECT
+            u.id,
+            u.user_name userName,
+            u.user_password userPassword,
+            u.user_info userInfo,
+            u.head_img headImg,
+            u.create_time createTime,
+            r.id "role.id",
+            r.role_name "role.roleName",
+            r.enabled "role.enabled",
+            r.create_by "role.createBy",
+            r.create_time "role.createTime"
+          FROM sys_user u
+          INNER JOIN sys_user_role ur on u.id = ur.user_id
+          INNER JOIN sys_role r on ur.role_id = r.id
+          WHERE u.id = #{id}
+    </select>
+
+
+
+    <resultMap id="userRoleMap" extends="userMap" type="com.example.mybatisstudy.model.SysUser">
+       <association property="role" columnPrefix="role_"
+                    resultMap="com.example.mybatisstudy.mapper.RoleMapper.roleMap" />
+    </resultMap>
+
+    <select id="selectUserAndRoleById2" resultMap="userRoleMap">
+        SELECT
+            u.id,
+            u.user_name,
+            u.user_password,
+            u.user_info,
+            u.head_img,
+            u.create_time,
+            r.id role_id,
+            r.role_name role_role_name,
+            r.enabled role_enabled,
+            r.create_by role_create_by,
+            r.create_time role_create_time
+          FROM sys_user u
+          INNER JOIN sys_user_role ur on u.id = ur.user_id
+          INNER JOIN sys_role r on ur.role_id = r.id
+          WHERE u.id = #{id}
+    </select>
+
+    <resultMap id="userRoleMapSelect" extends="userMap"
+               type="com.example.mybatisstudy.model.SysUser">
+        <association property="role" column="{id=role_id}" fetchType="lazy"
+                     select="com.example.mybatisstudy.mapper.RoleMapper.selectRoleById" />
+    </resultMap>
+
+    <select id="selectUserAndRoleByIdSelect" resultMap="userRoleMapSelect" >
+        SELECT
+          u.id,
+          u.user_name,
+          u.user_password,
+          u.user_info,
+          u.head_img,
+          ur.role_id
+        FROM sys_user u
+        INNER JOIN sys_user_role ur ON u.id = ur.user_id
+        WHERE u.id = #{id}
+    </select>
+
+    <resultMap id="userRoleListMap" extends="userMap" type="com.example.mybatisstudy.model.SysUser">
+        <collection property="roleList" columnPrefix="role_"
+                    resultMap="com.example.mybatisstudy.mapper.RoleMapper.rolePrivilegeListMap">
+        </collection>
+    </resultMap>
+    <select id="selectAllUserAndRoles" resultMap="userRoleListMap" >
+        SELECT
+          u.id,
+          u.user_name,
+          u.user_password,
+          u.user_info,
+          u.head_img,
+          u.create_time,
+          r.id role_id,
+          r.role_name role_role_name,
+          r.enabled role_enabled,
+          r.create_by role_create_by,
+          r.create_time role_create_time,
+          p.id role_privilege_id,
+          p.privilege_name role_privilege_privilege_name,
+          p.privilege_url role_privilege_privilege_url
+        FROM sys_user u
+        INNER JOIN sys_user_role ur ON u.id = ur.user_id
+        INNER JOIN sys_role r ON ur.role_id = r.id
+        INNER JOIN sys_role_privilege rp ON rp.role_id = r.id
+        INNER JOIN sys_privilege p ON p.id = rp.privilege_id
+    </select>
+
+    <resultMap id="userRoleListMapSelect" extends="userMap"
+               type="com.example.mybatisstudy.model.SysUser">
+        <collection property="roleList"
+                    fetchType="lazy"
+                    select="com.example.mybatisstudy.mapper.RoleMapper.selectRoleByUserId"
+                    column="{userId = id}" />
+    </resultMap>
+
+    <select id="selectAllUserAndRolesSelect" resultMap="userRoleListMapSelect">
+        SELECT
+          u.id,
+          u.user_name,
+          u.user_password,
+          u.user_email,
+          u.user_info,
+          u.head_img,
+          u.create_time
+        FROM sys_user u
+        WHERE u.id = #{id}
+    </select>
+
+    <select id="selectUserById" statementType="CALLABLE" useCache="false">
+        {call select_user_by_id(
+            #{id, mode = IN},
+            #{userName, mode=OUT, jdbcType=VARCHAR},
+            #{userPassword, mode=OUT, jdbcType=VARCHAR},
+            #{userEmail, mode = OUT, jdbcType = VARCHAR},
+            #{userInfo, mode = OUT, jdbcType = VARCHAR},
+            #{headImg, mode = OUT, jdbcType = BLOB, javaType = _byte[]},
+            #{createTime, mode = OUT, jdbcType=TIMESTAMP}
+        )}
+    </select>
+
+    <select id="selectUserPage" statementType="CALLABLE" useCache="false" resultMap="userMap">
+        {call select_user_page(
+            #{userName, mode=IN},
+            #{offset, mode = IN},
+            #{limit, mode = IN},
+            #{total, mode=OUT, jdbcType=BIGINT}
+        )}
+    </select>
+
+    <insert id="insertUserAndRoles" statementType="CALLABLE">
+        {call insert_user_and_roles(
+          #{user.id, mode=OUT, jdbcType = BIGINT},
+          #{user.userName, mode=IN},
+          #{user.userPassword, mode=IN},
+          #{user.userEmail, mode = IN},
+          #{user.userInfo, mode = IN},
+          #{user.headImg, mode = IN, jdbcType = BLOB},
+          #{user.createTime, mode = OUT, jdbcType = TIMESTAMP},
+          #{rolesId, mode=IN}
+        )}
+    </insert>
+
+    <delete id="deleteUserById" statementType="CALLABLE">
+        {call delete_user_by_id(#{id, mode=IN})}
+    </delete>
+
+
 </mapper>

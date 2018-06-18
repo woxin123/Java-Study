@@ -47,4 +47,50 @@ public interface UserMapper {
      * @return
      */
     int updateByMap(Map<String, Object> map);
+
+    /**
+     * 根据用户id获取用户信息和用户角色信息
+     * @param id
+     * @return
+     */
+    SysUser selectUserAndRoleById(Long id);
+
+
+    SysUser selectUserAndRoleById2(Long id);
+
+    SysUser selectUserAndRoleByIdSelect(Long id);
+
+    /**
+     * 获取所有用户以及对应的角色
+     * @return
+     */
+    List<SysUser> selectAllUserAndRoles();
+
+    /**
+     * 通过嵌套获取指定用户的信息以及用户角色和权限
+     */
+    SysUser selectAllUserAndRolesSelect(Long id);
+
+    /**
+     * 使用存储过程查询用户信息
+     */
+    void selectUserById(SysUser user);
+
+
+    List<SysUser> selectUserPage(Map<String, Object> params);
+
+    /**
+     * 保存用户信息和角色信息
+     * @param user
+     * @param roleIds
+     * @return
+     */
+    int insertUserAndRoles(@Param("user") SysUser user, @Param("rolesId") String rolesId);
+
+    /**
+     * 根据用户id删除用户和用户信息
+     * @param id
+     * @return
+     */
+    int deleteUserById(Long id);
 }

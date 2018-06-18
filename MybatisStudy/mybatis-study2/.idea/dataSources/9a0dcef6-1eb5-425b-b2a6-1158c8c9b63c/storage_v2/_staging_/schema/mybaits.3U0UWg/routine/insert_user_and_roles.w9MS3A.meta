@@ -1,0 +1,2 @@
+#n:insert_user_and_roles
+#i:(varchar(50),varchar(50),varchar(50),varchar(50),blob,varchar(200))

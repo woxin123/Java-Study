@@ -15,6 +15,7 @@ public class TestIterator {
             nums.add(i);
         }
         Iterator<Integer> iterator = nums.iterator();
+        nums.add(1);
 //        while (iterator.hasNext()) {
 //            System.out.print(iterator.next());
 //        }
@@ -32,5 +33,7 @@ public class TestIterator {
         }
 
         nums.forEach(num-> System.out.println(num));
+
+
     }
 }

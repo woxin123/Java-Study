@@ -3,9 +3,11 @@ package com.example.mybatisstudy.model;
 import java.io.Serializable;
 import java.util.Arrays;
 import java.util.Date;
+import java.util.List;
 
 public class SysUser implements Serializable {
 
+    private static final long serialVersionUID = -3505273260748881987L;
     private Long id;
 
     private String userName;
@@ -16,9 +18,22 @@ public class SysUser implements Serializable {
 
     private String userInfo;
 
+    private SysRole role;
+
     private byte[] headImg;
 
     private Date createTime;
+
+
+    private List<SysRole> roleList;
+
+    public List<SysRole> getRoleList() {
+        return roleList;
+    }
+
+    public void setRoleList(List<SysRole> roleList) {
+        this.roleList = roleList;
+    }
 
     public Long getId() {
         return id;
@@ -50,6 +65,14 @@ public class SysUser implements Serializable {
 
     public void setUserEmail(String userEmail) {
         this.userEmail = userEmail;
+    }
+
+    public SysRole getRole() {
+        return role;
+    }
+
+    public void setRole(SysRole role) {
+        this.role = role;
     }
 
     public String getUserInfo() {

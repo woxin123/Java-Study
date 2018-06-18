@@ -4,15 +4,26 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
     <!-- 设置数据库提供者 -->
-    <databaseIdProvider type="DB_VENDOR" >
-        <property name="MySQL" value="mysql" />
-    </databaseIdProvider>
+    <!--<databaseIdProvider type="DB_VENDOR" >-->
+        <!--<property name="MySQL" value="mysql" />-->
+    <!--</databaseIdProvider>-->
     <settings>
+        <!-- 当为true时，对任意延迟属性的调用会使用带有延迟加载属性的对象完整加载，
+            反之，每种属性-->
+        <setting name="aggressiveLazyLoading" value="false" />
         <!-- 配置日志 -->
         <setting name="logImpl" value="LOG4J"/>
-
+        <!--  -->
         <setting name="mapUnderscoreToCamelCase" value="true" />
+        <!-- 这个是二级缓存开启的配置，默认为开启 -->
+        <setting name="cacheEnabled" value="true" />
     </settings>
+
+    <typeHandlers>
+        <typeHandler javaType="com.example.mybatisstudy.type.Enabled"
+                     handler="com.example.mybatisstudy.type.EnabledTypeHandler" />
+    </typeHandlers>
+
     <!-- 配置包的别名 -->
     <!--<typeAliases>-->
         <!--<package name="com.example.mybatis.model"/>-->

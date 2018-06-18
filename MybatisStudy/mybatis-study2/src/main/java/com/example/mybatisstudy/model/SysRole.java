@@ -2,10 +2,12 @@ package com.example.mybatisstudy.model;
 
 import com.example.mybatisstudy.type.Enabled;
 
+import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
-public class SysRole {
+public class SysRole implements Serializable {
+    private static final long serialVersionUID = 947920522314992796L;
     /**
      * 角色ID
      */
@@ -17,7 +19,7 @@ public class SysRole {
     /**
      * 有效标志
      */
-    private int enabled;
+    private Enabled enabled;
     /**
      * 创建人
      */
@@ -35,6 +37,13 @@ public class SysRole {
      */
     private CreateInfo createInfo;
 
+    /**
+     * 角色包含的权限列表
+     */
+    private List<SysPrivilege> privilegeList;
+
+
+
     public CreateInfo getCreateInfo() {
         return createInfo;
     }
@@ -43,14 +52,10 @@ public class SysRole {
         this.createInfo = createInfo;
     }
 
-    /**
-     * 角色包含的权限列表
-     */
-    List<SysPrivilege> privilegeList;
-
     public List<SysPrivilege> getPrivilegeList() {
         return privilegeList;
     }
+
 
     public void setPrivilegeList(List<SysPrivilege> privilegeList) {
         this.privilegeList = privilegeList;
@@ -72,11 +77,11 @@ public class SysRole {
         this.roleName = roleName;
     }
 
-    public int getEnabled() {
+    public Enabled getEnabled() {
         return enabled;
     }
 
-    public void setEnabled(int enabled) {
+    public void setEnabled(Enabled enabled) {
         this.enabled = enabled;
     }
 

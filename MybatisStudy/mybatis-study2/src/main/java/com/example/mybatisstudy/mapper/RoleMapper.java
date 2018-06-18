@@ -2,7 +2,11 @@ package com.example.mybatisstudy.mapper;
 
 import com.example.mybatisstudy.model.SysRole;
 import org.apache.ibatis.annotations.*;
+import org.apache.ibatis.cache.decorators.FifoCache;
 
+import java.util.List;
+// 接口二级缓存配置
+@CacheNamespaceRef(RoleMapper.class)
 public interface RoleMapper {
 
     @Select({"select id, role_name roleName, enabled, create_by createBy, create_time createTime " +
@@ -40,5 +44,16 @@ public interface RoleMapper {
 
     @Delete("DELETE from sys_role WHERE id = #{id}")
     Integer deleteById(Long id);
+
+    /**
+     * 查询所有的角色
+     * @return
+     */
+    List<SysRole> selectAllRoleAndPrivileges();
+
+    /**
+     * 根据用户ID获取用户角色信息
+     */
+    List<SysRole> selectRoleByUserIdChoose(Long userId);
 }
 

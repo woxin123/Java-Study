@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head th:replace="~{fragements/header :: header}">
+</head>
+<body>
+<div class="container blog-content-container">
+
+</div>
+<div class="container blog-content-container">
+    <h3 th:text="${title}">Welcome to mcwebsite.top</h3>
+    <form action="/users" method="post" th:object="${user}">
+        <input type="hidden" class="form-control" name="id" th:value="*{id}">
+        名称:<br>
+        <input type="text" class="form-control" name="name" th:value="*{name}">
+        <br>
+        年龄:<br>
+        <input type="text" class="form-control" name="age" th:value="*{age}"><br>
+        <input type="submit" class="btn btn-default" value="提交">
+    </form>
+</div>
+<div th:replace="~{fragements/footer :: footer}">...</div>
+</body>
+</html>

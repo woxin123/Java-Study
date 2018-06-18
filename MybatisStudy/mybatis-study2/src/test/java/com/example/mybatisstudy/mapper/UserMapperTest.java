@@ -1,6 +1,7 @@
 package com.example.mybatisstudy.mapper;
 
 import com.example.mybatisstudy.BaseMapperTest;
+import com.example.mybatisstudy.model.SysPrivilege;
 import com.example.mybatisstudy.model.SysRole;
 import com.example.mybatisstudy.model.SysUser;
 import org.apache.ibatis.session.SqlSession;
@@ -342,4 +343,152 @@ public class UserMapperTest extends BaseMapperTest {
             sqlSession.close();
         }
     }
+
+    @Test
+    public void testSelectUserAndRoleById() {
+        // 获取sqlSession
+        SqlSession sqlSession = getSqlSession();
+
+        try {
+            // 获取UserMapper接口
+            UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+            // 特别注意，在测试数据中，id = 1L的用户拥有两个角色，不适合这个例子
+            // 这里使用只有一个角色的用户(id = 1001L)
+            SysUser user = userMapper.selectUserAndRoleById2(1001L);
+            // 测试user不为空
+            assertNotNull(user);
+            // 测试user.role也不为空
+            assertNotNull(user.getRole());
+
+        } finally {
+            sqlSession.close();
+        }
+    }
+    @Test
+    public void testselectUserAndRoleByIdSelect() {
+        // 获取sqlSession
+        SqlSession sqlSession = getSqlSession();
+
+        try {
+            // 获取UserMapper接口
+            UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+            // 特别注意，在测试数据中，id = 1L的用户拥有两个角色，不适合这个例子
+            // 这里使用只有一个角色的用户(id = 1001L)
+            SysUser user = userMapper.selectUserAndRoleByIdSelect(1001L);
+            // 测试user不为空
+            assertNotNull(user);
+            System.out.println("调用user.equals(null)");
+            user.equals(null);
+            // 测试user.role也不为空
+            System.out.println("调用user.getRole()方法");
+            assertNotNull(user.getRole());
+
+        } finally {
+            sqlSession.close();
+        }
+    }
+
+    @Test
+    public void testSelectAllUserAndRoles() {
+        // 获取sqlSession
+        SqlSession sqlSession = getSqlSession();
+
+        try {
+            // 获取UserMapper接口
+            UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+            List<SysUser> users = userMapper.selectAllUserAndRoles();
+            System.out.println("用户数：" + users.size());
+            for (SysUser user : users) {
+                System.out.println("用户名：" + user.getUserName());
+                for (SysRole role : user.getRoleList()) {
+                    System.out.println("角色名：" + role.getRoleName());
+                    for (SysPrivilege privilege : role.getPrivilegeList()) {
+                        System.out.println("权限名：" + privilege.getPrivilegeName());
+                    }
+                }
+            }
+
+        } finally {
+            sqlSession.close();
+        }
+    }
+
+    @Test
+    public void testSelectAllUserAndRolesSelect() {
+        SqlSession sqlSession = getSqlSession();
+        try {
+            // 获取UserMapper接口
+            UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+            SysUser user = userMapper.selectAllUserAndRolesSelect(1L);
+            System.out.println("用户名：" + user.getUserName());
+            for (SysRole role : user.getRoleList()) {
+                System.out.println("    角色名：" + role.getRoleName());
+                for (SysPrivilege privilege : role.getPrivilegeList()) {
+                    System.out.println("        权限名：" + privilege.getPrivilegeName());
+                }
+            }
+        } finally {
+            sqlSession.close();
+        }
+    }
+
+    @Test
+    public void testSelectUserById() {
+        SqlSession sqlSession = getSqlSession();
+        try {
+            UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+            SysUser user = new SysUser();
+            user.setId(1L);
+            userMapper.selectUserById(user);
+            assertNotNull(user.getCreateTime());
+            System.out.println("用户名：" + user.getUserName());
+        } finally {
+            sqlSession.close();
+        }
+    }
+
+    @Test
+    public void testSelectUserPage() {
+        SqlSession sqlSession = getSqlSession();
+        try {
+            UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+            Map<String, Object> params = new HashMap<>();
+            params.put("userName", "ad");
+            params.put("offset", 0);
+            params.put("limit", 10);
+            List<SysUser> userList = userMapper.selectUserPage(params);
+            Long total = (Long) params.get("total");
+            System.out.println("总数：" + total);
+            for (SysUser user : userList) {
+                System.out.println("用户名：" + user.getUserName());
+            }
+        } finally {
+            sqlSession.close();
+        }
+    }
+
+    @Test
+    public void testInsertAndDelete() {
+        SqlSession sqlSession = getSqlSession();
+        try {
+            UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+            SysUser user = new SysUser();
+            user.setUserName("test1");
+            user.setUserPassword("123456");
+            user.setUserEmail("test@mybatis.com");
+            user.setHeadImg(new byte[]{1, 2, 3});
+            // 插入用户信息和角色信息
+            userMapper.insertUserAndRoles(user, "1, 2");
+            assertNotNull(user.getId());
+            assertNotNull(user.getCreateTime());
+            // 可以执行下面的commit后在查看数据库中的数据
+            sqlSession.commit();
+            // 测试删除刚刚插入的数据
+            userMapper.deleteUserById(user.getId());
+            sqlSession.commit();
+        } finally {
+            sqlSession.close();
+        }
+    }
+
 }
