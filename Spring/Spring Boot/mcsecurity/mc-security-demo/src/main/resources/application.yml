@@ -1,0 +1,47 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test_db
+    username: root
+    password: mengchen0705
+  session:
+    store-type: none
+  security:
+    user:
+      name: woxin
+      password: 123456
+  profiles:
+    active: dev
+  thymeleaf:
+    mode: HTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+    cache: true
+  mvc:
+    favicon:
+      enabled: true
+server:
+  servlet:
+    session:
+      timeout: 3600
+  tomcat:
+    uri-encoding: UTF-8
+  compression:
+    enabled: true
+
+book:
+  name: 三国演义
+  auther: 罗贯中
+
+auther:
+  name: woxin
+  age: 20
+# 日志配置
+logging:
+  file: D:/log/mylog.log
+
+
+
+
+
