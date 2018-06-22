@@ -1,0 +1,30 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test_db
+    username: root
+    password: mengchen0705
+  session:
+    store-type: none
+
+  thymeleaf:
+    mode: HTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+    cache: true
+  mvc:
+    favicon:
+      enabled: true
+#  security:
+#    user:
+#      name: user
+#      password: 123456
+server:
+  servlet:
+    session:
+      timeout: 3600
+  tomcat:
+    uri-encoding: UTF-8
+  compression:
+    enabled: true
