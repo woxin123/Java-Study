@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/study-java/study-java.iml" filepath="$PROJECT_DIR$/study-java/study-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-java-moreThread/study-java-moreThread.iml" filepath="$PROJECT_DIR$/study-java-moreThread/study-java-moreThread.iml" />
       <module fileurl="file://$PROJECT_DIR$/study-java-webmagic/study-java-webmagic.iml" filepath="$PROJECT_DIR$/study-java-webmagic/study-java-webmagic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-java8-lambda/study-java8-lambda.iml" filepath="$PROJECT_DIR$/study-java8-lambda/study-java8-lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-java8-stream/study-java8-stream.iml" filepath="$PROJECT_DIR$/study-java8-stream/study-java8-stream.iml" />
     </modules>
   </component>
 </project>

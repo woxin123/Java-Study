@@ -7,12 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="study-java" />
+        <module name="study-java-moreThread" />
         <module name="study-java-webmagic" />
+        <module name="study-java8-lambda" />
+        <module name="study-java8-stream" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="study-java" target="1.5" />
+      <module name="study-java-moreThread" target="1.5" />
       <module name="study-java-webmagic" target="7" />
+      <module name="study-java8-lambda" target="8" />
+      <module name="study-java8-stream" target="8" />
       <module name="studyjavawebmagic" target="1.5" />
       <module name="WebMagic" target="1.5" />
     </bytecodeTargetLevel>

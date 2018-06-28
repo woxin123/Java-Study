@@ -16,6 +16,7 @@
         <module>../mc-security-demo</module>
         <module>../mc-security-app</module>
         <module>../mc-security-chatroom</module>
+        <module>../mc-security-demo2</module>
     </modules>
 
     <parent>

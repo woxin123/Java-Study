@@ -5,14 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>top.mcwebsite</groupId>
-    <artifactId>study-java</artifactId>
+    <artifactId>study-java-moreThread</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <modules>
-        <module>../study-java-webmagic</module>
-        <module>../study-java8-lambda</module>
-        <module>../study-java8-lambda</module>
-        <module>../study-java-moreThread</module>
-    </modules>
     
 </project>
