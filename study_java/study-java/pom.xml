@@ -13,6 +13,7 @@
         <module>../study-java8-lambda</module>
         <module>../study-java8-lambda</module>
         <module>../study-java-moreThread</module>
+        <module>../study-java-highstate</module>
     </modules>
     
 </project>

@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="study-java" />
+        <module name="study-java-highstate" />
         <module name="study-java-moreThread" />
         <module name="study-java-webmagic" />
         <module name="study-java8-lambda" />
@@ -15,6 +16,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="study-java" target="1.5" />
+      <module name="study-java-highstate" target="7" />
       <module name="study-java-moreThread" target="1.5" />
       <module name="study-java-webmagic" target="7" />
       <module name="study-java8-lambda" target="8" />
