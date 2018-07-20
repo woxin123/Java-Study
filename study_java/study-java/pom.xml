@@ -14,6 +14,7 @@
         <module>../study-java8-lambda</module>
         <module>../study-java-moreThread</module>
         <module>../study-java-highstate</module>
+        <module>../study-java-httpclient</module>
     </modules>
     
 </project>
