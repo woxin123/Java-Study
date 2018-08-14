@@ -4,6 +4,9 @@ import java.util.function.Consumer;
 import java.util.function.IntPredicate;
 import java.util.function.Predicate;
 
+/**
+ * @author mengchen
+ */
 public class FunctionDemoTest {
     public static void main(String[] args) {
         // 断言函数

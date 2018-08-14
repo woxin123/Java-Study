@@ -1,20 +1,26 @@
 package top.mcwebsite.security;
 
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-// 过滤Security的自动配置
-@SpringBootApplication(exclude = SecurityAutoConfiguration.class)
+/**
+ * @author mengchen
+ */
+@SpringBootApplication
 @RestController
 public class MyDemoApplication {
+
+    @Autowired
+    ObjectMapper objectMapper;
+
     public static void main(String[] args) {
         SpringApplication.run(MyDemoApplication.class, args);
     }
-
     @GetMapping("/hello")
     public String hello() {
         return "Hello World!";

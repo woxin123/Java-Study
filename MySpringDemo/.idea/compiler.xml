@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="myspring-demo" />
         <module name="security-app" />
         <module name="security-browser" />
         <module name="security-core" />
@@ -13,10 +14,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="myspringdemo" target="8" />
-      <module name="security-app" target="8" />
-      <module name="security-browser" target="8" />
-      <module name="security-core" target="8" />
+      <module name="myspring-demo" target="8" />
+      <module name="myspringdemo" target="1.5" />
+      <module name="security-app" target="1.5" />
+      <module name="security-browser" target="1.5" />
+      <module name="security-core" target="1.8" />
       <module name="security-demo" target="8" />
     </bytecodeTargetLevel>
   </component>

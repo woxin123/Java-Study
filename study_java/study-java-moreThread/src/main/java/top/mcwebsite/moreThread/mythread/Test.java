@@ -1,7 +1,8 @@
 package top.mcwebsite.moreThread.mythread;
+import top.mcwebsite.moreThread.mythread.MyThread;
 
 /**
- * @auther 孟晨
+ * @author mengchen
  * @date 2018/6/28 20:39
  */
 public class Test {

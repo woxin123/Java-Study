@@ -12,6 +12,7 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.message.BasicHeader;
 import org.apache.http.message.BasicNameValuePair;
+import us.codecraft.webmagic.selector.Html;
 
 import java.io.File;
 import java.io.IOException;
@@ -54,13 +55,6 @@ public class OkHttpDemoTest {
     public static void main(String[] args) throws IOException {
 
 
-        Request request = new Request.Builder().url(BASEURL).build();
-        Call call = mOkHttpClient.newCall(request);
-        try {
-            Response response = call.execute();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
 
 
         Request validateRequest = new Request.Builder()
@@ -90,18 +84,20 @@ public class OkHttpDemoTest {
         Request loginRequest = new Request.Builder().url(BASEURL + LOGIN)
                 .post(requestBody)
                 .build();
+        StringBuilder sb = new StringBuilder();
         // 不同于httpClient的是Okhttp会自动跳转
         Response response = mOkHttpClient.newCall(loginRequest).execute();
         try {
             byte[] bytes = new byte[1024];
             InputStream is = response.body().byteStream();
             while (is.read(bytes) != -1)
-                System.out.println(new String(bytes, "GBK"));
+                sb.append(new String(bytes, "GBK"));
+            Html html = new Html(sb.toString());
+            System.out.println(html);
+            System.out.println(html.xpath("/html/body/form/script")
+                    .regex("[\\u4e00-\\u9fa5]+").get());
         } catch (IOException e) {
             e.printStackTrace();
-        }
-        if (response.code() == 302) {
-            System.out.println("登录成功");
         }
 
 

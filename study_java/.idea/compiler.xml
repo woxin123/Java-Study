@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="java-simple-review" />
         <module name="study-java" />
         <module name="study-java-highstate" />
         <module name="study-java-httpclient" />
@@ -15,16 +16,15 @@
         <module name="study-java8-stream" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8">
+      <module name="java-simple-review" target="1.5" />
       <module name="study-java" target="1.5" />
       <module name="study-java-highstate" target="7" />
-      <module name="study-java-httpclient" target="7" />
-      <module name="study-java-moreThread" target="1.5" />
+      <module name="study-java-httpclient" target="8" />
+      <module name="study-java-moreThread" target="8" />
       <module name="study-java-webmagic" target="7" />
       <module name="study-java8-lambda" target="8" />
       <module name="study-java8-stream" target="8" />
-      <module name="studyjavawebmagic" target="1.5" />
-      <module name="WebMagic" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

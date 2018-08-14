@@ -2,30 +2,240 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54730cc1-3d36-4b6c-91a1-14a6c710613b" name="Default" comment="Java的三种代理">
-      <change afterPath="$PROJECT_DIR$/../MySpringDemo/myspringdemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySpringDemo/security-app/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySpringDemo/security-browser/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySpringDemo/security-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySpringDemo/security-demo/src/main/java/top/mcwebsite/security/MyDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySpringDemo/security-demo/src/main/java/top/mcwebsite/security/dto/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySpringDemo/security-demo/src/main/java/top/mcwebsite/security/dto/UserQueryCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySpringDemo/security-demo/src/main/java/top/mcwebsite/security/web/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySpringDemo/security-demo/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySpringDemo/security-demo/src/test/java/top/mcwebsite/security/web/controller/UserControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-java-httpclient/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-java-httpclient/src/main/java/top/mcwebsite/httpclient/HttpClientDemoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-java-httpclient/src/main/java/top/mcwebsite/httpclient/HttpClientDemoTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-java-httpclient/src/main/java/top/mcwebsite/httpclient/HttpClientDemoTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-java-httpclient/src/main/java/top/mcwebsite/httpclient/HttpClientDemoTest4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-java-httpclient/src/main/java/top/mcwebsite/httpclient/HttpClientDemoTest5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-java-httpclient/src/main/java/top/mcwebsite/httpclient/OkHttpDemoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/MyWebMagicTest05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringDemo/myspring-demo/myspring-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringDemo/myspring-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringDemo/myspring-demo/src/main/java/top/mcwebsite/demo/MyDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringDemo/myspring-demo/src/main/java/top/mcwebsite/demo/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringDemo/myspring-demo/src/main/java/top/mcwebsite/demo/exception/BadRequestExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringDemo/myspring-demo/src/main/java/top/mcwebsite/demo/web/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringDemo/security-browser/src/main/java/top/mcwebsite/security/browser/BrowserSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringDemo/security-demo/src/main/java/top/mcwebsite/security/dto/FileInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringDemo/security-demo/src/main/java/top/mcwebsite/security/exception/UserNotExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringDemo/security-demo/src/main/java/top/mcwebsite/security/service/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringDemo/security-demo/src/main/java/top/mcwebsite/security/service/impl/HelloServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringDemo/security-demo/src/main/java/top/mcwebsite/security/validator/MyConstraint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringDemo/security-demo/src/main/java/top/mcwebsite/security/validator/MyContraintValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringDemo/security-demo/src/main/java/top/mcwebsite/security/web/aspect/TimeAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringDemo/security-demo/src/main/java/top/mcwebsite/security/web/async/AsyncController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringDemo/security-demo/src/main/java/top/mcwebsite/security/web/async/DeferredResultHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringDemo/security-demo/src/main/java/top/mcwebsite/security/web/async/MockQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringDemo/security-demo/src/main/java/top/mcwebsite/security/web/async/QueueListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringDemo/security-demo/src/main/java/top/mcwebsite/security/web/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringDemo/security-demo/src/main/java/top/mcwebsite/security/web/controller/ControllerExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringDemo/security-demo/src/main/java/top/mcwebsite/security/web/controller/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringDemo/security-demo/src/main/java/top/mcwebsite/security/web/filter/TimeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringDemo/security-demo/src/main/java/top/mcwebsite/security/web/interceptor/TimeInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringDemo/security-demo/src/main/resources/resources/error/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySpringDemo/security-demo/src/main/resources/resources/error/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/woxin-security/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/woxin-security/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-simple-review/java-simple-review.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-simple-review/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-simple-review/src/main/java/top/mcwebsite/operator/ByteOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-highstate/src/main/java/top/mcwebsite/map/util/AbstractMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-highstate/src/main/java/top/mcwebsite/map/util/Iterable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-highstate/src/main/java/top/mcwebsite/map/util/Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-highstate/src/main/java/top/mcwebsite/maze/MazeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-highstate/src/main/java/top/mcwebsite/mcstring/NULL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-highstate/src/main/java/top/mcwebsite/mcstring/StringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-highstate/src/test/java/top/mcwebsite/map/test/LiFangTi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-highstate/src/test/java/top/mcwebsite/map/test/MapTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-highstate/src/test/java/top/mcwebsite/map/test/MapTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-httpclient/src/test/java/Base64Java.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/isaliveOtherTest/CountOperate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/isaliveOtherTest/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/runMethodUseStopMethod/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/runMethodUseStopMethod/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/runThread/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/sameNum/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/sameNum/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/stopThrowLock/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/stopThrowLock/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/stopThrowLock/SynchronizedObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/study/NoCompleteCreate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/study/NoVisibility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/study/NoVisibility2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/study/StatlessFactorizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/study/annotation/ThreadSafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t11/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t11/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t12/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t12/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t12/Run2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t12/Run3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t13/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t13/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t13_1/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t13_1/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t13forprint/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t13forprint/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t14/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t14/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t15/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t15/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t3/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t3/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t4/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t4/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t4_threadsafe/ALogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t4_threadsafe/BLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t4_threadsafe/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t4_threadsafe/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t7/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t7/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t8/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t8/MyThread2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t8/Run1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t8/Run2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/threadlocals/OnlyOneInOneThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/threadlocals/StackClose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/threadlocals/ThreadLocalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/threadlocals/ThreadLocalTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/useStopMethodTest/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/useStopMethodTest/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/userReturnInterrupt/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/AddHitsCSDN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/util/JwUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringDemo/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringDemo/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringDemo/.idea/libraries/Maven__com_fasterxml_classmate_1_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringDemo/.idea/libraries/Maven__org_projectlombok_lombok_1_16_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringDemo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringDemo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringDemo/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringDemo/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringDemo/myspringdemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringDemo/myspringdemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringDemo/security-browser/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringDemo/security-browser/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringDemo/security-browser/security-browser.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringDemo/security-browser/security-browser.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringDemo/security-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringDemo/security-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringDemo/security-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringDemo/security-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringDemo/security-demo/security-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringDemo/security-demo/security-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringDemo/security-demo/src/main/java/top/mcwebsite/security/MyDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringDemo/security-demo/src/main/java/top/mcwebsite/security/MyDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringDemo/security-demo/src/main/java/top/mcwebsite/security/dto/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringDemo/security-demo/src/main/java/top/mcwebsite/security/dto/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringDemo/security-demo/src/main/java/top/mcwebsite/security/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringDemo/security-demo/src/main/java/top/mcwebsite/security/web/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringDemo/security-demo/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringDemo/security-demo/src/test/java/top/mcwebsite/security/web/controller/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MySpringDemo/security-demo/src/test/java/top/mcwebsite/security/web/controller/UserControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySpringDemo/security-demo/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MybatisStudy/mybatis-study2/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MybatisStudy/mybatis-study2/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MybatisStudy/mybatis-study2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MybatisStudy/mybatis-study2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecurityapp/target/classes/com/example/security/app/TokenStoreConfig$JwtTokenConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecurityapp/target/classes/com/example/security/app/TokenStoreConfig$JwtTokenConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecurityapp/target/classes/com/example/security/app/TokenStoreConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecurityapp/target/classes/com/example/security/app/TokenStoreConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecurityapp/target/classes/com/example/security/app/WoxinAuthorizationServerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecurityapp/target/classes/com/example/security/app/WoxinAuthorizationServerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecurityapp/target/classes/com/example/security/app/WoxinResourceServerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecurityapp/target/classes/com/example/security/app/WoxinResourceServerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecurityapp/target/classes/com/example/security/app/authentication/WoxinAuthenticationFailureHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecurityapp/target/classes/com/example/security/app/authentication/WoxinAuthenticationFailureHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecurityapp/target/classes/com/example/security/app/authentication/WoxinAuthenticationSuccessHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecurityapp/target/classes/com/example/security/app/authentication/WoxinAuthenticationSuccessHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecurityapp/target/classes/com/example/security/app/jwt/WoxinJwtTokenEnhancer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecurityapp/target/classes/com/example/security/app/jwt/WoxinJwtTokenEnhancer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecurityapp/target/classes/com/example/security/app/validate/code/impl/RedisValidateCodeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecurityapp/target/classes/com/example/security/app/validate/code/impl/RedisValidateCodeRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritybrowser/src/main/java/com/example/security/browser/BrowserSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritybrowser/src/main/java/com/example/security/browser/BrowserSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritybrowser/target/classes/com/example/security/browser/BrowserSecurityBeanConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritybrowser/target/classes/com/example/security/browser/BrowserSecurityBeanConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritybrowser/target/classes/com/example/security/browser/BrowserSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritybrowser/target/classes/com/example/security/browser/BrowserSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritybrowser/target/classes/com/example/security/browser/BrowserSecurityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritybrowser/target/classes/com/example/security/browser/BrowserSecurityController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritybrowser/target/classes/com/example/security/browser/MyUserServiceDetailServive.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritybrowser/target/classes/com/example/security/browser/MyUserServiceDetailServive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritybrowser/target/classes/com/example/security/browser/authentication/WoxinAuthenticationFailureHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritybrowser/target/classes/com/example/security/browser/authentication/WoxinAuthenticationFailureHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritybrowser/target/classes/com/example/security/browser/authentication/WoxinAuthenticationSuccessHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritybrowser/target/classes/com/example/security/browser/authentication/WoxinAuthenticationSuccessHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritybrowser/target/classes/com/example/security/browser/logout/WoxinLogoutSuccessHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritybrowser/target/classes/com/example/security/browser/logout/WoxinLogoutSuccessHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritybrowser/target/classes/com/example/security/browser/session/AbstractSessionStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritybrowser/target/classes/com/example/security/browser/session/AbstractSessionStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritybrowser/target/classes/com/example/security/browser/session/WoxinInformationExpiredSessionStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritybrowser/target/classes/com/example/security/browser/session/WoxinInformationExpiredSessionStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritybrowser/target/classes/com/example/security/browser/session/WoxinInvalidSessionStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritybrowser/target/classes/com/example/security/browser/session/WoxinInvalidSessionStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritybrowser/target/classes/com/example/security/browser/validate/code/impl/SessionValidateCodeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritybrowser/target/classes/com/example/security/browser/validate/code/impl/SessionValidateCodeRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/src/main/java/com/example/security/core/validate/core/SessionValidateCodeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/src/main/java/com/example/security/core/validate/core/SessionValidateCodeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/SecurityCoreConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/SecurityCoreConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/authentication/AbstractChannelSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/authentication/AbstractChannelSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/authentication/moblie/SmsCodeAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/authentication/moblie/SmsCodeAuthenticationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/authentication/moblie/SmsCodeAuthenticationProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/authentication/moblie/SmsCodeAuthenticationProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/authentication/moblie/SmsCodeAuthenticationSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/authentication/moblie/SmsCodeAuthenticationSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/authentication/moblie/SmsCodeAuthenticationToken.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/authentication/moblie/SmsCodeAuthenticationToken.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/authorize/AuthorizeConfigManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/authorize/AuthorizeConfigManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/authorize/AuthorizeConfigProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/authorize/AuthorizeConfigProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/authorize/WoxinAuhorizeConfigProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/authorize/WoxinAuhorizeConfigProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/authorize/WoxinAuthorizConfigManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/authorize/WoxinAuthorizConfigManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/properties/BrowserProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/properties/BrowserProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/properties/ImageCodeProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/properties/ImageCodeProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/properties/LoginType.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/properties/LoginType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/properties/OAuth2Properties.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/properties/OAuth2Properties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/properties/QQProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/properties/QQProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/properties/SecurityConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/properties/SecurityConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/properties/SecurityProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/properties/SecurityProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/properties/SessionProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/properties/SessionProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/properties/SmsCodeProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/properties/SmsCodeProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/properties/SocialProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/properties/SocialProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/properties/ValidateCodeProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/properties/ValidateCodeProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/social/SocialConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/social/SocialConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/social/WoxinSpringSocialConfigurer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/social/WoxinSpringSocialConfigurer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/social/qq/api/QQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/social/qq/api/QQ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/social/qq/api/QQImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/social/qq/api/QQImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/social/qq/api/QQUserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/social/qq/api/QQUserInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/social/qq/config/QQAutoConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/social/qq/config/QQAutoConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/social/qq/connect/QQAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/social/qq/connect/QQAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/social/qq/connect/QQConnectionFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/social/qq/connect/QQConnectionFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/social/qq/connect/QQOAuth2Template.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/social/qq/connect/QQOAuth2Template.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/social/qq/connect/QQServiceProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/social/qq/connect/QQServiceProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/support/SimpleResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/support/SimpleResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/SessionValidateCodeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/SessionValidateCodeRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/SmsCodeFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/SmsCodeFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/ValidateCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/ValidateCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/ValidateCodeBeanConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/ValidateCodeBeanConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/ValidateCodeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/ValidateCodeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/ValidateCodeException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/ValidateCodeException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/ValidateCodeFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/ValidateCodeFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/ValidateCodeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/ValidateCodeGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/ValidateCodeProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/ValidateCodeProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/ValidateCodeProcessorHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/ValidateCodeProcessorHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/ValidateCodeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/ValidateCodeRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/ValidateCodeSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/ValidateCodeSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/ValidateCodeType$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/ValidateCodeType$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/ValidateCodeType$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/ValidateCodeType$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/ValidateCodeType.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/ValidateCodeType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/image/ImageCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/image/ImageCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/image/ImageCodeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/image/ImageCodeGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/image/ImageCodeProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/image/ImageCodeProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/impl/AbstractValidateCodeProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/impl/AbstractValidateCodeProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/sms/DefaultSmsCodeSender.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/sms/DefaultSmsCodeSender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/sms/SmsCodeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/sms/SmsCodeGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/sms/SmsCodeProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/sms/SmsCodeProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/sms/SmsCodeSender.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritycore/target/classes/com/example/security/core/validate/core/sms/SmsCodeSender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/DemoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/DemoApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/async/AsyncController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/async/AsyncController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/async/DeferredResultHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/async/DeferredResultHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/async/MockQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/async/MockQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/code/DemoImageCodeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/code/DemoImageCodeGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/config/QueueListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/config/QueueListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/config/WebConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/dto/FileInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/dto/FileInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/dto/User$UserDetialView.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/dto/User$UserDetialView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/dto/User$UserSimpleView.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/dto/User$UserSimpleView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/dto/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/dto/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/dto/UserQueryCondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/dto/UserQueryCondition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/exception/UserNotExistException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/exception/UserNotExistException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/interceptor/TimeInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/interceptor/TimeInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/security/DemoAuthorizeConfigProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/security/DemoAuthorizeConfigProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/security/MyUserServiceDetailServive.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/security/MyUserServiceDetailServive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/service/HelloService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/service/HelloService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/validator/MyConstraint.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/validator/MyConstraint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/validator/MyConstraintValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/validator/MyConstraintValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/web/aspect/TimeAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/web/aspect/TimeAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/web/controller/ControllerExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/web/controller/ControllerExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/web/controller/FileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/web/controller/FileController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/web/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/web/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/web/filter/TimeFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/woxin-security/woxinsecuritydemo/target/classes/com/example/web/filter/TimeFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/MyWebMagicTest04.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/MyWebMagicTest04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study-java/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-java-highstate/study-java-highstate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/study-java-highstate/study-java-highstate.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-java-httpclient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study-java-httpclient/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-java-httpclient/src/main/java/top/mcwebsite/httpclient/HttpClientDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-java-httpclient/src/main/java/top/mcwebsite/httpclient/HttpClientDemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-java-httpclient/src/main/java/top/mcwebsite/httpclient/HttpClientDemoTest5.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-java-httpclient/src/main/java/top/mcwebsite/httpclient/HttpClientDemoTest5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-java-httpclient/src/main/java/top/mcwebsite/httpclient/OkHttpDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-java-httpclient/src/main/java/top/mcwebsite/httpclient/OkHttpDemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-java-httpclient/study-java-httpclient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/study-java-httpclient/study-java-httpclient.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-java-moreThread/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study-java-moreThread/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/mythread/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/mythread/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/mythread/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/mythread/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-java-moreThread/study-java-moreThread.iml" beforeDir="false" afterPath="$PROJECT_DIR$/study-java-moreThread/study-java-moreThread.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-java-webmagic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study-java-webmagic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/MyWebMagicTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/MyWebMagicTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/YZADemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/YZADemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-java8-lambda/src/main/java/top/mcwebsite/lambda/FunctionDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-java8-lambda/src/main/java/top/mcwebsite/lambda/FunctionDemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validateCode.png" beforeDir="false" afterPath="$PROJECT_DIR$/validateCode.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/study-java/target/" />
     <ignored path="$PROJECT_DIR$/studyjavawebmagic/target/" />
@@ -37,31 +247,52 @@
     <ignored path="$PROJECT_DIR$/study-java-moreThread/target/" />
     <ignored path="$PROJECT_DIR$/study-java-highstate/target/" />
     <ignored path="$PROJECT_DIR$/study-java-httpclient/target/" />
+    <ignored path="$PROJECT_DIR$/java-simple-review/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/study_java$LiFangTi.ic" NAME="LiFangTi Coverage Results" MODIFIED="1533973613678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>top.mcwebsite.map.test.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="437687482">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.44" value="1" />
+          <entry key="project.closed" value="25" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="5" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.44" value="2" />
+          <entry key="project.open.time.45" value="4" />
+          <entry key="project.open.time.46" value="2" />
           <entry key="project.open.time.47" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.57" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="32" />
           <entry key="html" value="1" />
-          <entry key="java" value="24" />
-          <entry key="png" value="24" />
-          <entry key="xml" value="8" />
+          <entry key="java" value="147" />
+          <entry key="png" value="28" />
+          <entry key="xml" value="20" />
           <entry key="xsd" value="1" />
         </counts>
       </usages-collector>
@@ -69,24 +300,24 @@
         <counts>
           <entry key="CLASS" value="32" />
           <entry key="HTML" value="1" />
-          <entry key="Image" value="24" />
-          <entry key="JAVA" value="24" />
-          <entry key="XML" value="9" />
+          <entry key="Image" value="28" />
+          <entry key="JAVA" value="147" />
+          <entry key="XML" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="java" value="6498" />
+          <entry key="java" value="20827" />
           <entry key="txt" value="9" />
-          <entry key="xml" value="70" />
+          <entry key="xml" value="132" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6498" />
+          <entry key="JAVA" value="20827" />
           <entry key="PLAIN_TEXT" value="16" />
-          <entry key="XML" value="70" />
+          <entry key="XML" value="132" />
         </counts>
       </usages-collector>
     </session>
@@ -94,76 +325,107 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/MyWebMagicTest05.java">
+        <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t14/MyThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-126">
-              <caret line="19" column="41" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="41" />
+            <state relative-caret-position="75">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/MyWebMagicTest04.java">
+        <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/useStopMethodTest/MyThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+            <state relative-caret-position="520">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study-java-httpclient/src/main/java/top/mcwebsite/httpclient/HttpClientDemoTest5.java">
+        <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/useStopMethodTest/Run.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="41" column="29" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="29" />
+            <state relative-caret-position="100">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/runMethodUseStopMethod/MyThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/stopThrowLock/SynchronizedObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study-java-httpclient/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study-java-httpclient/src/main/java/top/mcwebsite/httpclient/HttpClientDemoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study-java-httpclient/src/main/java/top/mcwebsite/httpclient/HttpClientDemoTest2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#410#411#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/study-java-httpclient/src/main/java/top/mcwebsite/httpclient/OkHttpDemoTest.java">
+        <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/userReturnInterrupt/MyThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="61" column="32" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+            <state relative-caret-position="375">
+              <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/stopThrowLock/MyThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/stopThrowLock/Run.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/runMethodUseStopMethod/Run.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t15/MyThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -174,9 +436,20 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="AnnotationType" />
+        <option value="Singleton" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>toS</find>
+      <find>Entry</find>
+      <find>target</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -194,45 +467,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start-webmagic/MyWebMagicTest01.java" />
-        <option value="$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/MyWebMagicTest02.java" />
-        <option value="$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/MyWebMagicTest01.java" />
-        <option value="$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/util/HttpUtils.java" />
-        <option value="$PROJECT_DIR$/study-java-webmagic/src/main/resources/csdn.html" />
-        <option value="$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/MyWebMagicTest03.java" />
-        <option value="$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/YZADemo.java" />
-        <option value="$PROJECT_DIR$/study-java8-lambda/src/main/java/top/mcwebsite/lambda/MinDemoTest.java" />
-        <option value="$PROJECT_DIR$/study-java8-lambda/src/main/java/top/mcwebsite/lambda/ThreadDemoTest.java" />
-        <option value="$PROJECT_DIR$/study-java8-lambda/src/main/java/top/mcwebsite/lambda/LambdaDemoTest1.java" />
-        <option value="$PROJECT_DIR$/study-java8-lambda/src/main/java/top/mcwebsite/lambda/MeneyDemoTest.java" />
-        <option value="$PROJECT_DIR$/study-java8-lambda/src/main/java/top/mcwebsite/lambda/FunctionDemoTest.java" />
-        <option value="$PROJECT_DIR$/study-java8-lambda/src/main/java/top/mcwebsite/lambda/MethodRefrenceDemoTest.java" />
-        <option value="$PROJECT_DIR$/study-java8-lambda/src/main/java/top/mcwebsite/lambda/TypeDemoTest.java" />
-        <option value="$PROJECT_DIR$/study-java8-lambda/src/main/java/top/mcwebsite/lambda/VarDemo.java" />
-        <option value="$PROJECT_DIR$/study-java8-lambda/src/main/java/top/mcwebsite/lambda/VarDemoTest.java" />
-        <option value="$PROJECT_DIR$/study-java8-stream/src/main/java/top/mcwebsite/stream/StreamDemoTest1.java" />
-        <option value="$PROJECT_DIR$/study-java8-lambda/src/main/java/top/mcwebsite/lambda/CurryDemoTest.java" />
-        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/MyThread.java" />
-        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/start/MyThread.java" />
-        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/start/Run.java" />
-        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/mythread/MyThread.java" />
+        <option value="$PROJECT_DIR$/study-java-highstate/src/test/java/top/mcwebsite/map/test/MapTest02.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/test/Test.java" />
         <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/mythread/Test.java" />
-        <option value="$PROJECT_DIR$/study-java-webmagic/pom.xml" />
-        <option value="$PROJECT_DIR$/study-java-highstate/src/main/java/top/mcwebsite/javaproxy/StaticProxyTest.java" />
-        <option value="$PROJECT_DIR$/study-java-highstate/src/main/java/top/mcwebsite/javaproxy/JDKProxyTest.java" />
-        <option value="$PROJECT_DIR$/study-java-highstate/pom.xml" />
-        <option value="$PROJECT_DIR$/study-java-highstate/src/main/java/top/mcwebsite/javaproxy/CGlibProxyTest.java" />
-        <option value="$PROJECT_DIR$/study-java/pom.xml" />
-        <option value="$PROJECT_DIR$/study-java-httpclient/src/main/java/top/mcwebsite/httpclient/HttpClientDemoTest2.java" />
-        <option value="$PROJECT_DIR$/study-java-httpclient/src/main/java/top/mcwebsite/httpclient/HttpClientDemoTest3.java" />
-        <option value="$PROJECT_DIR$/study-java-httpclient/src/main/java/top/mcwebsite/httpclient/HttpClientDemoTest4.java" />
-        <option value="$PROJECT_DIR$/study-java-httpclient/pom.xml" />
-        <option value="$PROJECT_DIR$/study-java-httpclient/src/main/java/top/mcwebsite/httpclient/HttpClientDemoTest.java" />
-        <option value="$PROJECT_DIR$/study-java-httpclient/src/main/java/top/mcwebsite/httpclient/HttpClientDemoTest6.java" />
-        <option value="$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/MyWebMagicTest05.java" />
-        <option value="$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/MyWebMagicTest04.java" />
-        <option value="$PROJECT_DIR$/study-java-httpclient/src/main/java/top/mcwebsite/httpclient/HttpClientDemoTest5.java" />
-        <option value="$PROJECT_DIR$/study-java-httpclient/src/main/java/top/mcwebsite/httpclient/OkHttpDemoTest.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/mythread/MyThread.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t3/MyThread.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t3/Run.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t4/Run.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t4/MyThread.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t4_threadsafe/ALogin.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t4_threadsafe/BLogin.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t4_threadsafe/Run.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t4_threadsafe/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/sameNum/MyThread.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/sameNum/Run.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t7/MyThread.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t7/Run.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t7/CountOperate.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/isaliveOtherTest/Run.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/isaliveOtherTest/CountOperate.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t8/MyThread.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t8/Run1.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/pom.xml" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t8/MyThrad2.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t8/MyThread2.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t8/Run2.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/runThread/Test.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t11/MyThread.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t11/Run.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t12/Run.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t12/Run2.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t12/MyThread.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t12/Run3.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t13/MyThread.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t13/Run.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t13forprint/MyThread.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t13_1/Run.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t13_1/MyThread.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t13forprint/Run.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t14/Run.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t15/t14/Run.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t15/t14/MyThread.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t14/MyThread.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/useStopMethodTest/MyThread.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/useStopMethodTest/Run.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/runMethodUseStopMethod/Run.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/runMethodUseStopMethod/MyThread.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/stopThrowLock/SychronizedObject.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/stopThrowLock/MyThread.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/stopThrowLock/Run.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/stopThrowLock/SynchronizedObject.java" />
+        <option value="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/userReturnInterrupt/MyThread.java" />
       </list>
     </option>
   </component>
@@ -256,16 +541,38 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="study-java-highstate" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="study-java" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="study-java-highstate" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="study-java-moreThread" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="study-java-moreThread" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="study-java-moreThread" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="study-java-webmagic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="study-java-webmagic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="study-java-webmagic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -276,10 +583,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1366" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1999" />
+    <option name="width" value="1356" />
+    <option name="height" value="549" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -287,41 +594,86 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study-java-httpclient" type="462c0819:PsiDirectoryNode" />
+              <item name="java-simple-review" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study-java-httpclient" type="462c0819:PsiDirectoryNode" />
+              <item name="java-simple-review" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study-java-httpclient" type="462c0819:PsiDirectoryNode" />
+              <item name="java-simple-review" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-simple-review" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-simple-review" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-java8-lambda" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-java8-stream" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-java-highstate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
               <item name="study-java-httpclient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-java-moreThread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-java-moreThread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-java-moreThread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-java-moreThread" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study-java-httpclient" type="462c0819:PsiDirectoryNode" />
+              <item name="study-java-moreThread" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="httpclient" type="462c0819:PsiDirectoryNode" />
+              <item name="moreThread" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
@@ -331,25 +683,39 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="Runtim&#9;FILE&#9;jar://D:/Java/java8/jdk1.8_182/src.zip!/java/lang/RuntimeException.java" />
+    <property name="SearchEverywhereHistoryKey" value="HashMap&#9;PSI&#9;JAVA://java.util.HashMap&#10;Iter&#9;PSI&#9;JAVA://java.lang.Iterable&#10;Integer&#9;FILE&#9;jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Integer.java&#10;Object&#9;PSI&#9;JAVA://java.lang.Object&#10;Runtim&#9;FILE&#9;jar://D:/Java/java8/jdk1.8_182/src.zip!/java/lang/RuntimeException.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1532057860693" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534229989897" />
+    <property name="last_opened_file_path" value="$USER_HOME$/项目/branch" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="Console" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="top.mcwebsite.moreThread.study.annotation" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="top.mcwebsite.moreThread.t14" />
       <recent name="top.mcwebsite.httpclient" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread" />
+      <recent name="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t15" />
+      <recent name="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t13_1" />
+      <recent name="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t13forprint" />
+      <recent name="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t4" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -364,14 +730,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HttpClientDemoTest5">
-    <configuration name="HttpClientDemoTest4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.httpclient.HttpClientDemoTest4" />
-      <module name="study-java-httpclient" />
+  <component name="RunManager" selected="Application.Run (3)">
+    <configuration name="Run (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.moreThread.runMethodUseStopMethod.Run" />
+      <module name="study-java-moreThread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.mcwebsite.httpclient.*" />
+          <option name="PATTERN" value="top.mcwebsite.moreThread.runMethodUseStopMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -379,13 +745,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HttpClientDemoTest5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.httpclient.HttpClientDemoTest5" />
-      <module name="study-java-httpclient" />
+    <configuration name="Run (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.moreThread.userReturnInterrupt.Run" />
+      <module name="study-java-moreThread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.mcwebsite.httpclient.*" />
+          <option name="PATTERN" value="top.mcwebsite.moreThread.userReturnInterrupt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -393,13 +759,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyWebMagicTest04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.start_webmagic.MyWebMagicTest04" />
-      <module name="study-java-webmagic" />
+    <configuration name="Run (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.moreThread.t15.t14.Run" />
+      <module name="study-java-moreThread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.mcwebsite.start_webmagic.*" />
+          <option name="PATTERN" value="top.mcwebsite.moreThread.t15.t14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -407,13 +773,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyWebMagicTest05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.start_webmagic.MyWebMagicTest05" />
-      <module name="study-java-webmagic" />
+    <configuration name="Run (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.moreThread.useStopMethodTest.Run" />
+      <module name="study-java-moreThread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.mcwebsite.start_webmagic.*" />
+          <option name="PATTERN" value="top.mcwebsite.moreThread.useStopMethodTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -421,13 +787,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OkHttpDemoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.httpclient.OkHttpDemoTest" />
-      <module name="study-java-httpclient" />
+    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.moreThread.stopThrowLock.Run" />
+      <module name="study-java-moreThread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.mcwebsite.httpclient.*" />
+          <option name="PATTERN" value="top.mcwebsite.moreThread.stopThrowLock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -456,19 +822,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HttpClientDemoTest4" />
-      <item itemvalue="Application.HttpClientDemoTest5" />
-      <item itemvalue="Application.MyWebMagicTest05" />
-      <item itemvalue="Application.OkHttpDemoTest" />
-      <item itemvalue="Application.MyWebMagicTest04" />
+      <item itemvalue="Application.Run (4)" />
+      <item itemvalue="Application.Run (5)" />
+      <item itemvalue="Application.Run (2)" />
+      <item itemvalue="Application.Run" />
+      <item itemvalue="Application.Run (3)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HttpClientDemoTest5" />
-        <item itemvalue="Application.MyWebMagicTest04" />
-        <item itemvalue="Application.MyWebMagicTest05" />
-        <item itemvalue="Application.OkHttpDemoTest" />
-        <item itemvalue="Application.HttpClientDemoTest4" />
+        <item itemvalue="Application.Run (3)" />
+        <item itemvalue="Application.Run" />
+        <item itemvalue="Application.Run (2)" />
+        <item itemvalue="Application.Run (5)" />
+        <item itemvalue="Application.Run (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -489,7 +855,32 @@
       <workItem from="1531571398416" duration="4756000" />
       <workItem from="1531640780452" duration="21346000" />
       <workItem from="1531727163696" duration="1587000" />
-      <workItem from="1532049224381" duration="5900000" />
+      <workItem from="1532049224381" duration="7644000" />
+      <workItem from="1532069721889" duration="9315000" />
+      <workItem from="1532154052422" duration="1616000" />
+      <workItem from="1532231169376" duration="1915000" />
+      <workItem from="1532251427468" duration="598000" />
+      <workItem from="1532396854323" duration="4101000" />
+      <workItem from="1532413119477" duration="104000" />
+      <workItem from="1532433031780" duration="20000" />
+      <workItem from="1532567998430" duration="1313000" />
+      <workItem from="1532777793560" duration="1671000" />
+      <workItem from="1532780297527" duration="8682000" />
+      <workItem from="1532830880337" duration="935000" />
+      <workItem from="1532921328179" duration="3862000" />
+      <workItem from="1532996693643" duration="5290000" />
+      <workItem from="1533125902715" duration="2835000" />
+      <workItem from="1533134011474" duration="28000" />
+      <workItem from="1533447048580" duration="3492000" />
+      <workItem from="1533461288877" duration="5156000" />
+      <workItem from="1533516832998" duration="2951000" />
+      <workItem from="1533537589964" duration="479000" />
+      <workItem from="1533553340834" duration="2448000" />
+      <workItem from="1533566856148" duration="3177000" />
+      <workItem from="1533914778010" duration="3479000" />
+      <workItem from="1533949478091" duration="5515000" />
+      <workItem from="1533970968653" duration="25991000" />
+      <workItem from="1534206780817" duration="13071000" />
     </task>
     <task id="LOCAL-00001" summary="Java的三种代理">
       <created>1531580968039</created>
@@ -502,12 +893,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84520000" />
+    <option name="totallyTimeSpent" value="194308000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1366" y="0" width="1920" height="1080" extended-state="7" />
+    <frame x="1366" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16008538" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20917822" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -515,17 +907,18 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23653643" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32629356" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924242" visible="true" weight="0.34530094" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46673706" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007576" side_tool="true" weight="0.41732284" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32913387" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3273495" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.12988384" />
+      <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
@@ -535,7 +928,42 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32954547" />
+      <window_info anchor="right" id="PlantUML" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32954547" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20704375" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32706374" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924242" visible="true" weight="0.021119324" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46744573" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007576" side_tool="true" weight="0.41732284" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32913387" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.13021703" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32954547" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.24962178" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.32954547" />
+      <window_info anchor="right" id="PlantUML" order="10" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -547,365 +975,387 @@
     <MESSAGE value="Java的三种代理" />
     <option name="LAST_COMMIT_MESSAGE" value="Java的三种代理" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Map.java</url>
+          <line>1022</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/study-java-highstate/src/test/java/top/mcwebsite/map/test/LiFangTi.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/study-java8-stream/src/main/java/top/mcwebsite/stream/StreamDemoTest1.java">
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t4_threadsafe/Run.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="150">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-java-highstate/src/main/java/top/mcwebsite/javaproxy/StaticProxyTest.java">
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t4_threadsafe/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/sameNum/MyThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="14" column="5" selection-start-line="12" selection-start-column="3" selection-end-line="14" selection-end-column="5" />
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-java-highstate/src/main/java/top/mcwebsite/javaproxy/CGlibProxyTest.java">
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/sameNum/Run.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+        <state relative-caret-position="408">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-java-highstate/pom.xml">
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t7/MyThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="275">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-java8-lambda/src/main/java/top/mcwebsite/lambda/CurryDemoTest.java">
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t7/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t4_threadsafe/BLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/mythread/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="76" selection-start-line="13" selection-start-column="76" selection-end-line="13" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/isaliveOtherTest/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t3/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/isaliveOtherTest/CountOperate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-376">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/threadlocals/OnlyOneInOneThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t8/MyThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/study-java-moreThread/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-simple-review/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-java-highstate/src/main/java/top/mcwebsite/javaproxy/JDKProxyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/study-java/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/study-java8-lambda/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar!/org/apache/http/impl/client/MinimalHttpClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/study-java8-stream/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar!/org/apache/http/client/HttpClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-java-httpclient/src/main/java/top/mcwebsite/httpclient/HttpClientDemoTest3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar!/org/apache/http/HeaderElement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar!/org/apache/http/message/BasicHeaderElement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="21" column="41" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar!/org/apache/http/message/BasicHeaderValueParser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar!/org/apache/http/message/BasicHeaderElementIterator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar!/org/apache/http/StatusLine.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/MyWebMagicTest03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-279">
-          <caret line="81" column="30" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/YZADemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/MyWebMagicTest01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-525">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-java-webmagic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-java-webmagic/src/main/resources/csdn.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1725" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-java-httpclient/src/main/java/top/mcwebsite/httpclient/HttpClientDemoTest4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/MyWebMagicTest02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar!/org/apache/http/impl/client/HttpClients.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar!/org/apache/http/util/TextUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar!/org/apache/http/HttpHost.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar!/org/apache/http/client/utils/URIUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="266" selection-start-line="266" selection-end-line="266" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar!/org/apache/http/impl/client/CloseableHttpClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar!/org/apache/http/client/methods/HttpGet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar!/org/apache/http/params/HttpProtocolParams.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar!/org/apache/http/message/BasicRequestLine.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar!/org/apache/http/message/HeaderGroup.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar!/org/apache/http/client/methods/HttpRequestWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="107" column="37" selection-start-line="107" selection-start-column="37" selection-end-line="107" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar!/org/apache/http/client/methods/HttpRequestBase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar!/org/apache/http/message/AbstractHttpMessage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar!/org/apache/http/util/Args.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar!/org/apache/http/protocol/BasicHttpContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar!/org/apache/http/protocol/HttpCoreContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar!/org/apache/http/client/protocol/HttpClientContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar!/org/apache/http/params/BasicHttpParams.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="104" selection-start-line="104" selection-end-line="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar!/org/apache/http/impl/client/InternalHttpClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="149" column="42" lean-forward="true" selection-start-line="149" selection-start-column="42" selection-end-line="149" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/validate.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/study-java-highstate/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/study-java-httpclient/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        <state relative-caret-position="1050">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/validateCode.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/MyWebMagicTest05.java">
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/threadlocals/ThreadLocalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-126">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="41" />
+        <state>
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-java-httpclient/src/main/java/top/mcwebsite/httpclient/HttpClientDemoTest5.java">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="41" column="29" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="29" />
+        <state relative-caret-position="367">
+          <caret line="946" column="44" selection-start-line="946" selection-start-column="31" selection-end-line="946" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#15704#15705#0" expanded="true" />
+            <element signature="e#15770#15771#0" expanded="true" />
+            <element signature="e#36709#36710#0" expanded="true" />
+            <element signature="e#36767#36768#0" expanded="true" />
+            <element signature="e#37304#37305#0" expanded="true" />
+            <element signature="e#37347#37348#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/MyWebMagicTest04.java">
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t8/Run1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+        <state relative-caret-position="350">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-java-httpclient/src/main/java/top/mcwebsite/httpclient/HttpClientDemoTest.java">
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t8/MyThread2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-java-httpclient/src/main/java/top/mcwebsite/httpclient/HttpClientDemoTest2.java">
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t8/Run2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/runThread/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t11/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t11/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t12/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t12/Run2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t12/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t12/Run3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t13/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t13/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t13forprint/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t13_1/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t13_1/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/start/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-java-httpclient/src/main/java/top/mcwebsite/httpclient/OkHttpDemoTest.java">
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t13forprint/Run.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="61" column="32" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+        <state relative-caret-position="300">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t14/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t15/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t15/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t14/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/useStopMethodTest/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/useStopMethodTest/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/runMethodUseStopMethod/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/runMethodUseStopMethod/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/stopThrowLock/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/stopThrowLock/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/stopThrowLock/SynchronizedObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/userReturnInterrupt/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -961,7 +1411,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>study-java-httpclient</last-edited>
+          <last-edited>study-java-moreThread</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

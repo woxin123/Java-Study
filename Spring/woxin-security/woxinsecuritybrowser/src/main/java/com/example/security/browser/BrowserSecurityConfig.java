@@ -83,7 +83,6 @@ public class BrowserSecurityConfig extends AbstractChannelSecurityConfig {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
 
-<<<<<<< HEAD
         ValidateCodeFilter validateCodeFilter = new ValidateCodeFilter();
         validateCodeFilter.setAuthenticationFailureHandler(woxinAuthenticationFailureHandler);
         validateCodeFilter.setSecurityProperties(securityProperties);
@@ -103,37 +102,18 @@ public class BrowserSecurityConfig extends AbstractChannelSecurityConfig {
                 .loginProcessingUrl("/authenticaion/mobile")
                 .successHandler(woxinAuthenticationSuccessHandler)  // 登录后的返回
                 .failureHandler(woxinAuthenticationFailureHandler) // 登录失败返回的结果
-=======
-
-        applyPasswordAuthenticationConfig(http);
-
-        http.apply(validateCodeSecurityConfig)
-                .and()
-                .apply(smsCodeAuthenticationSecurityConfig)
-                .and()
-                .apply(woxinSocialSecurityConfig)
->>>>>>> d3084b8c8c024348b672e7b49795c5e5c8b08016
                 .and()
                 .rememberMe()
                 .tokenRepository(persistentTokenRepository())
                 .tokenValiditySeconds(securityProperties.getBrowser().getRememberMeSeconds())
                 .userDetailsService(userDetailsService)   // remember-me配置
                 .and()      // and
-<<<<<<< HEAD
                 .authorizeRequests() //授权配置
                 .antMatchers("/authentication/require",
                         securityProperties.getBrowser().getLoginPage(),
                         "/code/*").permitAll()   // 这个url不需要身份认证
                 .anyRequest()   // 任何请求
                 .authenticated()   // 都需要身份认证
-=======
-                .sessionManagement()
-                .invalidSessionStrategy(invalidSessionStrategy)
-                .maximumSessions(securityProperties.getBrowser().getSession().getMaximumSessions())
-                .maxSessionsPreventsLogin(securityProperties.getBrowser().getSession().isMaxSessionPreventsLogin())     //当session达到最大的时候，阻止
-                .expiredSessionStrategy(woxinInformationExpiredSessionStrategy)
-                .and()
->>>>>>> d3084b8c8c024348b672e7b49795c5e5c8b08016
                 .and()
                 .logout()
                 .logoutUrl("/signOut")

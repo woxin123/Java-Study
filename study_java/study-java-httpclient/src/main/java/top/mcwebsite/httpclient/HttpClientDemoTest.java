@@ -10,6 +10,9 @@ import org.apache.http.impl.client.HttpClients;
 import java.io.IOException;
 import java.io.InputStream;
 
+/**
+ * @author mengchen
+ */
 public class HttpClientDemoTest {
     public static void main(String[] args) throws IOException {
         // 创建一个HttpClient，相当于浏览器

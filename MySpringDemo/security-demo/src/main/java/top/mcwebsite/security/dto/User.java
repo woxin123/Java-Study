@@ -3,6 +3,7 @@ package top.mcwebsite.security.dto;
 
 import com.fasterxml.jackson.annotation.JsonView;
 import org.springframework.format.annotation.DateTimeFormat;
+import top.mcwebsite.security.validator.MyConstraint;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotBlank;
@@ -21,13 +22,14 @@ public class User {
 
     private String id;
 
+    @MyConstraint(message = "这是一个测试")
     private String username;
 
-    @NotBlank
+    @NotBlank(message = "密码不能为空")
     @Valid
     private String password;
 
-    @Past
+    @Past(message = "生日必须是过去的")
     private Date birthday;
 
 

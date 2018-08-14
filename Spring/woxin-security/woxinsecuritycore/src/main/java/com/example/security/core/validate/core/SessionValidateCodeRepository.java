@@ -9,7 +9,7 @@ import org.springframework.web.context.request.ServletWebRequest;
  * @author: mengchen
  * Create by 18-4-13
  */
-//@Component
+@Component
 public class SessionValidateCodeRepository implements ValidateCodeRepository {
 
 

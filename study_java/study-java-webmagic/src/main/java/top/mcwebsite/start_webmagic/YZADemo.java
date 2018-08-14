@@ -1,8 +1,8 @@
-//package top.mcwebsite.start_webmagic;
-//
-//import java.io.File;
-//
-//public class YZADemo {
+package top.mcwebsite.start_webmagic;
+
+import java.io.File;
+
+public class YZADemo {
 //    public static void main(String[] args) throws TesseractException {
 //        ITesseract instance = new Tesseract();
 //        File imgDir = new File("img_data");
@@ -17,4 +17,4 @@
 //            System.out.println("OCR Result: " + ocrResult);
 //        }
 //    }
-//}
+}
