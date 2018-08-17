@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="java-simple-review" />
+        <module name="study-concurrency" />
         <module name="study-java" />
         <module name="study-java-highstate" />
         <module name="study-java-httpclient" />
@@ -18,6 +19,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="java-simple-review" target="1.5" />
+      <module name="study-concurrency" target="1.5" />
       <module name="study-java" target="1.5" />
       <module name="study-java-highstate" target="7" />
       <module name="study-java-httpclient" target="8" />

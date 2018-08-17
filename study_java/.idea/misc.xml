@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/study-java-highstate/pom.xml" />
         <option value="$PROJECT_DIR$/study-java-httpclient/pom.xml" />
         <option value="$PROJECT_DIR$/java-simple-review/pom.xml" />
+        <option value="$PROJECT_DIR$/study-concurrency/pom.xml" />
       </list>
     </option>
   </component>
