@@ -2,35 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c82eab5-7a83-4cd8-89b7-a335f57a91ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../study_java/study-concurrency/src/main/java/top/mcwebsite/concurrency/condition/ReenterLockCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_java/study-concurrency/src/main/java/top/mcwebsite/concurrency/renntrant_lock/FairLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_java/study-concurrency/src/main/java/top/mcwebsite/concurrency/renntrant_lock/IntLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_java/study-concurrency/src/main/java/top/mcwebsite/concurrency/renntrant_lock/ReenterLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_java/study-concurrency/src/main/java/top/mcwebsite/concurrency/renntrant_lock/TimeLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_java/study-concurrency/src/main/java/top/mcwebsite/concurrency/renntrant_lock/TryLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_java/study-concurrency/src/main/java/top/mcwebsite/concurrency/start/AccountingVol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_java/study-concurrency/src/main/java/top/mcwebsite/concurrency/start/BadLockOnInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_java/study-concurrency/src/main/java/top/mcwebsite/concurrency/start/BadSuspend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_java/study-concurrency/src/main/java/top/mcwebsite/concurrency/start/DaemonDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_java/study-concurrency/src/main/java/top/mcwebsite/concurrency/start/GoodSuspend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_java/study-concurrency/src/main/java/top/mcwebsite/concurrency/start/JoinMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_java/study-concurrency/src/main/java/top/mcwebsite/concurrency/start/NoVisibile2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_java/study-concurrency/src/main/java/top/mcwebsite/concurrency/start/NoVisibility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_java/study-concurrency/src/main/java/top/mcwebsite/concurrency/start/PlusThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_java/study-concurrency/src/main/java/top/mcwebsite/concurrency/start/PriorityDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_java/study-concurrency/src/main/java/top/mcwebsite/concurrency/start/SimpleWN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_java/study-concurrency/src/main/java/top/mcwebsite/concurrency/start/ThreadGroupName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-demo/src/test/java/top/mcwebsite/security/web/controller/MyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-browser/security-browser.iml" beforeDir="false" afterPath="$PROJECT_DIR$/security-browser/security-browser.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-browser/src/main/java/top/mcwebsite/security/browser/BrowserSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-browser/src/main/java/top/mcwebsite/security/browser/BrowserSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/security-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-demo/security-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/security-demo/security-demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-demo/src/main/java/top/mcwebsite/security/dto/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-demo/src/main/java/top/mcwebsite/security/dto/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../study_java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-concurrency/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-concurrency/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-concurrency/study-concurrency.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-concurrency/study-concurrency.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/AddHitsCSDN.java" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/AddHitsCSDN.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/myspringdemo/target/" />
     <ignored path="$PROJECT_DIR$/security-core/target/" />
@@ -62,7 +37,8 @@
     <session id="1517913249">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="2" />
@@ -71,7 +47,7 @@
           <entry key="project.open.time.51" value="2" />
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -81,7 +57,7 @@
           <entry key="gitignore" value="1" />
           <entry key="html" value="2" />
           <entry key="iml" value="3" />
-          <entry key="java" value="70" />
+          <entry key="java" value="75" />
           <entry key="js" value="1" />
           <entry key="mvnw" value="1" />
           <entry key="pom" value="3" />
@@ -97,7 +73,7 @@
           <entry key="CLASS" value="23" />
           <entry key="HTML" value="2" />
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="70" />
+          <entry key="JAVA" value="75" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="Properties" value="2" />
@@ -111,10 +87,10 @@
         <counts>
           <entry key="ft" value="71" />
           <entry key="html" value="30" />
-          <entry key="java" value="8632" />
+          <entry key="java" value="8690" />
           <entry key="js" value="2" />
           <entry key="properties" value="171" />
-          <entry key="txt" value="12" />
+          <entry key="txt" value="17" />
           <entry key="xml" value="266" />
           <entry key="yml" value="332" />
         </counts>
@@ -122,9 +98,9 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="30" />
-          <entry key="JAVA" value="8632" />
+          <entry key="JAVA" value="8690" />
           <entry key="JavaScript" value="2" />
-          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="PLAIN_TEXT" value="17" />
           <entry key="Properties" value="171" />
           <entry key="VTL" value="71" />
           <entry key="XML" value="266" />
@@ -136,62 +112,63 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.6.RELEASE/spring-security-core-5.0.6.RELEASE-sources.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.java">
+        <entry file="file://$PROJECT_DIR$/security-demo/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-596">
-              <caret line="75" column="41" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="41" />
+            <state relative-caret-position="125">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Object.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5250">
+              <caret line="235" column="63" selection-start-line="235" selection-start-column="52" selection-end-line="235" selection-end-column="63" />
               <folding>
-                <element signature="e#2711#2712#0" expanded="true" />
-                <element signature="e#2796#2797#0" expanded="true" />
+                <element signature="e#10065#10066#0" expanded="true" />
+                <element signature="e#10148#10149#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.6.RELEASE/spring-security-core-5.0.6.RELEASE-sources.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.java">
+        <entry file="file://$PROJECT_DIR$/security-demo/src/test/java/top/mcwebsite/security/web/controller/UserControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-971">
-              <caret line="137" column="20" selection-start-line="137" selection-start-column="20" selection-end-line="137" selection-end-column="20" />
+            <state relative-caret-position="250">
+              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31.jar!/org/apache/catalina/User.class">
+        <entry file="file://$PROJECT_DIR$/security-demo/src/test/java/top/mcwebsite/security/web/controller/MyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#782#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="325">
+              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31.jar!/org/apache/catalina/users/AbstractUser.class">
+        <entry file="file://$PROJECT_DIR$/security-demo/src/main/java/top/mcwebsite/security/dto/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31.jar!/org/apache/catalina/users/MemoryUser.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/security-demo/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/security-demo/src/main/java/top/mcwebsite/security/dto/FileInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="60" selection-start-column="60" selection-end-column="60" />
+            <state relative-caret-position="375">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#173#174#0" expanded="true" />
+                <element signature="e#205#206#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -199,7 +176,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.6.RELEASE/spring-security-core-5.0.6.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetailsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
+            <state relative-caret-position="950">
               <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
             </state>
           </provider>
@@ -208,7 +185,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/security-browser/src/main/java/top/mcwebsite/security/browser/BrowserSecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
+            <state relative-caret-position="525">
               <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -220,8 +197,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.6.RELEASE/spring-security-core-5.0.6.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetails.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="97" column="6" lean-forward="true" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
+            <state relative-caret-position="1975">
+              <caret line="97" column="6" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -229,8 +206,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.6.RELEASE/spring-security-core-5.0.6.RELEASE-sources.jar!/org/springframework/security/provisioning/JdbcUserDetailsManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="525" column="1" lean-forward="true" selection-start-line="525" selection-start-column="1" selection-end-line="525" selection-end-column="1" />
+            <state relative-caret-position="11450">
+              <caret line="525" column="1" selection-start-line="525" selection-start-column="1" selection-end-line="525" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -254,6 +231,7 @@
       <find>wx-cet</find>
       <find>doS</find>
       <find>$PROJECT_DIR$/security-demo/src/main/java/top/mcwebsite/security/web/controller</find>
+      <find>toS</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -267,7 +245,6 @@
         <option value="$PROJECT_DIR$/security-demo/src/main/java/top/mcwebsite/security/service/HelloService.java" />
         <option value="$PROJECT_DIR$/security-demo/src/main/java/top/mcwebsite/security/service/impl/HelloServiceImpl.java" />
         <option value="$PROJECT_DIR$/security-demo/src/main/java/top/mcwebsite/security/validator/MyConstraint.java" />
-        <option value="$PROJECT_DIR$/security-demo/src/main/java/top/mcwebsite/security/dto/User.java" />
         <option value="$PROJECT_DIR$/security-demo/src/main/java/top/mcwebsite/security/validator/MyContraintValidator.java" />
         <option value="$PROJECT_DIR$/security-demo/src/main/resources/static/csc.js" />
         <option value="$PROJECT_DIR$/myspringdemo/pom.xml" />
@@ -302,6 +279,8 @@
         <option value="$PROJECT_DIR$/security-core/pom.xml" />
         <option value="$PROJECT_DIR$/security-demo/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/security-browser/src/main/java/top/mcwebsite/security/browser/BrowserSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/security-demo/src/test/java/top/mcwebsite/security/web/controller/MyTest.java" />
+        <option value="$PROJECT_DIR$/security-demo/src/main/java/top/mcwebsite/security/dto/User.java" />
       </list>
     </option>
   </component>
@@ -385,45 +364,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
-            <path>
-              <item name="MySpringDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="security-browser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySpringDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="security-browser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySpringDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="security-browser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySpringDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="security-browser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySpringDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="security-browser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="browser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySpringDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="security-core" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="MySpringDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="security-demo" type="462c0819:PsiDirectoryNode" />
@@ -459,12 +402,44 @@
               <item name="security-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -475,10 +450,10 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="JdbcUserDetailsManager&#9;PSI&#9;JAVA://org.springframework.security.provisioning.JdbcUserDetailsManager&#10;UserDetailsS&#9;PSI&#9;JAVA://org.springframework.security.core.userdetails.UserDetailsService&#10;User&#9;FILE&#9;jar:///home/mengchen/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31.jar!/org/apache/catalina/User.class&#10;Authentication&#9;PSI&#9;JAVA://org.springframework.security.core.Authentication&#10;AuthenticationManager&#9;PSI&#9;JAVA://org.springframework.security.authentication.AuthenticationManager&#10;DispatcherSer&#9;PSI&#9;JAVA://org.springframework.web.servlet.DispatcherServlet&#10;BasicErr&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController" />
+    <property name="SearchEverywhereHistoryKey" value="Object&#9;PSI&#9;JAVA://java.lang.Object&#10;JdbcUserDetailsManager&#9;PSI&#9;JAVA://org.springframework.security.provisioning.JdbcUserDetailsManager&#10;UserDetailsS&#9;PSI&#9;JAVA://org.springframework.security.core.userdetails.UserDetailsService&#10;User&#9;FILE&#9;jar:///home/mengchen/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31.jar!/org/apache/catalina/User.class&#10;Authentication&#9;PSI&#9;JAVA://org.springframework.security.core.Authentication&#10;AuthenticationManager&#9;PSI&#9;JAVA://org.springframework.security.authentication.AuthenticationManager&#10;DispatcherSer&#9;PSI&#9;JAVA://org.springframework.web.servlet.DispatcherServlet&#10;BasicErr&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535016863999" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535033185101" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -511,8 +486,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MyDemoApplication">
-    <configuration name="UserControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MyTest.test">
+    <configuration name="MyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="security-demo" />
       <extension name="coverage">
         <pattern>
@@ -521,7 +496,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="top.mcwebsite.security.web.controller" />
-      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.security.web.controller.UserControllerTest" />
+      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.security.web.controller.MyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -597,19 +574,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.MyDemoApplication" />
-      <item itemvalue="JUnit.UserControllerTest" />
       <item itemvalue="JUnit.UserControllerTest.whenCreateSuccess" />
       <item itemvalue="JUnit.UserControllerTest.whenUpdateSuccess" />
       <item itemvalue="JUnit.UserControllerTest.whenUploadSuccess" />
       <item itemvalue="Spring Boot.MyDemoApplication (1)" />
+      <item itemvalue="JUnit.MyTest.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyTest.test" />
         <item itemvalue="Spring Boot.MyDemoApplication (1)" />
         <item itemvalue="JUnit.UserControllerTest.whenUploadSuccess" />
         <item itemvalue="JUnit.UserControllerTest.whenUpdateSuccess" />
         <item itemvalue="JUnit.UserControllerTest.whenCreateSuccess" />
-        <item itemvalue="JUnit.UserControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -632,14 +609,20 @@
       <workItem from="1532910040583" duration="4553000" />
       <workItem from="1533169452455" duration="10747000" />
       <workItem from="1533199556393" duration="62000" />
-      <workItem from="1534932439714" duration="13361000" />
+      <workItem from="1534932439714" duration="17002000" />
+      <workItem from="1535033611212" duration="199000" />
     </task>
+    <task id="LOCAL-00001" summary="提交">
+      <created>1535019303356</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1535019303356</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserControllerTest_whenCreateSuccess - 2018.07.18 at 16h 42m 57s.xml">
-      <configuration name="UserControllerTest.whenCreateSuccess" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserControllerTest_whenUpdateSuccess - 2018.07.19 at 17h 14m 54s.xml">
       <configuration name="UserControllerTest.whenUpdateSuccess" configurationId="JUnit" />
     </history-entry>
@@ -667,9 +650,12 @@
     <history-entry file="UserControllerTest_whenUploadSuccess - 2018.07.30 at 09h 57m 53s.xml">
       <configuration name="UserControllerTest.whenUploadSuccess" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MyTest_test - 2018.08.23 at 18h 49m 08s.xml">
+      <configuration name="MyTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74264000" />
+    <option name="totallyTimeSpent" value="78104000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -682,7 +668,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="727" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16465257" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -694,7 +679,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15191987" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24040067" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -725,6 +710,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -738,41 +727,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/security-demo/src/test/java/top/mcwebsite/security/web/controller/UserControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2525">
-          <caret line="126" selection-start-line="126" selection-end-line="126" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-demo/src/main/java/top/mcwebsite/security/web/controller/FileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-demo/src/main/java/top/mcwebsite/security/web/controller/1532915873083.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-demo/src/main/java/top/mcwebsite/security/web/controller/1532912165353.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-demo/src/main/java/top/mcwebsite/security/dto/FileInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/security-demo/src/main/java/top/mcwebsite/security/web/interceptor/TimeInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1072,30 +1026,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/security-demo/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5250">
+          <caret line="235" column="63" selection-start-line="235" selection-start-column="52" selection-end-line="235" selection-end-column="63" />
+          <folding>
+            <element signature="e#10065#10066#0" expanded="true" />
+            <element signature="e#10148#10149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-demo/src/test/java/top/mcwebsite/security/web/controller/UserControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-demo/src/test/java/top/mcwebsite/security/web/controller/MyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-demo/src/main/java/top/mcwebsite/security/dto/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.6.RELEASE/spring-security-core-5.0.6.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetailsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
+        <state relative-caret-position="950">
           <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.6.RELEASE/spring-security-core-5.0.6.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="97" column="6" lean-forward="true" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.6.RELEASE/spring-security-core-5.0.6.RELEASE-sources.jar!/org/springframework/security/provisioning/JdbcUserDetailsManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="525" column="1" lean-forward="true" selection-start-line="525" selection-start-column="1" selection-end-line="525" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/security-browser/src/main/java/top/mcwebsite/security/browser/BrowserSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
+        <state relative-caret-position="525">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1103,10 +1082,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/security-demo/src/main/resources/application.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.6.RELEASE/spring-security-core-5.0.6.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetails.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="60" selection-start-column="60" selection-end-column="60" />
+        <state relative-caret-position="1975">
+          <caret line="97" column="6" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.6.RELEASE/spring-security-core-5.0.6.RELEASE-sources.jar!/org/springframework/security/provisioning/JdbcUserDetailsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11450">
+          <caret line="525" column="1" selection-start-line="525" selection-start-column="1" selection-end-line="525" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-demo/src/main/java/top/mcwebsite/security/dto/FileInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

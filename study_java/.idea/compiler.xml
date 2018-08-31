@@ -12,19 +12,24 @@
         <module name="study-java-highstate" />
         <module name="study-java-httpclient" />
         <module name="study-java-moreThread" />
-        <module name="study-java-webmagic" />
         <module name="study-java8-lambda" />
         <module name="study-java8-stream" />
+      </profile>
+      <profile name="Annotation profile for study-java" enabled="true">
+        <sourceOutputDir name="../../../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="study-java-webmagic" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="java-simple-review" target="1.5" />
       <module name="study-concurrency" target="8" />
       <module name="study-java" target="1.5" />
-      <module name="study-java-highstate" target="7" />
+      <module name="study-java-highstate" target="8" />
       <module name="study-java-httpclient" target="8" />
       <module name="study-java-moreThread" target="8" />
-      <module name="study-java-webmagic" target="7" />
+      <module name="study-java-webmagic" target="1.5" />
       <module name="study-java8-lambda" target="8" />
       <module name="study-java8-stream" target="8" />
     </bytecodeTargetLevel>

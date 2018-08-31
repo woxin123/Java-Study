@@ -12,8 +12,8 @@ import java.time.LocalDateTime;
 import java.util.Date;
 
 /**
- * mengchen
  * 18-7-17 下午11:13
+ * @author mengchen
  */
 public class User {
 

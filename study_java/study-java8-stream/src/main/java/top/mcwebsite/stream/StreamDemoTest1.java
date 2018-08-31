@@ -5,7 +5,7 @@ import java.nio.file.Files;
 import java.util.stream.IntStream;
 
 /**
- * @auther 孟晨
+ * @author mengchen
  * @date 2018/6/28 12:15
  */
 public class StreamDemoTest1 {
