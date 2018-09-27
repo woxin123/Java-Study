@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c82eab5-7a83-4cd8-89b7-a335f57a91ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/security-demo/src/test/java/top/mcwebsite/security/web/controller/MyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security-demo/src/main/java/top/mcwebsite/security/dto/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-demo/src/main/java/top/mcwebsite/security/dto/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_java/study-concurrency/src/main/java/top/mcwebsite/concurrency/executorDemo/CountTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_java/study-concurrency/src/main/java/top/mcwebsite/concurrency/executorDemo/DivTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_java/study-concurrency/src/main/java/top/mcwebsite/concurrency/executorDemo/ExtThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_java/study-concurrency/src/main/java/top/mcwebsite/concurrency/executorDemo/RejectThreadPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_java/study-concurrency/src/main/java/top/mcwebsite/concurrency/executorDemo/ThreadFactoryDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_java/study-concurrency/src/main/java/top/mcwebsite/concurrency/executorDemo/TraceThreadPoolExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_java/study-design_patterns/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_java/study-design_patterns/src/main/java/top/mcwebsite/factory_pattern/AbstractHumanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_java/study-design_patterns/src/main/java/top/mcwebsite/factory_pattern/BlackHuman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_java/study-design_patterns/src/main/java/top/mcwebsite/factory_pattern/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_java/study-design_patterns/src/main/java/top/mcwebsite/factory_pattern/HumanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_java/study-design_patterns/src/main/java/top/mcwebsite/factory_pattern/WhiteHuman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_java/study-design_patterns/src/main/java/top/mcwebsite/factory_pattern/YellowHuman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study_java/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study_java/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study_java/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../study_java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/myspringdemo/target/" />
@@ -37,17 +50,18 @@
     <session id="1517913249">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.51" value="2" />
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -57,7 +71,7 @@
           <entry key="gitignore" value="1" />
           <entry key="html" value="2" />
           <entry key="iml" value="3" />
-          <entry key="java" value="75" />
+          <entry key="java" value="77" />
           <entry key="js" value="1" />
           <entry key="mvnw" value="1" />
           <entry key="pom" value="3" />
@@ -73,7 +87,7 @@
           <entry key="CLASS" value="23" />
           <entry key="HTML" value="2" />
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="75" />
+          <entry key="JAVA" value="77" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="Properties" value="2" />
@@ -112,28 +126,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/security-demo/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Object.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5250">
-              <caret line="235" column="63" selection-start-line="235" selection-start-column="52" selection-end-line="235" selection-end-column="63" />
-              <folding>
-                <element signature="e#10065#10066#0" expanded="true" />
-                <element signature="e#10148#10149#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/security-demo/src/test/java/top/mcwebsite/security/web/controller/UserControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="250">
@@ -160,7 +152,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/security-demo/src/main/java/top/mcwebsite/security/dto/FileInfo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
@@ -168,6 +160,27 @@
               <folding>
                 <element signature="e#173#174#0" expanded="true" />
                 <element signature="e#205#206#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/security-demo/src/main/java/top/mcwebsite/security/validator/MyConstraint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="21" column="52" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="21" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/security-demo/src/main/java/top/mcwebsite/security/validator/MyContraintValidator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -185,7 +198,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/security-browser/src/main/java/top/mcwebsite/security/browser/BrowserSecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
+            <state relative-caret-position="450">
               <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -364,6 +377,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -411,36 +426,50 @@
               <item name="security-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="validator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySpringDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="security-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySpringDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="security-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySpringDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="security-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -611,6 +640,7 @@
       <workItem from="1533199556393" duration="62000" />
       <workItem from="1534932439714" duration="17002000" />
       <workItem from="1535033611212" duration="199000" />
+      <workItem from="1536047704159" duration="2156000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1535019303356</created>
@@ -655,7 +685,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78104000" />
+    <option name="totallyTimeSpent" value="80260000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -668,8 +698,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="727" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16465257" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16691843" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -727,20 +758,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/security-demo/src/main/java/top/mcwebsite/security/web/interceptor/TimeInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-demo/src/main/java/top/mcwebsite/security/web/filter/TimeFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/security-demo/src/main/java/top/mcwebsite/security/web/async/DeferredResultHolder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -795,11 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -835,9 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -922,9 +931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="98" column="29" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -988,10 +994,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-596">
           <caret line="75" column="41" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="41" />
-          <folding>
-            <element signature="e#2711#2712#0" expanded="true" />
-            <element signature="e#2796#2797#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1006,9 +1008,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
           <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#782#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1035,7 +1034,7 @@
     </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5250">
+        <state relative-caret-position="5225">
           <caret line="235" column="63" selection-start-line="235" selection-start-column="52" selection-end-line="235" selection-end-column="63" />
           <folding>
             <element signature="e#10065#10066#0" expanded="true" />
@@ -1074,7 +1073,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/security-browser/src/main/java/top/mcwebsite/security/browser/BrowserSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
+        <state relative-caret-position="450">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1103,6 +1102,23 @@
           <folding>
             <element signature="e#173#174#0" expanded="true" />
             <element signature="e#205#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-demo/src/main/java/top/mcwebsite/security/validator/MyConstraint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="21" column="52" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="21" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-demo/src/main/java/top/mcwebsite/security/validator/MyContraintValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

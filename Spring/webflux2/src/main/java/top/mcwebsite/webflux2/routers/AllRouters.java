@@ -27,11 +27,13 @@ public class AllRouters {
                 path("/user"),
                 // 相当于类里面的@RequestMapping
                 route(GET("/"), userHandler::getAllUser)
+                        .andRoute(GET("/{id}"), userHandler::getUserById)
                         // 创建用户
                         .andRoute(POST("/").and(accept(APPLICATION_JSON_UTF8)), userHandler::createUser)
                         // 删除用户
                         .andRoute(DELETE("/{id}"), userHandler::deleteUserById)
         );
+
     }
 
 }

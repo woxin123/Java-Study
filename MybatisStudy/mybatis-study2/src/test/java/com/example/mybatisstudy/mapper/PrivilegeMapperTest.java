@@ -13,6 +13,7 @@ public class PrivilegeMapperTest extends BaseMapperTest {
     public void testSelectById() {
         SqlSession sqlSession = getSqlSession();
         try {
+
             PrivilegeMapper privilegeMapper = sqlSession.getMapper(PrivilegeMapper.class);
             SysPrivilege privilege = privilegeMapper.selectById(1L);
             assertNotNull(privilege);

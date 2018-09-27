@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/java-simple-review/java-simple-review.iml" filepath="$PROJECT_DIR$/java-simple-review/java-simple-review.iml" />
       <module fileurl="file://$PROJECT_DIR$/study-concurrency/study-concurrency.iml" filepath="$PROJECT_DIR$/study-concurrency/study-concurrency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-design_patterns/study-design_patterns.iml" filepath="$PROJECT_DIR$/study-design_patterns/study-design_patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/study-java/study-java.iml" filepath="$PROJECT_DIR$/study-java/study-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/study-java-highstate/study-java-highstate.iml" filepath="$PROJECT_DIR$/study-java-highstate/study-java-highstate.iml" />
       <module fileurl="file://$PROJECT_DIR$/study-java-httpclient/study-java-httpclient.iml" filepath="$PROJECT_DIR$/study-java-httpclient/study-java-httpclient.iml" />

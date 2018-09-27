@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <script th:src="@{js/jquery-3.3.1.min.js}"></script>
+    <title>Title</title>
+    <script>
+        var webSocket = new WebSocket("ws://localhost:8080/topic?user=user");
+        webSocket.
+        webSocket.onopen = function (ev) {
+            console.info("连接成功");
+        }
+        webSocket.onclose("连接关闭");
+    </script>
+</head>
+<body>
+
+</body>
+</html>

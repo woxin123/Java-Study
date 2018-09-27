@@ -1,6 +1,7 @@
 package top.mcwebsite.webflux2.handlers;
 
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.server.ServerRequest;
 import org.springframework.web.reactive.function.server.ServerResponse;
@@ -77,4 +78,14 @@ public class UserHandler {
                 .switchIfEmpty(notFound().build());
 
     }
+
+    public Mono<ServerResponse> getUserById(ServerRequest request) {
+        String id = request.pathVariable("id");
+
+        Mono<User> user = userRepository.findById(id);
+        return ok().contentType(APPLICATION_JSON_UTF8)
+                .body(user, User.class);
+
+    }
+
 }

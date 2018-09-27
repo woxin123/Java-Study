@@ -17,7 +17,7 @@ public class SemapDemo implements Runnable {
         try {
             semp.acquire();
             // 模拟耗时操作
-            Thread.sleep(2000);
+            Thread.sleep(5000);
             System.out.println(Thread.currentThread().getId() + "done");
             semp.release();
         } catch (InterruptedException e) {
@@ -28,7 +28,7 @@ public class SemapDemo implements Runnable {
     public static void main(String[] args) {
         ExecutorService exec = Executors.newFixedThreadPool(20);
         final SemapDemo semapDemo = new SemapDemo();
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < 50; i++) {
             exec.submit(semapDemo);
         }
     }
