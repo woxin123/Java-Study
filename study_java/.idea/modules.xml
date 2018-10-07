@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/java-simple-review/java-simple-review.iml" filepath="$PROJECT_DIR$/java-simple-review/java-simple-review.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stduy-hibernate/stduy-hibernate.iml" filepath="$PROJECT_DIR$/stduy-hibernate/stduy-hibernate.iml" />
       <module fileurl="file://$PROJECT_DIR$/study-concurrency/study-concurrency.iml" filepath="$PROJECT_DIR$/study-concurrency/study-concurrency.iml" />
       <module fileurl="file://$PROJECT_DIR$/study-design_patterns/study-design_patterns.iml" filepath="$PROJECT_DIR$/study-design_patterns/study-design_patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/study-java/study-java.iml" filepath="$PROJECT_DIR$/study-java/study-java.iml" />
@@ -12,6 +13,8 @@
       <module fileurl="file://$PROJECT_DIR$/study-java-webmagic/study-java-webmagic.iml" filepath="$PROJECT_DIR$/study-java-webmagic/study-java-webmagic.iml" />
       <module fileurl="file://$PROJECT_DIR$/study-java8-lambda/study-java8-lambda.iml" filepath="$PROJECT_DIR$/study-java8-lambda/study-java8-lambda.iml" />
       <module fileurl="file://$PROJECT_DIR$/study-java8-stream/study-java8-stream.iml" filepath="$PROJECT_DIR$/study-java8-stream/study-java8-stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-jdbc/study-jdbc.iml" filepath="$PROJECT_DIR$/study-jdbc/study-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-spring/study-spring.iml" filepath="$PROJECT_DIR$/study-spring/study-spring.iml" />
     </modules>
   </component>
 </project>

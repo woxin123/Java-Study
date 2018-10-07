@@ -16,6 +16,10 @@
         <option value="$PROJECT_DIR$/java-simple-review/pom.xml" />
         <option value="$PROJECT_DIR$/study-concurrency/pom.xml" />
         <option value="$PROJECT_DIR$/study-design_patterns/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/study-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/study-spring/pom.xml" />
+        <option value="$PROJECT_DIR$/stduy-hibernate/pom.xml" />
       </list>
     </option>
   </component>

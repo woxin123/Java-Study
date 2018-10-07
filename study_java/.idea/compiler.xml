@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="java-simple-review" />
+        <module name="stduy-hibernate" />
         <module name="study-concurrency" />
         <module name="study-design_patterns" />
         <module name="study-java" />
@@ -16,10 +17,14 @@
         <module name="study-java-webmagic" />
         <module name="study-java8-lambda" />
         <module name="study-java8-stream" />
+        <module name="study-jdbc" />
+        <module name="study-spring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="java-simple-review" target="1.5" />
+      <module name="stduy-hibernate" target="1.5" />
+      <module name="stduy-jdbc" target="1.5" />
       <module name="study-concurrency" target="8" />
       <module name="study-design_patterns" target="1.5" />
       <module name="study-java" target="1.5" />
@@ -29,6 +34,8 @@
       <module name="study-java-webmagic" target="7" />
       <module name="study-java8-lambda" target="8" />
       <module name="study-java8-stream" target="8" />
+      <module name="study-jdbc" target="1.5" />
+      <module name="study-spring" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

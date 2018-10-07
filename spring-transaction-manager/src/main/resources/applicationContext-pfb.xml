@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:p="http://www.springframework.org/schema/p"
+      xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+    <!-- 引入DAO和DataSource的配置文件 -->
+    <import resource="classpath:applicationContext-dao.xml"/>
+
+    <!-- 声明事务管理器 -->
+    <bean id="txManager"
+          class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!-- 需要实施事务增强的目标业务员Bean -->
+    <bean id="bbtForumTarget"
+          class="com.smart.service.BbtForum"
+          p:forumDao-ref="forumDao"
+          p:topicDao-ref="topicDao"
+          p:postDao-ref="postDao"/>
+
+    <!-- 使用代理工厂类为目标业务Bean提供事务增强 -->
+    <bean id="bbtForum"
+          class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean"
+          p:transactionManager-ref="txManager"
+          p:target-ref="bbtForumTarget">
+        <!-- 配置事务属性 -->
+        <property name="transactionAttributes">
+            <props>
+                <!-- 格式为传播行为，隔离级别（可选），是否只读（可选），+发生这些异常时回滚事务（可选），-发生这些异常时提交事务（可选） -->
+                <prop key="addTopic">
+                    PROPAGATION_REQUIRED,+PessimisticLockingFailureException
+                </prop>
+                <prop key="get*">PROPAGATION_REQUIRED,readOnly</prop>
+                <prop key="*">PROPAGATION_REQUIRED,-tion</prop>
+            </props>
+        </property>
+    </bean>
+
+</beans>

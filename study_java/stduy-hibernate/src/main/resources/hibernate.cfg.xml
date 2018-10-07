@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- 指定连接数据库的驱动 -->
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <!-- 指定连接数据库的url -->
+        <property name="connection.url">jdbc:mysql://localhost:3306/test</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">mengchen0705</property>
+        <!-- 指定最大连接数 -->
+        <property name="c3p0.max_size">20</property>
+        <!-- 指定最小连接数 -->
+        <property name="c3p0.min_size">1</property>
+        <!-- 指定连接池里的连接的超时时长 -->
+        <property name="hibernate.c3p0.timeout">5000</property>
+        <!-- 指定连接池里最大缓存有多少个 -->
+        <property name="hibernate.c3p0.max_statements">100</property>
+        <property name="hibernate.c3p0.idle_test_period">3000</property>
+        <property name="hibernate.c3p0.acquire_increment">2</property>
+        <!-- 根据需要自动创建表 -->
+        <property name="hbm2ddl.auto">update</property>
+        <!-- 显示Hibernate持久化操作所生成的SQL -->
+        <property name="show_sql">true</property>
+        <!-- 罗列所有持久化的类名 -->
+        <mapping class="top.mcwebsite.study_hibernate.domain.News"></mapping>
+    </session-factory>
+</hibernate-configuration>
