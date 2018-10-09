@@ -9,7 +9,7 @@ import top.mcwebsite.dockerstduy2.domain.Person;
  * @author mengchen
  * @time 18-9-27 下午4:05
  */
-//@RepositoryRestResource
+@RepositoryRestResource
 public interface PersonRepository extends JpaRepository<Person, Long> {
 
     @RestResource(path = "nameStartsWith", rel = "nameStartWith")
