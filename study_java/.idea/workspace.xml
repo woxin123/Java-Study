@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54730cc1-3d36-4b6c-91a1-14a6c710613b" name="Default" comment="线程池">
-      <change afterPath="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/aotmicDemo/AotmicIntegerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring/Spring Boot/docker-stduy2/src/main/java/top/mcwebsite/dockerstduy2/dao/PersonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/Spring Boot/docker-stduy2/src/main/java/top/mcwebsite/dockerstduy2/dao/PersonRepository.java" afterDir="false" />
+    <list default="true" id="54730cc1-3d36-4b6c-91a1-14a6c710613b" name="Default" comment="atomic test">
+      <change afterPath="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/aotmicdemo/AtomicIntegerArrayDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/aotmicdemo/AtomicIntegerFieldUpdaterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/aotmicdemo/AtomicStampedReferenceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/aotmicdemo/LockFreeVector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a95d7ce7-5e76-455a-bda1-a51fe04e93f9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a95d7ce7-5e76-455a-bda1-a51fe04e93f9.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_spring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/aotmicDemo/AotmicIntegerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/aotmicdemo/AotmicIntegerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-concurrency/target/classes/META-INF/study-concurrency.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/study-concurrency/target/classes/META-INF/study-concurrency.kotlin_module" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/study-java/target/" />
     <ignored path="$PROJECT_DIR$/studyjavawebmagic/target/" />
@@ -68,37 +72,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.0.9.RELEASE/spring-tx-5.0.9.RELEASE-sources.jar!/org/springframework/transaction/TransactionDefinition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5950">
-              <caret line="254" column="7" selection-start-line="254" selection-start-column="7" selection-end-line="254" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stduy-hibernate/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stduy-hibernate/src/main/java/top/mcwebsite/study_hibernate/domain/News.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
-              <folding>
-                <element signature="e#657#658#0" expanded="true" />
-                <element signature="e#685#686#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stduy-hibernate/src/main/resources/hibernate.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="675">
@@ -125,28 +98,54 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://a95d7ce7-5e76-455a-bda1-a51fe04e93f9/schema/test/table/t_user">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+        <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/aotmicdemo/AotmicIntegerDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://a95d7ce7-5e76-455a-bda1-a51fe04e93f9/schema/test/table/news_inf">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+        <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/aotmicdemo/AtomicStampedReferenceDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="693">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/aotmicdemo/AtomicIntegerArrayDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/aotmicdemo/AtomicIntegerFieldUpdaterDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/aotmicDemo/AotmicIntegerDemo.java">
+        <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/aotmicdemo/LockFreeVector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+            <state relative-caret-position="341">
+              <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#941#942#0" expanded="true" />
+                <element signature="e#984#985#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -216,13 +215,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/study-java-highstate/pom.xml" />
-        <option value="$PROJECT_DIR$/study-java-highstate/src/main/java/top/mcwebsite/rsa/RSATest.java" />
-        <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/renntrant_lock/ReadWriteLockDemo.java" />
-        <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/latchDemo/CountDownLatchDemo.java" />
-        <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/latchDemo/CyclicBarrierDemo.java" />
-        <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/lockSupportDemo/LockSupportDemo.java" />
-        <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/lockSupportDemo/LockSupportIntDemo.java" />
         <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/executorDemo/ThreadPoolDemo.java" />
         <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/executorDemo/ScheduledExecutorServiceDemo.java" />
         <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/executorDemo/ThreadFactoryDemo.java" />
@@ -267,6 +259,13 @@
         <option value="$PROJECT_DIR$/stduy-hibernate/src/main/java/top/mcwebsite/study_hibernate/NewsManager.java" />
         <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/aotmicTest.java" />
         <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/aotmicDemo/AotmicIntegerDemo.java" />
+        <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/aotmicDemo/AtmoicStampedReferenceDemo.java" />
+        <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/aotmicDemo/AtomicStampedReferenceDemo.java" />
+        <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/aotmicDemo/AtomicIntegerArray.java" />
+        <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/aotmicDemo/AtomicIntegerArrayDemo.java" />
+        <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/aotmicDemo/AtomicIntegerFieldUpdaterDemo.java" />
+        <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/aotmicdemo/AtomicIntegerFieldUpdaterDemo.java" />
+        <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/aotmicdemo/LockFreeVector.java" />
       </list>
     </option>
   </component>
@@ -282,9 +281,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1360" />
     <option name="y" value="-1" />
-    <option name="width" value="1360" />
-    <option name="height" value="729" />
+    <option name="width" value="1600" />
+    <option name="height" value="902" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -292,6 +292,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -336,11 +337,68 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="concurrency" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="aotmicdemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="atomic" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -349,7 +407,7 @@
     <property name="SearchEverywhereHistoryKey" value="ConcurrentLinkedQ&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentLinkedQueue&#10;SynchronizedMap&#9;PSI&#9;JAVA://java.util.Collections.SynchronizedMap&#10;submit&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentSkipListMap.SubMap.SubMapIter&#10;ForkJoin&#9;FILE&#9;jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/ForkJoinPool.java&#10;StringBuffer&#9;PSI&#9;JAVA://java.lang.StringBuffer&#10;execute&#9;PSI&#9;JAVA://com.sun.glass.ui.Accessible.ExecuteAction&#10;Linked&#9;PSI&#9;JAVA://java.util.concurrent.LinkedBlockingQueue&#10;RejectExec&#9;PSI&#9;JAVA://java.util.concurrent.RejectedExecutionHandler&#10;Exec&#9;FILE&#9;jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/Executors.java&#10;Executor&#9;FILE&#9;jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/Executor.java&#10;Semaphor&#9;PSI&#9;JAVA://java.util.concurrent.Semaphore&#10;Executors&#9;PSI&#9;JAVA://java.util.concurrent.Executors&#10;ThreadPoolE&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;ArrayBlockingQueue&#9;PSI&#9;JAVA://java.util.concurrent.ArrayBlockingQueue&#10;HashMap&#9;PSI&#9;JAVA://java.util.HashMap&#10;Map&#9;FILE&#9;file:///home/mengchen/Study/JavaStudy/study_java/study-java-highstate/src/main/java/top/mcwebsite/map/util/AbstractMap.java&#10;Iter&#9;PSI&#9;JAVA://java.lang.Iterable&#10;Integer&#9;FILE&#9;jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Integer.java&#10;Object&#9;PSI&#9;JAVA://java.lang.Object&#10;Runtim&#9;FILE&#9;jar://D:/Java/java8/jdk1.8_182/src.zip!/java/lang/RuntimeException.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539079501390" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539171031875" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -391,28 +449,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AotmicIntegerDemo">
-    <configuration name="AddHitsCSDN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.start_webmagic.AddHitsCSDN" />
-      <module name="study-java-webmagic" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.mcwebsite.start_webmagic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.AtomicIntegerFieldUpdaterDemo">
     <configuration name="AotmicIntegerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.concurrency.aotmicDemo.AotmicIntegerDemo" />
+      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.concurrency.aotmicdemo.AotmicIntegerDemo" />
       <module name="study-concurrency" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.mcwebsite.concurrency.aotmicDemo.*" />
+          <option name="PATTERN" value="top.mcwebsite.concurrency.aotmicdemo.AotmicIntegerDemo" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -420,13 +464,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JDBC01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.study_jdbc.start.JDBC01" />
-      <module name="study-jdbc" />
+    <configuration name="AtomicIntegerArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.concurrency.aotmicdemo.AtomicIntegerArrayDemo" />
+      <module name="study-concurrency" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.mcwebsite.study_jdbc.start.*" />
+          <option name="PATTERN" value="top.mcwebsite.concurrency.aotmicdemo.AotmicIntegerDemo" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AtomicIntegerFieldUpdaterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.concurrency.aotmicdemo.AtomicIntegerFieldUpdaterDemo" />
+      <module name="study-concurrency" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.mcwebsite.concurrency.aotmicdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AtomicStampedReferenceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.concurrency.aotmicdemo.AtomicStampedReferenceDemo" />
+      <module name="study-concurrency" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.mcwebsite.concurrency.aotmicdemo.AotmicIntegerDemo" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -441,20 +513,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="top.mcwebsite.study_hibernate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadLocalDemoGc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.concurrency.threadlocal.ThreadLocalDemoGc" />
-      <module name="study-concurrency" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.mcwebsite.concurrency.threadlocal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -483,19 +541,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ThreadLocalDemoGc" />
-      <item itemvalue="Application.AddHitsCSDN" />
-      <item itemvalue="Application.JDBC01" />
       <item itemvalue="Application.NewsManager" />
       <item itemvalue="Application.AotmicIntegerDemo" />
+      <item itemvalue="Application.AtomicStampedReferenceDemo" />
+      <item itemvalue="Application.AtomicIntegerArrayDemo" />
+      <item itemvalue="Application.AtomicIntegerFieldUpdaterDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AtomicIntegerFieldUpdaterDemo" />
+        <item itemvalue="Application.AtomicIntegerArrayDemo" />
+        <item itemvalue="Application.AtomicStampedReferenceDemo" />
         <item itemvalue="Application.AotmicIntegerDemo" />
         <item itemvalue="Application.NewsManager" />
-        <item itemvalue="Application.JDBC01" />
-        <item itemvalue="Application.AddHitsCSDN" />
-        <item itemvalue="Application.ThreadLocalDemoGc" />
       </list>
     </recent_temporary>
   </component>
@@ -575,7 +633,8 @@
       <workItem from="1538210020703" duration="3902000" />
       <workItem from="1538232053027" duration="3739000" />
       <workItem from="1538550362336" duration="217000" />
-      <workItem from="1539068997811" duration="2318000" />
+      <workItem from="1539068997811" duration="2629000" />
+      <workItem from="1539163199665" duration="5580000" />
     </task>
     <task id="LOCAL-00001" summary="Java的三种代理">
       <created>1531580968039</created>
@@ -612,11 +671,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535704991984</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="atomic test">
+      <created>1539079642391</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1539079642391</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="399085000" />
+    <option name="totallyTimeSpent" value="404976000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -628,10 +694,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1360" height="729" extended-state="6" />
+    <frame x="1360" y="-1" width="1600" height="902" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29483283" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25321338" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -641,7 +707,7 @@
       <window_info id="Persistence" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32629356" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840257" visible="true" weight="0.2220339" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840257" visible="true" weight="0.2857143" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29040736" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -710,7 +776,8 @@
     <MESSAGE value="多线程2" />
     <MESSAGE value="多线程3" />
     <MESSAGE value="线程池" />
-    <option name="LAST_COMMIT_MESSAGE" value="线程池" />
+    <MESSAGE value="atomic test" />
+    <option name="LAST_COMMIT_MESSAGE" value="atomic test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -762,45 +829,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/renntrant_lock/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="48" lean-forward="true" selection-start-column="48" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/renntrant_lock/TryLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/locks/AbstractQueuedLongSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="974" column="30" selection-start-line="974" selection-start-column="22" selection-end-line="974" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/locks/Lock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="183" column="9" selection-start-line="183" selection-start-column="9" selection-end-line="183" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-370">
-          <caret line="701" column="24" selection-start-line="701" selection-start-column="24" selection-end-line="701" selection-end-column="24" />
-          <folding>
-            <element signature="e#27298#27299#0" expanded="true" />
-            <element signature="e#27343#27344#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="775">
@@ -1095,6 +1123,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://a95d7ce7-5e76-455a-bda1-a51fe04e93f9/schema/test/table/t_user" />
+    <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/aotmicTest.java" />
+    <entry file="das://a95d7ce7-5e76-455a-bda1-a51fe04e93f9/schema/test/table/news_inf" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.0.9.RELEASE/spring-tx-5.0.9.RELEASE-sources.jar!/org/springframework/transaction/TransactionDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5950">
@@ -1140,13 +1171,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a95d7ce7-5e76-455a-bda1-a51fe04e93f9/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://a95d7ce7-5e76-455a-bda1-a51fe04e93f9/schema/test/table/t_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/UnsupportedOperationException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -1154,24 +1178,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/aotmicTest.java">
+    <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/aotmicdemo/AotmicIntegerDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="316">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="das://a95d7ce7-5e76-455a-bda1-a51fe04e93f9/schema/test/table/news_inf">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/aotmicdemo/AtomicStampedReferenceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/aotmicDemo/AotmicIntegerDemo.java">
+    <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/aotmicdemo/AtomicIntegerArrayDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        <state relative-caret-position="850">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/aotmicdemo/AtomicIntegerFieldUpdaterDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33275">
+          <caret line="1394" column="10" selection-start-line="1394" selection-start-column="4" selection-end-line="1394" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/aotmicdemo/LockFreeVector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

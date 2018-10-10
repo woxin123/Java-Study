@@ -1,4 +1,4 @@
-package top.mcwebsite.concurrency.aotmicDemo;
+package top.mcwebsite.concurrency.aotmicdemo;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
