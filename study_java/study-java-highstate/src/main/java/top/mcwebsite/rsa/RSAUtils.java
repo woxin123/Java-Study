@@ -164,5 +164,8 @@ public final class RSAUtils {
 		return signature.verify(Base64.decodeBase64(sign.getBytes()));
 	}
 
+	public static void main(String[] args) {
+
+	}
 
 }

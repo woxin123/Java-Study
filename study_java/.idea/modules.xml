@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/java-simple-review/java-simple-review.iml" filepath="$PROJECT_DIR$/java-simple-review/java-simple-review.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-test/java-test.iml" filepath="$PROJECT_DIR$/java-test/java-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/stduy-hibernate/stduy-hibernate.iml" filepath="$PROJECT_DIR$/stduy-hibernate/stduy-hibernate.iml" />
       <module fileurl="file://$PROJECT_DIR$/study-concurrency/study-concurrency.iml" filepath="$PROJECT_DIR$/study-concurrency/study-concurrency.iml" />
       <module fileurl="file://$PROJECT_DIR$/study-design_patterns/study-design_patterns.iml" filepath="$PROJECT_DIR$/study-design_patterns/study-design_patterns.iml" />

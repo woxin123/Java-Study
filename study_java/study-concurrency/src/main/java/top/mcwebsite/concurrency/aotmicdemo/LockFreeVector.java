@@ -18,7 +18,7 @@ public class LockFreeVector<E> {
         buckets.set(0, new AtomicReferenceArray<>(8));
         descriptor = new AtomicReference<>(new Descriptor<>(0, null));
     }
-    
+
 
     static class Descriptor<E> {
         public int size;
