@@ -14,7 +14,7 @@ public class Student implements Cloneable {
 
     private String name;
 
-    private final Map<String, Double> scores;
+    private Map<String, Double> scores;
 
     public Student(Integer id, String name, Map<String, Double> scores) {
         this.id = id;

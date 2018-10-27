@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.context.request.async.DeferredResult;
 
+import java.util.LinkedHashSet;
 import java.util.concurrent.Callable;
 
 
@@ -55,5 +56,23 @@ public class AsyncController {
 //        };
         logger.info("主线程返回");
         return result;
+    }
+}
+
+class C {
+    public void A() {
+        System.out.println(Thread.currentThread().getName());
+        new Thread(() -> {
+             B();
+        }, "aaa").start();
+    }
+
+    public void B() {
+        System.out.println(Thread.currentThread().getName());
+    }
+
+    public static void main(String[] args) {
+        C c = new C();
+        c.A();
     }
 }

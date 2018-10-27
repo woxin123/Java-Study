@@ -13,7 +13,7 @@ public class ReenterLock implements Runnable{
     public static int i = 0;
 
     @Override
-    public void run() {
+    public  void run() {
 
         for (int j = 0; j < 10000000; j++) {
             lock.lock();
