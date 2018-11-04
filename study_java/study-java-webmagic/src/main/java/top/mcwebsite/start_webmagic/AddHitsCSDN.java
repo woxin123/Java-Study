@@ -38,9 +38,15 @@ public class AddHitsCSDN implements PageProcessor {
             Spider.create(new AddHitsCSDN()).addUrl("https://blog.csdn.net/starexplode/article/details/82985388")
                     .addUrl("https://blog.csdn.net/starexplode/article/details/83216427")
                     .addUrl("https://blog.csdn.net/starexplode/article/details/83042760")
+                    .addUrl("https://blog.csdn.net/starexplode/article/details/82843150")
+                    .addUrl("https://blog.csdn.net/starexplode/article/details/80499255")
+                    .addUrl("https://blog.csdn.net/starexplode/article/details/79994025")
+                    .addUrl("https://blog.csdn.net/starexplode/article/details/79349410")
+                    .addUrl("https://blog.csdn.net/starexplode/article/details/80469079")
+                    .addUrl("https://blog.csdn.net/starexplode/article/details/83662005")
                     .run();
             try {
-                TimeUnit.SECONDS.sleep(60);
+                TimeUnit.SECONDS.sleep(50);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
