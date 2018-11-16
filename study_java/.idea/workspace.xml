@@ -2,12 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54730cc1-3d36-4b6c-91a1-14a6c710613b" name="Default" comment="atomic test">
-      <change afterPath="$PROJECT_DIR$/java-test/src/main/java/jvmtest/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mmall/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/threadlocal/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/threadlocal/ThreadLocalTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/threadlocal/ThreadLocalWeakReferenceGCDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/双重检测/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/容器实现单例单例模式/SingletonManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/恶汉/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/懒汉/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/懒汉安全/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/枚举类/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/静态内部类/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_spring/.idea/markdown-navigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_spring/spting-test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_spring/spting-test/spting-test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_spring/spting-test/src/main/java/top/mcwebsite/TestApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_spring/spting-test/src/main/java/top/mcwebsite/XmlApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_spring/spting-test/src/main/java/top/mcwebsite/bean/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_spring/spting-test/src/main/java/top/mcwebsite/bean/StudentFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_spring/spting-test/src/main/java/top/mcwebsite/test/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_spring/spting-test/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_spring/spting-test/src/test/java/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid12112" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid18392" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid18751" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid23969" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid25562" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid25643" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid30319" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid30814" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid32750" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid3340" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid9165" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-test/src/main/java/jvmtest/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/src/main/java/jvmtest/TestClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/AddHitsCSDN.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/AddHitsCSDN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study-java/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-java/study-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/study-java/study-java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study_spring/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_spring/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study_spring/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_spring/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study_spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_spring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study_spring/study-spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_spring/study-spring/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/study-java/target/" />
     <ignored path="$PROJECT_DIR$/studyjavawebmagic/target/" />
@@ -64,97 +98,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/恶汉/Singleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="490">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding>
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/懒汉/Singleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/懒汉安全/Singleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="5" selection-end-line="17" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/双重检测/Singleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+              <folding>
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/AddHitsCSDN.java">
+        <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/容器实现单例单例模式/SingletonManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="48" column="41" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="41" />
+            <state relative-caret-position="228">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/proxy_pattern/jdkproxy/UserServiceInvocationHandler.java">
+        <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/静态内部类/Singleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="27" column="32" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="32" />
+            <state relative-caret-position="333">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="6" selection-end-line="17" selection-end-column="1" />
+              <folding>
+                <element signature="e#209#210#0" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/proxy_pattern/jdkproxy/Run.java">
+        <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/枚举类/Singleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-test/src/main/java/jvmtest/TestClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="260" column="17" selection-start-line="260" selection-start-column="17" selection-end-line="260" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-test/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study-java/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/chain_of_responsibility_pattern/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/chain_of_responsibility_pattern/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="407">
-                <caret line="204" column="11" selection-start-line="204" selection-start-column="11" selection-end-line="204" selection-end-column="11" />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-test/src/main/java/jvmtest/BigObjectOldGen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+            <state relative-caret-position="250">
+              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -177,9 +196,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Worker</find>
-      <find>defa</find>
-      <find>workers</find>
       <find>execute</find>
       <find>append</find>
       <find>runWo</find>
@@ -207,6 +223,9 @@
       <find>astore</find>
       <find>MIN</find>
       <find>command</find>
+      <find>add</find>
+      <find>put</find>
+      <find>set</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -215,17 +234,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/study-java-highstate/src/main/java/top/mcwebsite/clone/Test.java" />
-        <option value="$PROJECT_DIR$/study-java-highstate/src/main/java/top/mcwebsite/rsa/RSAUtils.java" />
-        <option value="$PROJECT_DIR$/study-java-highstate/src/main/java/top/mcwebsite/rsa/RSATest.java" />
-        <option value="$PROJECT_DIR$/java-simple-review/src/main/resources/test.txt" />
-        <option value="$PROJECT_DIR$/java-simple-review/src/main/java/filereader/FileReaderTest.java" />
-        <option value="$PROJECT_DIR$/java-test/src/main/java/TestUTF8.java" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/prototype_pattern/Prototype.java" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/prototype_pattern/Thing.java" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/prototype_pattern/Client.java" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/prototype_pattern/Main.java" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/prototype_pattern/PrototypeCLass.java" />
         <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/prototype_pattern/Student.java" />
         <option value="$PROJECT_DIR$/java-test/src/main/java/jvmtest/HeapOOM.java" />
         <option value="$PROJECT_DIR$/java-test/src/main/java/jvmtest/JavaVMStackSOF.java" />
@@ -263,9 +271,20 @@
         <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/chain_of_responsibility_pattern/Client.java" />
         <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/chain_of_responsibility_pattern/README.md" />
         <option value="$PROJECT_DIR$/study-java/pom.xml" />
-        <option value="$PROJECT_DIR$/java-test/src/main/java/jvmtest/TestClass.java" />
-        <option value="$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/AddHitsCSDN.java" />
         <option value="$PROJECT_DIR$/../../algorithm/src/com/example/leetcode/LongestPalindrome.java" />
+        <option value="$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/AddHitsCSDN.java" />
+        <option value="$PROJECT_DIR$/java-test/src/main/java/jvmtest/TestClass.java" />
+        <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/threadlocal/ThreadLocalTest2.java" />
+        <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/threadlocal/Car.java" />
+        <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/threadlocal/ThreadLocalWeakReferenceGCDemo.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/恶汉/Singleton.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/懒汉/Singleton.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/懒汉（安全）/Singleton.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/懒汉安全/Singleton.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/静态内部类/Singleton.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/枚举类/Singleton.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/双重检测/Singleton.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/容器实现单例单例模式/SingletonManager.java" />
       </list>
     </option>
   </component>
@@ -291,9 +310,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="25" />
-    <option name="width" value="1360" />
-    <option name="height" value="744" />
+    <option name="x" value="1553" />
+    <option name="width" value="1344" />
+    <option name="height" value="734" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -301,18 +320,96 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="study-design_patterns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-design_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-design_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-design_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-design_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-design_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+              <item name="mcwebsite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-design_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+              <item name="mcwebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton_pattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-design_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+              <item name="mcwebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="双重检测" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-design_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+              <item name="mcwebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="懒汉" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-design_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+              <item name="mcwebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="懒汉安全" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -337,6 +434,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$/jprofiler10/bin/jprofiler" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -375,15 +473,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AddHitsCSDN">
-    <configuration name="AccountingSyncBad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AccountingSyncBad" />
-      <module name="study-concurrency" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestWeakReference">
     <configuration name="AddHitsCSDN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="top.mcwebsite.start_webmagic.AddHitsCSDN" />
       <module name="study-java-webmagic" />
@@ -394,14 +484,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BarrierTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BarrierTest" />
-      <module name="study-concurrency" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -496,6 +578,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestWeakReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.concurrency.threadlocal.TestWeakReference" />
+      <module name="study-concurrency" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.mcwebsite.concurrency.threadlocal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadLocalTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.concurrency.threadlocal.ThreadLocalTest2" />
+      <module name="study-concurrency" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.mcwebsite.concurrency.threadlocal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadLocalWeakReferenceGCDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.concurrency.threadlocal.ThreadLocalWeakReferenceGCDemo" />
+      <module name="study-concurrency" />
+      <option name="VM_PARAMETERS" value="-Xmx20M -Xms20M -XX:+PrintGCDetails" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.mcwebsite.concurrency.threadlocal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -523,17 +647,19 @@
       <item itemvalue="Application.RuntimeConstantPoolOOM" />
       <item itemvalue="Application.FinalizeEscapeGC" />
       <item itemvalue="Application.BigObjectOldGen" />
-      <item itemvalue="Application.BarrierTest" />
-      <item itemvalue="Application.AccountingSyncBad" />
       <item itemvalue="Application.MinorGc" />
       <item itemvalue="Application.AddHitsCSDN" />
+      <item itemvalue="Application.ThreadLocalTest2" />
+      <item itemvalue="Application.ThreadLocalWeakReferenceGCDemo" />
+      <item itemvalue="Application.TestWeakReference" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestWeakReference" />
+        <item itemvalue="Application.ThreadLocalWeakReferenceGCDemo" />
+        <item itemvalue="Application.ThreadLocalTest2" />
         <item itemvalue="Application.AddHitsCSDN" />
         <item itemvalue="Application.MinorGc" />
-        <item itemvalue="Application.AccountingSyncBad" />
-        <item itemvalue="Application.BarrierTest" />
       </list>
     </recent_temporary>
   </component>
@@ -644,6 +770,17 @@
       <workItem from="1541150448311" duration="1520000" />
       <workItem from="1541162440473" duration="3805000" />
       <workItem from="1541231685090" duration="15615000" />
+      <workItem from="1541382039101" duration="4588000" />
+      <workItem from="1541477097922" duration="1569000" />
+      <workItem from="1541488234171" duration="235000" />
+      <workItem from="1541494330782" duration="6392000" />
+      <workItem from="1541504092995" duration="4543000" />
+      <workItem from="1542089488936" duration="742000" />
+      <workItem from="1542251328749" duration="5875000" />
+      <workItem from="1542264649310" duration="729000" />
+      <workItem from="1542265729188" duration="3209000" />
+      <workItem from="1542293472395" duration="4210000" />
+      <workItem from="1542357626764" duration="6389000" />
     </task>
     <task id="LOCAL-00001" summary="Java的三种代理">
       <created>1531580968039</created>
@@ -706,7 +843,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="496229000" />
+    <option name="totallyTimeSpent" value="534710000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -718,9 +855,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1366" height="744" extended-state="6" />
+    <frame x="1360" y="-1" width="1600" height="902" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24508321" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23521851" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -728,23 +866,25 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Persistence" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Thumbnails" visible="true" weight="0.3288948" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32629356" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840257" weight="0.60271645" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5174216" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840257" weight="0.0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.49933422" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32869565" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49893504" weight="0.583668" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49893504" weight="0.48069242" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50159746" side_tool="true" weight="0.27415967" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32752612" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946752" weight="0.20883535" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946752" weight="0.20772304" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.3298292" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3288948" />
       <window_info anchor="bottom" id="CPU Profiler" order="15" weight="0.32931727" />
       <window_info anchor="bottom" id="JProfiler" order="16" weight="0.32931727" />
+      <window_info anchor="bottom" id="Docker" order="17" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24935733" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
@@ -837,6 +977,12 @@
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/ThreadLocal.java</url>
+          <line>418</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>
         <breakpoint suspend="THREAD" type="java-line" />
@@ -847,279 +993,21 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>getMap()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>threadLocals</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/resources/aa.puml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/resources/abstract_factory.puml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-test/src/main/java/jvmtest/HeapOOM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-test/src/main/java/jvmtest/JavaVMStackSOF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-test/src/main/java/jvmtest/RuntimeConstantPoolOOM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-test/src/main/java/jvmtest/RuntimeConstantPoolOOM2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32130">
-          <caret line="973" column="20" selection-start-line="973" selection-start-column="14" selection-end-line="973" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-test/src/main/java/jvmtest/DirectMemoryOOM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-test/src/main/java/jvmtest/FinalizeEscapeGC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/mediator_pattern/中间模式.png" />
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/mediator_pattern/中介模式.puml" />
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/mediator_pattern/中介模式.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="926">
-          <caret line="1216" column="33" selection-start-line="1216" selection-start-column="33" selection-end-line="1216" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/mediator_pattern/Mediator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-          <folding>
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/mediator_pattern/ConcreteMediator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="20" column="1" selection-start-line="6" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/mediator_pattern/Colleague.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="6" selection-start-line="6" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/mediator_pattern/ConcreteColleague1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="22" column="1" selection-start-line="6" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/mediator_pattern/ConcreteColleague2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-concurrency/src/test/java/BarrierTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7735">
-          <caret line="262" column="7" selection-start-line="262" selection-start-column="7" selection-end-line="262" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/renntrant_lock/ReenterLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5005">
-          <caret line="177" column="49" selection-start-line="177" selection-start-column="41" selection-end-line="177" selection-end-column="49" />
-          <folding>
-            <element signature="e#5562#5563#0" expanded="true" />
-            <element signature="e#5614#5615#0" expanded="true" />
-            <element signature="e#5694#5695#0" expanded="true" />
-            <element signature="e#5775#5776#0" expanded="true" />
-            <element signature="e#5811#5812#0" expanded="true" />
-            <element signature="e#5878#5879#0" expanded="true" />
-            <element signature="e#9117#9118#0" expanded="true" />
-            <element signature="e#9144#9145#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-concurrency/src/test/java/AccountingSyncBad.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.attach_pid3340">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/command_pattern/Recevier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/command_pattern/ConcreteReceiver1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="6" selection-start-line="6" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/command_pattern/ConcreteReceiver2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="6" selection-start-line="6" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/command_pattern/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="6" selection-start-line="6" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/command_pattern/ConcreteCommand1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="19" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/command_pattern/ConcreteCommand2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="6" selection-start-line="6" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/command_pattern/Invoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="6" selection-start-line="6" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/command_pattern/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-test/src/main/java/jvmtest/GCLogTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-test/src/main/java/jvmtest/MinorGc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-          <folding>
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/chain_of_responsibility_pattern/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1645">
-          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/chain_of_responsibility_pattern/ConcreteHandler1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="27" selection-start-line="6" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/chain_of_responsibility_pattern/ConcreteHandler2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="770">
@@ -1162,10 +1050,187 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/com/sun/proxy/$Proxy0.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2555">
+          <caret line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/AddHitsCSDN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="48" column="25" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/proxy_pattern/jdkproxy/UserServiceInvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/proxy_pattern/jdkproxy/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-test/src/main/java/jvmtest/TestClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-concurrency/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10990">
+          <caret line="349" column="22" selection-start-line="349" selection-start-column="11" selection-end-line="349" selection-end-column="22" />
+          <folding>
+            <element signature="e#3709#3710#0" expanded="true" />
+            <element signature="e#3746#3747#0" expanded="true" />
+            <element signature="e#4834#4835#0" expanded="true" />
+            <element signature="e#4898#4899#0" expanded="true" />
+            <element signature="e#5293#5294#0" expanded="true" />
+            <element signature="e#5345#5346#0" expanded="true" />
+            <element signature="e#6453#6454#0" expanded="true" />
+            <element signature="e#6499#6500#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/LinkedHashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5845">
+          <caret line="192" column="27" selection-start-line="192" selection-start-column="15" selection-end-line="192" selection-end-column="27" />
+          <folding>
+            <element signature="e#5516#5517#0" expanded="true" />
+            <element signature="e#5572#5573#0" expanded="true" />
+            <element signature="e#5949#5950#0" expanded="true" />
+            <element signature="e#5999#6000#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Enumeration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="77" column="14" lean-forward="true" selection-start-line="77" selection-start-column="14" selection-end-line="77" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Dictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="153" column="28" selection-start-line="153" selection-start-column="22" selection-end-line="153" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/LinkedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4795">
+          <caret line="163" column="16" selection-start-line="163" selection-start-column="16" selection-end-line="163" selection-end-column="16" />
+          <folding>
+            <element signature="e#8806#8807#0" expanded="true" />
+            <element signature="e#8859#8860#0" expanded="true" />
+            <element signature="e#19667#19668#0" expanded="true" />
+            <element signature="e#19695#19696#0" expanded="true" />
+            <element signature="e#21061#21062#0" expanded="true" />
+            <element signature="e#21115#21116#0" expanded="true" />
+            <element signature="e#21240#21241#0" expanded="true" />
+            <element signature="e#21324#21325#0" expanded="true" />
+            <element signature="e#23418#23419#0" expanded="true" />
+            <element signature="e#23474#23475#0" expanded="true" />
+            <element signature="e#25625#25626#0" expanded="true" />
+            <element signature="e#25681#25682#0" expanded="true" />
+            <element signature="e#28219#28220#0" expanded="true" />
+            <element signature="e#28262#28263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Hashtable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14490">
+          <caret line="455" column="29" selection-start-line="455" selection-start-column="26" selection-end-line="455" selection-end-column="29" />
+          <folding>
+            <element signature="e#7700#7701#0" expanded="true" />
+            <element signature="e#7744#7745#0" expanded="true" />
+            <element signature="e#9227#9228#0" expanded="true" />
+            <element signature="e#9278#9279#0" expanded="true" />
+            <element signature="e#9690#9691#0" expanded="true" />
+            <element signature="e#9743#9744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20615">
+          <caret line="628" column="20" selection-start-line="628" selection-start-column="20" selection-end-line="628" selection-end-column="20" />
+          <folding>
+            <element signature="e#16099#16100#0" expanded="true" />
+            <element signature="e#16149#16150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10640">
+          <caret line="337" column="32" selection-start-line="337" selection-start-column="32" selection-end-line="337" selection-end-column="32" />
+          <folding>
+            <element signature="e#19072#19073#0" expanded="true" />
+            <element signature="e#19130#19131#0" expanded="true" />
+            <element signature="e#24298#24299#0" expanded="true" />
+            <element signature="e#24363#24364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-spring/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/chain_of_responsibility_pattern/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
           <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/chain_of_responsibility_pattern/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="7140">
+            <caret line="204" column="11" selection-start-line="204" selection-start-column="11" selection-end-line="204" selection-end-column="11" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
@@ -1176,71 +1241,238 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/chain_of_responsibility_pattern/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="407">
-            <caret line="204" column="11" selection-start-line="204" selection-start-column="11" selection-end-line="204" selection-end-column="11" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/proxy_pattern/jdkproxy/UserServiceInvocationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/proxy_pattern/jdkproxy/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/com/sun/proxy/$Proxy0.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2555">
-          <caret line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-java/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-test/src/main/java/jvmtest/TestClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="260" column="17" selection-start-line="260" selection-start-column="17" selection-end-line="260" selection-end-column="17" />
+        <state relative-caret-position="70">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/AddHitsCSDN.java">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="48" column="41" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="41" />
+        <state relative-caret-position="99">
+          <caret line="181" column="31" selection-start-line="181" selection-start-column="31" selection-end-line="181" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/threadlocal/ThreadLocalTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-245">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding>
+            <element signature="e#313#314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/ref/SoftReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/nio/charset/CharsetEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="464" selection-start-line="464" selection-end-line="464" />
+          <folding>
+            <element signature="e#16311#16312#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="1335" selection-start-line="1335" selection-end-line="1335" />
+          <folding>
+            <element signature="e#52271#52272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/sun/nio/cs/UTF_8.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="227" selection-start-line="227" selection-end-line="227" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="917" selection-start-line="917" selection-end-line="917" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/UnixFileSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="244" selection-start-line="244" selection-end-line="244" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="818" selection-start-line="818" selection-end-line="818" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/sun/misc/URLClassPath.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="390" selection-start-line="390" selection-end-line="390" />
+          <folding>
+            <element signature="e#13179#13800#0" expanded="true" />
+            <element signature="e#13799#13800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="991" column="23" selection-start-line="991" selection-start-column="23" selection-end-line="991" selection-end-column="23" />
+          <folding>
+            <element signature="e#40917#40918#0" expanded="true" />
+            <element signature="e#40958#40959#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/ref/Reference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5485">
+          <caret line="252" column="13" selection-start-line="252" selection-start-column="13" selection-end-line="252" selection-end-column="13" />
+          <folding>
+            <element signature="e#9332#9333#0" expanded="true" />
+            <element signature="e#9368#9369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/threadlocal/ThreadLocalWeakReferenceGCDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1015">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/threadlocal/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/threadlocal/ThreadLocalDemoGc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/StringCoding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="e#10624#10625#0" expanded="true" />
+            <element signature="e#10675#10676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5941">
+          <caret line="439" column="41" selection-start-line="439" selection-start-column="41" selection-end-line="439" selection-end-column="41" />
+          <folding>
+            <element signature="e#4309#4310#0" expanded="true" />
+            <element signature="e#4336#4337#0" expanded="true" />
+            <element signature="e#7765#7766#0" expanded="true" />
+            <element signature="e#7802#7803#0" expanded="true" />
+            <element signature="e#8068#8069#0" expanded="true" />
+            <element signature="e#8137#8138#0" expanded="true" />
+            <element signature="e#11620#11621#0" expanded="true" />
+            <element signature="e#11678#11679#0" expanded="true" />
+            <element signature="e#11793#11794#0" expanded="true" />
+            <element signature="e#11856#11857#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/恶汉.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/恶汉/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/懒汉/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/懒汉安全/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="5" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/枚举类.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/静态内部类/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="6" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/枚举类/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/双重检测/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding>
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/容器实现单例单例模式/SingletonManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1296,7 +1528,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>study-concurrency</last-edited>
+          <last-edited>study-java</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

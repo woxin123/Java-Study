@@ -4,7 +4,7 @@ package jvmtest;
  * @author mengchen
  * @time 18-11-3 下午8:41
  */
-public class TestClass {
+public class TestClass<T> {
     private int m;
 
     public int intc() {
@@ -18,5 +18,10 @@ public class TestClass {
         } finally {
             x = 3;
         }
+    }
+
+    public T method(T data) {
+        System.out.println(data);
+        return data;
     }
 }

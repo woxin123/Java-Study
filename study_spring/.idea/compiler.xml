@@ -7,12 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-cache" />
-        <module name="study-spring" />
+        <module name="spting-test" />
         <module name="study-spring-cache" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-boot-cache" target="1.8" />
+      <module name="spting-test" target="8" />
       <module name="study-spring" target="8" />
       <module name="study-spring-cache" target="8" />
     </bytecodeTargetLevel>
