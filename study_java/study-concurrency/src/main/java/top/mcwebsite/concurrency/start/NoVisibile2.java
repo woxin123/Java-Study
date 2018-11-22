@@ -5,7 +5,7 @@ package top.mcwebsite.concurrency.start;
  * @time 18-8-17 上午10:45
  */
 class VisibilityThread extends Thread {
-    private  boolean stop = false;
+    private volatile boolean stop = false;
 
     @Override
     public void run() {

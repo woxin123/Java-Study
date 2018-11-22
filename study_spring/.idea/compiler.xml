@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="singleton-point-login-in" />
         <module name="spring-boot-cache" />
         <module name="spting-test" />
         <module name="study-spring-cache" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="singleton-point-login-in" target="1.8" />
       <module name="spring-boot-cache" target="1.8" />
       <module name="spting-test" target="8" />
       <module name="study-spring" target="8" />
@@ -20,6 +22,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="singleton-point-login-in" options="-parameters" />
       <module name="spring-boot-cache" options="-parameters" />
     </option>
   </component>
