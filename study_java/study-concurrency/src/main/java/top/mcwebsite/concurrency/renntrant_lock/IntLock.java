@@ -8,16 +8,16 @@ import java.util.concurrent.locks.ReentrantLock;
  */
 public class IntLock implements Runnable {
 
-    public static ReentrantLock lock1 = new ReentrantLock();
-    public static ReentrantLock lock2 = new ReentrantLock();
+    private static ReentrantLock lock1 = new ReentrantLock();
+    private static ReentrantLock lock2 = new ReentrantLock();
 
-    int lock;
+    private int lock;
 
     /**
      * 控制加锁顺序，方便构造死锁
      * @param lock
      */
-    public IntLock(int lock) {
+    private IntLock(int lock) {
         this.lock = lock;
     }
 
@@ -28,16 +28,12 @@ public class IntLock implements Runnable {
                 lock1.lockInterruptibly();
                 try {
                     Thread.sleep(500);
-                }catch (InterruptedException e) {
+                } catch (InterruptedException ignored) {
                 }
                 lock2.lockInterruptibly();
             } else {
                 lock2.lockInterruptibly();
-                try {
-                    Thread.sleep(500);
-                } catch (InterruptedException e) {
-
-                }
+                Thread.sleep(500);
                 lock1.lockInterruptibly();
             }
         } catch (InterruptedException e) {

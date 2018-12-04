@@ -16,6 +16,11 @@ public class FairLock implements Runnable {
             while (true) {
                 try {
                     fairLock.lock();
+                    try {
+                        Thread.sleep(3000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
                     System.out.println(Thread.currentThread().getName() + " 获得锁");
                 } finally {
                     fairLock.unlock();
