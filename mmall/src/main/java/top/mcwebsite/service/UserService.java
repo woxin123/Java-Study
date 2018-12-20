@@ -18,4 +18,17 @@ public interface UserService {
     ServerResponse<String> checkValid(String str, String type);
 
     ServerResponse<String> selectQuesting(String username);
+
+    ServerResponse<String> checkAnswer(String username, String question, String answer);
+
+    ServerResponse<String> forgetResetPassword(String username, String password,
+                                               String forgetToken);
+
+    ServerResponse<String> resetPassowrd(String passwordOld, String passwordNew, User user);
+
+    ServerResponse<User> updateInformation(User user);
+
+    ServerResponse<User> getInformation(Integer userId);
+
+    ServerResponse checkAdminRole(User user);
 }

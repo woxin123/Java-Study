@@ -3,6 +3,7 @@ package top.mcwebsite.dao;
 import top.mcwebsite.pojo.Order;
 
 public interface OrderMapper {
+
     int deleteByPrimaryKey(Integer id);
 
     int insert(Order record);

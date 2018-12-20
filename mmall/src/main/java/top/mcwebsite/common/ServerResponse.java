@@ -1,7 +1,9 @@
 package top.mcwebsite.common;
 
-import org.codehaus.jackson.annotate.JsonIgnore;
-import org.codehaus.jackson.map.annotate.JsonSerialize;
+
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
 import java.io.Serializable;
 
@@ -36,7 +38,7 @@ public class ServerResponse<T> implements Serializable {
 
     @JsonIgnore
     public boolean isSuccess() {
-        return this.status == ResponseCodeEnum.SUCESS.getCode();
+        return this.status == ResponseCodeEnum.SUCCESS.getCode();
     }
 
     public int getStatus() {
@@ -52,11 +54,11 @@ public class ServerResponse<T> implements Serializable {
     }
 
     public static <T> ServerResponse<T> createBySuccess() {
-        return new ServerResponse<>(ResponseCodeEnum.SUCESS.getCode());
+        return new ServerResponse<>(ResponseCodeEnum.SUCCESS.getCode());
     }
 
     public static <T> ServerResponse<T> createBySuccessMessage(String msg) {
-        return new ServerResponse<>(ResponseCodeEnum.SUCESS.getCode(), msg);
+        return new ServerResponse<>(ResponseCodeEnum.SUCCESS.getCode(), msg);
     }
 
     public static <T> ServerResponse<T> createBySuccess(T data) {
@@ -64,7 +66,7 @@ public class ServerResponse<T> implements Serializable {
     }
 
     public static <T> ServerResponse<T> createBySuccess(String msg, T data) {
-        return new ServerResponse<T>(ResponseCodeEnum.SUCESS.getCode(), msg, data);
+        return new ServerResponse<T>(ResponseCodeEnum.SUCCESS.getCode(), msg, data);
     }
 
     public static <T> ServerResponse<T> createByError() {

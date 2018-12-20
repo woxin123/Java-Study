@@ -2,36 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54730cc1-3d36-4b6c-91a1-14a6c710613b" name="Default" comment="atomic test">
-      <change afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/controller/backend/UserManagerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-test/src/main/jvmtest/enginee/Dispatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-test/src/main/jvmtest/enginee/InvokeDynamicTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-test/src/main/jvmtest/enginee/StaticDispatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-test/src/main/jvmtest/enginee/StaticResolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-test/src/main/jvmtest/enginee/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/readWriteLockDemo/Cache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/renntrant_lock/ConditionLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/renntrant_lock/TestReentrant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-java-highstate/src/main/java/top/mcwebsite/optionaltest/OptionalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_1_0_M2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_1_0_M2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_1_0_M2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_spring_aop_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_spring_beans_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_spring_context_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_spring_core_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_spring_expression_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_spring_test_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/controller/backend/CategoryManagerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study_spi/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/HelloInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/ImageHello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/SPIMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/TextHello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study_spi/src/main/resources/META-INF/services/top.mcwebsite.spi.HelloInterface" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study_spi/study_spi.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mmall/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/common/ResponseCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/common/ResponseCodeEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/common/ServerResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/common/ServerResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/common/TokenCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/common/TokenCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/controller/backend/UserManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/controller/backend/UserManagerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/controller/portal/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/controller/portal/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/dao/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/dao/CategoryMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/dao/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/dao/OrderMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/pojo/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/pojo/Category.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mmall/src/main/resources/applicationContext-datasource.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/resources/applicationContext-datasource.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mmall/src/main/resources/datasource.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/resources/datasource.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mmall/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/resources/mappers/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/resources/mappers/CategoryMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mmall/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mmall/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a95d7ce7-5e76-455a-bda1-a51fe04e93f9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a95d7ce7-5e76-455a-bda1-a51fe04e93f9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/producerandconsumer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/producerandconsumer/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/renntrant_lock/FairLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/renntrant_lock/FairLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/renntrant_lock/IntLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/renntrant_lock/IntLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/renntrant_lock/ReenterLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/renntrant_lock/ReenterLock.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/study-java/target/" />
     <ignored path="$PROJECT_DIR$/studyjavawebmagic/target/" />
@@ -51,6 +98,7 @@
     <ignored path="$PROJECT_DIR$/study-spring/target/" />
     <ignored path="$PROJECT_DIR$/stduy-hibernate/target/" />
     <ignored path="$PROJECT_DIR$/java-test/target/" />
+    <ignored path="$PROJECT_DIR$/study_spi/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,11 +142,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/study-java-highstate/src/main/java/top/mcwebsite/optionaltest/OptionalTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study-java-moreThread/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study_spi/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+            <state relative-caret-position="354">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/SPIMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/TextHello.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="12" selection-end-column="1" />
+              <folding>
+                <element signature="e#159#160#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/study_spi/src/main/resources/META-INF/services/top.mcwebsite.spi.HelloInterface">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="1" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/ServiceLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3384">
+              <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/HelloInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" selection-start-line="6" selection-end-line="9" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/ImageHello.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -162,12 +273,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/chain_of_responsibility_pattern/Level.java" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/chain_of_responsibility_pattern/Client.java" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/chain_of_responsibility_pattern/README.md" />
-        <option value="$PROJECT_DIR$/study-java/pom.xml" />
-        <option value="$PROJECT_DIR$/../../algorithm/src/com/example/leetcode/LongestPalindrome.java" />
-        <option value="$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/AddHitsCSDN.java" />
         <option value="$PROJECT_DIR$/java-test/src/main/java/jvmtest/TestClass.java" />
         <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/threadlocal/ThreadLocalTest2.java" />
         <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/threadlocal/Car.java" />
@@ -213,6 +318,12 @@
         <option value="$PROJECT_DIR$/java-test/src/main/jvmtest/enginee/Dispatch.java" />
         <option value="$PROJECT_DIR$/java-test/src/main/jvmtest/enginee/InvokeDynamicTest.java" />
         <option value="$PROJECT_DIR$/study-java-highstate/src/main/java/top/mcwebsite/optionaltest/OptionalTest.java" />
+        <option value="$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/HelloInterface.java" />
+        <option value="$PROJECT_DIR$/study_spi/src/main/resources/META-INF/service/top.mcwebsite.spi.HelloInterface" />
+        <option value="$PROJECT_DIR$/study_spi/pom.xml" />
+        <option value="$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/SPIMain.java" />
+        <option value="$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/ImageHello.java" />
+        <option value="$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/TextHello.java" />
       </list>
     </option>
   </component>
@@ -238,9 +349,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1360" />
-    <option name="width" value="1600" />
-    <option name="height" value="900" />
+    <option name="x" value="124" />
+    <option name="width" value="1311" />
+    <option name="height" value="556" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -248,6 +359,76 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-java-moreThread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-jdbc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_spi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_spi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_spi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_spi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_spi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_spi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_spi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_spi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -260,52 +441,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study-java-highstate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study-java-highstate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study-java-highstate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study-java-highstate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study-java-highstate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study-java-highstate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="mcwebsite" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -360,7 +495,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OptionalTest">
+  <component name="RunManager" selected="Application.SPIMain">
     <configuration name="BigObjectOldGen" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="jvmtest.BigObjectOldGen" />
       <module name="java-test" />
@@ -479,13 +614,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticDispatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="enginee.StaticDispatch" />
-      <module name="java-test" />
+    <configuration name="SPIMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.spi.SPIMain" />
+      <module name="study_spi" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="enginee.*" />
+          <option name="PATTERN" value="top.mcwebsite.spi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -493,8 +628,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticResolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="enginee.StaticResolution" />
+    <configuration name="StaticDispatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="enginee.StaticDispatch" />
       <module name="java-test" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -534,19 +669,19 @@
       <item itemvalue="Application.RuntimeConstantPoolOOM" />
       <item itemvalue="Application.FinalizeEscapeGC" />
       <item itemvalue="Application.BigObjectOldGen" />
-      <item itemvalue="Application.StaticResolution" />
       <item itemvalue="Application.StaticDispatch" />
       <item itemvalue="Application.Dispatch" />
       <item itemvalue="Application.InvokeDynamicTest" />
       <item itemvalue="Application.OptionalTest" />
+      <item itemvalue="Application.SPIMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SPIMain" />
         <item itemvalue="Application.OptionalTest" />
         <item itemvalue="Application.InvokeDynamicTest" />
         <item itemvalue="Application.Dispatch" />
         <item itemvalue="Application.StaticDispatch" />
-        <item itemvalue="Application.StaticResolution" />
       </list>
     </recent_temporary>
   </component>
@@ -684,7 +819,8 @@
       <workItem from="1543370230781" duration="4923000" />
       <workItem from="1543407857854" duration="4056000" />
       <workItem from="1543471291015" duration="1541000" />
-      <workItem from="1543846111379" duration="3068000" />
+      <workItem from="1543846111379" duration="3758000" />
+      <workItem from="1545294219844" duration="2405000" />
     </task>
     <task id="LOCAL-00001" summary="Java的三种代理">
       <created>1531580968039</created>
@@ -747,7 +883,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="592834000" />
+    <option name="totallyTimeSpent" value="595929000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -759,10 +895,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1360" y="0" width="1600" height="900" extended-state="6" />
+    <frame x="45" y="26" width="1315" height="742" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19127086" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33438239" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -772,14 +908,14 @@
       <window_info id="Persistence" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3252688" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840257" visible="true" weight="0.37231183" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5389785" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840257" visible="true" weight="0.2852349" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5385906" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32795697" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50159746" side_tool="true" weight="0.27284947" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49893504" weight="0.11155914" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49893504" weight="0.24664429" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3266129" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946752" weight="0.20564516" />
       <window_info anchor="bottom" id="Spring" order="12" />
@@ -970,67 +1106,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java-test/src/main/jvmtest/classloadertest/ClassLoader.java" />
-    <entry file="file://$PROJECT_DIR$/java-test/src/main/jvmtest/classloadertest/MyClassLoader.java" />
-    <entry file="file://$PROJECT_DIR$/java-test/src/main/jvmtest/classloadertest/NotInitialization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-test/src/main/jvmtest/classloadertest/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="6" selection-start-line="6" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-test/src/main/jvmtest/classloadertest/DeadLoopClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1085">
-          <caret line="31" column="1" selection-start-line="6" selection-end-line="31" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-test/src/main/jvmtest/classloadertest/ClassLoaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11655">
-          <caret line="396" column="6" selection-start-line="396" selection-start-column="6" selection-end-line="396" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21420">
-          <caret line="683" column="9" selection-start-line="683" selection-start-column="9" selection-end-line="683" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-test/src/main/jvmtest/classloadertest/ConstClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-test/src/main/jvmtest/classloadertest/SubClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="6" selection-start-line="6" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-test/src/main/jvmtest/jvmtest/BigObjectOldGen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
@@ -1441,8 +1516,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/study-java-highstate/src/main/java/top/mcwebsite/optionaltest/OptionalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        <state relative-caret-position="192">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-jdbc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-246" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-spring/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-572" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-moreThread/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_spi/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/ServiceLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3384">
+          <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/HelloInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" selection-start-line="6" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/ImageHello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/SPIMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/TextHello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_spi/src/main/resources/META-INF/services/top.mcwebsite.spi.HelloInterface">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1498,7 +1639,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>study-java</last-edited>
+          <last-edited>study_spi</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

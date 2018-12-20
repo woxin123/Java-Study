@@ -159,6 +159,13 @@
         where id = #{id,jdbcType=INTEGER}
     </update>
 
+    <update id="updatePasswordByUsername" parameterType="map">
+        UPDATE mmall_user
+        SET password    = #{password},
+            update_time = now()
+        WHERE username = #{username}
+    </update>
+
     <select id="checkUsername" resultType="java.lang.Integer" parameterType="string">
         SELECT count(1)
         FROM mmall_user
@@ -183,11 +190,26 @@
         FROM mmall_user
         WHERE username = #{username}
     </select>
+
     <select id="checkAnswer" resultType="java.lang.Integer" parameterType="map">
         SELECT COUNT(*)
         FROM mmall_user
         WHERE username = #{username}
           AND question = #{question}
           AND answer = #{answer}
+    </select>
+
+    <select id="checkPassword" resultType="int" parameterType="map">
+        SELECT COUNT(1)
+        FROM mmall_user
+        WHERE id = #{userId}
+          AND password = #{password}
+    </select>
+
+    <select id="checkEmailByUserId" resultType="int">
+        SELECT COUNT(1)
+        FROM mmall_user
+        WHERE email = #{email}
+        AND id != #{userId}
     </select>
 </mapper>
