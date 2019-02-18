@@ -1,7 +1,6 @@
-package top.mcwebsite.concurrency.example.count;
+package top.mcwebsite.concurrency.example.atomic;
 
 import lombok.extern.slf4j.Slf4j;
-import top.mcwebsite.concurrency.annotations.NotThreadSafe;
 import top.mcwebsite.concurrency.annotations.ThreadSafe;
 
 import java.util.concurrent.CountDownLatch;
@@ -16,7 +15,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 @Slf4j
 @ThreadSafe
-public class CountExample2 {
+public class AtomicExample1 {
     // 请求总数
     public static final int clientTotal = 5000;
     // 允许并发的线程总数

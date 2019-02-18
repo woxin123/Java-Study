@@ -1,7 +1,6 @@
 package top.mcwebsite.concurrency.example.count;
 
 import lombok.extern.slf4j.Slf4j;
-import top.mcwebsite.concurrency.annotations.NotThreadSafe;
 import top.mcwebsite.concurrency.annotations.ThreadSafe;
 
 import java.util.concurrent.CountDownLatch;
@@ -16,13 +15,13 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 @Slf4j
 @ThreadSafe
-public class CountExample2 {
+public class CountExample3 {
     // 请求总数
     public static final int clientTotal = 5000;
     // 允许并发的线程总数
     public static final int threadTotal = 200;
 
-    public static AtomicInteger count = new AtomicInteger();
+    public static int count = 0;
 
     public static void main(String[] args) throws InterruptedException {
         ExecutorService executorService = Executors.newCachedThreadPool();
@@ -45,7 +44,7 @@ public class CountExample2 {
         log.info("count: " + count);
     }
 
-    private static void add() {
-        count.incrementAndGet();
+    private synchronized static void add() {
+        count++;
     }
 }

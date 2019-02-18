@@ -16,12 +16,17 @@ public class XmlApplication {
 
     public static void main(String[] args) throws Exception {
 
-        BeanFactory factory = new XmlBeanFactory(new DefaultResourceLoader().getResource("classpath:applicationContext.xml"));
-        Student student = (Student) factory.getBean("student2");
-        System.out.println(student);
+//        BeanFactory factory = new XmlBeanFactory(new DefaultResourceLoader().getResource("classpath:applicationContext.xml"));
+//        ((XmlBeanFactory) factory).addBeanPostProcessor(new StuBeanPostProcessor());
+//        Student student = (Student) factory.getBean("student2");
+//        System.out.println(student);
 
 //        StudentFactoryBean factoryBean = (StudentFactoryBean) applicationContext.getBean("&student");
 //        System.out.println(factoryBean.getObject());
+
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:applicationContext.xml");
+        Student student2 = (Student) applicationContext.getBean("student2");
+        System.out.println(student2);
     }
 
 }

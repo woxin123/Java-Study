@@ -12,6 +12,16 @@ public class Student {
    private String clazz;
    private char sex;
 
+   public Student() {
+   }
+
+    public Student(String sid, String name, String clazz, char sex) {
+        this.sid = sid;
+        this.name = name;
+        this.clazz = clazz;
+        this.sex = sex;
+    }
+
     public String getSid() {
         return sid;
     }

@@ -8,7 +8,7 @@
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
         <!-- 指定连接数据库的url -->
         <property name="connection.url">jdbc:mysql://localhost:3306/test</property>
-        <property name="connection.username">root</property>
+        <property name="connection.userName">root</property>
         <property name="connection.password">mengchen0705</property>
         <!-- 指定最大连接数 -->
         <property name="c3p0.max_size">20</property>

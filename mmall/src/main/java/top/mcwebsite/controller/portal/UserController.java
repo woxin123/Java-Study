@@ -126,7 +126,7 @@ public class UserController {
     public ServerResponse<User> getInformation(HttpSession session) {
         User currentUser = (User) session.getAttribute(Const.CURRENT_USER);
         if (currentUser == null) {
-            return ServerResponse.createErrorByErrorCodeMessage(ResponseCodeEnum.NEED_LOGIN.getCode(),
+            return ServerResponse.createErrorByCodeMessage(ResponseCodeEnum.NEED_LOGIN.getCode(),
                     "未登录，需要强制登录");
         }
         return userService.getInformation(currentUser.getId());

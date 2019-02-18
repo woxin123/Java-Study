@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="testA" class="top.mcwebsite.bean.TestA" >
+        <constructor-arg ref="testB"/>
+    </bean>
+
+    <bean id="testB" class="top.mcwebsite.bean.TestB">
+        <constructor-arg ref="testC" />
+    </bean>
+
+    <bean id="testC" class="top.mcwebsite.bean.TestC">
+        <constructor-arg ref="testA" />
+    </bean>
+
+    <!--<bean id="testA" class="top.mcwebsite.bean.TestA" scope="prototype">-->
+        <!--<property name="testB" ref="testB" />-->
+    <!--</bean>-->
+
+    <!--<bean id="testB" class="top.mcwebsite.bean.TestB" scope="prototype">-->
+        <!--<property name="testC" ref="testC" />-->
+    <!--</bean>-->
+
+    <!--<bean id="testC" class="top.mcwebsite.bean.TestC" scope="prototype">-->
+        <!--<property name="testA" ref="testA" />-->
+    <!--</bean>-->
+
+
+
+    <!--<bean id="circleA" class="top.mcwebsite.bean.CircleA" >-->
+        <!--<property name="circleB" ref="circleB" />-->
+    <!--</bean>-->
+    <!--<bean id="circleB" class="top.mcwebsite.bean.CircleB" >-->
+        <!--<property name="circleC" ref="circleC"/>-->
+    <!--</bean>-->
+    <!--<bean id="circleC" class="top.mcwebsite.bean.CircleC">-->
+        <!--<property name="circleA" ref="circleA" />-->
+    <!--</bean>-->
+</beans>

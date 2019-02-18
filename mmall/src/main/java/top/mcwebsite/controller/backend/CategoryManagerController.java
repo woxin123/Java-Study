@@ -38,9 +38,9 @@ public class CategoryManagerController {
                                       @RequestParam(value = "parentId", defaultValue = "0") int parentId) {
         User user = (User) session.getAttribute(Const.CURRENT_USER);
         if (user == null) {
-            return ServerResponse.createErrorByErrorCodeMessage(ResponseCodeEnum.NEED_LOGIN.getCode(), "用户未登录，请登录");
+            return ServerResponse.createErrorByCodeMessage(ResponseCodeEnum.NEED_LOGIN.getCode(), "用户未登录，请登录");
         }
-        
+
         // 校验是否是管理员
         if (userService.checkAdminRole(user).isSuccess()) {
             // 添加分类的逻辑
@@ -55,7 +55,7 @@ public class CategoryManagerController {
     public ServerResponse setCategoryName(HttpSession session, Integer categoryId, String categoryName) {
         User user = (User) session.getAttribute(Const.CURRENT_USER);
         if (user == null) {
-            return ServerResponse.createErrorByErrorCodeMessage(ResponseCodeEnum.NEED_LOGIN.getCode(), "用户未登录，请登录");
+            return ServerResponse.createErrorByCodeMessage(ResponseCodeEnum.NEED_LOGIN.getCode(), "用户未登录，请登录");
         }
 
         if (userService.checkAdminRole(user).isSuccess()) {
@@ -72,7 +72,7 @@ public class CategoryManagerController {
                                                    @RequestParam(value = "categoryId", defaultValue = "0") Integer categoryId) {
         User user = (User) session.getAttribute(Const.CURRENT_USER);
         if (user == null) {
-            return ServerResponse.createErrorByErrorCodeMessage(ResponseCodeEnum.NEED_LOGIN.getCode(), "用户未登录，请登录");
+            return ServerResponse.createErrorByCodeMessage(ResponseCodeEnum.NEED_LOGIN.getCode(), "用户未登录，请登录");
         }
 
         if (userService.checkAdminRole(user).isSuccess()) {
@@ -88,7 +88,7 @@ public class CategoryManagerController {
     public ServerResponse getCategoryAndDeepChildrenCategory(HttpSession session,@RequestParam(value = "categoryId", defaultValue = "0") Integer categoryId) {
         User user = (User) session.getAttribute(Const.CURRENT_USER);
         if (user == null) {
-            return ServerResponse.createErrorByErrorCodeMessage(ResponseCodeEnum.NEED_LOGIN.getCode(), "用户未登录，请登录");
+            return ServerResponse.createErrorByCodeMessage(ResponseCodeEnum.NEED_LOGIN.getCode(), "用户未登录，请登录");
         }
 
         if (userService.checkAdminRole(user).isSuccess()) {

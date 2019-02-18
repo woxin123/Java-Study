@@ -1,4 +1,4 @@
-package top.mcwebsite.concurrency.sync;
+package top.mcwebsite.concurrency.example.sync;
 
 import lombok.extern.slf4j.Slf4j;
 

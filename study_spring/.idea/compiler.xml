@@ -9,12 +9,17 @@
         <module name="singleton-point-login-in" />
         <module name="spring-boot-cache" />
         <module name="spting-test" />
+      </profile>
+      <profile name="Annotation profile for study-spring" enabled="true">
+        <sourceOutputDir name="../../../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
         <module name="study-spring-cache" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="singleton-point-login-in" target="1.8" />
-      <module name="spring-boot-cache" target="1.8" />
+      <module name="singleton-point-login-in" target="1.5" />
+      <module name="spring-boot-cache" target="1.5" />
       <module name="spting-test" target="8" />
       <module name="study-spring" target="8" />
       <module name="study-spring-cache" target="8" />

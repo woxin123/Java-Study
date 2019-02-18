@@ -15,6 +15,8 @@
       <module fileurl="file://$PROJECT_DIR$/study-java8-lambda/study-java8-lambda.iml" filepath="$PROJECT_DIR$/study-java8-lambda/study-java8-lambda.iml" />
       <module fileurl="file://$PROJECT_DIR$/study-java8-stream/study-java8-stream.iml" filepath="$PROJECT_DIR$/study-java8-stream/study-java8-stream.iml" />
       <module fileurl="file://$PROJECT_DIR$/study-jdbc/study-jdbc.iml" filepath="$PROJECT_DIR$/study-jdbc/study-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-mybatis/study-mybatis.iml" filepath="$PROJECT_DIR$/study-mybatis/study-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-redis/study-redis.iml" filepath="$PROJECT_DIR$/study-redis/study-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/study-spring/study-spring.iml" filepath="$PROJECT_DIR$/study-spring/study-spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/study_spi/study_spi.iml" filepath="$PROJECT_DIR$/study_spi/study_spi.iml" />
     </modules>

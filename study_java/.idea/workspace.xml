@@ -2,83 +2,112 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54730cc1-3d36-4b6c-91a1-14a6c710613b" name="Default" comment="atomic test">
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_1_0_M2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_1_0_M2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_1_0_M2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_spring_aop_5_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_spring_beans_5_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_spring_context_5_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_spring_core_5_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_spring_expression_5_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_springframework_spring_test_5_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring-Cloud-Study/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/controller/backend/CategoryManagerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_spi/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/HelloInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/ImageHello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/SPIMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/TextHello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_spi/src/main/resources/META-INF/services/top.mcwebsite.spi.HelloInterface" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_spi/study_spi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/count/CountExample4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/controller/backend/ProductManageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/util/DateTimeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/vo/ProductDetailVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/vo/ProductListVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/Composite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/Leaf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/transparency_composite_pattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/transparency_composite_pattern/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/transparency_composite_pattern/Composite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/transparency_composite_pattern/Leaf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/memento_pattern/Caretaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/memento_pattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/memento_pattern/Memento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/memento_pattern/Originator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/observer_pattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/observer_pattern/ConcreteObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/observer_pattern/ConcreteSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/observer_pattern/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/observer_pattern/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_spring/spting-test/src/main/java/top/mcwebsite/StuBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_spring/spting-test/src/main/java/top/mcwebsite/bean/CircleA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_spring/spting-test/src/main/java/top/mcwebsite/bean/CircleB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_spring/spting-test/src/main/java/top/mcwebsite/bean/CircleC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_spring/spting-test/src/main/java/top/mcwebsite/bean/TestA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_spring/spting-test/src/main/java/top/mcwebsite/bean/TestB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_spring/spting-test/src/main/java/top/mcwebsite/bean/TestC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_spring/spting-test/src/main/resources/applicationCircleDep.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_spring/spting-test/src/test/java/top/mcwebsite/cicrle/CircleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/atomic/AtomicExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/atomic/AtomicExample1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/atomic/AtomicExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/atomic/AtomicExample2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/atomic/AtomicExample3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/atomic/AtomicExample3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/atomic/AtomicExample4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/atomic/AtomicExample4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/atomic/AtomicExample5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/atomic/AtomicExample5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/atomic/AtomicExample6.java" beforeDir="false" afterPath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/atomic/AtomicExample6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/count/CountExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/count/CountExample2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/count/CountExample3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/count/CountExample3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/sync/SynchronizedExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/sync/SynchronizedExample1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/sync/SynchronizedExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/sync/SynchronizedExample2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mmall/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/common/ResponseCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/common/ResponseCodeEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/common/ServerResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/common/ServerResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/common/TokenCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/common/TokenCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/controller/backend/UserManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/controller/backend/UserManagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/controller/backend/CategoryManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/controller/backend/CategoryManagerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/controller/portal/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/controller/portal/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/dao/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/dao/CategoryMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/dao/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/dao/OrderMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/dao/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/pojo/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/pojo/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mmall/src/main/resources/applicationContext-datasource.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/resources/applicationContext-datasource.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/dao/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/dao/ProductMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/util/PropertiesUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/util/PropertiesUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mmall/src/main/resources/datasource.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/resources/datasource.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mmall/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mmall/src/main/resources/mappers/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/resources/mappers/CategoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mmall/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mmall/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/resources/mappers/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/resources/mappers/ProductMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a95d7ce7-5e76-455a-bda1-a51fe04e93f9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a95d7ce7-5e76-455a-bda1-a51fe04e93f9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-test/target/classes/META-INF/java-test.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-test/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-test/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stduy-hibernate/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stduy-hibernate/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/adapter_pattern/Adaptee.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/adapter_pattern/Adaptee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/adapter_pattern/Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/adapter_pattern/Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/adapter_pattern/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/adapter_pattern/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/adapter_pattern/ConcreteTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/adapter_pattern/ConcreteTarget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/adapter_pattern/Target.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/adapter_pattern/Target.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-java-webmagic/src/main/resources/csdn.html" beforeDir="false" afterPath="$PROJECT_DIR$/study-java-webmagic/src/main/resources/csdn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-java8-stream/study-java8-stream.iml" beforeDir="false" afterPath="$PROJECT_DIR$/study-java8-stream/study-java8-stream.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-jdbc/src/main/java/top/mcwebsite/study_jdbc/start/JDBC01.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-jdbc/src/main/java/top/mcwebsite/study_jdbc/start/JDBC01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study-mybatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/config/TestObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/config/TestObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/mapper/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/mapper/RoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/model/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/model/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/model/SysPrivilege.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/model/SysPrivilege.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/model/SysRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/model/SysRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/model/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/model/SysUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/model/SysUserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/model/SysUserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/type/Enabled.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/type/Enabled.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/type/EnabledTypeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/type/EnabledTypeHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-mybatis/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/study-mybatis/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-mybatis/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/study-mybatis/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-mybatis/src/main/resources/mapper/CountryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study-mybatis/src/main/resources/mapper/CountryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-mybatis/src/main/resources/mapper/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study-mybatis/src/main/resources/mapper/RoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-mybatis/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study-mybatis/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-mybatis/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study-mybatis/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-mybatis/src/test/java/mapper/BaseMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-mybatis/src/test/java/mapper/BaseMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-mybatis/src/test/java/mapper/CountryMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-mybatis/src/test/java/mapper/CountryMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-mybatis/src/test/java/mapper/RoleMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-mybatis/src/test/java/mapper/RoleMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-mybatis/src/test/java/mapper/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-mybatis/src/test/java/mapper/UserMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-mybatis/src/test/java/other/EnumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-mybatis/src/test/java/other/EnumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-mybatis/study-mybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/study-mybatis/study-mybatis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-redis/src/test/java/top/mcwebsite/studyredis/RedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-redis/src/test/java/top/mcwebsite/studyredis/RedisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_spi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study_spi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study_spring/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_spring/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study_spring/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_spring/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study_spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_spring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study_spring/spting-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_spring/spting-test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study_spring/spting-test/spting-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_spring/spting-test/spting-test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study_spring/spting-test/src/main/java/top/mcwebsite/TestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../study_spring/spting-test/src/main/java/top/mcwebsite/TestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study_spring/spting-test/src/main/java/top/mcwebsite/XmlApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../study_spring/spting-test/src/main/java/top/mcwebsite/XmlApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study_spring/spting-test/src/main/java/top/mcwebsite/bean/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../study_spring/spting-test/src/main/java/top/mcwebsite/bean/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study_spring/spting-test/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_spring/spting-test/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study_spring/spting-test/src/test/java/Test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study_spring/spting-test/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_spring/spting-test/target/classes/applicationContext.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/study-java/target/" />
     <ignored path="$PROJECT_DIR$/studyjavawebmagic/target/" />
@@ -99,6 +128,9 @@
     <ignored path="$PROJECT_DIR$/stduy-hibernate/target/" />
     <ignored path="$PROJECT_DIR$/java-test/target/" />
     <ignored path="$PROJECT_DIR$/study_spi/target/" />
+    <ignored path="$PROJECT_DIR$/study_spi/study-mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/study-mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/study-redis/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,79 +169,60 @@
         <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="sys_role: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study-java-moreThread/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study_spi/pom.xml">
+        <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/memento_pattern/Originator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/SPIMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/TextHello.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="504">
+              <caret line="29" selection-start-line="6" selection-end-line="29" />
               <folding>
-                <element signature="e#159#160#0" expanded="true" />
-                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/memento_pattern/Memento.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" selection-start-line="6" selection-end-line="21" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/memento_pattern/Caretaker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" selection-start-line="6" selection-end-line="18" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/study_spi/src/main/resources/META-INF/services/top.mcwebsite.spi.HelloInterface">
+        <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/memento_pattern/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/ServiceLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3384">
-              <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/HelloInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" selection-start-line="6" selection-end-line="9" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/ImageHello.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="297">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -224,19 +237,15 @@
         <option value="Singleton" />
         <option value="FxmlFile" />
         <option value="UML Sequence" />
-        <option value="Interface" />
         <option value="UML Class" />
+        <option value="mybatis-mapper" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>l</find>
-      <find>acquire(int arg)</find>
-      <find>tryAcquire</find>
-      <find>addW</find>
-      <find>private Node addWaiter(Node mode)</find>
       <find>acquireIn</find>
       <find>System</find>
       <find>new System</find>
@@ -262,7 +271,17 @@
       <find>loadClass</find>
       <find>release</find>
       <find>awaitUninterruptibly</find>
+      <find />
+      <find>’</find>
+      <find>，</find>
+      <find>valueOf</find>
+      <find>getChi</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>'</replace>
+      <replace>,</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/synchronized_test</dir>
     </dirStrings>
@@ -273,57 +292,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java-test/src/main/java/jvmtest/TestClass.java" />
-        <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/threadlocal/ThreadLocalTest2.java" />
-        <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/threadlocal/Car.java" />
-        <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/threadlocal/ThreadLocalWeakReferenceGCDemo.java" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/恶汉/Singleton.java" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/懒汉/Singleton.java" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/懒汉（安全）/Singleton.java" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/懒汉安全/Singleton.java" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/静态内部类/Singleton.java" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/枚举类/Singleton.java" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/双重检测/Singleton.java" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/singleton_pattern/容器实现单例单例模式/SingletonManager.java" />
-        <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/synchronized_test/SynchronizedTest.java" />
-        <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/start/NoVisibile2.java" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/decorator_pattern/Component.java" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/decorator_pattern/ConcreteComponent.java" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/decorator_pattern/Decorator.java" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/decorator_pattern/ConcreteDecorator1.java" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/decorator_pattern/ConcreteDecorator2.java" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/decorator_pattern/Client.java" />
-        <option value="$PROJECT_DIR$/java-test/src/main/java/classloader-test/SuperClass.java" />
-        <option value="$PROJECT_DIR$/java-test/src/main/jvm/classloadertest/BigObjectOldGen.java" />
-        <option value="$PROJECT_DIR$/java-test/src/main/jvm/classloadertest/SubClass.java" />
-        <option value="$PROJECT_DIR$/java-test/src/main/jvm/classloadertest/SuperClass.java" />
-        <option value="$PROJECT_DIR$/java-test/src/main/jvm/classloadertest/ConstClass.java" />
-        <option value="$PROJECT_DIR$/java-test/src/main/jvm/classloadertest/NotInitialization.java" />
-        <option value="$PROJECT_DIR$/java-test/src/main/jvm/classloadertest/Test.java" />
-        <option value="$PROJECT_DIR$/java-test/src/main/jvm/classloadertest/DeadLoopClass.java" />
-        <option value="$PROJECT_DIR$/java-test/src/main/jvm/classloadertest/ClassLoaderTest.java" />
-        <option value="$PROJECT_DIR$/java-test/src/main/jvmtest/classloadertest/ClassLoaderTest.java" />
-        <option value="$PROJECT_DIR$/java-test/src/main/jvmtest/classloadertest/ClassLoader.java" />
-        <option value="$PROJECT_DIR$/java-test/src/main/jvmtest/classloadertest/MyClassLoader.java" />
-        <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/renntrant_lock/IntLock.java" />
-        <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/renntrant_lock/ConditionLock.java" />
-        <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/renntrant_lock/FairLock.java" />
-        <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/renntrant_lock/ReenterLock.java" />
-        <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/renntrant_lock/TestReentrant.java" />
-        <option value="$PROJECT_DIR$/java-test/src/main/jvmtest/enginee/Test.java" />
-        <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/readWriteLockDemo/Cache.java" />
-        <option value="$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/producerandconsumer/Main.java" />
-        <option value="$PROJECT_DIR$/java-test/src/main/jvmtest/enginee/StaticResolution.java" />
-        <option value="$PROJECT_DIR$/java-test/src/main/jvmtest/enginee/StaticDispatch.java" />
-        <option value="$PROJECT_DIR$/java-test/src/main/jvmtest/enginee/Dispatch.java" />
-        <option value="$PROJECT_DIR$/java-test/src/main/jvmtest/enginee/InvokeDynamicTest.java" />
-        <option value="$PROJECT_DIR$/study-java-highstate/src/main/java/top/mcwebsite/optionaltest/OptionalTest.java" />
-        <option value="$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/HelloInterface.java" />
-        <option value="$PROJECT_DIR$/study_spi/src/main/resources/META-INF/service/top.mcwebsite.spi.HelloInterface" />
-        <option value="$PROJECT_DIR$/study_spi/pom.xml" />
-        <option value="$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/SPIMain.java" />
-        <option value="$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/ImageHello.java" />
-        <option value="$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/TextHello.java" />
+        <option value="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/mapper/CountryMapperTest.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/study-mybatis/src/main/resources/log4j.properties" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/a95d7ce7-5e76-455a-bda1-a51fe04e93f9/console_2.sql" />
+        <option value="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/model/SysPrivilege.java" />
+        <option value="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/model/SysUserRole.java" />
+        <option value="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/model/SysUser.java" />
+        <option value="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/study-mybatis/src/test/java/CountryMapperTest.java" />
+        <option value="$PROJECT_DIR$/study-mybatis/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/study-mybatis/src/main/resources/db.properties" />
+        <option value="$PROJECT_DIR$/study-mybatis/src/test/java/mapper/UserMapperTest.java" />
+        <option value="$PROJECT_DIR$/study-mybatis/src/test/java/mapper/BaseMapperTest.java" />
+        <option value="$PROJECT_DIR$/study-mybatis/src/main/resources/mapper/CountryMapper.xml" />
+        <option value="$PROJECT_DIR$/study-mybatis/src/test/java/mapper/CountryMapperTest.java" />
+        <option value="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/model/SysRole.java" />
+        <option value="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/mapper/RoleMapper.java" />
+        <option value="$PROJECT_DIR$/study-mybatis/src/test/java/mapper/RoleMapperTest.java" />
+        <option value="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/type/Enabled.java" />
+        <option value="$PROJECT_DIR$/study-mybatis/src/test/java/other/EnumTest.java" />
+        <option value="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/type/EnabledTypeHandler.java" />
+        <option value="$PROJECT_DIR$/study-mybatis/src/main/resources/mapper/RoleMapper.xml" />
+        <option value="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/config/TestObjectFactory.java" />
+        <option value="$PROJECT_DIR$/study-mybatis/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/adapter_pattern/Target.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/adapter_pattern/ConcreteTarget.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/adapter_pattern/Adaptee.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/adapter_pattern/Adapter.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/adapter_pattern/Client.java" />
+        <option value="$PROJECT_DIR$/study-redis/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/study-redis/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/study-redis/src/test/java/top/mcwebsite/studyredis/RedisTest.java" />
+        <option value="$PROJECT_DIR$/study-java8-lambda/src/main/java/top/mcwebsite/lambda/CurryDemoTest.java" />
+        <option value="$PROJECT_DIR$/study-jdbc/src/main/java/top/mcwebsite/study_jdbc/start/JDBC01.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/Component.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/Composite.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/Leaf.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/Client.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/transparency_composite_pattern/Component.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/transparency_composite_pattern/Leaf.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/transparency_composite_pattern/Composite.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/transparency_composite_pattern/Client.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/observer_pattern/Observer.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/observer_pattern/Subject.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/observer_pattern/ConcreteSubject.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/observer_pattern/Client.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/observer_pattern/ConcreteObserver.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/memento_pattern/Memento.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/memento_pattern/Originator.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/memento_pattern/Caretaker.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/memento_pattern/Client.java" />
       </list>
     </option>
   </component>
@@ -334,28 +353,21 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="java-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="java-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="124" />
-    <option name="width" value="1311" />
-    <option name="height" value="556" />
+    <option name="x" value="45" />
+    <option name="y" value="26" />
+    <option name="width" value="1315" />
+    <option name="height" value="742" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="true" />
+      <hideEmptyPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -364,71 +376,123 @@
           <expand>
             <path>
               <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study-java-moreThread" type="462c0819:PsiDirectoryNode" />
+              <item name="study-design_patterns" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study-jdbc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study-spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study_spi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study_spi" type="462c0819:PsiDirectoryNode" />
+              <item name="study-design_patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study_spi" type="462c0819:PsiDirectoryNode" />
+              <item name="study-design_patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study_spi" type="462c0819:PsiDirectoryNode" />
+              <item name="study-design_patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study_spi" type="462c0819:PsiDirectoryNode" />
+              <item name="study-design_patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spi" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study_spi" type="462c0819:PsiDirectoryNode" />
+              <item name="study-design_patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+              <item name="mcwebsite" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study_spi" type="462c0819:PsiDirectoryNode" />
+              <item name="study-design_patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+              <item name="mcwebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="memento_pattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study_spi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.projectreactor:reactor-core:3.2.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.projectreactor:reactor-core:3.2.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="reactor-core-3.2.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.projectreactor:reactor-core:3.2.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="reactor-core-3.2.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="reactor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.projectreactor:reactor-core:3.2.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="reactor-core-3.2.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="reactor" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.projectreactor:reactor-core:3.2.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="reactor-core-3.2.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="reactor" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="publisher" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.reactivestreams:reactive-streams:1.0.2" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.reactivestreams:reactive-streams:1.0.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="reactive-streams-1.0.2.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.reactivestreams:reactive-streams:1.0.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="reactive-streams-1.0.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.reactivestreams:reactive-streams:1.0.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="reactive-streams-1.0.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="reactivestreams" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -440,7 +504,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -450,37 +513,38 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540034152395" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect" value="MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/jprofiler10/bin/jprofiler" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/study-design_patterns/src/main/java" />
-      <recent name="$PROJECT_DIR$/study-design_patterns/src/main/resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="top.mcwebsite.moreThread.study.annotation" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/study-mybatis/src/test/java" />
       <recent name="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/mediator_pattern" />
       <recent name="$PROJECT_DIR$/study-java-highstate/src/main/java/top/mcwebsite/rsa" />
       <recent name="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread" />
       <recent name="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t15" />
-      <recent name="$PROJECT_DIR$/study-java-moreThread/src/main/java/top/mcwebsite/moreThread/t13_1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="top.mcwebsite.composite_pattern.transparency_composite_pattern" />
+      <recent name="mapper" />
+      <recent name="" />
       <recent name="classloadertest" />
       <recent name="top.mcwebsite.decorator_pattern" />
-      <recent name="top.mcwebsite.factory_pattern" />
-      <recent name="top.mcwebsite.moreThread.t14" />
-      <recent name="top.mcwebsite.httpclient" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="top.mcwebsite.moreThread.study.annotation" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/study-design_patterns/src/main/java" />
+      <recent name="$PROJECT_DIR$/study-design_patterns/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -495,7 +559,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SPIMain">
+  <component name="RunManager" selected="Application.Client (2)">
     <configuration name="BigObjectOldGen" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="jvmtest.BigObjectOldGen" />
       <module name="java-test" />
@@ -504,13 +568,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dispatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="enginee.Dispatch" />
-      <module name="java-test" />
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.observer_pattern.Client" />
+      <module name="study-design_patterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="enginee.*" />
+          <option name="PATTERN" value="top.mcwebsite.observer_pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.memento_pattern.Client" />
+      <module name="study-design_patterns" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.mcwebsite.memento_pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.adapter_pattern.Client" />
+      <module name="study-design_patterns" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.mcwebsite.adapter_pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -542,27 +634,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InvokeDynamicTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="enginee.InvokeDynamicTest" />
-      <module name="java-test" />
+    <configuration name="JDBC01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.study_jdbc.start.JDBC01" />
+      <module name="study-jdbc" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="enginee.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OptionalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.optionaltest.OptionalTest" />
-      <module name="study-java-highstate" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.mcwebsite.optionaltest.*" />
+          <option name="PATTERN" value="top.mcwebsite.study_jdbc.start.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -614,36 +692,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SPIMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.spi.SPIMain" />
-      <module name="study_spi" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.mcwebsite.spi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StaticDispatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="enginee.StaticDispatch" />
-      <module name="java-test" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="enginee.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTest.cluster" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="study-redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.mcwebsite.studyredis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="top.mcwebsite.studyredis" />
+      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.studyredis.RedisTest" />
+      <option name="METHOD_NAME" value="cluster" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -669,19 +736,19 @@
       <item itemvalue="Application.RuntimeConstantPoolOOM" />
       <item itemvalue="Application.FinalizeEscapeGC" />
       <item itemvalue="Application.BigObjectOldGen" />
-      <item itemvalue="Application.StaticDispatch" />
-      <item itemvalue="Application.Dispatch" />
-      <item itemvalue="Application.InvokeDynamicTest" />
-      <item itemvalue="Application.OptionalTest" />
-      <item itemvalue="Application.SPIMain" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.JDBC01" />
+      <item itemvalue="Application.Client (1)" />
+      <item itemvalue="Application.Client (2)" />
+      <item itemvalue="JUnit.RedisTest.cluster" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SPIMain" />
-        <item itemvalue="Application.OptionalTest" />
-        <item itemvalue="Application.InvokeDynamicTest" />
-        <item itemvalue="Application.Dispatch" />
-        <item itemvalue="Application.StaticDispatch" />
+        <item itemvalue="Application.Client (2)" />
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.JDBC01" />
+        <item itemvalue="JUnit.RedisTest.cluster" />
+        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -820,7 +887,27 @@
       <workItem from="1543407857854" duration="4056000" />
       <workItem from="1543471291015" duration="1541000" />
       <workItem from="1543846111379" duration="3758000" />
-      <workItem from="1545294219844" duration="2405000" />
+      <workItem from="1545294219844" duration="3257000" />
+      <workItem from="1545394190846" duration="79000" />
+      <workItem from="1545397920857" duration="1168000" />
+      <workItem from="1545642744671" duration="11474000" />
+      <workItem from="1545702340747" duration="420000" />
+      <workItem from="1545724104662" duration="1999000" />
+      <workItem from="1545737996713" duration="2022000" />
+      <workItem from="1545784408688" duration="599000" />
+      <workItem from="1545918158273" duration="3581000" />
+      <workItem from="1545968302204" duration="22000" />
+      <workItem from="1546087896898" duration="10099000" />
+      <workItem from="1548319411588" duration="2245000" />
+      <workItem from="1548336006710" duration="20000" />
+      <workItem from="1548663688071" duration="5885000" />
+      <workItem from="1548732232391" duration="13000" />
+      <workItem from="1549889773487" duration="2880000" />
+      <workItem from="1549962304298" duration="2128000" />
+      <workItem from="1550053429098" duration="3667000" />
+      <workItem from="1550231082354" duration="2141000" />
+      <workItem from="1550417140202" duration="1542000" />
+      <workItem from="1550464286744" duration="43000" />
     </task>
     <task id="LOCAL-00001" summary="Java的三种代理">
       <created>1531580968039</created>
@@ -875,15 +962,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_Features_in__proxy_pattern - 2018.10.13 at 15h 57m 47s.xml">
-      <configuration name="All Features in: proxy_pattern" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="RedisTest_cluster - 2019.01.28 at 16h 56m 33s.xml">
+      <configuration name="RedisTest.cluster" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_Features_in__proxy_pattern - 2018.10.13 at 15h 58m 30s.xml">
-      <configuration name="All Features in: proxy_pattern" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="RedisTest_cluster - 2019.01.28 at 16h 56m 45s.xml">
+      <configuration name="RedisTest.cluster" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTest_cluster - 2019.01.28 at 16h 57m 48s.xml">
+      <configuration name="RedisTest.cluster" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTest_cluster - 2019.01.28 at 16h 59m 24s.xml">
+      <configuration name="RedisTest.cluster" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTest_cluster - 2019.01.28 at 17h 03m 40s.xml">
+      <configuration name="RedisTest.cluster" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTest_cluster - 2019.01.28 at 17h 03m 59s.xml">
+      <configuration name="RedisTest.cluster" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTest_cluster - 2019.01.28 at 17h 18m 07s.xml">
+      <configuration name="RedisTest.cluster" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTest_cluster - 2019.01.28 at 17h 29m 04s.xml">
+      <configuration name="RedisTest.cluster" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTest_cluster - 2019.01.28 at 17h 29m 22s.xml">
+      <configuration name="RedisTest.cluster" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedisTest_cluster - 2019.01.28 at 17h 30m 33s.xml">
+      <configuration name="RedisTest.cluster" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="595929000" />
+    <option name="totallyTimeSpent" value="648808000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -895,10 +1006,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="26" width="1315" height="742" extended-state="6" />
+    <frame x="0" y="26" width="1366" height="706" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33438239" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24205749" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -907,19 +1018,19 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Persistence" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3252688" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840257" visible="true" weight="0.2852349" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5385906" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32493368" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840257" weight="0.5" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36607143" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32795697" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50159746" side_tool="true" weight="0.27284947" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49893504" weight="0.24664429" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49893504" weight="0.42142856" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3266129" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946752" weight="0.20564516" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946752" weight="0.20535715" />
       <window_info anchor="bottom" id="Spring" order="12" />
-      <window_info anchor="bottom" id="Database Console" order="13" weight="0.3298292" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32891247" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3288948" />
       <window_info anchor="bottom" id="CPU Profiler" order="15" weight="0.32931727" />
       <window_info anchor="bottom" id="JProfiler" order="16" weight="0.32931727" />
@@ -936,7 +1047,7 @@
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32854986" />
       <window_info anchor="right" id="PlantUML" order="9" weight="0.4334342" />
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.3292683" />
-      <window_info anchor="right" id="Maven" order="11" weight="0.20795892" />
+      <window_info anchor="right" id="Maven" order="11" weight="0.20726173" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20704375" />
@@ -1047,12 +1158,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
-          <line>1340</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
           <line>681</line>
           <properties />
           <option name="timeStamp" value="17" />
@@ -1065,21 +1170,21 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/locks/ReentrantLock.java</url>
-          <line>208</line>
-          <properties />
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/locks/ReentrantLock.java</url>
           <line>223</line>
           <properties />
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/locks/ReentrantLock.java</url>
-          <line>205</line>
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/session/SqlSessionFactoryBuilder.class</url>
+          <line>36</line>
           <properties />
-          <option name="timeStamp" value="44" />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.2.RELEASE/spring-boot-autoconfigure-2.1.2.RELEASE.jar!/org/springframework/boot/autoconfigure/data/redis/RedisProperties.class</url>
+          <line>185</line>
+          <properties />
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>
@@ -1106,177 +1211,296 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java-test/src/main/jvmtest/jvmtest/BigObjectOldGen.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.4.RELEASE/spring-test-5.1.4.RELEASE.jar!/org/springframework/test/context/junit4/statements/RunAfterTestMethodCallbacks.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="3" />
+        <state relative-caret-position="456">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/locks/Lock.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.2.RELEASE/spring-boot-autoconfigure-2.1.2.RELEASE.jar!/org/springframework/boot/autoconfigure/data/redis/RedisProperties.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6217">
-          <caret line="166" column="17" selection-start-line="166" selection-start-column="17" selection-end-line="166" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/jre/lib/rt.jar!/sun/misc/Launcher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/locks/Condition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10347">
-          <caret line="178" column="17" selection-start-line="178" selection-start-column="17" selection-end-line="178" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/renntrant_lock/TimeLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/renntrant_lock/ReenterLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/renntrant_lock/IntLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2135">
-          <caret line="63" column="20" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/renntrant_lock/ConditionLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1295">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="2832">
+          <caret line="185" selection-start-line="185" selection-end-line="185" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#4145#4146#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/renntrant_lock/Test.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.2.RELEASE/spring-boot-2.1.2.RELEASE.jar!/org/springframework/boot/context/properties/bind/JavaBeanBinder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="21" />
+        <state relative-caret-position="1272">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/renntrant_lock/FairLock.java">
+    <entry file="file://$PROJECT_DIR$/study-redis/src/test/java/top/mcwebsite/studyredis/StudyRedisApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        <state relative-caret-position="144">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/renntrant_lock/TestReentrant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/renntrant_lock/TryLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6090">
-          <caret line="208" selection-start-line="208" selection-end-line="208" />
-          <folding>
-            <element signature="e#5562#5563#0" expanded="true" />
-            <element signature="e#5614#5615#0" expanded="true" />
-            <element signature="e#5694#5695#0" expanded="true" />
-            <element signature="e#5775#5776#0" expanded="true" />
-            <element signature="e#5811#5812#0" expanded="true" />
-            <element signature="e#5878#5879#0" expanded="true" />
-            <element signature="e#5914#5915#0" expanded="true" />
-            <element signature="e#5960#5961#0" expanded="true" />
-            <element signature="e#6849#6850#0" expanded="true" />
-            <element signature="e#6907#6908#0" expanded="true" />
-            <element signature="e#7116#7117#0" expanded="true" />
-            <element signature="e#7150#7151#0" expanded="true" />
-            <element signature="e#8176#8177#0" expanded="true" />
-            <element signature="e#8216#8217#0" expanded="true" />
-            <element signature="e#8451#8452#0" expanded="true" />
-            <element signature="e#8515#8516#0" expanded="true" />
-            <element signature="e#9117#9118#0" expanded="true" />
-            <element signature="e#9144#9145#0" expanded="true" />
-            <element signature="e#12210#12211#0" expanded="true" />
-            <element signature="e#12258#12259#0" expanded="true" />
-            <element signature="e#17535#17536#0" expanded="true" />
-            <element signature="e#17577#17578#0" expanded="true" />
-            <element signature="e#19868#19869#0" expanded="true" />
-            <element signature="e#19915#19916#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/locks/AbstractOwnableSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
-          <folding>
-            <element signature="e#1663#1664#0" expanded="true" />
-            <element signature="e#1708#1709#0" expanded="true" />
-            <element signature="e#2022#2023#0" expanded="true" />
-            <element signature="e#2065#2066#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/producerandconsumer/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/readWriteLockDemo/ReadWriteLockDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/java.util.concurrent.Executor">
+    <entry file="uml://JAVA/top.mcwebsite.composite_pattern.Component">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>JAVA</ID>
-          <OriginalElement>java.util.concurrent.Executor</OriginalElement>
+          <OriginalElement>top.mcwebsite.composite_pattern.Component</OriginalElement>
           <nodes>
-            <node x="" y="">java.util.concurrent.AbstractExecutorService</node>
-            <node x="" y="">java.util.concurrent.ThreadPoolExecutor</node>
-            <node x="" y="">java.util.concurrent.Executor</node>
-            <node x="" y="">java.util.concurrent.ScheduledExecutorService</node>
-            <node x="" y="">java.util.concurrent.ScheduledThreadPoolExecutor</node>
-            <node x="" y="">java.util.concurrent.ExecutorService</node>
-            <node x="" y="">java.util.concurrent.Executors</node>
+            <node x="" y="">top.mcwebsite.composite_pattern.Leaf</node>
+            <node x="" y="">top.mcwebsite.composite_pattern.Component</node>
+            <node x="" y="">top.mcwebsite.composite_pattern.Client</node>
+            <node x="" y="">top.mcwebsite.composite_pattern.Composite</node>
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="48.0" y="157.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="54.0" y="91.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-jdbc/src/main/java/top/mcwebsite/study_jdbc/start/JDBC01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/Composite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" selection-start-line="8" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/Leaf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" selection-start-line="6" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/com/sun/org/apache/xml/internal/utils/XML11Char.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.2.RELEASE/spring-boot-2.1.2.RELEASE.jar!/org/springframework/boot/context/properties/bind/Binder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4344">
+          <caret line="213" selection-start-line="213" selection-end-line="213" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/org/w3c/dom/Comment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/top.mcwebsite.composite_pattern.transparency_composite_pattern.Component">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>top.mcwebsite.composite_pattern.transparency_composite_pattern.Component</OriginalElement>
+          <nodes>
+            <node x="352.7165642490203" y="428.3631466746659">top.mcwebsite.composite_pattern.transparency_composite_pattern.Leaf</node>
+            <node x="412.28520265035354" y="8.918053079537145">top.mcwebsite.composite_pattern.transparency_composite_pattern.Component</node>
+            <node x="0.0" y="0.0">top.mcwebsite.composite_pattern.transparency_composite_pattern.Composite</node>
+            <node x="10.917790742644513" y="385.28494031346077">top.mcwebsite.composite_pattern.transparency_composite_pattern.Client</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="top.mcwebsite.composite_pattern.transparency_composite_pattern.Client" target="top.mcwebsite.composite_pattern.transparency_composite_pattern.Leaf">
+              <point x="2.8421709430404007E-14" y="5.052895268999293" />
+              <point x="0.0" y="5.052895268999265" />
+            </edge>
+            <edge source="top.mcwebsite.composite_pattern.transparency_composite_pattern.Client" target="top.mcwebsite.composite_pattern.transparency_composite_pattern.Component">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="top.mcwebsite.composite_pattern.transparency_composite_pattern.Leaf" target="top.mcwebsite.composite_pattern.transparency_composite_pattern.Component">
+              <point x="-4.947658455020985" y="-0.7215786945713489" />
+              <point x="-4.947658455020985" y="-0.7215786945713489" />
+            </edge>
+            <edge source="top.mcwebsite.composite_pattern.transparency_composite_pattern.Composite" target="top.mcwebsite.composite_pattern.transparency_composite_pattern.Component">
+              <point x="2.8421709430404007E-14" y="10.011663129336597" />
+              <point x="0.0" y="10.011663129336625" />
+            </edge>
+            <edge source="top.mcwebsite.composite_pattern.transparency_composite_pattern.Client" target="top.mcwebsite.composite_pattern.transparency_composite_pattern.Composite">
+              <point x="-4.9941752288376335" y="-0.24127532750881642" />
+              <point x="-4.9941752288376335" y="-0.24127532750881642" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9356617647058824" x="45.0" y="247.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/transparency_composite_pattern/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/transparency_composite_pattern/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="14" />
+          <caret line="22" column="48" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="48" />
+          <caret line="23" column="56" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="56" />
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="44" />
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="40" />
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="20" />
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="35" />
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="13" />
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="9" />
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/org/w3c/dom/Document.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="7" column="36" selection-start-line="6" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/org/w3c/dom/Node.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/com/sun/org/apache/xerces/internal/dom/AttrImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/com/sun/org/apache/xerces/internal/dom/NodeImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2760">
+          <caret line="150" column="16" lean-forward="true" selection-start-line="150" selection-start-column="16" selection-end-line="150" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/org/w3c/dom/Attr.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/us/codecraft/xsoup/0.3.1/xsoup-0.3.1.jar!/us/codecraft/xsoup/w3c/AttributeAdaptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="17" column="63" lean-forward="true" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/us/codecraft/xsoup/0.3.1/xsoup-0.3.1.jar!/us/codecraft/xsoup/w3c/NodeAdaptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/transparency_composite_pattern/Leaf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/transparency_composite_pattern/Composite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/org/w3c/dom/NodeList.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/top.mcwebsite.observer_pattern.Subject">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>top.mcwebsite.observer_pattern.Subject</OriginalElement>
+          <nodes>
+            <node x="22.5" y="79.0">top.mcwebsite.observer_pattern.Subject</node>
+            <node x="128.5" y="79.0">top.mcwebsite.observer_pattern.ConcreteObserver</node>
+            <node x="40.5" y="0.0">top.mcwebsite.observer_pattern.Observer</node>
+            <node x="0.0" y="158.0">top.mcwebsite.observer_pattern.ConcreteSubject</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="top.mcwebsite.observer_pattern.ConcreteSubject" target="top.mcwebsite.observer_pattern.Subject">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="top.mcwebsite.observer_pattern.Subject" target="top.mcwebsite.observer_pattern.Observer">
+              <point x="-21.5" y="-14.5" />
+              <point x="44.0" y="54.0" />
+              <point x="56.0" y="54.0" />
+              <point x="-31.0" y="14.5" />
+            </edge>
+            <edge source="top.mcwebsite.observer_pattern.ConcreteObserver" target="top.mcwebsite.observer_pattern.Observer">
+              <point x="0.0" y="-14.5" />
+              <point x="197.5" y="54.0" />
+              <point x="118.0" y="54.0" />
+              <point x="31.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-144.0" y="140.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -1284,306 +1508,200 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/Executor.java">
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/observer_pattern/Subject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="127" column="20" lean-forward="true" selection-start-line="127" selection-start-column="20" selection-end-line="127" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/java.util.concurrent.Executors">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.util.concurrent.Executors</OriginalElement>
-          <nodes>
-            <node x="" y="">java.util.concurrent.Executors</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="300.0" y="15.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/producerandconsumer/PCData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/executorDemo/ScheduledExecutorServiceDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1610">
-          <caret line="87" column="27" selection-start-line="87" selection-start-column="27" selection-end-line="87" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/ExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3570">
-          <caret line="136" column="45" selection-start-line="136" selection-start-column="45" selection-end-line="136" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/readWriteLockDemo/Cache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        <state relative-caret-position="360">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java">
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/observer_pattern/ConcreteSubject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23485">
-          <caret line="726" column="24" selection-start-line="726" selection-start-column="24" selection-end-line="726" selection-end-column="24" />
-          <folding>
-            <element signature="e#7757#7758#0" expanded="true" />
-            <element signature="e#7784#7785#0" expanded="true" />
-            <element signature="e#10079#10080#0" expanded="true" />
-            <element signature="e#10135#10136#0" expanded="true" />
-            <element signature="e#23514#23515#0" expanded="true" />
-            <element signature="e#23566#23567#0" expanded="true" />
-            <element signature="e#23855#23856#0" expanded="true" />
-            <element signature="e#23909#23910#0" expanded="true" />
-            <element signature="e#23950#23951#0" expanded="true" />
-            <element signature="e#24012#24013#0" expanded="true" />
-            <element signature="e#24053#24054#0" expanded="true" />
-            <element signature="e#24136#24137#0" expanded="true" />
-            <element signature="e#26818#26819#0" expanded="true" />
-            <element signature="e#26858#26859#0" expanded="true" />
-            <element signature="e#58319#58320#0" expanded="true" />
-            <element signature="e#58384#58385#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="144">
+          <caret line="6" selection-start-line="6" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/ThreadLocal.java">
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/observer_pattern/ConcreteObserver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4480">
-          <caret line="158" column="13" selection-start-line="158" selection-start-column="13" selection-end-line="158" selection-end-column="13" />
-          <folding>
-            <element signature="e#4309#4310#0" expanded="true" />
-            <element signature="e#4336#4337#0" expanded="true" />
-            <element signature="e#7765#7766#0" expanded="true" />
-            <element signature="e#7802#7803#0" expanded="true" />
-            <element signature="e#8068#8069#0" expanded="true" />
-            <element signature="e#8137#8138#0" expanded="true" />
-            <element signature="e#11620#11621#0" expanded="true" />
-            <element signature="e#11678#11679#0" expanded="true" />
-            <element signature="e#11793#11794#0" expanded="true" />
-            <element signature="e#11856#11857#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="144">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-concurrency/src/main/java/top/mcwebsite/concurrency/producerandconsumer/Main.java">
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/observer_pattern/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1015">
-          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        <state relative-caret-position="264">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/locks/ReadWriteLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3465">
-          <caret line="118" column="32" selection-start-line="118" selection-end-line="118" selection-end-column="32" />
-          <caret line="119" column="7" selection-start-line="119" selection-end-line="119" selection-end-column="7" />
-          <caret line="120" column="41" selection-start-line="120" selection-end-line="120" selection-end-column="41" />
-          <caret line="121" column="6" selection-start-line="121" selection-end-line="121" selection-end-column="6" />
-          <caret line="122" column="40" selection-start-line="122" selection-end-line="122" selection-end-column="40" />
-          <caret line="123" column="7" selection-start-line="123" selection-end-line="123" selection-end-column="7" />
-          <caret line="124" column="20" selection-start-line="124" selection-end-line="124" selection-end-column="20" />
-          <caret line="126" column="7" selection-start-line="126" selection-end-line="126" selection-end-column="7" />
-          <caret line="127" column="41" selection-start-line="127" selection-end-line="127" selection-end-column="41" />
-          <caret line="128" column="6" selection-start-line="128" selection-end-line="128" selection-end-column="6" />
-          <caret line="129" column="40" selection-start-line="129" selection-end-line="129" selection-end-column="40" />
-          <caret line="130" column="7" selection-start-line="130" selection-end-line="130" selection-end-column="7" />
-          <caret line="131" column="21" selection-start-line="131" selection-end-line="131" selection-end-column="21" />
-          <caret line="132" column="1" selection-start-line="132" selection-end-line="132" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/ScheduledExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="93" column="17" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="1280" column="22" selection-start-line="1280" selection-start-column="22" selection-end-line="1280" selection-end-column="22" />
-          <folding>
-            <element signature="e#22675#22676#0" expanded="true" />
-            <element signature="e#22703#22704#0" expanded="true" />
-            <element signature="e#32644#32645#0" expanded="true" />
-            <element signature="e#32694#32695#0" expanded="true" />
-            <element signature="e#46422#46423#0" expanded="true" />
-            <element signature="e#46479#46480#0" expanded="true" />
-            <element signature="e#85889#85890#0" expanded="true" />
-            <element signature="e#85959#85960#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/invoke/CallSite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/invoke/MethodHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="624" column="18" selection-start-line="624" selection-start-column="18" selection-end-line="624" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/invoke/MethodHandles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1569">
-          <caret line="92" column="25" selection-start-line="92" selection-start-column="25" selection-end-line="92" selection-end-column="25" />
-          <folding>
-            <element signature="e#3053#3054#0" expanded="true" />
-            <element signature="e#3115#3116#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-test/src/main/jvmtest/enginee/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-test/src/main/jvmtest/enginee/StaticResolution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="15" column="1" selection-start-line="6" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-test/src/main/jvmtest/enginee/StaticDispatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="42" column="26" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-test/src/main/jvmtest/enginee/Dispatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-test/src/main/jvmtest/enginee/InvokeDynamicTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Optional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="347" column="5" lean-forward="true" selection-start-line="347" selection-start-column="5" selection-end-line="347" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-java-highstate/src/main/java/top/mcwebsite/optionaltest/OptionalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-jdbc/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-246" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-spring/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-572" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-java-moreThread/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study_spi/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/ServiceLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3384">
-          <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/HelloInterface.java">
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/observer_pattern/Observer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="6" selection-start-line="6" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/ImageHello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar!/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/SPIMain.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar!/org/reactivestreams/Subscriber.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/TextHello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="12" selection-end-column="1" />
+        <state>
           <folding>
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#0#297#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study_spi/src/main/resources/META-INF/services/top.mcwebsite.spi.HelloInterface">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-sources.jar!/org/reactivestreams/Publisher.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-sources.jar!/org/reactivestreams/Subscription.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="18" column="92" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-sources.jar!/org/reactivestreams/Subscriber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-sources.jar!/org/reactivestreams/Processor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java8-stream/src/main/java/top/mcwebsite/stream/StreamDemoTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.2.5.RELEASE/reactor-core-3.2.5.RELEASE.jar!/reactor/core/publisher/MonoAll.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.2.5.RELEASE/reactor-core-3.2.5.RELEASE.jar!/reactor/core/publisher/Mono.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java8-lambda/src/main/java/top/mcwebsite/lambda/ThreadDemoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-highstate/src/main/java/top/mcwebsite/url_code/URLCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-highstate/src/main/java/top/mcwebsite/mcstring/NULL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-simple-review/src/main/java/filereader/FileReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-simple-review/src/main/java/top/mcwebsite/operator/ByteOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/top.mcwebsite.memento_pattern.Originator">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
-          <caret selection-end-line="1" selection-end-column="27" />
+          <ID>JAVA</ID>
+          <OriginalElement>top.mcwebsite.memento_pattern.Originator</OriginalElement>
+          <nodes>
+            <node x="517.0353363738885" y="0.0">top.mcwebsite.memento_pattern.Originator</node>
+            <node x="275.6136119051525" y="22.000000000000064">top.mcwebsite.memento_pattern.Memento</node>
+            <node x="0.0" y="22.000000000000064">top.mcwebsite.memento_pattern.Caretaker</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="top.mcwebsite.memento_pattern.Originator" target="top.mcwebsite.memento_pattern.Memento">
+              <point x="0.0" y="5.0" />
+              <point x="0.0" y="5.0" />
+            </edge>
+            <edge source="top.mcwebsite.memento_pattern.Caretaker" target="top.mcwebsite.memento_pattern.Memento">
+              <point x="-0.0" y="5.0" />
+              <point x="0.0" y="5.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="3.0" y="0.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/memento_pattern/Originator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="29" selection-start-line="6" selection-end-line="29" />
+          <folding>
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/memento_pattern/Memento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" selection-start-line="6" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/memento_pattern/Caretaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" selection-start-line="6" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/memento_pattern/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1627,7 +1745,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.8.0_171</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1639,7 +1757,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>study_spi</last-edited>
+          <last-edited>study-java8-stream</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1652,7 +1770,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.8.0_171</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

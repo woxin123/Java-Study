@@ -1,9 +1,12 @@
 package top.mcwebsite.concurrency.example.atomic;
 
+import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 import top.mcwebsite.concurrency.annotations.ThreadSafe;
 
+import java.util.concurrent.atomic.AtomicIntegerFieldUpdater;
 import java.util.concurrent.atomic.AtomicReference;
+import java.util.concurrent.atomic.AtomicReferenceFieldUpdater;
 
 /**
  * @author mengchen
@@ -11,15 +14,24 @@ import java.util.concurrent.atomic.AtomicReference;
  */
 @ThreadSafe
 @Slf4j
-public class AtomicExample4 {
+public class AtomicExample5 {
 
-    public static final AtomicReference<Integer> count = new AtomicReference<>(0);
+    public static final AtomicIntegerFieldUpdater<AtomicExample5> updater =
+            AtomicIntegerFieldUpdater.newUpdater(AtomicExample5.class, "count");
+
+    @Getter
+    public volatile int count = 100;
+
 
     public static void main(String[] args) {
-        count.compareAndSet(0, 2);  // count = 2
-        count.compareAndSet(1, 4);  //
-        count.compareAndSet(2, 5);  // count = 5
-        count.compareAndSet(5, 4);  // count = 4
-        log.info("count:{}", count.get());
+        AtomicExample5 atomicExample5 = new AtomicExample5();
+        if (updater.compareAndSet(atomicExample5, 100, 120)) {
+            log.info("update success 1, {}", atomicExample5.getCount());
+        }
+        if (updater.compareAndSet(atomicExample5, 100, 120)) {
+            log.info("update success 2, {}", atomicExample5.getCount());
+        } else {
+            log.error("update fail, {}", atomicExample5.getCount());
+        }
     }
 }

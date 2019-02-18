@@ -1,4 +1,4 @@
-package top.mcwebsite.study_mybatis.mapper;
+package mapper;
 
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -35,7 +35,7 @@ public class CountryMapperTest {
     public void testSelectAll() {
         SqlSession sqlSession = sqlSessionFactory.openSession();
         try {
-            List<Country> countryList = sqlSession.selectList("selectAll");
+            List<Country> countryList = sqlSession.selectList("selectAllCountry");
             printCountryList(countryList);
         } finally {
             sqlSession.close();

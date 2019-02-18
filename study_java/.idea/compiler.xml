@@ -18,8 +18,9 @@
         <module name="study-java8-lambda" />
         <module name="study-java8-stream" />
         <module name="study-jdbc" />
+        <module name="study-mybatis" />
+        <module name="study-redis" />
         <module name="study-spring" />
-        <module name="study_spi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -37,8 +38,15 @@
       <module name="study-java8-lambda" target="8" />
       <module name="study-java8-stream" target="8" />
       <module name="study-jdbc" target="1.5" />
+      <module name="study-mybatis" target="1.8" />
+      <module name="study-redis" target="1.8" />
       <module name="study-spring" target="1.5" />
       <module name="study_spi" target="8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="study-redis" options="-parameters" />
+    </option>
   </component>
 </project>

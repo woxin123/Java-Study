@@ -12,8 +12,17 @@ public class TestApplication {
 
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ApplicationConfig.class);
-        Student student = (Student) context.getBean("student");
-        System.out.println(student);
+        // 使用到Supplier
+        context.registerBean("stu", Student.class, () -> {
+            Student stu = new Student();
+            stu.setName("阿雷");
+            stu.setSex('男');
+            stu.setClazz("铁塔一班");
+            stu.setSid("01010101");
+            return stu;
+        });
+        Student stu = (Student) context.getBean("stu");
+        System.out.println(stu);
     }
 
 }
