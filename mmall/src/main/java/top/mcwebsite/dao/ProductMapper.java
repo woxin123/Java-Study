@@ -1,5 +1,6 @@
 package top.mcwebsite.dao;
 
+import org.apache.ibatis.annotations.Param;
 import top.mcwebsite.pojo.Product;
 
 import java.util.List;
@@ -18,4 +19,6 @@ public interface ProductMapper {
     int updateByPrimaryKey(Product record);
 
     List<Product> selectList();
+
+    List<Product> selectByNameAndProductId(@Param("productName") String productName, @Param("productId") Integer productId);
 }
