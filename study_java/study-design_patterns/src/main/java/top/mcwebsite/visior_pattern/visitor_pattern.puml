@@ -1,26 +1,20 @@
 @startuml
 
-abstract class AbstractList
-abstract AbstractCollection
-interface List
-interface Collection
+class Client
+interface Visitor
+class ConcreteVisitor
+class ObjectStruture
+abstract Element
+class ConcreteElement
 
-List <|-- AbstractList
-Collection <|-- AbstractCollection
+ConcreteVisitor -up-|> Visitor
+ConcreteElement -up-|> Element
+Client -down-> ObjectStruture
+Client -right-> Visitor
+ObjectStruture -right-> Element
+Element .up.> Visitor
 
-Collection <|- List
-AbstractCollection <|- AbstractList
-AbstractList <|-- ArrayList
-
-class ArrayList {
-Object[] elementData
-size()
+abstract Element {
+    +Accept(v: Visitor)
 }
-
-enum TimeUnit {
-DAYS
-HOURS
-MINUTES
-}
-
 @enduml

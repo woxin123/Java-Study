@@ -1,26 +1,15 @@
 @startuml
 
-abstract class AbstractList
-abstract AbstractCollection
-interface List
-interface Collection
+class FlyweightFactory
+abstract Flyweight
+class ConcreteFlyweight
+class UnsharedConcreteFlyweight
+class Client
 
-List <|-- AbstractList
-Collection <|-- AbstractCollection
-
-Collection <|- List
-AbstractCollection <|- AbstractList
-AbstractList <|-- ArrayList
-
-class ArrayList {
-Object[] elementData
-size()
-}
-
-enum TimeUnit {
-DAYS
-HOURS
-MINUTES
-}
-
+FlyweightFactory o-right-> Flyweight : "+flyweight"
+Client -up-> FlyweightFactory
+ConcreteFlyweight -up-|> Flyweight
+UnsharedConcreteFlyweight  -up-|> Flyweight
+Client -up-> ConcreteFlyweight
+Client -up-> UnsharedConcreteFlyweight
 @enduml

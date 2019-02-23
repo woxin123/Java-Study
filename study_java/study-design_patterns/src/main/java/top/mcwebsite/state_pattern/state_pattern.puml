@@ -1,26 +1,16 @@
 @startuml
+class Context
+abstract State
+class ConcreteState
 
-abstract class AbstractList
-abstract AbstractCollection
-interface List
-interface Collection
+Context o-right->State : +context
+ConcreteState -up-|>State
 
-List <|-- AbstractList
-Collection <|-- AbstractCollection
-
-Collection <|- List
-AbstractCollection <|- AbstractList
-AbstractList <|-- ArrayList
-
-class ArrayList {
-Object[] elementData
-size()
+class Context {
+    +Request()
 }
 
-enum TimeUnit {
-DAYS
-HOURS
-MINUTES
+abstract State {
+    +Handle()
 }
-
 @enduml

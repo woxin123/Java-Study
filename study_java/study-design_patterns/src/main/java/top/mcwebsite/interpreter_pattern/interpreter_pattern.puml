@@ -1,26 +1,15 @@
 @startuml
 
-abstract class AbstractList
-abstract AbstractCollection
-interface List
-interface Collection
+class Client
+class Context
+abstract AbstractExpression
+class TerminalExpression
+class NonterminalExpression
 
-List <|-- AbstractList
-Collection <|-- AbstractCollection
-
-Collection <|- List
-AbstractCollection <|- AbstractList
-AbstractList <|-- ArrayList
-
-class ArrayList {
-Object[] elementData
-size()
-}
-
-enum TimeUnit {
-DAYS
-HOURS
-MINUTES
-}
+Client -down-> Context
+Client --right> AbstractExpression
+TerminalExpression -up-|> AbstractExpression
+NonterminalExpression -up-|> AbstractExpression
+NonterminalExpression o--> AbstractExpression
 
 @enduml

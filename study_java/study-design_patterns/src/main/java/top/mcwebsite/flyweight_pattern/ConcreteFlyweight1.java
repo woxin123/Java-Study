@@ -4,9 +4,9 @@ package top.mcwebsite.flyweight_pattern;
  * @author mengchen
  * @time 19-2-22 下午8:20
  */
-public class ConcreteFlyweight extends Flyweight {
+public class ConcreteFlyweight1 extends Flyweight {
 
-    public ConcreteFlyweight(String extrinsic) {
+    public ConcreteFlyweight1(String extrinsic) {
         super(extrinsic);
     }
 

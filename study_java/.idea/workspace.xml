@@ -2,15 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54730cc1-3d36-4b6c-91a1-14a6c710613b" name="Default" comment="atomic test">
-      <change afterPath="$PROJECT_DIR$/java-simple-review/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-test/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/memento_pattern/clone_memento_pattern/Caretaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/memento_pattern/clone_memento_pattern/Originator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/memento_pattern/clone_memento_pattern/simplify/Originator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.attach_pid13375" beforeDir="false" afterPath="$PROJECT_DIR$/study-design_patterns/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/flyweight_pattern/ConcreteFlyweight1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/flyweight_pattern/ConcreteFlyweight2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/flyweight_pattern/Flyweight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/flyweight_pattern/FlyweightFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/flyweight_pattern/flyweight_pattern.puml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validate.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/validateCode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/interpreter_pattern/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/interpreter_pattern/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/interpreter_pattern/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/interpreter_pattern/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/interpreter_pattern/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/interpreter_pattern/Expression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/interpreter_pattern/NonterminalExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/interpreter_pattern/NonterminalExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/interpreter_pattern/TerminalExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/interpreter_pattern/TerminalExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/interpreter_pattern/interpreter_pattern.puml" beforeDir="false" afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/interpreter_pattern/interpreter_pattern.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/state_pattern/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/state_pattern/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/state_pattern/ConcreteState1.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/state_pattern/ConcreteState1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/state_pattern/ConcreteState2.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/state_pattern/ConcreteState2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/state_pattern/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/state_pattern/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/state_pattern/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/state_pattern/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/state_pattern/state_pattern.puml" beforeDir="false" afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/state_pattern/state_pattern.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/visior_pattern/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/visior_pattern/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/visior_pattern/ConcreteElement1.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/visior_pattern/ConcreteElement1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/visior_pattern/ConcreteElement2.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/visior_pattern/ConcreteElement2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/visior_pattern/ConcreteVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/visior_pattern/ConcreteVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/visior_pattern/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/visior_pattern/Element.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/visior_pattern/ObjectStruture.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/visior_pattern/ObjectStruture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/visior_pattern/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/visior_pattern/Visitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/visior_pattern/visitor_pattern.puml" beforeDir="false" afterPath="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/visior_pattern/visitor_pattern.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study-redis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-redis/src/main/java/top/mcwebsite/mock/DistributedLockMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-redis/src/main/java/top/mcwebsite/mock/DistributedLockMock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-redis/src/main/java/top/mcwebsite/studyredis/DistributedLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-redis/src/main/java/top/mcwebsite/studyredis/DistributedLock.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/study-java/target/" />
     <ignored path="$PROJECT_DIR$/studyjavawebmagic/target/" />
@@ -91,80 +111,109 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/memento_pattern/Memento.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" selection-start-line="6" selection-end-line="21" selection-end-column="1" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/study-redis/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/memento_pattern/Caretaker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" selection-start-line="6" selection-end-line="18" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/memento_pattern/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study-design_patterns/.gitignore">
+        <entry file="file://$PROJECT_DIR$/study-redis/src/main/java/top/mcwebsite/studyredis/StudyRedisApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-simple-review/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-test/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/memento_pattern/clone_memento_pattern/Originator.java">
+        <entry file="file://$PROJECT_DIR$/study-redis/src/main/java/top/mcwebsite/studyredis/DistributedLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
+            <state relative-caret-position="2328">
+              <caret line="104" column="5" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/memento_pattern/clone_memento_pattern/Caretaker.java">
+        <entry file="file://$PROJECT_DIR$/study-redis/src/main/java/top/mcwebsite/mock/DistributedLockMock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="46" column="71" selection-start-line="46" selection-start-column="71" selection-end-line="46" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/flyweight_pattern/flyweight_pattern.puml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/flyweight_pattern/Flyweight.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="32" lean-forward="true" selection-start-line="6" selection-end-line="32" />
+              <folding>
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#538#539#0" expanded="true" />
+                <element signature="e#580#581#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/flyweight_pattern/ConcreteFlyweight1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="6" selection-start-line="6" selection-end-line="17" selection-end-column="1" />
+              <caret line="6" selection-start-line="6" selection-end-line="18" />
               <folding>
-                <element signature="e#226#227#0" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#315#316#0" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/memento_pattern/clone_memento_pattern/simplify/Originator.java">
+        <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/flyweight_pattern/FlyweightFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            <state relative-caret-position="33">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="26" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/flyweight_pattern/ConcreteFlyweight2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" selection-start-line="6" selection-end-line="17" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study-redis/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="696">
+              <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -176,12 +225,12 @@
       <list>
         <option value="HTML File" />
         <option value="AnnotationType" />
-        <option value="Singleton" />
         <option value="FxmlFile" />
         <option value="UML Sequence" />
-        <option value="UML Class" />
         <option value="mybatis-mapper" />
+        <option value="Singleton" />
         <option value="Interface" />
+        <option value="UML Class" />
         <option value="Class" />
       </list>
     </option>
@@ -234,37 +283,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/model/SysPrivilege.java" />
-        <option value="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/model/SysUserRole.java" />
-        <option value="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/model/SysUser.java" />
-        <option value="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/study-mybatis/src/test/java/CountryMapperTest.java" />
-        <option value="$PROJECT_DIR$/study-mybatis/src/main/resources/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/study-mybatis/src/main/resources/db.properties" />
-        <option value="$PROJECT_DIR$/study-mybatis/src/test/java/mapper/UserMapperTest.java" />
-        <option value="$PROJECT_DIR$/study-mybatis/src/test/java/mapper/BaseMapperTest.java" />
-        <option value="$PROJECT_DIR$/study-mybatis/src/main/resources/mapper/CountryMapper.xml" />
-        <option value="$PROJECT_DIR$/study-mybatis/src/test/java/mapper/CountryMapperTest.java" />
-        <option value="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/model/SysRole.java" />
-        <option value="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/mapper/RoleMapper.java" />
-        <option value="$PROJECT_DIR$/study-mybatis/src/test/java/mapper/RoleMapperTest.java" />
-        <option value="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/type/Enabled.java" />
-        <option value="$PROJECT_DIR$/study-mybatis/src/test/java/other/EnumTest.java" />
-        <option value="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/type/EnabledTypeHandler.java" />
-        <option value="$PROJECT_DIR$/study-mybatis/src/main/resources/mapper/RoleMapper.xml" />
-        <option value="$PROJECT_DIR$/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/config/TestObjectFactory.java" />
-        <option value="$PROJECT_DIR$/study-mybatis/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/adapter_pattern/Target.java" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/adapter_pattern/ConcreteTarget.java" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/adapter_pattern/Adaptee.java" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/adapter_pattern/Adapter.java" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/adapter_pattern/Client.java" />
-        <option value="$PROJECT_DIR$/study-redis/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/study-redis/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/study-redis/src/test/java/top/mcwebsite/studyredis/RedisTest.java" />
-        <option value="$PROJECT_DIR$/study-java8-lambda/src/main/java/top/mcwebsite/lambda/CurryDemoTest.java" />
-        <option value="$PROJECT_DIR$/study-jdbc/src/main/java/top/mcwebsite/study_jdbc/start/JDBC01.java" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/Component.java" />
         <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/Composite.java" />
         <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/Leaf.java" />
         <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/Client.java" />
@@ -285,6 +303,37 @@
         <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/memento_pattern/clone_memento_pattern/Originator.java" />
         <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/memento_pattern/clone_memento_pattern/Caretaker.java" />
         <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/memento_pattern/clone_memento_pattern/simplify/Originator.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/visior_pattern/visitor_pattern.puml" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/visior_pattern/Element.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/visior_pattern/ConcreteElement.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/visior_pattern/Visitor.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/visior_pattern/ConcreteVisitor.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/visior_pattern/ObjectStruture.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/visior_pattern/Client.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/visior_pattern/ConcreteElement2.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/visior_pattern/ConcreteElement1.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/state_pattern/state_pattern.puml" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/state_pattern/ConcreteState.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/state_pattern/State.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/state_pattern/Context.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/state_pattern/ConcreteState1.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/state_pattern/ConcreteState2.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/state_pattern/Client.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/interpreter_pattern/interpreter_pattern.puml" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/interpreter_pattern/Expression.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/interpreter_pattern/TerminalExpression.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/interpreter_pattern/NonterminalExpression.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/interpreter_pattern/Context.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/interpreter_pattern/Client.java" />
+        <option value="$PROJECT_DIR$/study-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/study-redis/src/main/java/top/mcwebsite/studyredis/DistributedLock.java" />
+        <option value="$PROJECT_DIR$/study-redis/src/main/java/top/mcwebsite/mock/DistributedLockMock.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/flyweight_pattern/flyweight_pattern.puml" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/flyweight_pattern/Flyweight.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/flyweight_pattern/ConcreteFlyweight.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/flyweight_pattern/ConcreteFlyweight2.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/flyweight_pattern/ConcreteFlyweight1.java" />
+        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/flyweight_pattern/FlyweightFactory.java" />
       </list>
     </option>
   </component>
@@ -313,17 +362,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="study_java" type="58d84e3e:PackageViewProjectNode" />
-              <item name="study-spring" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -374,101 +413,31 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="top" type="462c0819:PsiDirectoryNode" />
               <item name="mcwebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="memento_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="flyweight_pattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study-design_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="mcwebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="memento_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="clone_memento_pattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study-design_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="mcwebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="memento_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="clone_memento_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="simplify" type="462c0819:PsiDirectoryNode" />
+              <item name="study-redis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.projectreactor:reactor-core:3.2.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.projectreactor:reactor-core:3.2.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="reactor-core-3.2.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.projectreactor:reactor-core:3.2.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="reactor-core-3.2.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="reactor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.projectreactor:reactor-core:3.2.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="reactor-core-3.2.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="reactor" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.projectreactor:reactor-core:3.2.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="reactor-core-3.2.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="reactor" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="publisher" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.reactivestreams:reactive-streams:1.0.2" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.reactivestreams:reactive-streams:1.0.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="reactive-streams-1.0.2.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.reactivestreams:reactive-streams:1.0.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="reactive-streams-1.0.2.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.reactivestreams:reactive-streams:1.0.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="reactive-streams-1.0.2.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="reactivestreams" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="study_java" type="58d84e3e:PackageViewProjectNode" />
+              <item name="study-spring" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -490,9 +459,8 @@
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/study-design_patterns/src/main/java" />
-      <recent name="$PROJECT_DIR$/study-design_patterns/src/main/resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="top.mcwebsite.moreThread.study.annotation" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/java-test" />
@@ -502,15 +470,21 @@
       <recent name="$PROJECT_DIR$/study-java-highstate/src/main/java/top/mcwebsite/rsa" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="top.mcwebsite.flyweight_pattern" />
+      <recent name="top.mcwebsite.state_pattern" />
+      <recent name="top.mcwebsite.visior_pattern" />
       <recent name="top.mcwebsite.composite_pattern.transparency_composite_pattern" />
       <recent name="mapper" />
-      <recent name="" />
-      <recent name="classloadertest" />
-      <recent name="top.mcwebsite.decorator_pattern" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="top.mcwebsite.moreThread.study.annotation" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/study-design_patterns/src/main/java" />
+      <recent name="$PROJECT_DIR$/study-design_patterns/src/main/resources" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="open web-flux-client" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -524,7 +498,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (2)">
+  <component name="RunManager" selected="Application.DistributedLockMock">
     <configuration name="BigObjectOldGen" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="jvmtest.BigObjectOldGen" />
       <module name="java-test" />
@@ -561,13 +535,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.adapter_pattern.Client" />
+    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.visior_pattern.Client" />
       <module name="study-design_patterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.mcwebsite.adapter_pattern.*" />
+          <option name="PATTERN" value="top.mcwebsite.visior_pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.state_pattern.Client" />
+      <module name="study-design_patterns" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.mcwebsite.state_pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DistributedLockMock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.mock.DistributedLockMock" />
+      <module name="study-redis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.mcwebsite.mock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -595,20 +597,6 @@
       <option name="MAIN_CLASS_NAME" value="jvmtest.GCLogTest" />
       <module name="java-test" />
       <option name="VM_PARAMETERS" value="-XX:+PrintGCDetails -Xms30M -Xmx30M -Xmn10M -XX:SurvivorRatio=8" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JDBC01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.study_jdbc.start.JDBC01" />
-      <module name="study-jdbc" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.mcwebsite.study_jdbc.start.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -663,25 +651,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisTest.cluster" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="study-redis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.mcwebsite.studyredis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="top.mcwebsite.studyredis" />
-      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.studyredis.RedisTest" />
-      <option name="METHOD_NAME" value="cluster" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    <configuration name="StudyRedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="study-redis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.mcwebsite.studyredis.StudyRedisApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -701,19 +679,20 @@
       <item itemvalue="Application.RuntimeConstantPoolOOM" />
       <item itemvalue="Application.FinalizeEscapeGC" />
       <item itemvalue="Application.BigObjectOldGen" />
-      <item itemvalue="Application.Client" />
-      <item itemvalue="Application.JDBC01" />
       <item itemvalue="Application.Client (1)" />
       <item itemvalue="Application.Client (2)" />
-      <item itemvalue="JUnit.RedisTest.cluster" />
+      <item itemvalue="Application.Client (3)" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.DistributedLockMock" />
+      <item itemvalue="Spring Boot.StudyRedisApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DistributedLockMock" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.JDBC01" />
-        <item itemvalue="JUnit.RedisTest.cluster" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -875,6 +854,13 @@
       <workItem from="1550464286744" duration="43000" />
       <workItem from="1550494520458" duration="5115000" />
       <workItem from="1550562070709" duration="30000" />
+      <workItem from="1550582528044" duration="5286000" />
+      <workItem from="1550665486859" duration="4765000" />
+      <workItem from="1550732914850" duration="14000" />
+      <workItem from="1550745297334" duration="12871000" />
+      <workItem from="1550812943884" duration="153000" />
+      <workItem from="1550827623161" duration="2301000" />
+      <workItem from="1550836130727" duration="2964000" />
     </task>
     <task id="LOCAL-00001" summary="Java的三种代理">
       <created>1531580968039</created>
@@ -961,7 +947,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="653953000" />
+    <option name="totallyTimeSpent" value="682307000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -974,9 +960,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="26" width="1366" height="706" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24659607" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -993,12 +978,12 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32795697" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50159746" side_tool="true" weight="0.27284947" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49893504" weight="0.42142856" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49893504" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3266129" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946752" weight="0.20535715" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32891247" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3288948" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32857144" />
       <window_info anchor="bottom" id="CPU Profiler" order="15" weight="0.32931727" />
       <window_info anchor="bottom" id="JProfiler" order="16" weight="0.32931727" />
       <window_info anchor="bottom" id="Docker" order="17" show_stripe_button="false" />
@@ -1012,7 +997,7 @@
       <window_info anchor="right" id="Database" order="6" weight="0.32647815" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32854986" />
-      <window_info anchor="right" id="PlantUML" order="9" weight="0.4334342" />
+      <window_info anchor="right" id="PlantUML" order="9" weight="0.4689864" />
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.3292683" />
       <window_info anchor="right" id="Maven" order="11" weight="0.20726173" />
     </layout>
@@ -1178,320 +1163,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/com/sun/org/apache/xml/internal/utils/XML11Char.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.2.RELEASE/spring-boot-2.1.2.RELEASE.jar!/org/springframework/boot/context/properties/bind/Binder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4344">
-          <caret line="213" selection-start-line="213" selection-end-line="213" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/org/w3c/dom/Comment.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/top.mcwebsite.composite_pattern.transparency_composite_pattern.Component">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>top.mcwebsite.composite_pattern.transparency_composite_pattern.Component</OriginalElement>
-          <nodes>
-            <node x="352.7165642490203" y="428.3631466746659">top.mcwebsite.composite_pattern.transparency_composite_pattern.Leaf</node>
-            <node x="412.28520265035354" y="8.918053079537145">top.mcwebsite.composite_pattern.transparency_composite_pattern.Component</node>
-            <node x="0.0" y="0.0">top.mcwebsite.composite_pattern.transparency_composite_pattern.Composite</node>
-            <node x="10.917790742644513" y="385.28494031346077">top.mcwebsite.composite_pattern.transparency_composite_pattern.Client</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="top.mcwebsite.composite_pattern.transparency_composite_pattern.Client" target="top.mcwebsite.composite_pattern.transparency_composite_pattern.Leaf">
-              <point x="2.8421709430404007E-14" y="5.052895268999293" />
-              <point x="0.0" y="5.052895268999265" />
-            </edge>
-            <edge source="top.mcwebsite.composite_pattern.transparency_composite_pattern.Client" target="top.mcwebsite.composite_pattern.transparency_composite_pattern.Component">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="top.mcwebsite.composite_pattern.transparency_composite_pattern.Leaf" target="top.mcwebsite.composite_pattern.transparency_composite_pattern.Component">
-              <point x="-4.947658455020985" y="-0.7215786945713489" />
-              <point x="-4.947658455020985" y="-0.7215786945713489" />
-            </edge>
-            <edge source="top.mcwebsite.composite_pattern.transparency_composite_pattern.Composite" target="top.mcwebsite.composite_pattern.transparency_composite_pattern.Component">
-              <point x="2.8421709430404007E-14" y="10.011663129336597" />
-              <point x="0.0" y="10.011663129336625" />
-            </edge>
-            <edge source="top.mcwebsite.composite_pattern.transparency_composite_pattern.Client" target="top.mcwebsite.composite_pattern.transparency_composite_pattern.Composite">
-              <point x="-4.9941752288376335" y="-0.24127532750881642" />
-              <point x="-4.9941752288376335" y="-0.24127532750881642" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.9356617647058824" x="45.0" y="247.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/transparency_composite_pattern/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" selection-start-line="8" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/transparency_composite_pattern/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="14" />
-          <caret line="22" column="48" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="48" />
-          <caret line="23" column="56" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="56" />
-          <caret line="24" column="44" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="44" />
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="40" />
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="20" />
-          <caret line="27" column="35" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="35" />
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="13" />
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="9" />
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/org/w3c/dom/Document.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="7" column="36" selection-start-line="6" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/org/w3c/dom/Node.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/com/sun/org/apache/xerces/internal/dom/AttrImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/com/sun/org/apache/xerces/internal/dom/NodeImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2760">
-          <caret line="150" column="16" lean-forward="true" selection-start-line="150" selection-start-column="16" selection-end-line="150" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/org/w3c/dom/Attr.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/us/codecraft/xsoup/0.3.1/xsoup-0.3.1.jar!/us/codecraft/xsoup/w3c/AttributeAdaptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="17" column="63" lean-forward="true" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/us/codecraft/xsoup/0.3.1/xsoup-0.3.1.jar!/us/codecraft/xsoup/w3c/NodeAdaptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/transparency_composite_pattern/Leaf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/transparency_composite_pattern/Composite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/org/w3c/dom/NodeList.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/top.mcwebsite.observer_pattern.Subject">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>top.mcwebsite.observer_pattern.Subject</OriginalElement>
-          <nodes>
-            <node x="22.5" y="79.0">top.mcwebsite.observer_pattern.Subject</node>
-            <node x="128.5" y="79.0">top.mcwebsite.observer_pattern.ConcreteObserver</node>
-            <node x="40.5" y="0.0">top.mcwebsite.observer_pattern.Observer</node>
-            <node x="0.0" y="158.0">top.mcwebsite.observer_pattern.ConcreteSubject</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="top.mcwebsite.observer_pattern.ConcreteSubject" target="top.mcwebsite.observer_pattern.Subject">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="top.mcwebsite.observer_pattern.Subject" target="top.mcwebsite.observer_pattern.Observer">
-              <point x="-21.5" y="-14.5" />
-              <point x="44.0" y="54.0" />
-              <point x="56.0" y="54.0" />
-              <point x="-31.0" y="14.5" />
-            </edge>
-            <edge source="top.mcwebsite.observer_pattern.ConcreteObserver" target="top.mcwebsite.observer_pattern.Observer">
-              <point x="0.0" y="-14.5" />
-              <point x="197.5" y="54.0" />
-              <point x="118.0" y="54.0" />
-              <point x="31.0" y="14.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-144.0" y="140.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/observer_pattern/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/observer_pattern/ConcreteSubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" selection-start-line="6" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/observer_pattern/ConcreteObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/observer_pattern/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/observer_pattern/Observer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" selection-start-line="6" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar!/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar!/org/reactivestreams/Subscriber.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#297#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-sources.jar!/org/reactivestreams/Publisher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-sources.jar!/org/reactivestreams/Subscription.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="18" column="92" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-sources.jar!/org/reactivestreams/Subscriber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-sources.jar!/org/reactivestreams/Processor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-java8-stream/src/main/java/top/mcwebsite/stream/StreamDemoTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.2.5.RELEASE/reactor-core-3.2.5.RELEASE.jar!/reactor/core/publisher/MonoAll.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.2.5.RELEASE/reactor-core-3.2.5.RELEASE.jar!/reactor/core/publisher/Mono.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/study-java8-lambda/src/main/java/top/mcwebsite/lambda/ThreadDemoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1625,13 +1296,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-simple-review/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1658,10 +1322,269 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/memento_pattern/clone_memento_pattern/simplify/Originator.java">
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/visior_pattern/visitor_pattern.puml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/visior_pattern/Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" selection-start-line="6" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/visior_pattern/ConcreteElement1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="19" selection-start-line="6" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/visior_pattern/ConcreteElement2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" selection-start-line="6" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/visior_pattern/Visitor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
+          <caret line="11" column="1" selection-start-line="6" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/visior_pattern/ConcreteVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" selection-start-line="6" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/visior_pattern/ObjectStruture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" selection-start-line="8" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/visior_pattern/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" selection-start-line="6" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/state_pattern/state_pattern.puml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/state_pattern/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/state_pattern/ConcreteState2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" selection-start-line="6" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/state_pattern/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="20" selection-start-line="6" selection-end-line="20" />
+          <folding>
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/state_pattern/ConcreteState1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" selection-start-line="6" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/memento_pattern/clone_memento_pattern/simplify/Originator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
           <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/state_pattern/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/interpreter_pattern/interpreter_pattern.puml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/interpreter_pattern/Expression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" selection-start-line="6" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/BinaryJedis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/Jedis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/interpreter_pattern/TerminalExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" selection-start-line="6" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/interpreter_pattern/NonterminalExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" selection-start-line="6" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/interpreter_pattern/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/interpreter_pattern/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-redis/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-redis/src/main/java/top/mcwebsite/studyredis/StudyRedisApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-redis/src/main/java/top/mcwebsite/studyredis/DistributedLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2328">
+          <caret line="104" column="5" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-redis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-redis/src/main/java/top/mcwebsite/mock/DistributedLockMock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="46" column="71" selection-start-line="46" selection-start-column="71" selection-end-line="46" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/flyweight_pattern/flyweight_pattern.puml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/flyweight_pattern/Flyweight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="32" lean-forward="true" selection-start-line="6" selection-end-line="32" />
+          <folding>
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/flyweight_pattern/ConcreteFlyweight1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" selection-start-line="6" selection-end-line="18" />
+          <folding>
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/flyweight_pattern/ConcreteFlyweight2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" selection-start-line="6" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/flyweight_pattern/FlyweightFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="26" selection-end-column="1" />
         </state>
       </provider>
     </entry>
