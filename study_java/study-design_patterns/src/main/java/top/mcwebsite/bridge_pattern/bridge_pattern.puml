@@ -1,26 +1,20 @@
 @startuml
 
-abstract class AbstractList
-abstract AbstractCollection
-interface List
-interface Collection
+abstract class Abstraction
+interface Implementor
+class RefinedAbstraction
+class ConcreteImplementor
 
-List <|-- AbstractList
-Collection <|-- AbstractCollection
+Abstraction o-right-> Implementor : "+impl"
+RefinedAbstraction -up-|> Abstraction
+ConcreteImplementor -up-|> Implementor
 
-Collection <|- List
-AbstractCollection <|- AbstractList
-AbstractList <|-- ArrayList
-
-class ArrayList {
-Object[] elementData
-size()
+class Abstraction {
+    +Operation()
 }
 
-enum TimeUnit {
-DAYS
-HOURS
-MINUTES
+class Implementor {
+    +OperationImpl()
 }
 
 @enduml

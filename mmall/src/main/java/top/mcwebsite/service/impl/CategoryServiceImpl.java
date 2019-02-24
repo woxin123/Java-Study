@@ -82,7 +82,8 @@ public class CategoryServiceImpl implements CategoryService {
      * @param categoryId
      * @return
      */
-    public ServerResponse selectCategoryAndChildrenById(Integer categoryId) {
+    @Override
+    public ServerResponse<List<Integer>> selectCategoryAndChildrenById(Integer categoryId) {
         Set<Category> categorieSet = new HashSet<>();
         findChildCategory(categorieSet, categoryId);
 

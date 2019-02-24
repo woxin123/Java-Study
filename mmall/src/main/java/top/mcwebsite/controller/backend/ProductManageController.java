@@ -1,5 +1,6 @@
 package top.mcwebsite.controller.backend;
 
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,6 +18,7 @@ import top.mcwebsite.service.UserService;
 import top.mcwebsite.util.PropertiesUtil;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.util.HashMap;
 import java.util.Map;
@@ -33,7 +35,7 @@ public class ProductManageController {
 
     private final ProductService productService;
 
-    protected final FileService fileService;
+    private final FileService fileService;
 
     @Autowired
     public ProductManageController(UserService userService, ProductService productService, FileService fileService) {
@@ -84,7 +86,7 @@ public class ProductManageController {
         }
 
         if (userService.checkAdminRole(user).isSuccess()) {
-            return productService.manageProductDetial(productId);
+            return productService.manageProductDetail(productId);
         } else {
             return ServerResponse.createByErrorMessage("无权限操作");
         }
@@ -111,9 +113,9 @@ public class ProductManageController {
     @RequestMapping("search.do")
     @ResponseBody
     public ServerResponse productSearch(HttpSession session,
-                                  String productName, Integer productId,
-                                  @RequestParam(required = false, defaultValue = "1") Integer pageNum,
-                                  @RequestParam(required = false, defaultValue = "10") Integer pageSize) {
+                                        String productName, Integer productId,
+                                        @RequestParam(required = false, defaultValue = "1") Integer pageNum,
+                                        @RequestParam(required = false, defaultValue = "10") Integer pageSize) {
         User user = (User) session.getAttribute(Const.CURRENT_USER);
         if (user == null) {
             return ServerResponse.createErrorByCodeMessage(ResponseCodeEnum.NEED_LOGIN.getCode(),
@@ -146,6 +148,41 @@ public class ProductManageController {
             return ServerResponse.createBySuccess(fileMap);
         } else {
             return ServerResponse.createByErrorMessage("无权限操作");
+        }
+    }
+
+    @RequestMapping("richtext_img_upload.do")
+    @ResponseBody
+    public Map<String, Object> richtextImageUpload(@RequestParam(value = "upload_file", required = false) MultipartFile file,
+                                                   HttpServletRequest request,
+                                                   HttpSession session,
+                                                   HttpServletResponse response) {
+        Map<String, Object> resultMap = new HashMap<>();
+        User user = (User) session.getAttribute(Const.CURRENT_USER);
+        if (user == null) {
+            resultMap.put("success", false);
+            resultMap.put("msg", "请登录管理员");
+            return resultMap;
+        }
+        // 富文本中对于返回值有自己的要求
+        if (userService.checkAdminRole(user).isSuccess()) {
+            String path = request.getSession().getServletContext().getRealPath("upload");
+            String targetFileName = fileService.upload(file, path);
+            if (StringUtils.isBlank(targetFileName)) {
+                resultMap.put("success", false);
+                resultMap.put("msg", "上传失败");
+                return resultMap;
+            }
+            String url = PropertiesUtil.getProperty("img.server") + targetFileName;
+            resultMap.put("success", true);
+            resultMap.put("msg", "上传成功");
+            resultMap.put("file_path", url);
+            response.addHeader("Access-Control-Allow-Header", "X-File-Name");
+            return resultMap;
+        } else {
+            resultMap.put("success", false);
+            resultMap.put("msg", "无权限操作");
+            return resultMap;
         }
     }
 
