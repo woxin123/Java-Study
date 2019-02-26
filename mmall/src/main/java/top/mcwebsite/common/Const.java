@@ -2,7 +2,6 @@ package top.mcwebsite.common;
 
 import com.google.common.collect.Sets;
 
-import java.util.HashSet;
 import java.util.Set;
 
 /**
@@ -14,7 +13,20 @@ public class Const {
 
     public interface ProductListOrderBy {
         Set<String> PRICE_ASC_DESC = Sets.newHashSet("price_desc", "price_asc");
+    }
 
+    public interface Cart {
+        /**
+         * 选中状态
+         */
+        int checked = 1;
+        /**
+         * 购物车中未选中状态
+         */
+        int unChecked = 0;
+
+        String LIMIT_NUM_FAIL = "LIMIT_NUM_FAIL";
+        String LIMIT_NUM_SUCCESS = "LIMIT_NUM_SUCCESS";
     }
 
     public interface Role {
