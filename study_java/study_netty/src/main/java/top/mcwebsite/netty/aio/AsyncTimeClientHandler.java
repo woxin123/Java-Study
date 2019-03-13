@@ -49,8 +49,10 @@ public class AsyncTimeClientHandler implements CompletionHandler<Void, AsyncTime
 
     @Override
     public void completed(Void result, AsyncTimeClientHandler attachment) {
+        System.out.println("客户端连接服务器成功");
         byte[] req = "QUERY TIME ORDER".getBytes();
         ByteBuffer writeBuffer = ByteBuffer.allocate(req.length);
+        writeBuffer.put(req);
         writeBuffer.flip();
         client.write(writeBuffer, writeBuffer, new CompletionHandler<Integer, ByteBuffer>() {
             @Override

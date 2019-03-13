@@ -22,6 +22,14 @@ public class ReadCompletionHandler implements CompletionHandler<Integer, ByteBuf
 
     @Override
     public void completed(Integer result, ByteBuffer attachment) {
+        if (result < 0) {
+            try {
+                channel.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            return;
+        }
         attachment.flip();
         byte[] body = new byte[attachment.remaining()];
         attachment.get(body);

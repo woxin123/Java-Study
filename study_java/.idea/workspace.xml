@@ -2,73 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54730cc1-3d36-4b6c-91a1-14a6c710613b" name="Default" comment="atomic test">
-      <change afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/controller/portal/ShippingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/service/ShippingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/service/impl/ShippingServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-test/src/main/java/TestEndian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/HtmlParseTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_netty/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_netty/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/AcceptCompletionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/AsyncTimeClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/AsyncTimeServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/ReadCompletionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/TimeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/TimeServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/bio/helloworld/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/bio/helloworld/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/bio/helloworld/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/bio/helloworld/ServerBoot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/bio/timeserver/TimeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/bio/timeserver/TimeServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/bio/timeserver/TimeServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/fakenio/TimeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/fakenio/TimeServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/fakenio/TimeServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/fakenio/TimeServerHandlerExecutePool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/nio/BufferTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/nio/FileChannelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/nio/MultiplexerTimeServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/nio/RandomFileChannelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/nio/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/nio/TimeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/nio/TimeClientHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/nio/TimeServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/dao/ShippingMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/dao/ShippingMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mmall/src/main/resources/mappers/ShippingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/resources/mappers/ShippingMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a95d7ce7-5e76-455a-bda1-a51fe04e93f9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a95d7ce7-5e76-455a-bda1-a51fe04e93f9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/AcceptHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/AsyncServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/ClientReadHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/ReadHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/WriteHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-test/java-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/java-test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-test/src/main/jvmtest/TestUTF8.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/src/main/java/TestUTF8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-test/src/main/jvmtest/classloadertest/ClassLoaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/src/main/java/classloadertest/ClassLoaderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-test/src/main/jvmtest/classloadertest/ConstClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/src/main/java/classloadertest/ConstClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-test/src/main/jvmtest/classloadertest/DeadLoopClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/src/main/java/classloadertest/DeadLoopClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-test/src/main/jvmtest/classloadertest/NotInitialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/src/main/java/classloadertest/NotInitialization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-test/src/main/jvmtest/classloadertest/SubClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/src/main/java/classloadertest/SubClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-test/src/main/jvmtest/classloadertest/SuperClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/src/main/java/classloadertest/SuperClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-test/src/main/jvmtest/classloadertest/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/src/main/java/classloadertest/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-test/src/main/jvmtest/enginee/Dispatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/src/main/java/enginee/Dispatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-test/src/main/jvmtest/enginee/InvokeDynamicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/src/main/java/enginee/InvokeDynamicTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-test/src/main/jvmtest/enginee/StaticDispatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/src/main/java/enginee/StaticDispatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-test/src/main/jvmtest/enginee/StaticResolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/src/main/java/enginee/StaticResolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-test/src/main/jvmtest/enginee/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/src/main/java/enginee/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-test/src/main/jvmtest/jvmtest/BigObjectOldGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/src/main/java/jvmtest/BigObjectOldGen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-test/src/main/jvmtest/jvmtest/DirectMemoryOOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/src/main/java/jvmtest/DirectMemoryOOM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-test/src/main/jvmtest/jvmtest/FinalizeEscapeGC.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/src/main/java/jvmtest/FinalizeEscapeGC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-test/src/main/jvmtest/jvmtest/GCLogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/src/main/java/jvmtest/GCLogTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-test/src/main/jvmtest/jvmtest/HeapOOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/src/main/java/jvmtest/HeapOOM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-test/src/main/jvmtest/jvmtest/JavaVMStackSOF.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/src/main/java/jvmtest/JavaVMStackSOF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-test/src/main/jvmtest/jvmtest/MinorGc.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/src/main/java/jvmtest/MinorGc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-test/src/main/jvmtest/jvmtest/RuntimeConstantPoolOOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/src/main/java/jvmtest/RuntimeConstantPoolOOM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-test/src/main/jvmtest/jvmtest/RuntimeConstantPoolOOM2.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/src/main/java/jvmtest/RuntimeConstantPoolOOM2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-test/src/main/jvmtest/jvmtest/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/src/main/java/jvmtest/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/AddHitsCSDN.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/AddHitsCSDN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-java-webmagic/target/classes/csdn.html" beforeDir="false" afterPath="$PROJECT_DIR$/study-java-webmagic/target/classes/csdn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-java8-stream/study-java8-stream.iml" beforeDir="false" afterPath="$PROJECT_DIR$/study-java8-stream/study-java8-stream.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/AsyncTimeClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/AsyncTimeClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/ReadCompletionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/ReadCompletionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/bio/timeserver/TimeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/bio/timeserver/TimeClient.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/study-java/target/" />
     <ignored path="$PROJECT_DIR$/studyjavawebmagic/target/" />
@@ -156,24 +101,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/AsyncTimeServerHandler.java">
+        <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+            <state relative-caret-position="158">
+              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/AcceptCompletionHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="17" column="63" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+                <element signature="e#577#578#0" expanded="true" />
+                <element signature="e#607#608#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -182,17 +118,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/TimeClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
+            <state relative-caret-position="334">
               <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/java/nio/channels/CompletionHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-106">
-              <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -200,10 +127,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/AsyncTimeClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="58" column="60" lean-forward="true" selection-start-line="58" selection-start-column="60" selection-end-line="58" selection-end-column="60" />
+            <state relative-caret-position="145">
+              <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/TimeServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/ReadCompletionHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="37" column="73" lean-forward="true" selection-start-line="37" selection-start-column="73" selection-end-line="37" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
+                <element signature="e#607#608#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -212,31 +162,49 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/bio/timeserver/TimeClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="20" column="9" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="393">
+              <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/ReadCompletionHandler.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/AsyncClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="23" column="66" lean-forward="true" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
+            <state relative-caret-position="101">
+              <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#434#435#0" expanded="true" />
-                <element signature="e#453#454#0" expanded="true" />
+                <element signature="e#1456#1457#0" expanded="true" />
+                <element signature="e#1508#1509#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/TimeServer.java">
+        <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/ClientReadHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+            <state relative-caret-position="-308">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/WriteHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="29" column="9" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="29" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -306,15 +274,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/interpreter_pattern/Expression.java" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/interpreter_pattern/TerminalExpression.java" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/interpreter_pattern/NonterminalExpression.java" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/interpreter_pattern/Context.java" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/interpreter_pattern/Client.java" />
-        <option value="$PROJECT_DIR$/study-redis/pom.xml" />
-        <option value="$PROJECT_DIR$/study-redis/src/main/java/top/mcwebsite/studyredis/DistributedLock.java" />
-        <option value="$PROJECT_DIR$/study-redis/src/main/java/top/mcwebsite/mock/DistributedLockMock.java" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/flyweight_pattern/flyweight_pattern.puml" />
         <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/flyweight_pattern/Flyweight.java" />
         <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/flyweight_pattern/ConcreteFlyweight.java" />
         <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/flyweight_pattern/ConcreteFlyweight2.java" />
@@ -343,7 +302,6 @@
         <option value="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/nio/TimeClient.java" />
         <option value="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/nio/Test.java" />
         <option value="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/nio/MultiplexerTimeServer.java" />
-        <option value="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/bio/timeserver/TimeClient.java" />
         <option value="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/nio/TimeClientHandle.java" />
         <option value="$PROJECT_DIR$/java-test/src/main/java/jvmtest/DirectMemoryOOM.java" />
         <option value="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/nio/BufferTest.java" />
@@ -352,11 +310,21 @@
         <option value="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/nio/RandomFileChannelTest.java" />
         <option value="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/TImeServer.java" />
         <option value="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/TimeServer.java" />
-        <option value="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/AcceptCompletionHandler.java" />
         <option value="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/TimeClient.java" />
-        <option value="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/ReadCompletionHandler.java" />
-        <option value="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/AsyncTimeClientHandler.java" />
         <option value="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/AsyncTimeServerHandler.java" />
+        <option value="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/AcceptCompletionHandler.java" />
+        <option value="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/bio/timeserver/TimeClient.java" />
+        <option value="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/Server.java" />
+        <option value="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/AsyncServerHandler.java" />
+        <option value="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/AcceptHandler.java" />
+        <option value="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/ReadHandler.java" />
+        <option value="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/Client.java" />
+        <option value="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/AsyncClientHandler.java" />
+        <option value="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/WriteHandler.java" />
+        <option value="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/ClientReadHandler.java" />
+        <option value="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/Test.java" />
+        <option value="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/AsyncTimeClientHandler.java" />
+        <option value="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/ReadCompletionHandler.java" />
       </list>
     </option>
   </component>
@@ -446,6 +414,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="timeserver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -455,6 +431,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="fakenio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
@@ -493,9 +477,11 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/study-design_patterns/src/main/java" />
-      <recent name="$PROJECT_DIR$/study-design_patterns/src/main/resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="top.mcwebsite.netty.aio" />
+      <recent name="top.mcwebsite.netty.bio.timeserver" />
+      <recent name="top.mcwebsite.netty.bio.helloworld" />
+      <recent name="top.mcwebsite.moreThread.study.annotation" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/fakenio" />
@@ -511,10 +497,9 @@
       <recent name="top.mcwebsite.state_pattern" />
       <recent name="top.mcwebsite.visior_pattern" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="top.mcwebsite.netty.bio.timeserver" />
-      <recent name="top.mcwebsite.netty.bio.helloworld" />
-      <recent name="top.mcwebsite.moreThread.study.annotation" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/study-design_patterns/src/main/java" />
+      <recent name="$PROJECT_DIR$/study-design_patterns/src/main/resources" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -534,25 +519,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TimeClient">
+  <component name="RunManager" selected="Application.TimeClient (1)">
     <configuration name="BigObjectOldGen" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="jvmtest.BigObjectOldGen" />
       <module name="java-test" />
       <option name="VM_PARAMETERS" value="-verbose:gc -Xms20M -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8 -XX:PretenureSizeThreshold=3145728" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileChannelTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.netty.nio.FileChannelTest" />
-      <module name="study_netty" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.mcwebsite.netty.nio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -639,10 +610,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestEndian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestEndian" />
-      <module name="java-test" />
-      <option name="VM_PARAMETERS" value="-ea" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.netty.aio.Test" />
+      <module name="study_netty" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.mcwebsite.netty.aio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.netty.bio.timeserver.TimeClient" />
+      <module name="study_netty" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.mcwebsite.netty.bio.timeserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -711,20 +702,20 @@
       <item itemvalue="Application.RuntimeConstantPoolOOM" />
       <item itemvalue="Application.FinalizeEscapeGC" />
       <item itemvalue="Application.BigObjectOldGen" />
-      <item itemvalue="Application.TestEndian" />
-      <item itemvalue="Application.FileChannelTest" />
       <item itemvalue="Application.RandomFileChannelTest" />
       <item itemvalue="Spring Boot.StudyRedisApplication" />
       <item itemvalue="Application.TimeServer" />
       <item itemvalue="Application.TimeClient" />
+      <item itemvalue="Application.TimeClient (1)" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TimeClient (1)" />
         <item itemvalue="Application.TimeClient" />
         <item itemvalue="Application.TimeServer" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.RandomFileChannelTest" />
-        <item itemvalue="Application.FileChannelTest" />
-        <item itemvalue="Application.TestEndian" />
       </list>
     </recent_temporary>
   </component>
@@ -907,7 +898,7 @@
       <workItem from="1551767301512" duration="16966000" />
       <workItem from="1551861014517" duration="5883000" />
       <workItem from="1551879718949" duration="6254000" />
-      <workItem from="1552379276288" duration="9768000" />
+      <workItem from="1552379276288" duration="13009000" />
     </task>
     <task id="LOCAL-00001" summary="Java的三种代理">
       <created>1531580968039</created>
@@ -994,7 +985,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="755160000" />
+    <option name="totallyTimeSpent" value="758401000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1019,17 +1010,17 @@
       <window_info id="Persistence" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32493368" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49646756" weight="0.3680431" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49646756" visible="true" weight="0.35008976" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49646756" visible="true" weight="0.3680431" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49646756" weight="0.5529623" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32795697" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5035324" side_tool="true" weight="0.3876765" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49893504" weight="0.49642858" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49893504" weight="0.49551168" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3266129" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946752" weight="0.20466787" />
-      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="bottom" id="Spring" order="12" weight="0.32854578" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32891247" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32857144" />
       <window_info anchor="bottom" id="CPU Profiler" order="15" weight="0.32931727" />
@@ -1212,9 +1203,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/ReadCompletionHandler.java</url>
-          <line>24</line>
+          <line>48</line>
           <properties />
-          <option name="timeStamp" value="55" />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/ReadCompletionHandler.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>
@@ -1241,82 +1238,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="209" column="23" selection-start-line="209" selection-start-column="23" selection-end-line="209" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/nio/DirectIntBufferS.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="96" column="21" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/sun/nio/ch/DirectBuffer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/java/nio/DirectByteBufferR.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/java/lang/ref/Reference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="512" column="23" selection-start-line="512" selection-start-column="23" selection-end-line="512" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/jdk/internal/misc/Unsafe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="359" column="15" selection-start-line="359" selection-start-column="15" selection-end-line="359" selection-end-column="15" />
-          <folding>
-            <element signature="e#11806#11807#0" expanded="true" />
-            <element signature="e#11847#11848#0" expanded="true" />
-            <element signature="e#12496#12497#0" expanded="true" />
-            <element signature="e#12540#12541#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/nio/Buffer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/java/nio/DirectIntBufferRU.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/java/nio/CharBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="262" column="15" selection-start-line="262" selection-start-column="15" selection-end-line="262" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/java/nio/HeapCharBufferR.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8690">
-          <caret line="207" column="41" selection-start-line="207" selection-start-column="18" selection-end-line="207" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/java/nio/DirectIntBufferU.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -1562,13 +1483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/fakenio/TimeServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1586,17 +1500,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/bio/timeserver/TimeClient.java">
+    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/java/nio/channels/AsynchronousSocketChannel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="112">
+          <caret line="420" column="26" selection-start-line="420" selection-start-column="26" selection-end-line="420" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/bio/timeserver/TimeServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/fakenio/TimeServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-550">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="e#123#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/AsyncTimeServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/AcceptCompletionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/AsyncServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/AcceptHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/ReadHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-273">
+          <caret line="58" column="83" selection-start-line="55" selection-start-column="20" selection-end-line="58" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/WriteHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/AsyncClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1456#1457#0" expanded="true" />
+            <element signature="e#1508#1509#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/AsyncTimeClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="58" column="60" lean-forward="true" selection-start-line="58" selection-start-column="60" selection-end-line="58" selection-end-column="60" />
+        <state relative-caret-position="145">
+          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1605,54 +1634,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/TimeClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
+        <state relative-caret-position="334">
           <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/TimeServer.java">
+    <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/ClientReadHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/AsyncTimeServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/java/nio/channels/AsynchronousSocketChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="420" column="26" selection-start-line="420" selection-start-column="26" selection-end-line="420" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/AcceptCompletionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="17" column="63" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-308">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/ReadCompletionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="23" column="66" lean-forward="true" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
+        <state relative-caret-position="151">
+          <caret line="37" column="73" lean-forward="true" selection-start-line="37" selection-start-column="73" selection-end-line="37" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/bio/timeserver/TimeClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/TimeServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
         </state>
       </provider>
     </entry>
