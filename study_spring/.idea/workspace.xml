@@ -2,99 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="339549e8-140c-41e1-877f-329ca5fe0457" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/count/CountExample4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/controller/backend/ProductManageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/vo/ProductDetailVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_java/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_java/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_java/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/Composite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_java/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/Leaf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_java/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/transparency_composite_pattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_java/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/transparency_composite_pattern/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_java/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/transparency_composite_pattern/Composite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_java/study-design_patterns/src/main/java/top/mcwebsite/composite_pattern/transparency_composite_pattern/Leaf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_java/study-design_patterns/src/main/java/top/mcwebsite/observer_pattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_java/study-design_patterns/src/main/java/top/mcwebsite/observer_pattern/ConcreteObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_java/study-design_patterns/src/main/java/top/mcwebsite/observer_pattern/ConcreteSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_java/study-design_patterns/src/main/java/top/mcwebsite/observer_pattern/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study_java/study-design_patterns/src/main/java/top/mcwebsite/observer_pattern/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spting-test/src/main/java/top/mcwebsite/StuBeanPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spting-test/src/main/java/top/mcwebsite/bean/CircleA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spting-test/src/main/java/top/mcwebsite/bean/CircleB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spting-test/src/main/java/top/mcwebsite/bean/CircleC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spting-test/src/main/java/top/mcwebsite/bean/TestA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spting-test/src/main/java/top/mcwebsite/bean/TestB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spting-test/src/main/java/top/mcwebsite/bean/TestC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spting-test/src/main/resources/applicationCircleDep.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spting-test/src/test/java/top/mcwebsite/cicrle/CircleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/atomic/AtomicExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/atomic/AtomicExample1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/atomic/AtomicExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/atomic/AtomicExample2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/atomic/AtomicExample3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/atomic/AtomicExample3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/atomic/AtomicExample4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/atomic/AtomicExample4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/atomic/AtomicExample5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/atomic/AtomicExample5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/atomic/AtomicExample6.java" beforeDir="false" afterPath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/atomic/AtomicExample6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/count/CountExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/count/CountExample2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/count/CountExample3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/count/CountExample3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/sync/SynchronizedExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/sync/SynchronizedExample1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/sync/SynchronizedExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../concurrency/src/main/java/top/mcwebsite/concurrency/example/sync/SynchronizedExample2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/common/ServerResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/common/ServerResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mmall/src/main/resources/datasource.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/resources/datasource.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/.idea/dataSources/a95d7ce7-5e76-455a-bda1-a51fe04e93f9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/.idea/dataSources/a95d7ce7-5e76-455a-bda1-a51fe04e93f9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/controller/portal/ShippingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/controller/portal/ShippingController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../study_java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/java-test/target/classes/META-INF/java-test.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/java-test/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/java-test/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/stduy-hibernate/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/stduy-hibernate/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-design_patterns/src/main/java/top/mcwebsite/adapter_pattern/Adaptee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-design_patterns/src/main/java/top/mcwebsite/adapter_pattern/Adaptee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-design_patterns/src/main/java/top/mcwebsite/adapter_pattern/Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-design_patterns/src/main/java/top/mcwebsite/adapter_pattern/Adapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-design_patterns/src/main/java/top/mcwebsite/adapter_pattern/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-design_patterns/src/main/java/top/mcwebsite/adapter_pattern/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-design_patterns/src/main/java/top/mcwebsite/adapter_pattern/ConcreteTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-design_patterns/src/main/java/top/mcwebsite/adapter_pattern/ConcreteTarget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-design_patterns/src/main/java/top/mcwebsite/adapter_pattern/Target.java" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-design_patterns/src/main/java/top/mcwebsite/adapter_pattern/Target.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-java-webmagic/src/main/resources/csdn.html" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-java-webmagic/src/main/resources/csdn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-jdbc/src/main/java/top/mcwebsite/study_jdbc/start/JDBC01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-jdbc/src/main/java/top/mcwebsite/study_jdbc/start/JDBC01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-mybatis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/config/TestObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/config/TestObjectFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/mapper/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/mapper/RoleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/model/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/model/Country.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/model/SysPrivilege.java" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/model/SysPrivilege.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/model/SysRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/model/SysRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/model/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/model/SysUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/model/SysUserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/model/SysUserRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/type/Enabled.java" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/type/Enabled.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/type/EnabledTypeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-mybatis/src/main/java/top/mcwebsite/study_mybatis/type/EnabledTypeHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-mybatis/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-mybatis/src/main/resources/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-mybatis/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-mybatis/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-mybatis/src/main/resources/mapper/CountryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-mybatis/src/main/resources/mapper/CountryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-mybatis/src/main/resources/mapper/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-mybatis/src/main/resources/mapper/RoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-mybatis/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-mybatis/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-mybatis/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-mybatis/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-mybatis/src/test/java/mapper/BaseMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-mybatis/src/test/java/mapper/BaseMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-mybatis/src/test/java/mapper/CountryMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-mybatis/src/test/java/mapper/CountryMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-mybatis/src/test/java/mapper/RoleMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-mybatis/src/test/java/mapper/RoleMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-mybatis/src/test/java/mapper/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-mybatis/src/test/java/mapper/UserMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-mybatis/src/test/java/other/EnumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-mybatis/src/test/java/other/EnumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-mybatis/study-mybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-mybatis/study-mybatis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study-redis/src/test/java/top/mcwebsite/studyredis/RedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study-redis/src/test/java/top/mcwebsite/studyredis/RedisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_java/study_spi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/study_spi/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spting-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spting-test/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spting-test/spting-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spting-test/spting-test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spting-test/src/main/java/top/mcwebsite/TestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spting-test/src/main/java/top/mcwebsite/TestApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spting-test/src/main/java/top/mcwebsite/XmlApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spting-test/src/main/java/top/mcwebsite/XmlApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spting-test/src/main/java/top/mcwebsite/bean/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/spting-test/src/main/java/top/mcwebsite/bean/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spting-test/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spting-test/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spting-test/src/test/java/Test1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spting-test/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spting-test/target/classes/applicationContext.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/study-spring/target/" />
     <ignored path="$PROJECT_DIR$/study-spring-cache/target/" />
@@ -156,7 +66,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3609">
+            <state relative-caret-position="170">
               <caret line="1220" column="64" selection-start-line="1220" selection-start-column="64" selection-end-line="1220" selection-end-column="64" />
             </state>
           </provider>
@@ -165,7 +75,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/InstantiationStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
+            <state relative-caret-position="616">
               <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
             </state>
           </provider>
@@ -174,7 +84,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1704">
+            <state relative-caret-position="1562">
               <caret line="100" column="21" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
             </state>
           </provider>
@@ -183,7 +93,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3">
+            <state relative-caret-position="2222">
               <caret line="137" column="8" selection-start-line="137" selection-start-column="8" selection-end-line="137" selection-end-column="8" />
             </state>
           </provider>
@@ -192,7 +102,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/ConstructorResolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3960">
+            <state relative-caret-position="3630">
               <caret line="220" selection-start-line="220" selection-end-line="220" />
             </state>
           </provider>
@@ -201,7 +111,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionValueResolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1584">
+            <state relative-caret-position="1452">
               <caret line="104" column="18" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
             </state>
           </provider>
@@ -210,7 +120,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spting-test/src/main/java/top/mcwebsite/TestApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="330">
               <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -222,7 +132,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spting-test/src/main/java/top/mcwebsite/XmlApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
+            <state relative-caret-position="462">
               <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -234,7 +144,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2952">
+            <state relative-caret-position="2706">
               <caret line="139" column="11" selection-start-line="139" selection-start-column="11" selection-end-line="139" selection-end-column="11" />
             </state>
           </provider>
@@ -243,7 +153,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39432">
+            <state relative-caret-position="36146">
               <caret line="1763" column="30" selection-start-line="1763" selection-start-column="30" selection-end-line="1763" selection-end-column="30" />
               <folding>
                 <element signature="e#32614#32615#0" expanded="true" />
@@ -364,10 +274,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="114" />
-    <option name="y" value="329" />
-    <option name="width" value="1221" />
-    <option name="height" value="631" />
+    <option name="x" value="1367" />
+    <option name="width" value="1919" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -563,25 +472,6 @@
               <item name="spting-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="mcwebsite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spting-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="mcwebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spting-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -608,26 +498,25 @@
             <path>
               <item name="study_spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="spting-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="mcwebsite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spting-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="mcwebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="cicrle" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study_spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="spting-test" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spting-test" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-test-sources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spting-test" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -670,6 +559,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538923895604" />
@@ -839,6 +729,7 @@
       <workItem from="1549198972456" duration="13000" />
       <workItem from="1549973480793" duration="2719000" />
       <workItem from="1550065391045" duration="686000" />
+      <workItem from="1552615334941" duration="629000" />
     </task>
     <task id="LOCAL-00001" summary="Spring Cache">
       <created>1538923711680</created>
@@ -883,13 +774,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95975000" />
+    <option name="totallyTimeSpent" value="96604000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="26" width="1366" height="706" extended-state="6" />
+    <frame x="1367" y="0" width="1919" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25572723" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1328,37 +1219,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="1220" column="64" selection-start-line="1220" selection-start-column="64" selection-end-line="1220" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/InstantiationStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
+        <state relative-caret-position="616">
           <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1704">
+        <state relative-caret-position="1562">
           <caret line="100" column="21" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2222">
+          <caret line="137" column="8" selection-start-line="137" selection-start-column="8" selection-end-line="137" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/ConstructorResolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3960">
+        <state relative-caret-position="3630">
           <caret line="220" selection-start-line="220" selection-end-line="220" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionValueResolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
+        <state relative-caret-position="1452">
           <caret line="104" column="18" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spting-test/src/main/java/top/mcwebsite/TestApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="330">
           <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1368,7 +1273,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spting-test/src/main/java/top/mcwebsite/XmlApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
+        <state relative-caret-position="462">
           <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1378,33 +1283,19 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2952">
+        <state relative-caret-position="2706">
           <caret line="139" column="11" selection-start-line="139" selection-start-column="11" selection-end-line="139" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39432">
+        <state relative-caret-position="36146">
           <caret line="1763" column="30" selection-start-line="1763" selection-start-column="30" selection-end-line="1763" selection-end-column="30" />
           <folding>
             <element signature="e#32614#32615#0" expanded="true" />
             <element signature="e#32672#32673#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="137" column="8" selection-start-line="137" selection-start-column="8" selection-end-line="137" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3609">
-          <caret line="1220" column="64" selection-start-line="1220" selection-start-column="64" selection-end-line="1220" selection-end-column="64" />
         </state>
       </provider>
     </entry>

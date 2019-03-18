@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AjcSettings">
+    <option name="ajcPath" value="$USER_HOME$/opt/lib/aspectjtools.jar" />
+  </component>
   <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="ajc" />
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="study-design_patterns" />
-        <module name="study-mybatis" />
         <module name="study-java-highstate" />
-        <module name="study-jdbc" />
+        <module name="study-mybatis" />
+        <module name="java-simple-review" />
+        <module name="study-design_patterns" />
         <module name="study-spring" />
         <module name="study_netty" />
         <module name="study-java8-lambda" />
         <module name="study-java8-stream" />
-        <module name="java-test" />
+        <module name="study-redis" />
         <module name="stduy-hibernate" />
         <module name="study-concurrency" />
+        <module name="java-test" />
         <module name="study-java-httpclient" />
         <module name="study-java-moreThread" />
-        <module name="java-simple-review" />
-        <module name="study-redis" />
+        <module name="study-jdbc" />
         <module name="study-java-webmagic" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="java-simple-review" target="8" />
+      <module name="java-simple-review" target="1.5" />
       <module name="java-test" target="7" />
       <module name="stduy-hibernate" target="1.5" />
       <module name="study-concurrency" target="8" />
@@ -34,14 +38,14 @@
       <module name="study-java-highstate" target="8" />
       <module name="study-java-httpclient" target="8" />
       <module name="study-java-moreThread" target="8" />
-      <module name="study-java-webmagic" target="8" />
+      <module name="study-java-webmagic" target="7" />
       <module name="study-java8-lambda" target="8" />
       <module name="study-java8-stream" target="8" />
-      <module name="study-jdbc" target="8" />
+      <module name="study-jdbc" target="1.5" />
       <module name="study-mybatis" target="1.8" />
       <module name="study-redis" target="1.8" />
-      <module name="study-spring" target="8" />
-      <module name="study_netty" target="8" />
+      <module name="study-spring" target="1.5" />
+      <module name="study_netty" target="1.5" />
       <module name="study_spi" target="8" />
     </bytecodeTargetLevel>
   </component>

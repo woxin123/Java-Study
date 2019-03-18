@@ -20,13 +20,11 @@ class JDKProxy {
     public Object getProxyInstance() {
         return Proxy.newProxyInstance(target.getClass().getClassLoader(),
                 target.getClass().getInterfaces(),
-                new InvocationHandler() {
-                    public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-                        System.out.println("在目标对象方法执行前，格式的修正等");
-                        Object returnValue = method.invoke(target, args);
-                        System.out.println("在代理对象方法执行后，记录日志等");
-                        return returnValue;
-                    }
+                (proxy, method, args) -> {
+                    System.out.println("在目标对象方法执行前，格式的修正等");
+                    Object returnValue = method.invoke(target, args);
+                    System.out.println("在代理对象方法执行后，记录日志等");
+                    return returnValue;
                 });
     }
 }

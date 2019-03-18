@@ -35,7 +35,6 @@ public class UserServiceImpl implements UserService {
         if (resultCount == 0) {
             return ServerResponse.createByErrorMessage("用户名不存在");
         }
-        // todo 密码登录MD5
         String md5password = MD5Util.MD5EncodeUtf8(password);
 
         User user = userMapper.selectLogin(username, md5password);
