@@ -2,15 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="339549e8-140c-41e1-877f-329ca5fe0457" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/controller/portal/ShippingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mmall/src/main/java/top/mcwebsite/controller/portal/ShippingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core-study/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core-study/spring-core-study.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core-study/src/main/java/study/spring/aware/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core-study/src/main/java/study/spring/aware/TestAware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core-study/src/main/java/study/spring/aware/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core-study/src/main/java/study/spring/aware/User2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-core-study/src/main/resources/spring-core-aware.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../study_java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study-spring/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/study-spring/target/" />
     <ignored path="$PROJECT_DIR$/study-spring-cache/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-cache/target/" />
     <ignored path="$PROJECT_DIR$/spting-test/target/" />
     <ignored path="$PROJECT_DIR$/singleton-point-login-in/target/" />
+    <ignored path="$PROJECT_DIR$/spring-core-study/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,67 +72,40 @@
     </expand>
     <select />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-core-study/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-core-study/src/main/java/study/spring/aware/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="21" selection-start-line="9" selection-end-line="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
+        <entry file="file://$PROJECT_DIR$/spring-core-study/src/main/java/study/spring/aware/TestAware.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="1220" column="64" selection-start-line="1220" selection-start-column="64" selection-end-line="1220" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/InstantiationStrategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1562">
-              <caret line="100" column="21" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2222">
-              <caret line="137" column="8" selection-start-line="137" selection-start-column="8" selection-end-line="137" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/ConstructorResolver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3630">
-              <caret line="220" selection-start-line="220" selection-end-line="220" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionValueResolver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1452">
-              <caret line="104" column="18" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spting-test/src/main/java/top/mcwebsite/TestApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+            <state relative-caret-position="215">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,35 +114,72 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spting-test/src/main/java/top/mcwebsite/XmlApplication.java">
+        <entry file="file://$PROJECT_DIR$/spring-core-study/src/main/resources/spring-core-aware.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="132">
+              <caret line="4" column="56" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="56" />
+              <caret line="5" column="49" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="49" />
+              <caret line="6" column="46" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="46" />
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="11" />
+              <caret line="9" column="54" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="54" />
+              <caret line="10" column="45" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="45" />
+              <caret line="11" column="46" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="46" />
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2706">
-              <caret line="139" column="11" selection-start-line="139" selection-start-column="11" selection-end-line="139" selection-end-column="11" />
+        <entry file="file://$PROJECT_DIR$/spring-core-study/src/main/java/study/spring/aware/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.2.RELEASE/spring-beans-5.1.2.RELEASE-sources.jar!/org/springframework/beans/factory/Aware.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36146">
-              <caret line="1763" column="30" selection-start-line="1763" selection-start-column="30" selection-end-line="1763" selection-end-column="30" />
-              <folding>
-                <element signature="e#32614#32615#0" expanded="true" />
-                <element signature="e#32672#32673#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="157">
+              <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.2.RELEASE/spring-beans-5.1.2.RELEASE-sources.jar!/org/springframework/beans/factory/BeanNameAware.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="35" selection-start-line="35" selection-end-line="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/BeanNameAware.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-core-study/src/main/java/study/spring/aware/User2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="14" selection-start-line="8" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study-spring/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -201,12 +222,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/study-spring-cache/src/main/resources/ehcahce.xml" />
-        <option value="$PROJECT_DIR$/study-spring-cache/src/main/java/top/mcwebsite/spring/cache/ehcache/UserMain.java" />
-        <option value="$PROJECT_DIR$/study-spring-cache/pom.xml" />
-        <option value="$PROJECT_DIR$/study-spring-cache/src/main/resources/spring-ehcache.xml" />
-        <option value="$PROJECT_DIR$/study-spring-cache/src/main/java/top/mcwebsite/spring/cache/initcache/ApplicationConfig.java" />
-        <option value="$PROJECT_DIR$/study-spring-cache/src/main/java/top/mcwebsite/spring/cache/ehcache/ApplicationConfig.java" />
         <option value="$PROJECT_DIR$/study-spring-cache/src/main/java/top/mcwebsite/spring/cache/guava/ApplicationConfig.java" />
         <option value="$PROJECT_DIR$/spting-test/src/main/java/top/mcwebsite/test/ApplicationConfig.java" />
         <option value="/media/mengchen/项目/源码/Spring源码阅读/spring-framework/spring-context/src/main/java/org/springframework/context/annotation/AnnotationConfigApplicationContext.java" />
@@ -252,6 +267,12 @@
         <option value="$PROJECT_DIR$/spting-test/src/main/resources/applicationCircleDep.xml" />
         <option value="$PROJECT_DIR$/spting-test/src/main/java/top/mcwebsite/bean/Student.java" />
         <option value="$PROJECT_DIR$/spting-test/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/spring-core-study/pom.xml" />
+        <option value="$PROJECT_DIR$/study-spring/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-core-study/src/main/java/study/spring/aware/User.java" />
+        <option value="$PROJECT_DIR$/spring-core-study/src/main/java/study/spring/aware/User2.java" />
+        <option value="$PROJECT_DIR$/spring-core-study/src/main/resources/spring-core-aware.xml" />
+        <option value="$PROJECT_DIR$/spring-core-study/src/main/java/study/spring/aware/TestAware.java" />
       </list>
     </option>
   </component>
@@ -274,9 +295,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1367" />
-    <option name="width" value="1919" />
-    <option name="height" value="1080" />
+    <option name="y" value="25" />
+    <option name="width" value="1366" />
+    <option name="height" value="703" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -284,6 +305,82 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="study_spring" type="58d84e3e:PackageViewProjectNode" />
+              <item name="study-spring-cache" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="study_spring" type="58d84e3e:PackageViewProjectNode" />
+              <item name="study-spring-cache" type="616d4139:PackageViewModuleNode" />
+              <item name="top.mcwebsite.spring.cache" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="study_spring" type="58d84e3e:PackageViewProjectNode" />
+              <item name="study-spring-cache" type="616d4139:PackageViewModuleNode" />
+              <item name="top.mcwebsite.spring.cache" type="1f31426a:PackageElementNode" />
+              <item name="domain" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="study_spring" type="58d84e3e:PackageViewProjectNode" />
+              <item name="study-spring-cache" type="616d4139:PackageViewModuleNode" />
+              <item name="top.mcwebsite.spring.cache" type="1f31426a:PackageElementNode" />
+              <item name="mycache" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="study_spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-core-study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-core-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-core-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-core-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-core-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="aware" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-core-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -434,122 +531,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="study_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spting-test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spting-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spting-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spting-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spting-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spting-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spting-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spting-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spting-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spting-test" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spting-test" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spting-test" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-test-sources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spting-test" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="study_spring" type="58d84e3e:PackageViewProjectNode" />
-              <item name="study-spring-cache" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="study_spring" type="58d84e3e:PackageViewProjectNode" />
-              <item name="study-spring-cache" type="616d4139:PackageViewModuleNode" />
-              <item name="top.mcwebsite.spring.cache" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="study_spring" type="58d84e3e:PackageViewProjectNode" />
-              <item name="study-spring-cache" type="616d4139:PackageViewModuleNode" />
-              <item name="top.mcwebsite.spring.cache" type="1f31426a:PackageElementNode" />
-              <item name="domain" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="study_spring" type="58d84e3e:PackageViewProjectNode" />
-              <item name="study-spring-cache" type="616d4139:PackageViewModuleNode" />
-              <item name="top.mcwebsite.spring.cache" type="1f31426a:PackageElementNode" />
-              <item name="mycache" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -564,6 +545,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538923895604" />
     <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-core-study" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -598,13 +580,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.XmlApplication">
-    <configuration name="Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.singletonpointloginin.Test01" />
-      <module name="singleton-point-login-in" />
+  <component name="RunManager" selected="Application.TestAware">
+    <configuration name="TestApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.TestApplication" />
+      <module name="spting-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.mcwebsite.singletonpointloginin.*" />
+          <option name="PATTERN" value="top.mcwebsite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -612,12 +594,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.TestApplication" />
-      <module name="spting-test" />
+    <configuration name="TestAware" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.spring.aware.TestAware" />
+      <module name="spring-core-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.mcwebsite.*" />
+          <option name="PATTERN" value="study.spring.aware.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -686,11 +668,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestAware" />
         <item itemvalue="Application.XmlApplication" />
         <item itemvalue="JUnit.CircleTest.testCircleByConstructor" />
         <item itemvalue="Application.TestApplication" />
         <item itemvalue="JUnit.CircleTest.testCircleBySetter" />
-        <item itemvalue="Application.Test01" />
       </list>
     </recent_temporary>
   </component>
@@ -730,6 +712,7 @@
       <workItem from="1549973480793" duration="2719000" />
       <workItem from="1550065391045" duration="686000" />
       <workItem from="1552615334941" duration="629000" />
+      <workItem from="1552920724595" duration="4594000" />
     </task>
     <task id="LOCAL-00001" summary="Spring Cache">
       <created>1538923711680</created>
@@ -774,13 +757,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96604000" />
+    <option name="totallyTimeSpent" value="101198000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1367" y="0" width="1919" height="1080" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="25" width="1366" height="703" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25572723" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25945538" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -790,7 +772,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32896462" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38035715" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37943262" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.43214285" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -863,78 +845,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.2.RELEASE/spring-beans-5.1.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="472" column="22" lean-forward="true" selection-start-line="472" selection-start-column="22" selection-end-line="472" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.2.RELEASE/spring-beans-5.1.2.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="86" column="5" lean-forward="true" selection-start-line="83" selection-start-column="4" selection-end-line="86" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spting-test/src/main/java/top/mcwebsite/bean/StudentFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/FactoryBeanRegistrySupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1419">
-          <caret line="203" column="9" selection-start-line="202" selection-start-column="4" selection-end-line="203" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/ObjectFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/config/InstantiationAwareBeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="46" column="52" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spting-test/src/test/java/Test1.java" />
-    <entry file="file://$PROJECT_DIR$/spting-test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spting-test/src/main/java/top/mcwebsite/bean/CircleA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spting-test/src/main/java/top/mcwebsite/bean/CircleB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1221,8 +1131,8 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="1220" column="64" selection-start-line="1220" selection-start-column="64" selection-end-line="1220" selection-end-column="64" />
+        <state relative-caret-position="148">
+          <caret line="1219" column="4" selection-start-line="1219" selection-start-column="4" selection-end-line="1219" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1299,6 +1209,92 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/study-spring/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-core-study/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE-sources.jar!/org/springframework/beans/factory/BeanNameAware.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-core-study/src/main/java/study/spring/aware/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.2.RELEASE/spring-beans-5.1.2.RELEASE-sources.jar!/org/springframework/beans/factory/Aware.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.2.RELEASE/spring-beans-5.1.2.RELEASE-sources.jar!/org/springframework/beans/factory/BeanNameAware.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="35" selection-start-line="35" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-core-study/src/main/java/study/spring/aware/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="21" selection-start-line="9" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-core-study/src/main/java/study/spring/aware/User2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="14" selection-start-line="8" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-core-study/src/main/resources/spring-core-aware.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="56" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="56" />
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="49" />
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="46" />
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="11" />
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="54" />
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="45" />
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="46" />
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-core-study/src/main/java/study/spring/aware/TestAware.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -1351,7 +1347,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>spting-test</last-edited>
+          <last-edited>spring-core-study</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1375,5 +1371,8 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="se.expertsystem.intellij.aop.aspectj.AspectJProjectComponent">
+    <setting name="isActivated" value="false" />
   </component>
 </project>

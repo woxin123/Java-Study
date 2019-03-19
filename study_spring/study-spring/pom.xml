@@ -12,6 +12,7 @@
     <modules>
         <module>../study-spring-cache</module>
         <module>../spting-test</module>
+        <module>../spring-core-study</module>
     </modules>
 
     <dependencies>

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/singleton-point-login-in/singleton-point-login-in.iml" filepath="$PROJECT_DIR$/singleton-point-login-in/singleton-point-login-in.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-cache/spring-boot-cache.iml" filepath="$PROJECT_DIR$/spring-boot-cache/spring-boot-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-core-study/spring-core-study.iml" filepath="$PROJECT_DIR$/spring-core-study/spring-core-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/spting-test/spting-test.iml" filepath="$PROJECT_DIR$/spting-test/spting-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/study-spring/study-spring.iml" filepath="$PROJECT_DIR$/study-spring/study-spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/study-spring-cache/study-spring-cache.iml" filepath="$PROJECT_DIR$/study-spring-cache/study-spring-cache.iml" />
