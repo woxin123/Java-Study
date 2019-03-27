@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54730cc1-3d36-4b6c-91a1-14a6c710613b" name="Default" comment="atomic test">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_spi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study_spi/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_spi/src/main/resources/META-INF/services/top.mcwebsite.spi.HelloInterface" beforeDir="false" afterPath="$PROJECT_DIR$/study_spi/src/main/resources/META-INF/services/top.mcwebsite.spi.HelloInterface" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_spi/study_spi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/study_spi/study_spi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_spi/target/classes/META-INF/services/top.mcwebsite.spi.HelloInterface" beforeDir="false" afterPath="$PROJECT_DIR$/study_spi/target/classes/META-INF/services/top.mcwebsite.spi.HelloInterface" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_spring/.attach_pid10554" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_spring/.attach_pid1409" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_spring/.attach_pid29948" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_spring/.attach_pid6912" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_spring/.attach_pid7801" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_spring/spring-transcational/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_spring/spring-transcational/doc/Spring对事务的支持.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_spring/spring-transcational/doc/数据库中的事务.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../study_spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_spring/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/study-java/target/" />
@@ -929,7 +920,7 @@
       <workItem from="1552910991492" duration="4000" />
       <workItem from="1553083849087" duration="9000" />
       <workItem from="1553323386589" duration="10527000" />
-      <workItem from="1553696428649" duration="263000" />
+      <workItem from="1553696428649" duration="515000" />
     </task>
     <task id="LOCAL-00001" summary="Java的三种代理">
       <created>1531580968039</created>
@@ -1016,7 +1007,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="775855000" />
+    <option name="totallyTimeSpent" value="776107000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
