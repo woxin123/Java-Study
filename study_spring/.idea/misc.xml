@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/spring-boot-cache/pom.xml" />
         <option value="$PROJECT_DIR$/singleton-point-login-in/pom.xml" />
         <option value="$PROJECT_DIR$/spring-core-study/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-transcational/pom.xml" />
       </list>
     </option>
   </component>

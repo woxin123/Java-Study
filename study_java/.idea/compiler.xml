@@ -4,7 +4,6 @@
     <option name="ajcPath" value="$USER_HOME$/opt/lib/aspectjtools.jar" />
   </component>
   <component name="CompilerConfiguration">
-    <option name="DEFAULT_COMPILER" value="ajc" />
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -14,17 +13,18 @@
         <module name="study-mybatis" />
         <module name="java-simple-review" />
         <module name="study-design_patterns" />
+        <module name="study-jdbc" />
         <module name="study-spring" />
+        <module name="study_spi" />
         <module name="study_netty" />
         <module name="study-java8-lambda" />
         <module name="study-java8-stream" />
-        <module name="study-redis" />
+        <module name="java-test" />
         <module name="stduy-hibernate" />
         <module name="study-concurrency" />
-        <module name="java-test" />
         <module name="study-java-httpclient" />
         <module name="study-java-moreThread" />
-        <module name="study-jdbc" />
+        <module name="study-redis" />
         <module name="study-java-webmagic" />
       </profile>
     </annotationProcessing>

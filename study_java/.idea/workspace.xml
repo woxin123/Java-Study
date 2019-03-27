@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54730cc1-3d36-4b6c-91a1-14a6c710613b" name="Default" comment="atomic test" />
+    <list default="true" id="54730cc1-3d36-4b6c-91a1-14a6c710613b" name="Default" comment="atomic test">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_spi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study_spi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_spi/src/main/resources/META-INF/services/top.mcwebsite.spi.HelloInterface" beforeDir="false" afterPath="$PROJECT_DIR$/study_spi/src/main/resources/META-INF/services/top.mcwebsite.spi.HelloInterface" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_spi/study_spi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/study_spi/study_spi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_spi/target/classes/META-INF/services/top.mcwebsite.spi.HelloInterface" beforeDir="false" afterPath="$PROJECT_DIR$/study_spi/target/classes/META-INF/services/top.mcwebsite.spi.HelloInterface" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study_spring/.attach_pid10554" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study_spring/.attach_pid1409" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study_spring/.attach_pid29948" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study_spring/.attach_pid6912" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study_spring/.attach_pid7801" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study_spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_spring/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/study-java/target/" />
     <ignored path="$PROJECT_DIR$/studyjavawebmagic/target/" />
     <ignored path="$PROJECT_DIR$/WebMagic/target/" />
@@ -88,91 +102,82 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study-java-highstate/src/main/java/top/mcwebsite/javaproxy/JDKProxyTest.java">
+        <entry file="file://$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/HelloInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            <state relative-caret-position="132">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study-java-highstate/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study-java-highstate/src/main/java/top/mcwebsite/javaproxy/BookAspect.aj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study-java-highstate/src/main/java/top/mcwebsite/javaproxy/BookServiceImpl2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="36" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="36" />
-              <folding>
-                <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#225#226#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study-java-highstate/target/classes/top/mcwebsite/javaproxy/BookService.class">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study-java-highstate/target/classes/top/mcwebsite/javaproxy/BookAspect.class">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/study-java-highstate/target/classes/top/mcwebsite/javaproxy/BookServiceImpl2.class">
+        <entry file="file://$PROJECT_DIR$/java-test/src/main/java/classloadertest/ClassLoaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="88">
+              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study-java-highstate/src/main/java/top/mcwebsite/javaproxy/StaticProxyTest.java">
+        <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/java/lang/ClassLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-              <folding>
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#415#416#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="22682">
+              <caret line="1112" column="27" selection-start-line="1112" selection-start-column="27" selection-end-line="1112" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/ClientReadHandler.java">
+        <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/jdk/internal/loader/ClassLoaders.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="1650">
+              <caret line="116" column="23" selection-start-line="116" selection-start-column="23" selection-end-line="117" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/Client.java">
+        <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/util/concurrent/Callable.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+            <state relative-caret-position="66">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/SPIMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study_spi/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/util/ServiceLoader.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2442">
+              <caret line="122" column="31" selection-start-line="122" selection-start-column="23" selection-end-line="122" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study_spi/src/main/resources/META-INF/services/top.mcwebsite.spi.HelloInterface">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="28" selection-start-column="28" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -196,9 +201,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>command</find>
-      <find>add</find>
-      <find>put</find>
       <find>set</find>
       <find>SupperClass</find>
       <find>classloader</find>
@@ -226,6 +228,9 @@
       <find>asInt</find>
       <find>map</find>
       <find>map(</find>
+      <find>Iterator</find>
+      <find>valueof`</find>
+      <find>defin</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -242,9 +247,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/bridge_pattern/ConcreteImplementor1.java" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/bridge_pattern/ConcreteImplementor2.java" />
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/bridge_pattern/Abstraction.java" />
         <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/bridge_pattern/RefinedAbstraction.java" />
         <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/bridge_pattern/Client.java" />
         <option value="$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/AddHitsCSDN.java" />
@@ -293,6 +295,9 @@
         <option value="$PROJECT_DIR$/study-java-highstate/pom.xml" />
         <option value="$PROJECT_DIR$/study-java-highstate/src/main/java/top/mcwebsite/javaproxy/BookAspect.aj" />
         <option value="$PROJECT_DIR$/study-java-highstate/src/main/java/top/mcwebsite/javaproxy/BookServiceImpl2.java" />
+        <option value="$PROJECT_DIR$/study_spi/src/main/resources/META-INF/services/top.mcwebsite.spi.HelloInterface" />
+        <option value="$PROJECT_DIR$/study_spi/pom.xml" />
+        <option value="$PROJECT_DIR$/java-test/src/main/java/classloadertest/ClassLoaderTest.java" />
       </list>
     </option>
   </component>
@@ -338,19 +343,40 @@
           <item name="study-java-highstate" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="study_spi" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="study_spi" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="study_spi" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="study_spi" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="80" />
     <option name="y" value="26" />
-    <option name="width" value="1356" />
-    <option name="height" value="701" />
+    <option name="width" value="1221" />
+    <option name="height" value="633" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
-      <flattenPackages ProjectPane="true" />
+      <flattenPackages ProjectPane="false" />
       <showMembers ProjectPane="false" />
       <showExcludedFiles Scope="true" ProjectPane="true" />
       <hideEmptyPackages ProjectPane="false" />
@@ -360,7 +386,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -377,12 +402,80 @@
           <expand>
             <path>
               <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="study-java-highstate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-java-highstate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-java-highstate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study-java-highstate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_spi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_spi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_spi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_spi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_spi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_spi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+              <item name="mcwebsite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study_spi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+              <item name="mcwebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="spi" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -396,28 +489,29 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540034152395" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect" value="MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/opt/lib/aspectjrt.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/study_spi/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/study_spi/src/main/java" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="top.mcwebsite.netty.aio" />
-      <recent name="top.mcwebsite.netty.bio.timeserver" />
-      <recent name="top.mcwebsite.netty.bio.helloworld" />
-      <recent name="top.mcwebsite.moreThread.study.annotation" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/study_spi/src/main/resources" />
+      <recent name="$PROJECT_DIR$/study_spi/src/main/java" />
+      <recent name="$PROJECT_DIR$/study-design_patterns/src/main/java" />
+      <recent name="$PROJECT_DIR$/study-design_patterns/src/main/resources" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/study_spi/target" />
       <recent name="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/fakenio" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/study_netty" />
       <recent name="$PROJECT_DIR$/java-test" />
-      <recent name="$PROJECT_DIR$/java-simple-review" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="top.mcwebsite.netty.nio" />
@@ -426,9 +520,11 @@
       <recent name="top.mcwebsite.state_pattern" />
       <recent name="top.mcwebsite.visior_pattern" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/study-design_patterns/src/main/java" />
-      <recent name="$PROJECT_DIR$/study-design_patterns/src/main/resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="top.mcwebsite.netty.aio" />
+      <recent name="top.mcwebsite.netty.bio.timeserver" />
+      <recent name="top.mcwebsite.netty.bio.helloworld" />
+      <recent name="top.mcwebsite.moreThread.study.annotation" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -448,7 +544,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BookServiceImpl2">
+  <component name="RunManager" selected="Application.ClassLoaderTest">
     <configuration name="BigObjectOldGen" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="jvmtest.BigObjectOldGen" />
       <module name="java-test" />
@@ -464,6 +560,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="top.mcwebsite.javaproxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassLoaderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classloadertest.ClassLoaderTest" />
+      <module name="java-test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classloadertest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -553,6 +663,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SPIMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.spi.SPIMain" />
+      <module name="study_spi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.mcwebsite.spi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TimeClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="top.mcwebsite.netty.bio.timeserver.TimeClient" />
       <module name="study_netty" />
@@ -560,34 +684,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="top.mcwebsite.netty.bio.timeserver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimeClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.netty.aio.TimeClient" />
-      <module name="study_netty" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.mcwebsite.netty.aio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimeServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.netty.aio.TimeServer" />
-      <module name="study_netty" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.mcwebsite.netty.aio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -631,20 +727,20 @@
       <item itemvalue="Application.RuntimeConstantPoolOOM" />
       <item itemvalue="Application.FinalizeEscapeGC" />
       <item itemvalue="Application.BigObjectOldGen" />
-      <item itemvalue="Application.TimeServer" />
-      <item itemvalue="Application.TimeClient" />
       <item itemvalue="Application.TimeClient (1)" />
       <item itemvalue="Application.JDKProxyTest" />
       <item itemvalue="Application.BookServiceImpl2" />
+      <item itemvalue="Application.SPIMain" />
+      <item itemvalue="Application.ClassLoaderTest" />
       <item itemvalue="Spring Boot.StudyRedisApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClassLoaderTest" />
+        <item itemvalue="Application.SPIMain" />
         <item itemvalue="Application.BookServiceImpl2" />
         <item itemvalue="Application.JDKProxyTest" />
         <item itemvalue="Application.TimeClient (1)" />
-        <item itemvalue="Application.TimeClient" />
-        <item itemvalue="Application.TimeServer" />
       </list>
     </recent_temporary>
   </component>
@@ -831,6 +927,9 @@
       <workItem from="1552832943050" duration="849000" />
       <workItem from="1552869164260" duration="5016000" />
       <workItem from="1552910991492" duration="4000" />
+      <workItem from="1553083849087" duration="9000" />
+      <workItem from="1553323386589" duration="10527000" />
+      <workItem from="1553696428649" duration="263000" />
     </task>
     <task id="LOCAL-00001" summary="Java的三种代理">
       <created>1531580968039</created>
@@ -917,7 +1016,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="765056000" />
+    <option name="totallyTimeSpent" value="775855000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -929,9 +1028,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1366" height="703" extended-state="6" />
+    <frame x="80" y="26" width="1221" height="633" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="1468" y="122" width="310" height="302" id="Project" order="0" sideWeight="0.4847397" visible="true" weight="0.25340393" />
+      <window_info active="true" content_ui="combo" x="1468" y="122" width="310" height="302" id="Project" order="0" sideWeight="0.4847397" visible="true" weight="0.2086514" />
       <window_info id="Structure" order="1" sideWeight="0.51526034" side_tool="true" weight="0.24244712" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -941,16 +1041,16 @@
       <window_info id="Persistence" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32493368" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49646756" weight="0.33393177" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49646756" weight="0.5529623" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49646756" visible="true" weight="0.21474358" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49646756" weight="0.552492" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32795697" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5035324" side_tool="true" weight="0.3876765" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49893504" visible="true" weight="0.4609929" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49893504" weight="0.27465534" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3266129" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946752" weight="0.20287253" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946752" weight="0.20254506" />
       <window_info anchor="bottom" id="Spring" order="12" weight="0.32854578" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32891247" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32857144" />
@@ -963,7 +1063,7 @@
       <window_info anchor="right" id="Palette" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.17549168" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.1744713" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.24919717" />
       <window_info anchor="right" id="Database" order="7" weight="0.3263328" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -1169,157 +1269,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/nio/MultiplexerTimeServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2046">
-          <caret line="104" column="9" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/sun/nio/ch/DirectBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/jdk.unsupported/com/sun/nio/file/ExtendedOpenOption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="49" column="11" lean-forward="true" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/java/nio/file/LinkOption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/java/nio/file/OpenOption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/java/nio/DirectByteBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-575">
-          <caret line="805" column="22" selection-start-line="805" selection-start-column="13" selection-end-line="805" selection-end-column="22" />
-          <folding>
-            <element signature="e#5581#5582#0" expanded="true" />
-            <element signature="e#5628#5629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/java/nio/MappedByteBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="67" column="20" lean-forward="true" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/sun/nio/ch/FileChannelImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="927" column="28" selection-start-line="927" selection-start-column="28" selection-end-line="927" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/java/nio/channels/FileChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="926" column="26" selection-start-line="926" selection-start-column="15" selection-end-line="926" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/java/nio/ByteBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="1041" column="22" selection-start-line="1041" selection-start-column="12" selection-end-line="1041" selection-end-column="22" />
-          <folding>
-            <element signature="e#9200#9201#0" expanded="true" />
-            <element signature="e#9253#9254#0" expanded="true" />
-            <element signature="e#12592#12593#0" expanded="true" />
-            <element signature="e#12643#12644#0" expanded="true" />
-            <element signature="e#20481#20482#0" expanded="true" />
-            <element signature="e#20527#20528#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-test/src/main/java/TestEndian.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/nio/FileChannelTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="14" selection-start-line="14" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study_netty/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/java/nio/Bits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1474">
-          <caret line="108" column="16" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="16" />
-          <folding>
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/jdk/internal/misc/SharedSecrets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1782">
-          <caret line="126" column="36" selection-start-line="126" selection-start-column="36" selection-end-line="126" selection-end-column="36" />
-          <folding>
-            <element signature="e#4460#4461#0" expanded="true" />
-            <element signature="e#4500#4501#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/jdk/internal/misc/JavaLangRefAccess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/nio/RandomFileChannelTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio.java" />
     <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Void.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1533,7 +1482,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/study-java-highstate/src/main/java/top/mcwebsite/javaproxy/BookServiceImpl2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
+        <state relative-caret-position="242">
           <caret line="13" column="36" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="36" />
           <folding>
             <element signature="e#181#182#0" expanded="true" />
@@ -1541,9 +1490,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-java-highstate/target/classes/top/mcwebsite/javaproxy/BookService.class">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/study-java-highstate/target/classes/top/mcwebsite/javaproxy/BookAspect.class">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1577,6 +1523,132 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-java-highstate/target/classes/top/mcwebsite/javaproxy/BookService.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/TextHello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_spi/target/classes/META-INF/services/top.mcwebsite.spi.HelloInterface">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_spi/target/services/top.mcwebsite.spi.HelloInterface" />
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/System.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/util/concurrent/FutureTask.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1604">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/ClassLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/Integer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="235" column="33" selection-start-line="235" selection-start-column="26" selection-end-line="235" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/ImageHello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy/1.9.7/byte-buddy-1.9.7.jar!/net/bytebuddy/agent/builder/AgentBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26906">
+          <caret line="1381" column="43" selection-start-line="1381" selection-start-column="43" selection-end-line="1381" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.31.Final/netty-transport-4.1.31.Final.jar!/io/netty/bootstrap/AbstractBootstrapConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/HelloInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22682">
+          <caret line="1112" column="27" selection-start-line="1112" selection-start-column="27" selection-end-line="1112" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/jdk/internal/loader/ClassLoaders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="116" column="23" selection-start-line="116" selection-start-column="23" selection-end-line="117" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/util/concurrent/Callable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_spi/src/main/java/top/mcwebsite/spi/SPIMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_spi/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/util/ServiceLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2442">
+          <caret line="122" column="31" selection-start-line="122" selection-start-column="23" selection-end-line="122" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_spi/src/main/resources/META-INF/services/top.mcwebsite.spi.HelloInterface">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-test/src/main/java/classloadertest/ClassLoaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -1632,11 +1704,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>study-java-highstate</last-edited>
+          <last-edited>study_spi</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
