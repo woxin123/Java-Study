@@ -33,7 +33,7 @@ public class ImmutableExample3<K, V> {
             .put(3, 4).build();
 
     public static void main(String[] args) {
-//        set.add(4);
+//        map.add(4);
 //        map.put(1, 4);
         System.out.println(map.get(1));
     }
