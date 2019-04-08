@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54730cc1-3d36-4b6c-91a1-14a6c710613b" name="Default" comment="atomic test">
-      <change afterPath="$PROJECT_DIR$/java-test/src/main/java/method_call/MethodCallTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-test/src/main/java/method_call/DynamicDispatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-test/src/main/java/enginee/StaticDispatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-test/src/main/java/method_call/StaticDispatch.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/study-java/target/" />
     <ignored path="$PROJECT_DIR$/studyjavawebmagic/target/" />
@@ -91,42 +92,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/bio/helloworld/Server.java">
+        <entry file="file://$PROJECT_DIR$/java-test/src/main/java/method_call/MethodCallTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+            <state relative-caret-position="1364">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/bio/helloworld/ClientHandler.java">
+        <entry file="file://$PROJECT_DIR$/java-test/src/main/java/method_call/StaticDispatch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+            <state relative-caret-position="198">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
               <folding>
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java-test/src/main/java/method_call/MethodCallTest.java">
+        <entry file="file://$PROJECT_DIR$/java-test/src/main/java/method_call/DynamicDispatch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="814">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
-              <folding>
-                <element signature="e#139#140#0" expanded="true" />
-                <element signature="e#175#176#0" expanded="true" />
-                <element signature="e#175#176#0" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#1072#1073#0" expanded="true" />
-                <element signature="e#1108#1109#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="171">
+              <caret line="37" column="5" selection-start-line="27" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -259,8 +252,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/study-design_patterns/src/main/java/top/mcwebsite/bridge_pattern/Client.java" />
-        <option value="$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/AddHitsCSDN.java" />
         <option value="$PROJECT_DIR$/study-java-webmagic/src/main/java/top/mcwebsite/start_webmagic/HtmlParseTest01.java" />
         <option value="$PROJECT_DIR$/study_netty/pom.xml" />
         <option value="$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/bio/TimeServer.java" />
@@ -310,6 +301,8 @@
         <option value="$PROJECT_DIR$/study_spi/pom.xml" />
         <option value="$PROJECT_DIR$/java-test/src/main/java/classloadertest/ClassLoaderTest.java" />
         <option value="$PROJECT_DIR$/java-test/src/main/java/method_call/MethodCallTest.java" />
+        <option value="$PROJECT_DIR$/java-test/src/main/java/method_call/StaticDispatch.java" />
+        <option value="$PROJECT_DIR$/java-test/src/main/java/method_call/DynamicDispatch.java" />
       </list>
     </option>
   </component>
@@ -438,20 +431,45 @@
             <path>
               <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-test" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="classloadertest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-test" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enginee" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-test" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jvmtest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="method_call" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-test" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-test" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -525,25 +543,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MethodCallTest">
+  <component name="RunManager" selected="Application.DynamicDispatch">
     <configuration name="BigObjectOldGen" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="jvmtest.BigObjectOldGen" />
       <module name="java-test" />
       <option name="VM_PARAMETERS" value="-verbose:gc -Xms20M -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8 -XX:PretenureSizeThreshold=3145728" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookServiceImpl2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.javaproxy.BookServiceImpl2" />
-      <module name="study-java-highstate" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.mcwebsite.javaproxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -555,6 +559,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="classloadertest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynamicDispatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="method_call.DynamicDispatch" />
+      <module name="java-test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="method_call.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -582,20 +600,6 @@
       <option name="MAIN_CLASS_NAME" value="jvmtest.GCLogTest" />
       <module name="java-test" />
       <option name="VM_PARAMETERS" value="-XX:+PrintGCDetails -Xms30M -Xmx30M -Xmn10M -XX:SurvivorRatio=8" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JDKProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.mcwebsite.javaproxy.JDKProxyTest" />
-      <module name="study-java-highstate" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.mcwebsite.javaproxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -672,6 +676,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StaticDispatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="method_call.StaticDispatch" />
+      <module name="java-test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="method_call.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -708,20 +726,20 @@
       <item itemvalue="Application.RuntimeConstantPoolOOM" />
       <item itemvalue="Application.FinalizeEscapeGC" />
       <item itemvalue="Application.BigObjectOldGen" />
-      <item itemvalue="Application.JDKProxyTest" />
-      <item itemvalue="Application.BookServiceImpl2" />
       <item itemvalue="Application.SPIMain" />
       <item itemvalue="Application.ClassLoaderTest" />
-      <item itemvalue="Spring Boot.StudyRedisApplication" />
       <item itemvalue="Application.MethodCallTest" />
+      <item itemvalue="Application.StaticDispatch" />
+      <item itemvalue="Application.DynamicDispatch" />
+      <item itemvalue="Spring Boot.StudyRedisApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DynamicDispatch" />
+        <item itemvalue="Application.StaticDispatch" />
         <item itemvalue="Application.MethodCallTest" />
         <item itemvalue="Application.ClassLoaderTest" />
         <item itemvalue="Application.SPIMain" />
-        <item itemvalue="Application.BookServiceImpl2" />
-        <item itemvalue="Application.JDKProxyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -913,7 +931,9 @@
       <workItem from="1553696428649" duration="668000" />
       <workItem from="1553843408993" duration="225000" />
       <workItem from="1553923467930" duration="724000" />
-      <workItem from="1554212255296" duration="1990000" />
+      <workItem from="1554212255296" duration="4875000" />
+      <workItem from="1554269750763" duration="2760000" />
+      <workItem from="1554292885196" duration="23000" />
     </task>
     <task id="LOCAL-00001" summary="Java的三种代理">
       <created>1531580968039</created>
@@ -1000,7 +1020,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="779199000" />
+    <option name="totallyTimeSpent" value="784867000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1013,9 +1033,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="26" width="1366" height="706" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="1468" y="122" width="310" height="302" id="Project" order="0" sideWeight="0.4847397" visible="true" weight="0.24018127" />
+      <window_info content_ui="combo" x="1468" y="122" width="310" height="302" id="Project" order="0" sideWeight="0.4847397" visible="true" weight="0.24773414" />
       <window_info id="Structure" order="1" sideWeight="0.51526034" side_tool="true" weight="0.24244712" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1032,12 +1051,12 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32795697" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5035324" side_tool="true" weight="0.3876765" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49893504" visible="true" weight="0.31672597" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3266129" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946752" weight="0.20254506" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49893504" visible="true" weight="0.455516" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32562277" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946752" weight="0.20106761" />
       <window_info anchor="bottom" id="Spring" order="12" weight="0.32854578" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32891247" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32857144" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32740214" />
       <window_info anchor="bottom" id="CPU Profiler" order="15" weight="0.32931727" />
       <window_info anchor="bottom" id="JProfiler" order="16" weight="0.32931727" />
       <window_info anchor="bottom" id="Docker" order="17" show_stripe_button="false" />
@@ -1253,23 +1272,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/fakenio/TimeServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-550">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="e#123#152#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/aio/AsyncTimeServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -1573,6 +1575,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/bio/helloworld/ClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding>
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-test/src/main/java/method_call/MethodCallTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1364">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-test/src/main/java/method_call/StaticDispatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/bio/helloworld/ServerBoot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -1622,31 +1655,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study_netty/src/main/java/top/mcwebsite/netty/bio/helloworld/ClientHandler.java">
+    <entry file="file://$PROJECT_DIR$/java-test/src/main/java/method_call/DynamicDispatch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-          <folding>
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-test/src/main/java/method_call/MethodCallTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#1072#1073#0" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="171">
+          <caret line="37" column="5" selection-start-line="27" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
         </state>
       </provider>
     </entry>
