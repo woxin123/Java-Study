@@ -26,6 +26,12 @@ public class FutureExample {
         Future<String> future = executorService.submit(new MyCallable());
         log.info("do something in main");
         Thread.sleep(1000);
-        log.info("result: " + future.get());
+        String s = null;
+        try {
+            s = future.get(1, TimeUnit.SECONDS);
+        } catch (TimeoutException e) {
+            e.printStackTrace();
+        }
+        log.info("result: " + s);
     }
 }

@@ -1,4 +1,4 @@
-package top.mcwebsite.concurrency.example.threadpoll;
+package top.mcwebsite.concurrency.example.threadpool;
 
 import lombok.extern.slf4j.Slf4j;
 
