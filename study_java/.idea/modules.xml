@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/study-mybatis/study-mybatis.iml" filepath="$PROJECT_DIR$/study-mybatis/study-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/study-redis/study-redis.iml" filepath="$PROJECT_DIR$/study-redis/study-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/study-spring/study-spring.iml" filepath="$PROJECT_DIR$/study-spring/study-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study_net/study_net.iml" filepath="$PROJECT_DIR$/study_net/study_net.iml" />
       <module fileurl="file://$PROJECT_DIR$/study_netty/study_netty.iml" filepath="$PROJECT_DIR$/study_netty/study_netty.iml" />
       <module fileurl="file://$PROJECT_DIR$/study_spi/study_spi.iml" filepath="$PROJECT_DIR$/study_spi/study_spi.iml" />
     </modules>

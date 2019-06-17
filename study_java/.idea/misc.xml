@@ -25,6 +25,7 @@
         <option value="$PROJECT_DIR$/study-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/study-redis/pom.xml" />
         <option value="$PROJECT_DIR$/study_netty/pom.xml" />
+        <option value="$PROJECT_DIR$/study_net/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

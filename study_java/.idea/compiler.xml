@@ -11,21 +11,27 @@
         <outputRelativeToContentRoot value="true" />
         <module name="study-design_patterns" />
         <module name="study-mybatis" />
-        <module name="java-simple-review" />
-        <module name="study-java-webmagic" />
+        <module name="study-java8-lambda" />
+        <module name="study_net" />
         <module name="study-jdbc" />
         <module name="study-spring" />
         <module name="study_spi" />
-        <module name="study_netty" />
-        <module name="study-java8-lambda" />
+        <module name="study-java-highstate" />
         <module name="study-java8-stream" />
         <module name="java-test" />
         <module name="stduy-hibernate" />
-        <module name="study-java-highstate" />
+        <module name="study-concurrency" />
         <module name="study-java-httpclient" />
         <module name="study-java-moreThread" />
+        <module name="java-simple-review" />
         <module name="study-redis" />
-        <module name="study-concurrency" />
+        <module name="study-java-webmagic" />
+      </profile>
+      <profile name="Annotation profile for study_netty" enabled="true">
+        <sourceOutputDir name="../../../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="study_netty" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -45,6 +51,7 @@
       <module name="study-mybatis" target="1.8" />
       <module name="study-redis" target="1.8" />
       <module name="study-spring" target="1.5" />
+      <module name="study_net" target="1.5" />
       <module name="study_netty" target="8" />
       <module name="study_spi" target="8" />
     </bytecodeTargetLevel>
